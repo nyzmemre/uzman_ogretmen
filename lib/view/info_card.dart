@@ -36,6 +36,13 @@ class InfoCard extends StatelessWidget {
                     top:5,
                     left: (context.width*0.9)/2,
                     child: AutoSizeText("${index+1} / ${content.length}",),),*/
+                Center(
+                  child: SizedBox(
+                            height: context.height*0.4,
+                            child: Transform.rotate(
+                                angle: 0,
+                                child: Image.asset("assets/logosplash.png", color: Colors.white.withOpacity(0.03),colorBlendMode: BlendMode.modulate,))),
+                ),
                   Positioned(
                     top: 60,
                     left: 10,

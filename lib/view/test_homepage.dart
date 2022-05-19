@@ -1,6 +1,15 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:uzman_ogretmen/view_model/questions/cevreiklim_ques_view_model.dart';
+import 'package:uzman_ogretmen/view_model/questions/dijitalyetkinlik_ques_view_model.dart';
+import 'package:uzman_ogretmen/view_model/questions/egitimarastirma_ques_view_model.dart';
+import 'package:uzman_ogretmen/view_model/questions/egitimkapsayicilik_ques_view_model.dart';
+import 'package:uzman_ogretmen/view_model/questions/guvenliokul_ques_view_model.dart';
+import 'package:uzman_ogretmen/view_model/questions/ogrenogret_ques_view_model.dart';
+import 'package:uzman_ogretmen/view_model/questions/olcmedeger_ques_view_model.dart';
+import 'package:uzman_ogretmen/view_model/questions/ozelegitim_ques_view_model.dart';
+import 'package:uzman_ogretmen/view_model/questions/sosyaletkilesim_ques_view_model.dart';
 
 import '../view_model/questions/egitim_ogretim_ques_view_model.dart';
 import '../view_model/questions/genel_kultur/cografya_ques_view_model.dart';
@@ -22,16 +31,15 @@ class TestHomepage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    TurkceQuesViewModel _turkceQuesViewModel=TurkceQuesViewModel();
-    TarihQuesViewModel _tarihQuesViewModel=TarihQuesViewModel();
-    CografyaQuesViewModel _cografyaQuesViewModel=CografyaQuesViewModel();
-    DevletMemurlariKanunuQuesViewModel _devletMemurlariKanunu=DevletMemurlariKanunuQuesViewModel();
-    IlkogretimEgitimKanunuQuesViewModel _ilkogretimEgitimKanunu=IlkogretimEgitimKanunuQuesViewModel();
-    IlkogretimKurumlariYonetQuesViewModel _ilkogretimKurumlariYonet=IlkogretimKurumlariYonetQuesViewModel();
-    MebTemelKanunuQuesViewModel _mebTemelKanunu=MebTemelKanunuQuesViewModel();
-    EgitimOgretimQuesViewModel _egitimOgretim=EgitimOgretimQuesViewModel();
-    GuncelBilgilerQuesViewModel _guncelBilgiler=GuncelBilgilerQuesViewModel();
-
+    OgrenOgretQuesViewModel _ogrenogretQues=OgrenOgretQuesViewModel();
+    OlcmeDegerQuesViewModel _olcmedegerlendirmeQues=OlcmeDegerQuesViewModel();
+    OzelEgitimQuesViewModel _ozelEgitimQues=OzelEgitimQuesViewModel();
+    EgitimArastirmaQuesViewModel _egitimArastirmaQues=EgitimArastirmaQuesViewModel();
+    EgitimKapsayicilikQuesViewModel _egitimKapsayicilikQues=EgitimKapsayicilikQuesViewModel();
+    CevreIklimQuesViewModel _cevreIklimQues=CevreIklimQuesViewModel();
+    SosyalEtkilesimQuesViewModel _sosyalEtkilesimQues=SosyalEtkilesimQuesViewModel();
+    DijitalYetkinlikQuesViewModel _dijitalYetkinlikQues=DijitalYetkinlikQuesViewModel();
+    GuvenliOkulQuesViewModel _guvenliOkulQues=GuvenliOkulQuesViewModel();
     return WillPopScope(
       onWillPop: () async{
         Navigator.pushNamedAndRemoveUntil(context, kRouteHomePage, (route) => false);
@@ -43,15 +51,15 @@ class TestHomepage extends StatelessWidget {
               children: [
                 navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
                 navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),
-                navigateTestButton(context, Test(list: _turkceQuesViewModel.turkceQuesList),  "Öğrenme ve Öğretmen Süreçleri"),
-                navigateTestButton(context, Test(list: _egitimOgretim.egitimOgretimList),  "Ölçme ve Değerlendirme" ),
-                navigateTestButton(context, Test(list: _tarihQuesViewModel.tarihQuesList),  "Özel Eğitim ve Rehberlik" ),
-                navigateTestButton(context, Test(list: _cografyaQuesViewModel.cografyaQuesList),  "Eğitim Araştırmaları ve AR-GE Çalışmaları" ),
-                navigateTestButton(context, Test(list: _guncelBilgiler.guncelBilgilerQuesList),  "Eğitimde Kapsayıcılık" ),
-                navigateTestButton(context, Test(list: _devletMemurlariKanunu.devletMemurlariKanunuQuesList),  "Çevre Eğitimi ve İklim Değişikliği" ),
-                navigateTestButton(context, Test(list: _mebTemelKanunu.mebTemelKanunuQuesList),  "Sosyal Etkileşim ve İletişim" ),
-                navigateTestButton(context, Test(list: _ilkogretimEgitimKanunu.ilkogretimEgitimKanunuQuesList),  "Dijital Yetkinlik" ),
-                navigateTestButton(context, Test(list: _ilkogretimKurumlariYonet.ilkogretimKurumlariYonetQuesList),  "Güvenli Okul ve Okul Güvenliği" ),
+                navigateTestButton(context, Test(list: _ogrenogretQues.ogrenOgret),  "Öğrenme ve Öğretmen Süreçleri"),
+                navigateTestButton(context, Test(list: _olcmedegerlendirmeQues.ogrenOgretSurec),  "Ölçme ve Değerlendirme" ),
+                navigateTestButton(context, Test(list: _ozelEgitimQues.ozelEgitim),  "Özel Eğitim ve Rehberlik" ),
+                navigateTestButton(context, Test(list: _egitimArastirmaQues.egitimArastirma),  "Eğitim Araştırmaları ve AR-GE Çalışmaları" ),
+                navigateTestButton(context, Test(list: _egitimKapsayicilikQues.egitimKapsayicilik),  "Eğitimde Kapsayıcılık" ),
+                navigateTestButton(context, Test(list: _cevreIklimQues.cevreIklim),  "Çevre Eğitimi ve İklim Değişikliği" ),
+                navigateTestButton(context, Test(list: _sosyalEtkilesimQues.sosyalEtkilesim),  "Sosyal Etkileşim ve İletişim" ),
+                navigateTestButton(context, Test(list: _dijitalYetkinlikQues.dijitalYetkinlik),  "Dijital Yetkinlik" ),
+                navigateTestButton(context, Test(list: _guvenliOkulQues.guvenliOkul),  "Güvenli Okul ve Okul Güvenliği" ),
 
           /*      navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
                 navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),

@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
 import 'package:uzman_ogretmen/model/info_card_model.dart';
+import 'package:uzman_ogretmen/view/onboard.dart';
+import 'package:uzman_ogretmen/view/splash.dart';
 
 import 'model/info_card_item.dart';
 import 'model/note.dart';
@@ -19,13 +23,16 @@ import 'view_model/skor_view_model.dart';
 import 'view_model/questions/turkce_test_view_model.dart';
 import 'view_model/info_card_favorite_view_model.dart';
 
-
+int? initScreen;
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Hive.registerAdapter(NoteAdapter());
   Hive.registerAdapter(QuestionAdapter());
   Hive.registerAdapter(InfoCardItemAdapter());
   Hive.registerAdapter(InfoCardModelAdapter());
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  initScreen = await prefs.getInt("initScreen");
+  await prefs.setInt("initScreen", 1);
   await Hive.initFlutter("uzmanogretmen");
   await Hive.openBox<Note>("notess");
   await Hive.openBox<Question>("falsesQuestions");
@@ -59,7 +66,7 @@ class UzmanOgretmen extends StatelessWidget {
       theme: _themeLight,
       debugShowCheckedModeBanner: false,
       title: "Uzman Öğretmen",
-      //home: HomePage(),
+      home:  ( initScreen == 0 || initScreen == null ) ? OnBoard() : Splash(),
       onGenerateRoute: Routes.createRoute,
     );
   }

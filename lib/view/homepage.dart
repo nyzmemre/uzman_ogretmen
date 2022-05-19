@@ -57,67 +57,41 @@ class HomePage extends StatelessWidget {
           ),
         ),
         appBar:  MyAppbar(appBarTitle: "Uzman / Baş Öğretmen"),
-        body: HawkFabMenu(
-            icon: AnimatedIcons.add_event,
-            // openIcon: Icons.add,
-            //  closeIcon: Icons.view_headline_sharp,
-            fabColor: kOrange,
-            iconColor: kWhite,
-            items: [
-              HawkFabMenuItem(
-                  label: 'Not Ekle',
-                  ontap: () {
-                    addNote(context);
-                  },
-                  labelBackgroundColor: kOrange,
-                  icon: const Icon(Icons.add),
-                  color: kOrange,
-                  labelColor: kWhite),
-              HawkFabMenuItem(
-                  label: 'Kayıtlı Notlar',
-                  ontap: () {
-                    Navigator.pushNamed(context, kRouteNotes);
-                  },
-                  labelBackgroundColor: kOrange,
-                  icon: const Icon(Icons.save),
-                  color: kOrange,
-                  labelColor: kWhite),
-            ],
-            body: TabBarView(children: [
-              /* MyPageHeader(
+        body: /*TabBarView(children: [
+          *//* MyPageHeader(
               leftHeadert: "Bilgi Kartları",
               rightHeader: "Favoriler",
               favoriteRouteWidget: FavoriteInfoCard(),
-            ),*/
-              SizedBox(
-                  // /height: context.height*0.2,
-                  child: ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: _homepageViewModel.homepageInfoCardList.length,
-                      itemBuilder: (context, int index) {
-                        return InkWell(
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (_) => ContentListPage(
-                                        appbarTitle: _homepageViewModel
-                                            .homepageInfoCardList[index].text,
-                                        list: _homepageViewModel
-                                            .homepageInfoCardList[index]
-                                            .list)));
-                          },
-                          child: Card(
-                            child: ListTile(
-                              leading: Icon(
-                                Icons.text_snippet_outlined,
-                              ),
-                              title: AutoSizeText(_homepageViewModel
-                                  .homepageInfoCardList[index].text),
-                            ),
+            ),*//*
+          SizedBox(
+            // /height: context.height*0.2,
+              child: ListView.builder(
+                  shrinkWrap: true,
+                  itemCount: _homepageViewModel.homepageInfoCardList.length,
+                  itemBuilder: (context, int index) {
+                    return InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (_) => ContentListPage(
+                                    appbarTitle: _homepageViewModel
+                                        .homepageInfoCardList[index].text,
+                                    list: _homepageViewModel
+                                        .homepageInfoCardList[index]
+                                        .list)));
+                      },
+                      child: Card(
+                        child: ListTile(
+                          leading: Icon(
+                            Icons.text_snippet_outlined,
                           ),
-                        );
-                      }) /*GridView.builder(
+                          title: AutoSizeText(_homepageViewModel
+                              .homepageInfoCardList[index].text),
+                        ),
+                      ),
+                    );
+                  }) *//*GridView.builder(
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: 2, childAspectRatio: 3 / 2.4),
                       physics: NeverScrollableScrollPhysics(),
@@ -157,10 +131,86 @@ class HomePage extends StatelessWidget {
                             ),
                           ),
                         );
-                      }),*/
+                      }),*//*
+          ),
+          TestHomepage()
+          *//*  InkWell(
+                onTap: () => Navigator.pushNamed(context, kRouteTestHomepage),
+                child: Container(
+                    margin: context.lowPadding,
+                    height: context.height * 0.1,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20), color: kGreen),
+                    child: Center(
+                        child: AutoSizeText(
+                      "TEST ÇÖZ",
+                      style: GoogleFonts.beVietnam(
+                          color: kWhite, fontWeight: FontWeight.w900),
+                      minFontSize: 10,
+                      maxLines: 1,
+                      //style: Theme.of(context).textTheme.bodyText1,
+                    ))),
+              )*//*
+        ])*/HawkFabMenu(
+            icon: AnimatedIcons.add_event,
+            // openIcon: Icons.add,
+            //  closeIcon: Icons.view_headline_sharp,
+            fabColor: kOrange,
+            iconColor: kWhite,
+            items: [
+              HawkFabMenuItem(
+                  label: 'Not Ekle',
+                  ontap: () {
+                    addNote(context);
+                  },
+                  labelBackgroundColor: kOrange,
+                  icon: const Icon(Icons.add),
+                  color: kOrange,
+                  labelColor: kWhite),
+              HawkFabMenuItem(
+                  label: 'Kayıtlı Notlar',
+                  ontap: () {
+                    Navigator.pushNamed(context, kRouteNotes);
+                  },
+                  labelBackgroundColor: kOrange,
+                  icon: const Icon(Icons.save),
+                  color: kOrange,
+                  labelColor: kWhite),
+            ],
+            body: TabBarView(children: [
+
+              SizedBox(
+                  // /height: context.height*0.2,
+                  child: ListView.builder(
+                      shrinkWrap: true,
+                      itemCount: _homepageViewModel.homepageInfoCardList.length,
+                      itemBuilder: (context, int index) {
+                        return InkWell(
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (_) => ContentListPage(
+                                        appbarTitle: _homepageViewModel
+                                            .homepageInfoCardList[index].text,
+                                        list: _homepageViewModel
+                                            .homepageInfoCardList[index]
+                                            .list)));
+                          },
+                          child: Card(
+                            child: ListTile(
+                              leading: Icon(
+                                Icons.text_snippet_outlined,
+                              ),
+                              title: AutoSizeText(_homepageViewModel
+                                  .homepageInfoCardList[index].text),
+                            ),
+                          ),
+                        );
+                      })
                   ),
-            TestHomepage()
-            /*  InkWell(
+            TestHomepage(),
+           /*  InkWell(
                 onTap: () => Navigator.pushNamed(context, kRouteTestHomepage),
                 child: Container(
                     margin: context.lowPadding,
@@ -179,26 +229,7 @@ class HomePage extends StatelessWidget {
               )*/
             ])
 
-            /* Padding(
-            padding: context.lowPadding,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                AutoSizeText("Tüm Konular Eklenecektir. Son güncelleme: 13.05.2022", textAlign: TextAlign.center,
-                  minFontSize: 10,
-                  maxLines: 3,
-                ),
-              context.fiveSizedBox,
-
-                context.fifteenSizedBox,
-                */ /* MyPageHeader(
-                  leftHeadert: "Test",
-                  rightHeader: "Favoriler",
-                  favoriteRouteWidget: FavoriteQuestions(),
-                ), ],*/
-
-            ),
-      ),
+      ),)
     );
   }
 }

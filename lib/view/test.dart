@@ -104,12 +104,13 @@ class _TestState extends State<Test> {
                        child: Padding(
                          padding: context.normalPadding,
                          child: Column(
+                           crossAxisAlignment: CrossAxisAlignment.start,
                            children: [
                              AutoSizeText(
                                data.newTestList[skr.getIndex].quesTop,
                                style: GoogleFonts.quicksand(),
                                minFontSize: 10,
-                               maxLines: 5,
+                               maxLines: 8,
                              ),
                              AutoSizeText(
                                data.newTestList[skr.getIndex].quesBottom,

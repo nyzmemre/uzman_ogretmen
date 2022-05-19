@@ -1,8 +1,8 @@
 //App rotalar
 
 const String kRouteHomePage="/homepage";
-const String kRouteOnBoard="/on_board";
-const String kRouteSplash="/";
+const String kRouteOnBoard="/";
+const String kRouteSplash="/splash";
 const String kRouteInternetError="/internet_error";
 const String kRouteTest="/test";
 const String kRouteFalseTests="/falseTests";

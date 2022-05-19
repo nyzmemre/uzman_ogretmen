@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
 import '../core/constants/routes/route_text.dart';
@@ -17,14 +18,14 @@ class _OnBoardState extends State<OnBoard> {
 
   Widget _buildImage(String assetName) {
     return Align(
-      child: Image.asset('', width: 350.0),
+      child: Image.asset('assets/$assetName', width: 200.0, height: 200,),
       alignment: Alignment.bottomCenter,
     );
   }
 
   @override
   Widget build(BuildContext context) {
-    const bodyStyle = TextStyle(fontSize: 19.0);
+    const bodyStyle = TextStyle(fontSize: 19);
     const pageDecoration = const PageDecoration(
       titleTextStyle: TextStyle(fontSize: 28.0, fontWeight: FontWeight.w700),
       bodyTextStyle: bodyStyle,
@@ -37,31 +38,31 @@ class _OnBoardState extends State<OnBoard> {
       key: introKey,
       pages: [
         PageViewModel(
-          title: "Konu Anlatımları",
+          title: "GÜNCELLEME",
           body:
-              "Konu Anlatımlarında bölümünde detaylı teorik konulara ulaşabilirsiniz.",
-          image: _buildImage('ka'),
+              "Konu anlatımı ve sorularımız eklenmeye devam edecektir. Instagram(@uzmanogretmn) adresimizdeki duyuruları takip edin.",
+          image: _buildImage('guncelleme.png'),
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Pratik Bilgiler",
+          title: "Bilgi Kartları",
           body:
-              "Görsellerle zenginleştirilmiş kısa metinlerimizde pratik bilgiler edinebilirsiniz.",
-          image: _buildImage('ka2'),
+              "Sayfalar dolusu yazıları okumanıza gerek yok. Sizin için konuları en sade sekilde özetledik",
+          image: _buildImage('bilgi.png'),
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Alıştırmalar",
+          title: "Test",
           body:
-              "Bol bol alıştırma yaparak temel nota bilgilerinizi pekiştirebilirsiniz.",
-          image: _buildImage('alis'),
+              "Bolca test çözerek konuları pekistirmenisi saglıyoruz. Soru eklemelerimiz devam ediyor.",
+          image: _buildImage('test.png'),
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Kayıt Olun",
+          title: "Instagram",
           body:
-              "İçeriğe sınırsız erişim için uygun fiyatlarla kayıt olabilirsiniz.",
-          image: _buildImage('info'),
+              "Sınav-egitim sürecine ve MEB duyurularına ait tüm gelismelerden haberdar olmak için bizi takip edin. Instagram-> @uzmanogretmn",
+          image: _buildImage('insta.png'),
           /* footer: RaisedButton(
               onPressed: () {
                 introKey.currentState?.animateScroll(0);

@@ -87,7 +87,7 @@ class Result extends StatelessWidget {
                             Navigator.pushAndRemoveUntil(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => HomePage()),
+                                    builder: (context) => HomePage(index: 1,)),
                                 (route) => false);
                             testPROVIDER
                                 .clearValue();
