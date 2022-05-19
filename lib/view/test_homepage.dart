@@ -1,0 +1,95 @@
+import 'package:auto_size_text/auto_size_text.dart';
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+import '../view_model/questions/egitim_ogretim_ques_view_model.dart';
+import '../view_model/questions/genel_kultur/cografya_ques_view_model.dart';
+import '../view_model/questions/genel_kultur/guncel_bilgiler_ques_view_model.dart';
+import '../view_model/questions/genel_kultur/tarih_ques_view_model.dart';
+import '../view_model/questions/meb_mevzuat/devlet_memurlari_kanunu_ques_view_model.dart';
+import '../view_model/questions/meb_mevzuat/ilkogretim_egitim_kanunu_ques_view_model.dart';
+import '../view_model/questions/meb_mevzuat/ilkogretim_kurumlari_yonet_ques_view_model.dart';
+import '../view_model/questions/meb_mevzuat/meb_temel_kanunu_ques_view_model.dart';
+import '../core/constants/routes/route_text.dart';
+import '../core/my_widgets/my_scaffold.dart';
+import '../view/test.dart';
+import '../view_model/questions/turkce_test_view_model.dart';
+import 'false_tests.dart';
+import 'favorite_questions.dart';
+
+class TestHomepage extends StatelessWidget {
+  const TestHomepage({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    TurkceQuesViewModel _turkceQuesViewModel=TurkceQuesViewModel();
+    TarihQuesViewModel _tarihQuesViewModel=TarihQuesViewModel();
+    CografyaQuesViewModel _cografyaQuesViewModel=CografyaQuesViewModel();
+    DevletMemurlariKanunuQuesViewModel _devletMemurlariKanunu=DevletMemurlariKanunuQuesViewModel();
+    IlkogretimEgitimKanunuQuesViewModel _ilkogretimEgitimKanunu=IlkogretimEgitimKanunuQuesViewModel();
+    IlkogretimKurumlariYonetQuesViewModel _ilkogretimKurumlariYonet=IlkogretimKurumlariYonetQuesViewModel();
+    MebTemelKanunuQuesViewModel _mebTemelKanunu=MebTemelKanunuQuesViewModel();
+    EgitimOgretimQuesViewModel _egitimOgretim=EgitimOgretimQuesViewModel();
+    GuncelBilgilerQuesViewModel _guncelBilgiler=GuncelBilgilerQuesViewModel();
+
+    return WillPopScope(
+      onWillPop: () async{
+        Navigator.pushNamedAndRemoveUntil(context, kRouteHomePage, (route) => false);
+        return Future.value(true);
+      },
+      child:Material(
+        child: SingleChildScrollView(
+            child: Column(
+              children: [
+                navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
+                navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),
+                navigateTestButton(context, Test(list: _turkceQuesViewModel.turkceQuesList),  "Öğrenme ve Öğretmen Süreçleri"),
+                navigateTestButton(context, Test(list: _egitimOgretim.egitimOgretimList),  "Ölçme ve Değerlendirme" ),
+                navigateTestButton(context, Test(list: _tarihQuesViewModel.tarihQuesList),  "Özel Eğitim ve Rehberlik" ),
+                navigateTestButton(context, Test(list: _cografyaQuesViewModel.cografyaQuesList),  "Eğitim Araştırmaları ve AR-GE Çalışmaları" ),
+                navigateTestButton(context, Test(list: _guncelBilgiler.guncelBilgilerQuesList),  "Eğitimde Kapsayıcılık" ),
+                navigateTestButton(context, Test(list: _devletMemurlariKanunu.devletMemurlariKanunuQuesList),  "Çevre Eğitimi ve İklim Değişikliği" ),
+                navigateTestButton(context, Test(list: _mebTemelKanunu.mebTemelKanunuQuesList),  "Sosyal Etkileşim ve İletişim" ),
+                navigateTestButton(context, Test(list: _ilkogretimEgitimKanunu.ilkogretimEgitimKanunuQuesList),  "Dijital Yetkinlik" ),
+                navigateTestButton(context, Test(list: _ilkogretimKurumlariYonet.ilkogretimKurumlariYonetQuesList),  "Güvenli Okul ve Okul Güvenliği" ),
+
+          /*      navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
+                navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),
+                navigateTestButton(context, Test(list: _turkceQuesViewModel.turkceQuesList),  "Türkçe Testi"),
+                navigateTestButton(context, Test(list: _egitimOgretim.egitimOgretimList),  "Eğitim Öğretim" ),
+                Divider(),
+                AutoSizeText("Genel Kültür"),
+                navigateTestButton(context, Test(list: _tarihQuesViewModel.tarihQuesList),  "Tarih Testi" ),
+                navigateTestButton(context, Test(list: _cografyaQuesViewModel.cografyaQuesList),  "Coğrafya Testi" ),
+                navigateTestButton(context, Test(list: _guncelBilgiler.guncelBilgilerQuesList),  "Güncel Bilgiler (HAZIRLANIYOR)" ),
+                Divider(),
+                AutoSizeText("Meb Mevzuatı"),
+                navigateTestButton(context, Test(list: _devletMemurlariKanunu.devletMemurlariKanunuQuesList),  "Devlet Memurları Kanunu" ),
+                navigateTestButton(context, Test(list: _mebTemelKanunu.mebTemelKanunuQuesList),  "Milli Eğitim Temel Kanunu" ),
+                navigateTestButton(context, Test(list: _ilkogretimEgitimKanunu.ilkogretimEgitimKanunuQuesList),  "İlköğretim Eğitim Kanunu" ),
+                navigateTestButton(context, Test(list: _ilkogretimKurumlariYonet.ilkogretimKurumlariYonetQuesList),  "İlköğretim Kurumları Yönetmeliği" ),
+
+*/
+              ],
+            ),
+          ),
+      ),
+
+    );
+  }
+  Widget navigateTestButton(
+      BuildContext context, Widget widget, String text) {
+    return InkWell(
+      onTap: () {
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => widget));
+      },
+      child: Card(
+      child: ListTile(
+      leading: Icon(Icons.arrow_right),
+    title:  AutoSizeText(text,style: GoogleFonts.quicksand(),
+      minFontSize: 8,
+      maxLines: 2,)),
+    ));
+  }
+}
