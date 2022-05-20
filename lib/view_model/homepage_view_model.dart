@@ -1,3 +1,4 @@
+import 'package:uzman_ogretmen/view/favorite_info_card.dart';
 import 'package:uzman_ogretmen/view_model/info_cards/cevreiklim_info_view_model.dart';
 import 'package:uzman_ogretmen/view_model/info_cards/dijitalyetkinlik_info_view_model.dart';
 import 'package:uzman_ogretmen/view_model/info_cards/egitimarastirma_info_view_model.dart';
