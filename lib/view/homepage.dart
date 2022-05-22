@@ -181,33 +181,55 @@ class HomePage extends StatelessWidget {
 
               SizedBox(
                   // /height: context.height*0.2,
-                  child: ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: _homepageViewModel.homepageInfoCardList.length,
-                      itemBuilder: (context, int index) {
-                        return InkWell(
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (_) => ContentListPage(
-                                        appbarTitle: _homepageViewModel
-                                            .homepageInfoCardList[index].text,
-                                        list: _homepageViewModel
-                                            .homepageInfoCardList[index]
-                                            .list)));
-                          },
-                          child: Card(
-                            child: ListTile(
-                              leading: Icon(
-                                Icons.text_snippet_outlined,
-                              ),
-                              title: AutoSizeText(_homepageViewModel
-                                  .homepageInfoCardList[index].text),
+                  child: Column(
+                    children: [
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (_) => FavoriteInfoCard()));
+                        },
+                        child: Card(
+                          child: ListTile(
+                            leading: Icon(
+                              Icons.text_snippet_outlined,
                             ),
+                            title: AutoSizeText("Favori Kartlar"),
                           ),
-                        );
-                      })
+                        ),
+                      ),
+                      Expanded(
+                        child: ListView.builder(
+                            shrinkWrap: true,
+                            itemCount: _homepageViewModel.homepageInfoCardList.length,
+                            itemBuilder: (context, int index) {
+                              return InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (_) => ContentListPage(
+                                              appbarTitle: _homepageViewModel
+                                                  .homepageInfoCardList[index].text,
+                                              list: _homepageViewModel
+                                                  .homepageInfoCardList[index]
+                                                  .list)));
+                                },
+                                child: Card(
+                                  child: ListTile(
+                                    leading: Icon(
+                                      Icons.text_snippet_outlined,
+                                    ),
+                                    title: AutoSizeText(_homepageViewModel
+                                        .homepageInfoCardList[index].text),
+                                  ),
+                                ),
+                              );
+                            }),
+                      ),
+                    ],
+                  )
                   ),
             TestHomepage(),
            /*  InkWell(

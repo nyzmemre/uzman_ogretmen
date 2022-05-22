@@ -21,6 +21,7 @@ class EgitimArastirmaQuesViewModel extends ChangeNotifier{
   // Question("egitimarastirma_ques_Q13","", "","",["","","","",""]),
   // Question("egitimarastirma_ques_Q14","", "","",["","","","",""]),
   // Question("egitimarastirma_ques_Q15","", "","",["","","","",""]),
+
   // Question("egitimarastirma_ques_Q16","", "","",["","","","",""]),
   // Question("egitimarastirma_ques_Q17","", "","",["","","","",""]),
   // Question("egitimarastirma_ques_Q18","", "","",["","","","",""]),
