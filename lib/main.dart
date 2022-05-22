@@ -39,6 +39,7 @@ void main() async {
   await Hive.openBox<Question>("favoritesQuestions");
   await Hive.openBox<InfoCardItem>("favoritesInfoCards");
   await Hive.openBox<InfoCardModel>("competeCards");
+  await Hive.openBox<bool>("soneklenenler");
 
   runApp(MultiProvider(providers: [
     ChangeNotifierProvider<TurkceQuesViewModel>(create: (_) => TurkceQuesViewModel()),

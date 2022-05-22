@@ -14,6 +14,7 @@ import '../core/my_widgets/my_page_header.dart';
 import '../core/my_widgets/my_scaffold.dart';
 import '../view_model/homepage_view_model.dart';
 import '../core/my_widgets/add_note.dart';
+import 'last_added_page.dart';
 
 class HomePage extends StatelessWidget {
   final int? index;
@@ -56,7 +57,11 @@ class HomePage extends StatelessWidget {
                 ]),
           ),
         ),
-        appBar:  MyAppbar(appBarTitle: "Uzman / Baş Öğretmen"),
+        appBar:  MyAppbar(appBarTitle: "Uzman / Baş Öğretmen", action: [
+          IconButton(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (_)=>LastAddedPage()));
+          }, icon: Icon(Icons.notifications_active, color:kWhite,))
+        ],),
         body: /*TabBarView(children: [
           *//* MyPageHeader(
               leftHeadert: "Bilgi Kartları",

@@ -47,7 +47,7 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
     Question("eo_Q40","", "Test geliştirme sürecinde dikkat edilecek hususlar aşağıdakilerden hangisinde yanlış verilmiştir?", "Çeldiriciler eksik bilgisi olanları yanıltmamalıdır", ["İfadeler açık ve net olmalıdır","Sorular bir kaynaktan aynen alınmamalıdır","Test maddeleri birbirinden bağımsız olmamalıdır","Çeldiriciler eksik bilgisi olanları yanıltmamalıdır","Hepsi, hiçbiri kelimeleri kullanılmamalıdır"]),
     Question("eo_Q41","", "Aşağıdakilerden hangisi kavrama düzende hedef alanı değildir?", "Bir konu hakkında öykü yazma", ["Bir cümlenin anlamını açıklama","Bir testin belirteç tablosuna uygun olup olmadığına karar verme","Cümleyi öğlerine ayırma","Öykü yazma","Bir konu hakkında öykü yazma"]),
     Question("eo_Q42","", "Z puanı ile ilgili verilen bilgilerden hangisi yanlıştır?", "Negatif değer alamaz", ["Ortalaması 0'dır","Standar sapması 1'dir","Ortalamnın altında veya üstünde olduğu hakkında bilgi verir","Negatif değer alamaz","Ham puandan ortalama çıkarılır, standart sapmaya bölünür"]),
-    
+
     ///kazım hocanın hazırladıkları
     Question("olcmedeger_ques_Q1","I-Türetilmiş Ölçme\nII-Doğrudan Ölçme\nIII-Dolaylı Ölçme", "Yukarıdakilerden hangileri ölçmenin türlerindendir?","I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
     Question("olcmedeger_ques_Q2","", "Ölçülmek istenen değişkenin yapısı, doğrudan gözleme uygun olmadığı için başka bir değişken ya da özellik yardımıyla ölçülmesine ne ad verilir?","Dolaylı Ölçme",["Model ile Ölçme","Doğrudan Ölçme","Türetilmiş Ölçme","Dolaylı Ölçme","Yapısal Ölçme"]),
