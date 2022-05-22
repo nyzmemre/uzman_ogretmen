@@ -15,7 +15,7 @@ class LastAddedPage extends StatelessWidget {
       appBar: MyAppbar(appBarTitle: "Son Eklenenler"),
       body: ListView(
         children: [
-          content(context, "22.05.2022","-Ölçme Değerlendirme soru eklendi.\n-Güvenli Okul soru eklendi.\n-Favori kart ekranı eklendi.\n-Not ekleme ekranı güncellendi."),
+          content(context, "22.05.2022","-Ölçme Değerlendirme soru eklendi.\n-Güvenli Okul soru eklendi.\n-Favori kart ekranı eklendi.\n-Not ekleme ekranı güncellendi.\n-Çevre ve İklim Değişikliği konu eklendi.\n-Çevre ve İklim Değişikliği soru eklendi."),
           content(context, "21.05.2022","-Güvenli Okul soru eklendi.\n-Güvenli Okul konu eklendi."),
           content(context, "20.05.2022","-Ölçme Değerlendirme soru eklendi.\n-Özel Eğitim ve Rehberlik konu eklendi.\n-Özel Eğitim ve Rehberlik soru eklendi."),
           content(context, "19.05.2022","-Dijital Yetkinlik özet eklendi.\n-Dijital Yetkinlik soru eklendi.\n-Ölçme Değerlendirme özet eklendi.\n-Öğrenme ve Öğretme Süreçleri özet eklendi."),
@@ -46,7 +46,7 @@ class LastAddedPage extends StatelessWidget {
                   text,
                   style: GoogleFonts.quicksand(fontWeight: FontWeight.w500),
                   minFontSize: 10,
-                  maxLines: 5,
+                  maxLines: 15,
                 ),
               ],
 
