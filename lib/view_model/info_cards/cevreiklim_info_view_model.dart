@@ -10,21 +10,9 @@ class CevreIklimInfoViewModel extends ChangeNotifier{
       InfoCardItem("cevreiklim_info_2", "Neden Önemli?", "-Hayatın sürdürülmesi için temel unsurdur.\n-Tüm kaynakların yer aldığı merkezdir.\n-Canlıların etkileşimlerine ev sahipliği yapar.\n-Ortak kullanım alanıdır.\n-Tüm canlılara hitap eder."),
       InfoCardItem("cevreiklim_info_3", "Çevre Eğitimi", "-Toplumun çevre konusunda bilinçlenmesidir.\n-Çevre eğitimi alan bireylerin, çevre konusunda olumlu tutum ve davranışlar sergilemesi beklenir.\n-Olumlu davranışların ve davranış değişikliklerinin kalıcı olması beklenir.\n-Bu davranışların kazanılması için çaba gerekir.\n-Çevresel sorunların çözülmesinde, eğitimle, bireyin aktif katılımı beklenir."),
       InfoCardItem("cevreiklim_info_4", "Çevre Eğitiminin Amaçları", "-Bireylerin çevreyi tanımalarını sağlamak.\n-Bireylere çevre bilinci kazandırmak.\n-Çevremizdeki varolan sorunların tespitinin yapılmasını sağlamak.\n-Ortaya çıkabilecek çevresel sorunların önceden tespitini sağlamak.\n-Çevresel sorunların çözümünde bireylerin aktif katılımlarını sağlamak.\n-Toplumda çevre bilincini yerleştirmek.\n-Yaşanılabilir çevre oluşturma sürecinde olumlu davranış değişiklikleri gerçekleştirmek"),
-
-    ]),InfoCardModel("Hazırlanıyor", [
-      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
-      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
-      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
-    ]),
-   /* InfoCardModel("", [
-    InfoCardItem("cevreiklim_info_5", "", ""),
-      InfoCardItem("cevreiklim_info_1", "", ""),
-      InfoCardItem("cevreiklim_info_2", "", ""),
-      InfoCardItem("cevreiklim_info_3", "", ""),
-      InfoCardItem("cevreiklim_info_4", "", ""),
-      InfoCardItem("cevreiklim_info_5", "", ""),
-      InfoCardItem("cevreiklim_info_6", "", ""),
-      InfoCardItem("cevreiklim_info_7", "", ""),
+      InfoCardItem("cevreiklim_info_5", "Ne zaman başlar?", "-Çevre eğitiminin erken yaşlarda başlaması esastır.\n-Bu sebeple henüz okul öncesine devam etmekte olan bireylerin bu eğitimlerden faydalanması esastır.\n-Çevre eğitimi okul öncesi eğitim kurumlarının faaliyetleri arasında yer almaktadır.\n-Bireylerin erken yaşta gerekli bilinci ve tutumları kazanmaları ülkemizin ve dünyanın geleceği için önem arz etmektedir."),
+      InfoCardItem("cevreiklim_info_6","Neler yapılabilir?", "-Çevre eğitimleri kapsamında erken dönemde başlayacak faaliyetlerde oyun ile öğrenme temel alınabilir.\n-Geri dönüşüm kutuları, çöp kutuları, atık kutuları gibi basit tasarımlar bu yaş grubuna tasarlatılabilir.\n-İlkokul ve ortaokul çağındak çocuklar için animasyonlar daha ilgi çekici olacaktır.\n-Ortaöğretim ve üzeri yaşlarda eğitimler verilmek suretiyle çevre bilincini oluşturmak mümkündür."),
+      InfoCardItem("cevreiklim_info_7", "Çevre bilinci", "-Doğal çevreye dikkat ederek, saygı duyarak ve olumlu tutum ve davranışlar geliştirerek faydalı davranışlarda bulunmaktır."),
       InfoCardItem("cevreiklim_info_8", "", ""),
       InfoCardItem("cevreiklim_info_9", "", ""),
       InfoCardItem("cevreiklim_info_10", "", ""),
@@ -38,6 +26,13 @@ class CevreIklimInfoViewModel extends ChangeNotifier{
       InfoCardItem("cevreiklim_info_18", "", ""),
       InfoCardItem("cevreiklim_info_19", "", ""),
       InfoCardItem("cevreiklim_info_20", "", ""),
+    ]),InfoCardModel("Hazırlanıyor", [
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+    ]),
+   /* InfoCardModel("", [
+
       InfoCardItem("cevreiklim_info_21", "", ""),
       InfoCardItem("cevreiklim_info_22", "", ""),
       InfoCardItem("cevreiklim_info_23", "", ""),
