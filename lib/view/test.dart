@@ -135,14 +135,17 @@ class _TestState extends State<Test> {
                             itemCount: 5,
                             itemBuilder: (ctx, int listViewIndex) {
                               List<String> answerOption=["A","B","C","D","E"];
-                              return answerButtons(
-                                  context,
-                                  data.newTestList[skr.getIndex]
-                                      .answList[listViewIndex],
-                                  answerOption[listViewIndex].toString(),
-                                  skr,
-                                  data,
-                                  listViewIndex,);
+                              return Padding(
+                                padding:  EdgeInsets.symmetric(vertical: 5),
+                                child: answerButtons(
+                                    context,
+                                    data.newTestList[skr.getIndex]
+                                        .answList[listViewIndex],
+                                    answerOption[listViewIndex].toString(),
+                                    skr,
+                                    data,
+                                    listViewIndex,),
+                              );
                             }),
                       ), 
 
@@ -222,11 +225,14 @@ class _TestState extends State<Test> {
                   minFontSize: 10,
                   maxLines: 1,),
                 context.horTenSizedBox,
-                Flexible(child: AutoSizeText(text, style: GoogleFonts.quicksand(
-                    color: kBlack,fontWeight: FontWeight.w400
-                ),
-                  minFontSize: 10,
-                  maxLines: 3,)),
+                Flexible(child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 8.0),
+                  child: AutoSizeText(text, style: GoogleFonts.quicksand(
+                      color: kBlack,fontWeight: FontWeight.w400
+                  ),
+                    minFontSize: 10,
+                    maxLines: 5,),
+                )),
                 //Flexible(child: AutoSizeText(text, style: GoogleFonts.beVietnam(fontWeight: FontWeight.w900,fontSize: 18, color: kBlack),)),
               ],
             )),
