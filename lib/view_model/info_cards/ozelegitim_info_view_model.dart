@@ -4,6 +4,8 @@ import '../../model/info_card_item.dart';
 import '../../model/info_card_model.dart';
 
 class OzelEgitimInfoViewModel extends ChangeNotifier{
+
+  ///
   List<InfoCardModel> _ozelEgitimList = [
     InfoCardModel("Özel Eğitim ve Rehberlik-1", [
       InfoCardItem("eo_Info_160","Rehberlik Hizmetlerinin İlkeleri","-Örgütlenmiştir.\n-Okul, aile ve çevreyi bilgilendirir.\n-Herkesin seçme özgürlüğü vardır.\n-İnsana saygı esastır.\n-Her okulda rehberlik hizmeti olmalıdır.\n-Koruyucudur.\n-Tüm öğrencilere açıktır.",),
@@ -70,6 +72,48 @@ class OzelEgitimInfoViewModel extends ChangeNotifier{
       InfoCardItem("eo_Info_214","4-Gelişimsel Yaklaşım","Meslek seçimini hayat boyu gelişimin bir parçası olarak görür.",),
       InfoCardItem("eo_Info_215","5-İhtiyaçlar Yaklaşımı","Meslek seçimini psikolojik ihtiyaçların belirlediğini savunur.",),
       InfoCardItem("eo_Info_216","6-Psikoanalitik Yaklaşım","Meslek seçimini kişisel dinamiklerin belirlediini savunur.",),
+    ]),InfoCardModel("Yönetmelik-1", [
+      InfoCardItem("eo_Info_210","Temel ilkeler-1","-Bireysel farklılıkları, gelişim özellikleri ve eğitim ihtiyaçları dikkate alınarak eğitim hizmetisunulması, \n-Özel eğitimihtiyacı olan bireylerin ilgi, istek, yeterlilik ve yetenekleri doğrultusunda özel eğitim hizmetlerinden yararlandırılması, \n-Özeleğitim hizmetlerine erken dönemde başlanması (Madde5)"),
+      InfoCardItem("eo_Info_211","Temel ilkeler-2","-Özel eğitimhizmetlerinin özel eğitim ihtiyacı olan bireyleri sosyal ve fiziksel çevrelerinden mümkün olduğu kadar ayırmadan, toplumla etkileşim ve karşılıklı uyum sağlama sürecini kapsayacak şekilde planlanıp yürütülmesi,\n-Özel eğitimihtiyacı olan bireylerin eğitsel performansları doğrultusunda amaç, içerik ve öğretim süreçlerinde uyarlamalar yapılarak diğer bireylerle birlikte eğitim görmelerine öncelik verilmesi (Madde5)"),
+      InfoCardItem("eo_Info_212","Temel ilkeler-3","-Özel eğitimihtiyacı olan bireylerin eğitsel performansları doğrultusunda amaç, içerik ve öğretim süreçlerinde uyarlamalar yapılarak diğer bireylerle birlikte eğitim görmelerine öncelik verilmesi, \n-Özel eğitimihtiyacı olan bireylerin her tür ve kademedeki eğitimlerinisürdürebilmeleri için kurum ve kuruluşlarla iş birliği yapılması (Madde5)"),
+      InfoCardItem("eo_Info_213","Temel ilkeler-4","-Özeleğitim ihtiyacı olan bireyler için BEP geliştirilmesi ve eğitim programlarının bireyselleştirilerek uygulanması, \n-Ailelerin, özeleğitim sürecinin her aşamasına aktif katılmalarının sağlanması,\n-Özel eğitim politikalarının geliştirilmesinde üniversitelerin ilgili bölümleri ve özeleğitim ihtiyacı olan bireylere yönelik  faaliyette bulunan sivil toplum kuruluşları ile iş birliği içinde çalışılması (Madde 5)"),
+      InfoCardItem("eo_Info_214","Amaçlar","Türk Millî Eğitiminin genel amaç ve temel ilkeleri esas alınarak; özel eğitimihtiyacı olan bireylerin eğitim ihtiyaçları, yeterlilikleri, ilgi ve yetenekleri doğrultusunda kapasitelerinien üst düzeyde kullanmaları, üst öğrenime, meslek hayatına ve toplumsal yaşama hazırlanmalarınıamaçlar. (Madde 6)"),
+    ]),InfoCardModel("Yönetmelik-2", [
+      InfoCardItem("eo_Info_215","Değerlendirme ve esaslar","-Bireylerin eğitsel değerlendirmesi ve tanılaması ile ilgili iş ve işlemler RAM’larda oluşturulan özel eğitim değerlendirme kurulu tarafından yapılır.\n-"),
+      InfoCardItem("eo_Info_216","",""),
+      InfoCardItem("eo_Info_217","",""),
+      InfoCardItem("eo_Info_218","",""),
+      InfoCardItem("eo_Info_219","",""),
+      InfoCardItem("eo_Info_220","",""),
+      InfoCardItem("eo_Info_221","",""),
+      InfoCardItem("eo_Info_222","",""),
+      InfoCardItem("eo_Info_223","",""),
+      InfoCardItem("eo_Info_224","",""),
+      InfoCardItem("eo_Info_225","",""),
+      InfoCardItem("eo_Info_226","",""),
+      InfoCardItem("eo_Info_227","",""),
+      InfoCardItem("eo_Info_228","",""),
+      InfoCardItem("eo_Info_229","",""),
+      InfoCardItem("eo_Info_230","",""),
+      InfoCardItem("eo_Info_231","",""),
+      InfoCardItem("eo_Info_232","",""),
+      InfoCardItem("eo_Info_233","",""),
+      InfoCardItem("eo_Info_234","",""),
+      InfoCardItem("eo_Info_235","",""),
+      InfoCardItem("eo_Info_236","",""),
+      InfoCardItem("eo_Info_237","",""),
+      InfoCardItem("eo_Info_238","",""),
+      InfoCardItem("eo_Info_239","",""),
+      InfoCardItem("eo_Info_240","",""),
+      InfoCardItem("eo_Info_241","",""),
+      InfoCardItem("eo_Info_242","",""),
+      InfoCardItem("eo_Info_243","",""),
+      InfoCardItem("eo_Info_244","",""),
+      InfoCardItem("eo_Info_245","",""),
+      InfoCardItem("eo_Info_246","",""),
+      InfoCardItem("eo_Info_247","",""),
+      InfoCardItem("eo_Info_248","",""),
+      InfoCardItem("eo_Info_249","",""),
     ]),
     InfoCardModel("Hazırlanıyor", [
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
