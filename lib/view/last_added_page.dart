@@ -15,6 +15,7 @@ class LastAddedPage extends StatelessWidget {
       appBar: MyAppbar(appBarTitle: "Son Eklenenler"),
       body: ListView(
         children: [
+          content(context, "28.05.2022","-Özel Eğtim ve Rehberlik konu eklendi.\n-Özel Eğtim ve Rehberlik soru eklendi.\n-Eğitimde Kapsayıcılık konu eklendi.\n-Eğitimde Kapsayıcılık soru eklendi.\n-Eğitim Araştırmaları ve AR-GE konu eklendi.\n-Eğitim Araştırmaları ve AR-GE soru eklendi.\n-Sosyal Etkileşim ve İletişim konu eklendi.\n-Sosyal Etkileşim ve İletişim soru eklendi."),
           content(context, "22.05.2022","-Ölçme Değerlendirme soru eklendi.\n-Güvenli Okul soru eklendi.\n-Favori kart ekranı eklendi.\n-Not ekleme ekranı güncellendi.\n-Çevre ve İklim Değişikliği konu eklendi.\n-Çevre ve İklim Değişikliği soru eklendi."),
           content(context, "21.05.2022","-Güvenli Okul soru eklendi.\n-Güvenli Okul konu eklendi."),
           content(context, "20.05.2022","-Ölçme Değerlendirme soru eklendi.\n-Özel Eğitim ve Rehberlik konu eklendi.\n-Özel Eğitim ve Rehberlik soru eklendi."),

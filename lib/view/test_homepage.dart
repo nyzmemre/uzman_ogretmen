@@ -40,6 +40,7 @@ class TestHomepage extends StatelessWidget {
     SosyalEtkilesimQuesViewModel _sosyalEtkilesimQues=SosyalEtkilesimQuesViewModel();
     DijitalYetkinlikQuesViewModel _dijitalYetkinlikQues=DijitalYetkinlikQuesViewModel();
     GuvenliOkulQuesViewModel _guvenliOkulQues=GuvenliOkulQuesViewModel();
+    EgitimOgretimQuesViewModel _egitimOgretimQues=EgitimOgretimQuesViewModel();
     return WillPopScope(
       onWillPop: () async{
         Navigator.pushNamedAndRemoveUntil(context, kRouteHomePage, (route) => false);
@@ -51,6 +52,7 @@ class TestHomepage extends StatelessWidget {
               children: [
                 navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
                 navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),
+                navigateTestButton(context, Test(list: _egitimOgretimQues.egitimOgretimList),  "Eğitim Bilimleri"),
                 navigateTestButton(context, Test(list: _ogrenogretQues.ogrenOgret),  "Öğrenme ve Öğretmen Süreçleri"),
                 navigateTestButton(context, Test(list: _olcmedegerlendirmeQues.ogrenOgretSurec),  "Ölçme ve Değerlendirme" ),
                 navigateTestButton(context, Test(list: _ozelEgitimQues.ozelEgitim),  "Özel Eğitim ve Rehberlik" ),

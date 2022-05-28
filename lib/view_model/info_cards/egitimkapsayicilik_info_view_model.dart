@@ -30,7 +30,7 @@ class EgitimKapsayiciInfoViewModel extends ChangeNotifier{
       InfoCardItem("egitimkapsayici_info_13", "Kapsayıcı Eğitimin Faydaları-3", "-Öğrenciler tek yönlü bakış açılarını geliştirerek farklılıklara değer vermeye başlarlar.\n-Öğrencilerin okula ilgilisi, derslere katılımı artar ve devamsızlıkları azalır.\n-Öğrencilerin farklı gördükleri bireylere karşı önyargılarını azaltır, toplumsal barışa katkı sağlar ve toplumsal ortak duyguları geliştirir."),
       InfoCardItem("egitimkapsayici_info_14", "Kapsayıcı Eğitimin Faydaları-4", "-Öğrenciler kendilerini daha geniş bir topluluğun parçası olarak görürler, sosyal ilişki kurmaları kolaylaşır ve empati yetenekleri gelişir.\n-Öğrencilerin, ait oldukları küçük grubun ötesinde, kendilerini daha geniş toplumun bir parçası olarak görmelerini sağlamak ve o toplumdaki diğer gruplardan bireyler ile empati ve ilişki kurmalarını sağlamak."),
     ]),InfoCardModel("Eğitimde Kapsayıcılık-5", [
-      InfoCardItem("egitimkapsayici_info_15", "Kapsayıcı Eğitim Kapsamındaki Gruplar", "-Kapsayıcı eğitim ilk olarak sadece engelli öğrencilere yönelik ortaya çıkmıştır.\n-Daha sonraları ise tüm dezavantajlı grupları içine alacak şekilde genişlemiştir.\n-Bu dezavantajlı gruplar;\n-1.	Etnik Köken\n-Fiziksel Yetersizlik ve Özel Gereksinim\n-Sosyoekonomik Düzey\n-Dini İnanç\n-Cinsiyet"),
+      InfoCardItem("egitimkapsayici_info_15", "Kapsayıcı Eğitim Kapsamındaki Gruplar", "-Kapsayıcı eğitim ilk olarak sadece engelli öğrencilere yönelik ortaya çıkmıştır.\n-Daha sonraları ise tüm dezavantajlı grupları içine alacak şekilde genişlemiştir.\n-Bu dezavantajlı gruplar;\n-Etnik Köken\n-Fiziksel Yetersizlik ve Özel Gereksinim\n-Sosyoekonomik Düzey\n-Dini İnanç\n-Cinsiyet"),
       InfoCardItem("egitimkapsayici_info_16", "Etnik Köken", "-Öğrencilerin mülteci, göçmen, sığınmacı olmaları ya da etnik kökenleri sebebiyle okulda ve okul dışında olumsuz davranış (dışlama, aşağılama vb.) yaşamalarıdır."),
       InfoCardItem("egitimkapsayici_info_17", "Fiziksel Yetersizlik ve Özel Gereksinim", "-Öğrencilerin özel durumları sebebiyle olumsuz davranışlara maruz kalma durumudur.\n-Bu öğrencileri sınıfta dışlanması, aşağılanması bu duruma örnek olarak verilebilir."),
       InfoCardItem("egitimkapsayici_info_18", "Sosyoekonomik Düzey", "-Düşük ya da yüksek gelir durumu, aile yapısı vb. konulardan dolayı öğrencilerin olumsuz davranışlara maruz kalma durumudur."),
@@ -41,13 +41,14 @@ class EgitimKapsayiciInfoViewModel extends ChangeNotifier{
       InfoCardItem("egitimkapsayici_info_22", "", "-Öğrenci okulu sevmediğini söyler. Okula karşı ilgisizlik duyar ve okula gitmek istemeyebilir. \n-Öğrenci akranlarıyla, kendinden büyük ya da küçük çocuklarla göz teması ve iletişim kurmakta zorlanabilir."),
       InfoCardItem("egitimkapsayici_info_23", "", "-Öğrenci okuldan eve geldiğinde yorgun, huysuz ve aksi davranışlarda bulunabilir.\n-Okuldan eve geldiği zaman okulda yaşadığı problemlerden bahsedebilir.\n-Öğrenci sanat, müzik, dans gibi güzel sanatlara olan ilgisini zamanla kaybedebilir.\n-Boş zaman aktivitelerini bırakabilir."),
       InfoCardItem("egitimkapsayici_info_24", "", "-Okulla ilgili hiçbir şey yapmak istemeyebilir. Okul dışı etkinliklere yönelebilir. \n-Okul ile ilgili yapması gerekenleri (Ödev, proje vb.) son ana bırakır ya da yapmaz.\n-Okulla ilgili heyecan verici ya da mutlu olduğu durumları anlatmayı bırakabilir.\n-Okul rehberlik servisi ya da öğrencinin sınıf öğretmeni öğrencinin yaşadığı-yaşattığı problemlerle ilgili sizinle görüşmek isteyebilir."),    ]),
+    InfoCardModel("Hazırlanıyor", [
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+    ]),
+
     /*InfoCardModel("", [
  InfoCardItem("egitimkapsayici_info_5", "", ""),
-
-
-
-
-
 
       InfoCardItem("egitimkapsayici_info_25", "", ""),
       InfoCardItem("egitimkapsayici_info_26", "", ""),

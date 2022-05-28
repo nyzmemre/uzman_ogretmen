@@ -131,7 +131,8 @@ class EgitimInfoViewModel {
       InfoCardItem("eo_Info_100","Psikomotor Alan Alt Basamakları","-Algılama,\n-Kurulma,\n-Klavuzla yapma,\n-Mekanikleşme,\n-Beceri haline getirme,\n-Duruma uyma,\n-Yaratma",),
     ],
     ),
-    InfoCardModel("Ölçme ve Değerlendirme-1", [
+    ///ölçme değerlendirme
+ /*   InfoCardModel("Ölçme ve Değerlendirme-1", [
       InfoCardItem("eo_Info_101","","Ölçme; varlıkların bir niteliğe ne derece sahip olduklarının gözlemlenip sembolleştirilmesidir. Doğrudan ölçme ve Dolaylı ölçme olarak 2 çeşittir.",),
       InfoCardItem("eo_Info_102","Doğrudan Ölçme","Ölçülecek niteliğin doğrudan gözlemlenmesidir. Örn: Deney yapan öğrenciye puan vermek",),
       InfoCardItem("eo_Info_103","Dolaylı Ölçme","Ölçülen özellik ile ölçmede kullanılan aracın özelliği birbirinden farklıdır. Örn: Termometre ile sıcaklık ölçmek",),
@@ -203,8 +204,8 @@ class EgitimInfoViewModel {
       InfoCardItem("eo_Info_157","Test İstatistiği","Ölçümlerden elde edilen sonuçları yorumlamak için standart puanlara ihtiyaç olmuştur. Bunlar Z Puanı ve T Puanıdır.",),
       InfoCardItem("eo_Info_158","Z Puanı","-Ortalaması 0'dır.\n-Standart sapması 1'dir.\n-Bir puanın ortalamanın altında ya da üstünde olduğu hakkında bilgi verir.\n-Hem puandan ortalama çıkarılır, standart sapmaya bölünür.",),
       InfoCardItem("eo_Info_159","T Puanı","-Ortalaması 50'dir.\n-Standart sapması 10'dur.\n-T Puanı ile yorumları aynıdır.\n-Z puanında değerler negatif, sıfır veya küsüratlı çıkarsa T puanı kullanılır.",),
-    ]),
-    InfoCardModel("Psikolojik Danışma ve Rehberlik-1", [
+    ]),*/
+   /* InfoCardModel("Psikolojik Danışma ve Rehberlik-1", [
       InfoCardItem("eo_Info_160","Rehberlik Hizmetlerinin İlkeleri","-Örgütlenmiştir.\n-Okul, aile ve çevreyi bilgilendirir.\n-Herkesin seçme özgürlüğü vardır.\n-İnsana saygı esastır.\n-Her okulda rehberlik hizmeti olmalıdır.\n-Koruyucudur.\n-Tüm öğrencilere açıktır.",),
       InfoCardItem("eo_Info_161","Rehberlik Hizmetlerinin İlkeleri","-Gönüllülük esastır.\n-Yaşam boyu yararlanılabilir.\n-İşbirliği gerektirir.\n-Bireye ve topluma karşı sorumludur.\n-Gizlilik esastır.\n-Eğitimin ayrılmaz parçasıdır.",),
       InfoCardItem("eo_Info_162","Yararlanılan Bilim Dalları","-Psikoloji\n-Sosyoloji\n-Sosyal Psikoloji\n-Ekonomi\n-Antropoloji\n-Eğitim Bilimi",),
@@ -273,7 +274,7 @@ class EgitimInfoViewModel {
       InfoCardItem("eo_Info_217","A) Maksimum Performans Testleri","a) Yetenek Testleri: Akademik yeteneklerle ilgili bilgi toplamak için hazırlanmıştır.\nb) Başarı Testleri: Kazanılmış akademik bilgileri ölçmeye yarar.",),
       InfoCardItem("eo_Info_218","B) Davranış Testleri","a) İlgi Envanterleri: Öğrencileri ilgilerinin olduğu alana yönlendirmek amacıyla hazırlanır.\nb)Kişilik Envanterleri: Öğrencilerde kişilik bozukluğunun tespiti, sorunlara çözüm üretimi ve psikolojik danışmana öğrenci hakkında doğru bilgi aktarımı için kullanılır.",),
       InfoCardItem("eo_Info_219","B) Davranış Testleri-2","c)Tutum Envanterleri: Öğrencinin aile ve öğretmenleriyle ilgili tutumlarını ölçmeyi amaçlar.",),
-    ]),
+    ]),*/
     InfoCardModel("Öğrenciyi Tanıma Teknikleri (Test Dışı Teknikler)", [
       InfoCardItem("eo_Info_220","A) Kendini Anlatma Teknikleri","Birey kendisi ile ilgili bilgileri doğrudan verir.",),
       InfoCardItem("eo_Info_221","B) Görüşme","Belli bir amaç için yüzyüze yapılan etkileşimdir.",),
@@ -342,7 +343,7 @@ class EgitimInfoViewModel {
       InfoCardItem("eo_Info_280","Yaşlılık Dönemi (65 Yaş Üzeri)","-Ölüme karşı duyarlılık beklenir.\n-Eş ölümlerini kabullenme gerçekleşir.\n-Entellektüellik ve birikim zirvededir."),
 
     ]),
-    InfoCardModel("Öğrenme Psikolojisi-1", [
+   /* InfoCardModel("Öğrenme Psikolojisi-1", [
       InfoCardItem("eo_Info_281","Öğrenme-1","-Yaşantı veya tekrar yoluyla bireylerde meydana gelene kalıcı davranış değişikliklerine öğrenme denir.\n-Öğrenmeler kalıcıdır.\n-Çevre önemli bir etkendir.\n-Öğrenmenin unutulması veya kaybolması beklenmez.\n-Olumlu yönde olması tercih edilse de olumsuz da olabilir.\n-Davranış değişikliği gerektirir.\n-Refleksif hareketler öğrenme kabul edilmez."),
       InfoCardItem("eo_Info_281","Öğrenme-2","-Öğrenmenin kalıcı olması, gözlenebilir olması, yaşantı sonucu gerçekleşmesi ve değişimin yalnızca büyüme ve olgunlaşmaya bağlı olmaması gerekir."),
       InfoCardItem("eo_Info_282","Psikoloji","-İnsan davranışlarını ve davranışlarının altında yatan sebepleri inceler.\n-Davranışlar bilinç dışı süreçlerde kayıtlı bazı olay ve olgular sebebiyle sergileniyor olabilir.\n-Bu olay ve olgular tespit edilerek bireyin olumlu yönde gelişmesi sağlanabilir."),
@@ -391,7 +392,7 @@ class EgitimInfoViewModel {
       //InfoCardItem("eo_Info_319","",""),
       //InfoCardItem("eo_Info_32","",""),
       //InfoCardItem("eo_Info_32","",""),
-    ]),
+    ]),*/
 
 
   ];

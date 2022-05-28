@@ -46,14 +46,11 @@ class DijitalYetkinlikInfoViewModel extends ChangeNotifier{
 
         //  "Örnek", "Okul idaresine yıllık planımızı teslim etmemiz gerektiğini düşünelim. Diyelim ki bunun için bizden e-posta kullanılması istendi. Bu e-postada TO kısmına okul müdür yardımcısının (gönderilecek kişi) adresi yazılacak. CC kısmına okul müdürünün adresi yazıabilir. BCC bölümüne de okuldaki zümrenizin adres eklenebilir. BCC eklendiği için idareciler zümrelerinizi göremez."),
     ]),
-
-
-
-    /* InfoCardModel("Hazırlanıyor", [
+    InfoCardModel("Hazırlanıyor", [
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
-    ]),*/
+    ]),
 
 
     //InfoCardItem("dijitalyetkinlik_info_31", "", ""),

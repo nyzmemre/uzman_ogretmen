@@ -16,6 +16,8 @@ class SosyalEtkilesimInfoViewModel extends ChangeNotifier{
       InfoCardItem("sosyaletkilesim_info_3", "İletişimin Temel Özellikleri-1", "İletişimin bazı temel özellikleri;\n-İletişim kurulabilmesi için mutlaka insanın var olması gerekir. (İletişim ancak insanların birbirlerini anlama ihtiyaçları sayesinde kurulabilir.)\n-İletişim paylaşmayı gerekli kılmalıdır. (İletişimde gönderici, alıcı ve mesajın ortak anlamı üzerinde anlaşmalıdır.)"),
       InfoCardItem("sosyaletkilesim_info_4", "İletişimin Temel Özellikleri-2", "-İletişimin semboliktir. (Bu semboller sözcükler, rakamlar, harfler, sesler, jest ve mimiklerdir.)\n-Alıcı ve gönderici mesaja aynı anlamı yüklüyorsa o zaman iletişim tam olarak ortaya çıkar.\n-İletişim insan davranışlarının bir ürünüdür."),
       InfoCardItem("sosyaletkilesim_info_5", "İletişimin Temel Özellikleri-3", "İletişim dinamik bir süreçtir. (Gönderici ve alıcı durumlarına göre değişiklik gösterebilir.)\n-İletişim kültürel ve sosyal değişime paralel olarak değişim gösterir.\n-Zamanla bazı kelimeler ve kavramlar yerini yenilerine bırakırlar."),
+    ]),
+    InfoCardModel("Sosyal Etkileşim ve İletişim-2", [
       InfoCardItem("sosyaletkilesim_info_6", "İletişimin Temel Fonksiyonları-1", "İletişimin dört temel fonksiyonu vardır.\n\nBunlar; \n-Bilgi,\n-Motivasyon,\n-Kontrol\n-Heyecanlandırmadır."),
       InfoCardItem("sosyaletkilesim_info_7", "İletişimin Temel Fonksiyonları-2", "İletişimin sosyal bağlamdaki temel fonksiyonları ise şu şekilde sıralanabilir:\n\n-1.	Enformasyon:\n-Sosyalizasyon\n-Motivasyon\n-Tartışma\n-Eğitim\n-Kültürel gelişme\n-Eğlence\n-Entegrasyon"),
       InfoCardItem("sosyaletkilesim_info_8", "Enformasyon", "Kişisel, ulusal ve uluslararası durumları anlamak ve doğru sonuçlara ulaşmak için gerekli verilerin toplanması, depolanması ve yayılmasını sağlamaktır."),
@@ -23,11 +25,15 @@ class SosyalEtkilesimInfoViewModel extends ChangeNotifier{
       InfoCardItem("sosyaletkilesim_info_10", "Motivasyon", "Toplumun yakın ve uzak hedeflerini belirlemek, bireysel ve toplumsal etkilerini geliştirmek herkesçe kabul gören hedeflere ulaşmaya yardımcı olur."),
       InfoCardItem("sosyaletkilesim_info_11", "Tartışma", "Kamuoyunu ilgilendiren konularda farklı görüşleri netleştirmek, fikir alışverişi ve fikir birliği için uygun ortamı sağlamak ve geniş kamuoyu katılımı sağlamak."),
       InfoCardItem("sosyaletkilesim_info_12", "Eğitim", "Hayatın her aşamasında bilişsel gelişim, bireysel yetenek ve kapasitenin gelişimi için bilgi aktarmaktır. "),
+         ]),
+    InfoCardModel("Sosyal Etkileşim ve İletişim-3", [
       InfoCardItem("sosyaletkilesim_info_13", "Kültürel gelişme", "-Kültürel miransın korunması amacıyla sanatsal ve kültürel ürünlerin yayınlaması, bireyin kültürel kapasitesinin arttırılmasıdır.\n-Bireyin estetik duygusunun ve yaratıcılığının gelişmesi ile kültürel gelişimini sağlamaktır."),
       InfoCardItem("sosyaletkilesim_info_14", "Eğlence", "Bireysel ya da grup olarak eğlenme amacıyla yapılan aktivitelerin yaygınlaştırılmasını sağlamaktır. (Sinema, tiyatro, dans, sanat, edebiyat, spor…)"),
       InfoCardItem("sosyaletkilesim_info_15", "Entegrasyon", "Tüm insanların birbirini tanıma ve anlamalarını, diğer insanların yaşam şartlarını, görüş ve isteklerini anlayabilme-değerlendirebilme hedefine ulaşmayı sağlamaktır."),
       InfoCardItem("sosyaletkilesim_info_16", "İletişimin Bireysel Fonksiyonları", "-Duygu ve düşünceleri paylaşmak\n-Bilgi toplamak ve dağıtmak\n-Toplumsal statü Kazanmak\n-Karar destek sistemi kazanmak\n-Kişinin kendini gerçekleştirmesini sağlamak\n-Temsil becerisi ve yeteneği kazandırmak\n-Bireyin sosyalleşme sürecine katkı sağlamak"),
       InfoCardItem("sosyaletkilesim_info_17", "İletişimin Toplumsal Fonksiyonları", "-Toplumu bilgilendirmek\n-Kültürel aktarım sağlamak\n-Kültürel bir yakınlaşma sağlamak\n-Toplumu motive etmek\n-Öğrenme sürecini desteklemek\n-Toplumsal olarak yakınlaşma sağlamak\n-Toplumu yönlendirmek "),
+      ]),
+    InfoCardModel("Sosyal Etkileşim ve İletişim-4", [
       InfoCardItem("sosyaletkilesim_info_18", "İletişimin Temel Öğeleri-1", "-İletişim, kaynak ile hedef arasında sözel (konuşma) ya da sözel olmayan (davranış, mimik) yollarla kurulan bir süreçtir.\n-İletişimin gerçekleşmesi için temel unsurların bir araya gelmesi gerekmektedir.\n-İletişim göndericiden (kaynak) iletinin (mesaj) kodlanarak bir kanal (ses dalgaları, telefon kabloları, internet vb.) aracılığıyla alıcıya (hedef) aktarılmasıdır. "),
       InfoCardItem("sosyaletkilesim_info_19", "İletişimin Temel Öğeleri-2", "İletişim kavramının temel öğeleri şunlardır;\n-Kaynak (Gönderici) \n-Kodlama \n-Mesaj (ileti) \n-Kanal \n-Kod Çözme \n-Alıcı (Hedef) \n-Algılama ve Değerlendirme (Filtreleme) \n-Geri Bildirim (Dönüt) \n-Gürültü"),
       InfoCardItem("sosyaletkilesim_info_20", "Kaynak", "-Her türlü iletişimde süreci başlatan kaynaktır.\n-Kaynak mesajı ileten kişi ya da mesajın çıkış noktası olarak düşünülebilir.\n-Kaynak mesajı (bilgi, duygu, düşünce gibi) ilettiği zaman iletişim süreci de başlamış olur.\n-Kaynağı her zaman kişi olarak düşünmemek gerekir.\n-Kitap, gazete, dergi ya da hayvanlarda kaynak olabilirler."),
@@ -81,7 +87,12 @@ class SosyalEtkilesimInfoViewModel extends ChangeNotifier{
       //InfoCardItem("sosyaletkilesim_info_68", "", ""),
       //InfoCardItem("sosyaletkilesim_info_69", "", ""),
       //InfoCardItem("sosyaletkilesim_info_7", "", ""),
-    ])
+    ]),
+    InfoCardModel("Hazırlanıyor", [
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+    ]),
   ];
 
   List<InfoCardModel> get sosyalEtkilesim => _sosyalEtkilesimList;}
