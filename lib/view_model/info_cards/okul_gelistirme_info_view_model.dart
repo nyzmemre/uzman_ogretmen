@@ -1,0 +1,91 @@
+import 'package:flutter/material.dart';
+
+import '../../model/info_card_item.dart';
+import '../../model/info_card_model.dart';
+
+class OkulGelistirmeInfoViewModel extends ChangeNotifier{
+
+  ///
+  List<InfoCardModel> __okulGelistirmeList = [
+    InfoCardModel("Okul Geliştirme ve Liderlik-1", [
+      InfoCardItem("okulgelistirme_info_1", "", ""),
+      InfoCardItem("okulgelistirme_info_2", "", ""),
+      InfoCardItem("okulgelistirme_info_3", "", ""),
+      InfoCardItem("okulgelistirme_info_4", "", ""),
+      InfoCardItem("okulgelistirme_info_5", "", ""),
+      InfoCardItem("okulgelistirme_info_6", "", ""),
+      InfoCardItem("okulgelistirme_info_7", "", ""),    ]),
+    InfoCardModel("Hazırlanıyor", [
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+    ]),
+    /*InfoCardModel("", [
+
+      InfoCardItem("okulgelistirme_info_8", "", ""),
+      InfoCardItem("okulgelistirme_info_9", "", ""),
+      InfoCardItem("okulgelistirme_info_10", "", ""),
+      InfoCardItem("okulgelistirme_info_11", "", ""),
+      InfoCardItem("okulgelistirme_info_12", "", ""),
+      InfoCardItem("okulgelistirme_info_13", "", ""),
+      InfoCardItem("okulgelistirme_info_14", "", ""),
+      InfoCardItem("okulgelistirme_info_15", "", ""),
+      InfoCardItem("okulgelistirme_info_16", "", ""),
+      InfoCardItem("okulgelistirme_info_17", "", ""),
+      InfoCardItem("okulgelistirme_info_18", "", ""),
+      InfoCardItem("okulgelistirme_info_19", "", ""),
+      InfoCardItem("okulgelistirme_info_20", "", ""),
+      InfoCardItem("okulgelistirme_info_21", "", ""),
+      InfoCardItem("okulgelistirme_info_22", "", ""),
+      InfoCardItem("okulgelistirme_info_23", "", ""),
+      InfoCardItem("okulgelistirme_info_24", "", ""),
+      InfoCardItem("okulgelistirme_info_25", "", ""),
+      InfoCardItem("okulgelistirme_info_26", "", ""),
+      InfoCardItem("okulgelistirme_info_27", "", ""),
+      InfoCardItem("okulgelistirme_info_28", "", ""),
+      InfoCardItem("okulgelistirme_info_29", "", ""),
+      InfoCardItem("okulgelistirme_info_30", "", ""),
+      InfoCardItem("okulgelistirme_info_31", "", ""),
+      InfoCardItem("okulgelistirme_info_32", "", ""),
+      InfoCardItem("okulgelistirme_info_33", "", ""),
+      InfoCardItem("okulgelistirme_info_34", "", ""),
+      InfoCardItem("okulgelistirme_info_35", "", ""),
+      InfoCardItem("okulgelistirme_info_36", "", ""),
+      InfoCardItem("okulgelistirme_info_37", "", ""),
+      InfoCardItem("okulgelistirme_info_38", "", ""),
+      InfoCardItem("okulgelistirme_info_39", "", ""),
+      InfoCardItem("okulgelistirme_info_40", "", ""),
+      InfoCardItem("okulgelistirme_info_41", "", ""),
+      InfoCardItem("okulgelistirme_info_42", "", ""),
+      InfoCardItem("okulgelistirme_info_43", "", ""),
+      InfoCardItem("okulgelistirme_info_44", "", ""),
+      InfoCardItem("okulgelistirme_info_45", "", ""),
+      InfoCardItem("okulgelistirme_info_46", "", ""),
+      InfoCardItem("okulgelistirme_info_47", "", ""),
+      InfoCardItem("okulgelistirme_info_48", "", ""),
+      InfoCardItem("okulgelistirme_info_49", "", ""),
+      InfoCardItem("okulgelistirme_info_50", "", ""),
+      InfoCardItem("okulgelistirme_info_51", "", ""),
+      InfoCardItem("okulgelistirme_info_52", "", ""),
+      InfoCardItem("okulgelistirme_info_53", "", ""),
+      InfoCardItem("okulgelistirme_info_54", "", ""),
+      InfoCardItem("okulgelistirme_info_55", "", ""),
+      InfoCardItem("okulgelistirme_info_56", "", ""),
+      InfoCardItem("okulgelistirme_info_57", "", ""),
+      InfoCardItem("okulgelistirme_info_58", "", ""),
+      InfoCardItem("okulgelistirme_info_59", "", ""),
+      InfoCardItem("okulgelistirme_info_60", "", ""),
+      InfoCardItem("okulgelistirme_info_61", "", ""),
+      InfoCardItem("okulgelistirme_info_62", "", ""),
+      InfoCardItem("okulgelistirme_info_63", "", ""),
+      InfoCardItem("okulgelistirme_info_64", "", ""),
+      InfoCardItem("okulgelistirme_info_65", "", ""),
+      InfoCardItem("okulgelistirme_info_66", "", ""),
+      InfoCardItem("okulgelistirme_info_67", "", ""),
+      InfoCardItem("okulgelistirme_info_68", "", ""),
+      InfoCardItem("okulgelistirme_info_69", "", ""),
+      InfoCardItem("okulgelistirme_info_7", "", ""),
+    ])*/
+  ];
+
+  List<InfoCardModel> get okulGelistirme => __okulGelistirmeList;}
