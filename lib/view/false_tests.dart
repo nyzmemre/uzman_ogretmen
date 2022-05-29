@@ -47,6 +47,9 @@ class FalseTests extends StatelessWidget {
                       ontap: () {
                         data.deleteAt(_skor.getIndex);
                         _test.newTestList.clear();
+                        _skor.cancelQuesButonTop();
+                        _skor.clearTrueFalseValue();
+
                       },
                       labelBackgroundColor: kOrange,
                       icon: const Icon(Icons.delete_forever),
