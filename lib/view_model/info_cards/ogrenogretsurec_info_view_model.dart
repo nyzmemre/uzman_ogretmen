@@ -37,7 +37,6 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
       InfoCardItem("eo_Info_304","Dönüt","-Öğrenmenin ne düzeyde gerçekleştiği hakkında öğrenene bilgi verme sürecidir.\n-Dönüt, öğrenene sık sık verilmelidir.\n-Dönüt hemen verilirse, öğrenmedeki aksaklıklar daha hızlı giderilebilir."),
       InfoCardItem("eo_Info_305","Etkin katılım","-Öğrenenin öğrenilecek konu için süreçte tüm dikkatiyle varolmasıdır.\n-Katılım arttıkça öğrenme artar."),
     ]),InfoCardModel("Öğrenme ve Öğretme Süreçleri-4", [
-    InfoCardItem("eo_Info_305","Etkin katılım","-Öğrenenin öğrenilecek konu için süreçte tüm dikkatiyle varolmasıdır.\n-Katılım arttıkça öğrenme artar."),
     InfoCardItem("eo_Info_306","Öğrenme malzemesi ile ilgili faktörler","-Algısal ayırt edilebilirlik,\n-Anlamsal çağrışım,\n-Kavramsal gruplandırma,\n-Çağrışımsal gruplandırma,\n-Telaffuz edilebilirlik"),
     InfoCardItem("eo_Info_307","Algısal ayırt edilebilirlik","-Uyarıcının o an çevrede varolan tüm uyarıcılardan daha güçlü olması durumudur.\n-Bu durumda odak noktası güçlü uyarıcıdadır.\n-Öğrenmeyi direkt olarak etkiler."),
     InfoCardItem("eo_Info_308","Anlamsal çağrışım","-Öğrenme sırasında geçmiş öğrenmelerle bağ kurmaktır.\n-Yani yeni öğrenmeler önceki öğrenmelerden esinlenilerek gerçekleştirilir."),
@@ -95,7 +94,19 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
       InfoCardItem("ogrenogretsurec_info_40", "Alışkanlık kazanma", "-Organizma için rutin hale gelen etkinliklerdir.\n-Öğrencinin her bildiği soruya artı verilir. Bu başlangıçta ideal bir yöntemdir. Ancak süreç ilerledikçe, farklı pekiştireçler ile desteklenmezse öğrencide alışkanlık kazanma olur ve pekiştireç anlamını kaybeder."),
       InfoCardItem("ogrenogretsurec_info_41", "Programlanmış öğrenme", "-Adım adım gerçekleşen öğrenme sürecidir.\n-Basit öğrenmeler ile başlayan süreç daha karmaşık öğrenmeler ile devam eder.\n-Bilinenden bilinmeyene metodu kullanılır.\n-Bu metotlar sayesinde öğrenci öğrenme sürecinde aktiftir.\n-Geri bildirim önemlidir.\n-Doğru davranış hemen pekiştirilmelidir.\n-Öğrenmelerde bireysel hız farklılıklara sebep olur."),
       InfoCardItem("ogrenogretsurec_info_42", "Zincirleme", "-Aşamalılık söz konusudur.\n-Davranış bitmeden diğer davranışa geçilmez.\n-Davranış tamamlandıktan sonra pekiştireç gelir.\n-Aşamalar sıra ile yapılır ve atlama yapılmaz.\n-Araba kullanmak, çay demlemek örnek olarak verilebilir."),
-      InfoCardItem("ogrenogretsurec_info_43", "Ayırt edici uyarıcı", "-Davranışın sürekli belirli bir davranış veya ortamda iken pekiştirilmesi "),
+      InfoCardItem("ogrenogretsurec_info_43", "Ayırt edici uyarıcı", "-Davranışın sürekli belirli bir davranış veya ortamda iken pekiştirilmesidir.\n-Önemli olan uyarıcıdır.\n-Bir uyarıcı farklı durumları tetikleyebilir.\n-Pavlovun deneyindeki zile benzer.\n-İki farklı derste espiri yapan öğrenciye bir öğretmeni gülmüş, diğeri gülmemiştir. Gülen öğretmenin dersinde öğrenci espiri yapmaya devam eder. Gülen öğretmen ayırt edici uyarıcıdır."),
+    ]),
+    InfoCardModel("Öğrenme ve Öğretme Süreçleri-9", [
+      InfoCardItem("ogrenogretsurec_info_44", "Pekiştireç", "-Davranışın hemen arkasından verilen, organizma için haz kaynağı olan ve davranışın devamlılığını sağlayan uyarıcılardır.\n-Yapılan işlem pekiştirmedir.\n-Örneğin soruyu bilen öğrenciye artı vermek bir pekiştirmedir. Artı ise pekiştireçtir.\n-Dereceye giren öğrencilere kupa vermek bir pekiştirme iken kupa pekiştireçtir.\n-Pekiştirme ve pekiştireç olumlu ve olumsuz olmak üzere 2 çeşittir."),
+      InfoCardItem("ogrenogretsurec_info_45", "Olumlu Pekiştireç", "-Organizmaya haz veren, verildiğinde davranışın devamlılığını sağlayan pekiştireçtir.\n-Kendi içerisinde 2'ye ayrılır.\n\nBunlar;\n-Birincil(koşulsuz) olumlu pekiştireç,\n-İkincil(koşullu) olumlu pekiştireçtir."),
+      InfoCardItem("ogrenogretsurec_info_46", "Birincil(koşulsuz) olumlu pekiştireç", "-Yaşamsal duygulara hitap eden, yiyecek, içecek ve sevgi gibi biyolojik gereksinimleri harekete geçiren, insanı esasen fiziki yönden güdüleyen pekiştireçlerdir.\n-Pekiştirme doğal yolla gerçekleşir.\n-Örneğin 100 tam puan alan öğrenciye tost ısmarlama."),
+      InfoCardItem("ogrenogretsurec_info_47", "İkincil(koşullu) olumlu pekiştireç", "-Nötr(organizma için anlamı olmayan) bir uyarıcının, birincil (koşulsuz) pekiştireç ile ilişkilmesiyle pekiştirme özelliği kazanmasına denir.\n-Örnek: defteri düzenli olan öğrenciye yıldız vermek"),
+      InfoCardItem("ogrenogretsurec_info_48", "", ""),
+      InfoCardItem("ogrenogretsurec_info_49", "", ""),
+      InfoCardItem("ogrenogretsurec_info_50", "", ""),
+      InfoCardItem("ogrenogretsurec_info_51", "", ""),
+      InfoCardItem("ogrenogretsurec_info_52", "", ""),
+
     ]),
     InfoCardModel("Hazırlanıyor", [
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
@@ -103,18 +114,6 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
     ]),
 /*    InfoCardModel("", [
-
-
-
-      InfoCardItem("ogrenogretsurec_info_44", "", ""),
-      InfoCardItem("ogrenogretsurec_info_45", "", ""),
-      InfoCardItem("ogrenogretsurec_info_46", "", ""),
-      InfoCardItem("ogrenogretsurec_info_47", "", ""),
-      InfoCardItem("ogrenogretsurec_info_48", "", ""),
-      InfoCardItem("ogrenogretsurec_info_49", "", ""),
-      InfoCardItem("ogrenogretsurec_info_50", "", ""),
-      InfoCardItem("ogrenogretsurec_info_51", "", ""),
-      InfoCardItem("ogrenogretsurec_info_52", "", ""),
       InfoCardItem("ogrenogretsurec_info_53", "", ""),
       InfoCardItem("ogrenogretsurec_info_54", "", ""),
       InfoCardItem("ogrenogretsurec_info_55", "", ""),
