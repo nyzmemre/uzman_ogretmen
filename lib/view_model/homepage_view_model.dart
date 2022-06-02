@@ -35,7 +35,7 @@ class HomePageViewModel{
   static EgitimInfoViewModel _egitimInfoViewModel=EgitimInfoViewModel();
   List<MyContainer> _homepageInfoCardList=[
     MyContainer("Eğitim Bilimleri", kRouteTest, kRed, _egitimInfoViewModel.egitimOgretimInfoCard),
-    MyContainer("Öğrenme ve Öğretmen Süreçleri", kRouteTest, kRed, _ogrenmeogretmesurec.ogrenmeOgretmeSurec),
+    MyContainer("Öğrenme ve Öğretme Süreçleri", kRouteTest, kRed, _ogrenmeogretmesurec.ogrenmeOgretmeSurec),
     MyContainer("Ölçme ve Değerlendirme", kRouteTest, kTurquoise,_olcmeDegerInfoViewModel.olcmeDegerList),
     MyContainer("Özel Eğitim ve Rehberlik", kRouteTest, kYellow, _ozelEgitimInfoViewModel.ozelEgitim),
     MyContainer("Eğitim Araştırmaları ve AR-GE Çalışmaları", kRouteTest, kBlue,_egitimArastirmaInfoViewModel.egitimArastirma),

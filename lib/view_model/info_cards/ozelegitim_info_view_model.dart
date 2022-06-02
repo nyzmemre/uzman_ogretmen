@@ -170,14 +170,14 @@ class OzelEgitimInfoViewModel extends ChangeNotifier{
    //   InfoCardItem("eo_Info_29","","(Madde )"),
 //
 //
-   // ]),
+   ]),
    // InfoCardModel("Yönetmelik-9", [
 //
    //     ]),
-   // InfoCardModel("Hazırlanıyor", [
-   //   InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
-   //   InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
-   //   InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+    InfoCardModel("Hazırlanıyor", [
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
     ]),
     /*InfoCardModel("", [
       InfoCardItem("ozelegitim_info_1", "", ""),
