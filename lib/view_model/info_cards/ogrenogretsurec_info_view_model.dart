@@ -12,7 +12,7 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
       InfoCardItem("eo_Info_283","Öğrenme Psikolojisi","-Öğrenme ve psikolojide ortak unsur davranıştır.\n-Psikoloji biliminin öğrenme odaklı olması öğrenme psikolojisi kavramını ortaya çıkartır.\n-Öğrenmenin nasıl gerçekleştiğini, öğrenmeyi etkileyen faktörleri, öğrenmeler arası disiplinleri, öğrenmede bireysel farklılıkları ve öğrenmeyi oluşturan unsurları inceler."),
 
     ]),InfoCardModel("Öğrenme ve Öğretme Süreçleri-2", [
-      InfoCardItem("eo_Info_284","Temel kavramlar","Davranış: Dış dünyada gözlemlenebilen her türlü etkinliğidir.\n-Bilişsel, duyuşsal, psikomotor, öğrenilmiş, istendik, istenmedik, geçici ve refleksif olabilir."),
+      InfoCardItem("eo_Info_284","Temel kavramlar","Davranış: Dış dünyada gözlemlenebilen her türlü etkinliğe denir.\n-Bilişsel, duyuşsal, psikomotor, öğrenilmiş, istendik, istenmedik, geçici ve refleksif olabilir."),
       InfoCardItem("eo_Info_285","Bilişsel davranış","-Zihinsel süreç gerektiren davranışlardır.\n-Eylemin yapılmasında sebep sonuç ilişkisi kurma, dikkat etme, hatırlama, yorum çıkartma ve hayalgücünü kullanma gibi zihinsel süreçler etkilidir."),
       InfoCardItem("eo_Info_286","Duyuşsal davranış","-Duygular ön plandadır.\n-Sevinç, üzüntü, korku, heyecan gibi duyguların beyin süzgecinden geçerek davranışa dönüşmesidir."),
       InfoCardItem("eo_Info_287","Psikomotor davranış","-El göz koordinasyonu gerektirir.\n-Yürüme, koşma, zıplama, kaldırma gibi fiziksel aktiviteler içerir."),
@@ -43,14 +43,14 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
     InfoCardItem("eo_Info_309","Kavramsal gruplandırma","-Konuların birbiri ile ilişkilerinin haritalama ile ortaya çıkarılmasıdır.\n-Hiyerarşik düzende ilişkilendirme yapılır.\n-Kavram haritası mantığı kullanılır."),
     InfoCardItem("eo_Info_310","Çağrışımsal gruplandırma","-İçeriğin deneyimlerle ve bilgilerle ilişkilendirilmesidir.\n-Çağrışım sayısı ne kadar artarsa, hatırlama düzeyi o kadar artar."),
     InfoCardItem("eo_Info_311","Telaffuz edilebilirlik","-İçeriğin dilsel gelişime uygun olarak verilmesidir.\n-Konu uygun ve anlaşılır örneklerle açıklanır."),
-]),InfoCardModel("Öğrenme ve Öğretme Süreçleri-5", [
+]),InfoCardModel("Öğrenme ve Öğretme Süreçleri-5 (Yeni)", [
       InfoCardItem("ogrenogretsurec_info_1", "Öğrenme Öğretme Kuramları", "-Davranışçı Kuramlar,\n-Bilişsel Kuramlar,\n-Duyuşsal Kuramlar,\n-Nörofizyolojik Kuramlar"),
       InfoCardItem("ogrenogretsurec_info_2", "Davranışçı Kuramlar-1", "-Öğrenme davranış ile uyarıcı arasındaki etkileşim ile meydana gelir.\n-Yani uyarıcı ve davranış arasında bağ kurulur.\n-Davranış değişikliği pekiştirme yolu ile elde edilir.\n-Öğrenmede çevresel etmenler etkilidir.\n-Bu yüzden çevre değiştikçe öğrenme değişir."),
       InfoCardItem("ogrenogretsurec_info_3", "Davranışçı Kuramlar-2", "-Pragmatist, yani faydaya dayalıdır.\n-Önceki öğrenmeler sonraki öğrenmeleri etkiler.\n-Determinizm(nedensellik) temel ilkedir.\n-Yani nedenler değiştikçe sonuçlar değişir.\n-Davranış doğru ise pekiştirme gerekir.\n-Dolayısıyla pekiştirilen davranış öğrenilir."),
       InfoCardItem("ogrenogretsurec_info_4", "Davranışçı Kuramlar-3", "-Öğrenme yalnızca gözlenebilen ve ölçülebilen davaranışları konu edinir.\n-Öğrenme tekrar ve yaparak yaşayarak öğrenmeye dayalıdır.\n-Öğrenme sonucunda yanlış davranış kazanılmışsa bu koşullanmanın yanlış olmasından kaynaklanmış demektir.\n-İçgüdü gözlenemediği için kabul edilmezken dışsal faktörler öğrenmede kabul edilir."),
       InfoCardItem("ogrenogretsurec_info_5", "Davranışçı Kuramlar-4", "-Klasik koşullanma,\n-Edimsel koşullanma\n-Watson ve Bitişiklik kuramı"),
        ]),
-    InfoCardModel("Öğrenme ve Öğretme Süreçleri-6", [
+    InfoCardModel("Öğrenme ve Öğretme Süreçleri-6 (Yeni)", [
       InfoCardItem("ogrenogretsurec_info_6","Klasik Koşullanma", "-Pavlov'un köpek deneyi olarak bilinir.\n-Zil sesinden sonra et verilen köpeğin, tekrar yoluyla zil sesini duyduğunda et geleceğini düşünerek salya akıtması klasik koşullanma örneğidir.\n-Bu deneyde zil ve et salya tepkisine sebep olur."),
       InfoCardItem("ogrenogretsurec_info_7","Deney üzerinden temel kavramlar-1", "-Koşulsuz Uyarıcı: Doğuştan varolan ve tüm canlılarda olan uyarıcıdır. (Et tüm köpekler için doğal uyarıcıdır.)\n-Koşulsuz tepki: Tüm canlıların aynı uyarıcıya verdikleri ortak tepkidir. (Et gören köpeğin salyası akar.)\n-Nötr uyarıcı: Canlı için henüz anlam ifade etmeyen uyarıcı. (Zil sesini duyan köpekte öğrenme yoksa sese tepki vermez.)"),
       InfoCardItem("ogrenogretsurec_info_8","Deney üzerinden temel kavramlar-2", "-Pekiştireç: Koşulsuz uyarıcının görevidir. (Yani et, köpeğin doğru davranışını pekiştirmek için kullanılır.)\n-Birincil Pekiştireç: Koşulsuz tepkiyi oluşturur. (Et, köpekte doğal tepki oluşturur ve birincil pekiştireçtir.)\n-İkincil Pekiştireç: Koşullu tepkiyi oluşturur. (Zil, zil sonunda salyayı oluşturur.)"),
@@ -61,7 +61,7 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
       InfoCardItem("ogrenogretsurec_info_13", "Örneklerle Koşullanma İlkeleri-3", "-Ayırt etme: Sadece belirli bir uyarcıya belirli tepkinin verilmesidir. (Zil sesine salya akıtan köpeğin düdük sesine akıtmaması)\n-Genelleme: Tepkinin benzer uyarıcılara da verilmesidir. (Zil sesinde salyası akan köpeğin düdük sesinde de salyasının akması)"),
       InfoCardItem("ogrenogretsurec_info_14", "Örneklerle Koşullanma İlkeleri-4", "-Geçici koşullanma: Aynı aralıklarla verilen uyarıcıya geçici koşullanma oluşmasıdır. (30 dakika ara ile et verilen köpeğin et verilmese de salyasının akması)\n-Üst düzey koşullanma: Tepki verilen uyarıcının yanına yeni uyarıcılar eklenmesiyle, yeni eklenen uyarıcılara da tepki verilmesidir."),
          ]),
-    InfoCardModel("Öğrenme ve Öğretme Süreçleri-7", [
+    InfoCardModel("Öğrenme ve Öğretme Süreçleri-7 (Yeni)", [
       InfoCardItem("ogrenogretsurec_info_15", "Garcia Etkisi", "-Bir olayın arada zaman farkı olan başka bir olaya bağlanması sonucunda yaşanan zihinsel ilişki sürecidir.\n-Örneğin ellerinin üzerinde kızarıklık oluşan bir kişinin sebebini 3 gün önce gittiği kır gezisine bağlamasıdır. Bu sebeple tekrar kır gezisine gitmez."),
       InfoCardItem("ogrenogretsurec_info_16", "Duyusal Ön Şartlanma", "-Bir uyarıcıya koşullanan organizmanın, koşullanmadan önce bu uyarıcı ile ilişkilendirdiği şeylere de uyarıcıya verdiği tepkiyi vermesidir.\n-Döner yedikten sonra midesi bulanan ve hastanede tedavi gören kişinin, olaydan sonra dönerin yanındaki ayranı gördüğünde de midesinin bulanmasıdır."),
       InfoCardItem("ogrenogretsurec_info_17", "Öğrenilmiş Çaresizlik", "-Artık sonucun değişmeyeceğine inanılması sürecidir.\n-Doğruluk payı yoktur.\n-Araba kullanmakta zorlanan kişinin, ne kadar çalışırsam çalışayım ben asla araba kullanamam düşüncesine kapılmasıdır.\n-Öğrenilmiş çaresizlik sonucun ne olduğuna bakmadan kabul edilmesi sürecidir."),
@@ -72,14 +72,14 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
       InfoCardItem("ogrenogretsurec_info_22", "Sönme", "-Davranış pekiştirilmeyerek veya görmezden gelinerek ortadan kalkması beklenir.\n-Gereksiz yere sürekli parmak kaldıran öğrenciye öğretmenin söz hakkı vermemesi ile parmak kaldırma davranışının ortadan kalkması sürecidir.\n-Alışma ve sönme karıştırılabilir.\n-Temel fark alışmada uyarıcı şiddeti sabitlenir."),
       InfoCardItem("ogrenogretsurec_info_23", "İtici uyarıcıya koşullanma", "-Amaç uyarıcının ilgi çekiciliğini azaltmaktır.\n-İstenen uyarıcıya istenmeyen uyarıcı eşlik eder.\n-Organizma durumdan öncesinde haberdar değildir.\n-Örneğin asitli içecek içmemesi gereken bir çocuğun içeceğine karabiber konularak içmesinin engellenmesi."),
       ]),
-      InfoCardModel("Öğrenme ve Öğretme Süreçleri-8", [
+      InfoCardModel("Öğrenme ve Öğretme Süreçleri-8 (Yeni)", [
       InfoCardItem("ogrenogretsurec_info_24", "Edimsel Koşullanma", "-Skinner tarafından ortaya konulmuştur.\n-Ödüle götüren veya cezadan kurtaran tepkinin öğrenilmesidir.\n-Skinner davranış türlerini tepkisel ve edimsel olmak üzere ikiye ayırır.\n-Ancak Skinner tepkisel davranışlar yerine edimsel davranışlar üzerinde durmuştur.\n-Şimdi tepkisel ve edimsel davranışlara daha yakından bakalım."),
       InfoCardItem("ogrenogretsurec_info_25", "Tepkisel Davranışlar", "-Organizmanın doğasında olan refleksif davranışlardır.\n-Önce kokusunu duyup sonra yediği yemeği çok beğenen bir kişinin, yemeğin kokusunu aldığında ağzının sulanması örnektir.\n-Davranışlar koşulsuz uyarıcı ile ortaya çıkar.\n-Ortaya çıkan davranışlar da koşulsuz tepkilerdir."),
       InfoCardItem("ogrenogretsurec_info_26", "Edimsel Davranışlar", "-Sonuçları kontrol edilebilen davranışlardır.\n-Davranışın devamlılığı organizmanın süreçten ve sonuçtan memnuniyet duyması ile ilişkilendirilir.\n-Örneğin tatile gittiğimiz bir yerden memnun kalırsak, aynı yere tekrar tatile gitmek bizi mutlu eder.\n-Derste doğru cevap veren öğrenciye artı verilmesi öğrencinin derste sorulara cevap vermesini pekiştirir."),
       InfoCardItem("ogrenogretsurec_info_27", "Skinner'ın Deneyi-1", "-Aç bırakılan bir fare, düzenek hazırlanmış bir kaba bırakılır.\n-Dokulduğunda peynir düşüren bir manivela, elektrik şoku ve istenildiğinde yakılabilen bir ışık bulunur.\n-Fare tesadüfen manivelaya dokunur ve peynir düşer.\n-Benzer davranışların tekrarında manivela ile peynir arasında bağlantı kurmayı öğrenir.\n-Bu işlem hemen gerçekleşmemiş aşama aşama öğrenilmiştir."),
       InfoCardItem("ogrenogretsurec_info_28", "Skinner'ın Deneyi-2", "-Skinner aynı fareye başka bir deney daha yapmıştır.\n-Öncesinde butona bastığında peynir alan fareye bu kez butona bastığında elektrik şoku verilmiştir.\n-Artık ceza ile sonuçlanan butona basma davranışı ortadan kalkmıştır."),
     ]),
-    InfoCardModel("Öğrenme ve Öğretme Süreçleri-9", [
+    InfoCardModel("Öğrenme ve Öğretme Süreçleri-9 (Yeni)", [
       InfoCardItem("ogrenogretsurec_info_29", "Temel Kavramlar-1", "Edimsel koşullanmaya ilişkin temel kavramlar;\n-Alışma,\n-Sönme,\n-Kendiliğinden geri gelme,\n-Ayırt etme,\n-Genelleme\n-Kademeli yaklaşma,\n-Batıl Davrnanış..."),
       InfoCardItem("ogrenogretsurec_info_30", "Temel Kavramlar-2", "-Premack ilkesi,\n-Yoksunluk,\n-Alışkanlık kazanma,\n-Programlanmış öğrenme,\n-Zincirleme,\n-Ayırt edici uyarıcı"),
       InfoCardItem("ogrenogretsurec_info_31", "Alışma", "-Pekiştireç sürekli kullanılırsa etkisi azalır.\n-Bu süreçten sonra pekiştirmenin devam etmesi bir anlam ifade etmemektedir.\n-Ödevlerini yaptıktan sonra bilgisayar oyunu oynamasına müsade edilen bir çocuğun, aynı oyunu oynamaktan sıkılması sebebiyle oyun ödülüne olumlu tepki vermemesidir."),
@@ -88,7 +88,8 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
       InfoCardItem("ogrenogretsurec_info_34", "Ayırt etme", "-Tepki verilecek durumun seçilmesidir.\n-Yani bir uyarıcıya verilen tepki başka bir uyarıcıya verilmemektedir.\n-Sınıfta espiri yapan öğrenciye bir öğretmeni gülerek karşılık vermiş diğer aynı espiriye kaşlarını çatarak karşılık vermiştir. Bu öğrenci devamında sadece gülen öğretmenine espiri yapmaya devam etmiştir."),
       InfoCardItem("ogrenogretsurec_info_35", "Genelleme", "-Bir tepkinin uyarıcıya benzeyen diğer uyarıcılar için de verilmesidir.\n-Ses tonu babasına benzeyen öğretmenini babasına benzetmesi genellemedir.\n-Bazen öğrenmeler de genellenebilir."),
       InfoCardItem("ogrenogretsurec_info_36", "Kademeli yaklaşma", "-İstenilen davranışa ulaşmak için küçük adımlardan başlanır.\n-Süreç içinde davranış pekiştirilerek kazandırılır.\n-Uzun atlama öğretilmek istenen öğrenci kısa mesafelerden başlanarak çalıştırılır. Her doğru atlaması pekiştirilir ve atlama uzuluğu arttırılır. Böylece süreç sonunda uzun atlamada istenilen mesafe yakalanır. Temel nokta her seferinde pekiştirmektir."),
-      InfoCardItem("ogrenogretsurec_info_37", "Batıl Davrnanış", "-İlişkisi olmayan bir durumun, ilişkisinin varlığına organizmanın kendini inandırmasıdır.\n-Sınava abisinin kalemiyle giren bir öğrenci yüksek not alır. Aldığı yüksek notu kaleme bağlar. Diğer sınavlarda da bu kalemi kullanır."),
+      ]),InfoCardModel("Öğrenme ve Öğretme Süreçleri-10 (Yeni)", [
+        InfoCardItem("ogrenogretsurec_info_37", "Batıl Davrnanış", "-İlişkisi olmayan bir durumun, ilişkisinin varlığına organizmanın kendini inandırmasıdır.\n-Sınava abisinin kalemiyle giren bir öğrenci yüksek not alır. Aldığı yüksek notu kaleme bağlar. Diğer sınavlarda da bu kalemi kullanır."),
       InfoCardItem("ogrenogretsurec_info_38", "Premack ilkesi", "-Babaanne kuralı olarak geçer.\n-Çok istenilen davranışın az istenilen ile birlikte gerçekleştirilmesidir.\n-Bilgisayarda oyun oynamak isteyen bir öğrencinin ödevlerini yapması koşuluyla bilgisayar oyunu oynamasına izin verilmesi örnek olarak gösterilebilir."),
       InfoCardItem("ogrenogretsurec_info_39", "Yoksunluk", "-İstenilen davranış sergilenmeden önce pekiştirecin ortadan kaldırılması performansın arttırılmasına sebep olur.\n-Öğrenci bilgisayar oyunu oynamak ister. Ancak ödevleri bitmediği için ailesi müsade etmez. Süreç sonunda bilgisayar oynayacağını bilen çocuk ödevlerini bitirmek için daha fazla gayret gösterir."),
       InfoCardItem("ogrenogretsurec_info_40", "Alışkanlık kazanma", "-Organizma için rutin hale gelen etkinliklerdir.\n-Öğrencinin her bildiği soruya artı verilir. Bu başlangıçta ideal bir yöntemdir. Ancak süreç ilerledikçe, farklı pekiştireçler ile desteklenmezse öğrencide alışkanlık kazanma olur ve pekiştireç anlamını kaybeder."),
@@ -96,7 +97,7 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
       InfoCardItem("ogrenogretsurec_info_42", "Zincirleme", "-Aşamalılık söz konusudur.\n-Davranış bitmeden diğer davranışa geçilmez.\n-Davranış tamamlandıktan sonra pekiştireç gelir.\n-Aşamalar sıra ile yapılır ve atlama yapılmaz.\n-Araba kullanmak, çay demlemek örnek olarak verilebilir."),
       InfoCardItem("ogrenogretsurec_info_43", "Ayırt edici uyarıcı", "-Davranışın sürekli belirli bir davranış veya ortamda iken pekiştirilmesidir.\n-Önemli olan uyarıcıdır.\n-Bir uyarıcı farklı durumları tetikleyebilir.\n-Pavlovun deneyindeki zile benzer.\n-İki farklı derste espiri yapan öğrenciye bir öğretmeni gülmüş, diğeri gülmemiştir. Gülen öğretmenin dersinde öğrenci espiri yapmaya devam eder. Gülen öğretmen ayırt edici uyarıcıdır."),
     ]),
-    InfoCardModel("Öğrenme ve Öğretme Süreçleri-9", [
+    InfoCardModel("Öğrenme ve Öğretme Süreçleri-11 (Yeni)", [
       InfoCardItem("ogrenogretsurec_info_44", "Pekiştireç", "-Davranışın hemen arkasından verilen, organizma için haz kaynağı olan ve davranışın devamlılığını sağlayan uyarıcılardır.\n-Yapılan işlem pekiştirmedir.\n-Örneğin soruyu bilen öğrenciye artı vermek bir pekiştirmedir. Artı ise pekiştireçtir.\n-Dereceye giren öğrencilere kupa vermek bir pekiştirme iken kupa pekiştireçtir.\n-Pekiştirme ve pekiştireç olumlu ve olumsuz olmak üzere 2 çeşittir."),
       InfoCardItem("ogrenogretsurec_info_45", "Olumlu Pekiştireç", "-Organizmaya haz veren, verildiğinde davranışın devamlılığını sağlayan pekiştireçtir.\n-Kendi içerisinde 2'ye ayrılır.\n\nBunlar;\n-Birincil(koşulsuz) olumlu pekiştireç,\n-İkincil(koşullu) olumlu pekiştireçtir."),
       InfoCardItem("ogrenogretsurec_info_46", "Birincil(koşulsuz) olumlu pekiştireç", "-Yaşamsal duygulara hitap eden, yiyecek, içecek ve sevgi gibi biyolojik gereksinimleri harekete geçiren, insanı esasen fiziki yönden güdüleyen pekiştireçlerdir.\n-Pekiştirme doğal yolla gerçekleşir.\n-Örneğin 100 tam puan alan öğrenciye tost ısmarlama."),
@@ -105,14 +106,58 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
       InfoCardItem("ogrenogretsurec_info_49", "Olumsuz Pekiştireç-2", "-Kendi içerisinde 2'ye ayrılır.\n\nBunlar;\n-Birincil(koşulsuz) olumsuz pekiştireç,\n-İkincil(koşullu) olumsuz pekiştireçtir."),
       InfoCardItem("ogrenogretsurec_info_50", "Birincil(koşulsuz) olumsuz pekiştireç", "-Organizmaya direkt olarak zarar verme durumu olan uyarıcılardır.\n-Yaşamı tehdit eder.\n-Elektrik şoku verilen hayvanlar zarar görme korkusu ile doğru davranışı sergilemiştir.\n-Yaz tatilinde ailesi ile eğlenceli vakit geçiren Erdal, babasının verdiği görevi yapmazsa abisi tarafından soğuk suyla ıslatılmıştır. Soğuk sudan korunmak için Erdal istenilen davranışı gerçekleştirir."),
       InfoCardItem("ogrenogretsurec_info_51", "İkincil(koşullu) olumsuz pekiştireçtir", "-Organizmaya zarar vermez.\n-Ancak organizma tarafından yine istenmez.\n-Ayrıca başlangıçta nötr olduğu halde birincil olumsuz pekiştireç ile pekiştireç özelliği kazanır.\n-Sınıfta sürekli konuşan öğrencinin sözlü notunun düşürülmesi doğru davranışı gösterme olasılığını arttırır."),
-    ]), InfoCardModel("Öğrenme ve Öğretme Süreçleri-10", [
+    ]), InfoCardModel("Öğrenme ve Öğretme Süreçleri-12 (Yeni)", [
       InfoCardItem("ogrenogretsurec_info_52", "Sosyal Pekiştireç", "-Sosyal ortamlarda organizmayı mutlu eden, haz duyuran, motivasyonunu arttıran ve davranış sıklığını arttıran pekiştireçtir.\n-Temel noktası sosyal ortamı kapsamasıdır.\n-Toplum içerisinde bir davranışından dolayı övülen bir çocuk davranışı sürdürür.\n-Onaylama, saygı duyma vs. örnekler verilebilir."),
       InfoCardItem("ogrenogretsurec_info_53", "Sembolik Pekiştireç", "-Organizmanın sergilediği davranış sembolik değerler ile ödüllendirilir.\n-Puan, marka, gülen yüz kartı vs. gibi sembolik değerler kullanılır.\n-Öğrencilerden ödev yapanlara yıldız verilmesi semboliktir.\n-Ayrıca not verme, alkışlama, futboldaki sarı kart vs. gibi örnekler verilebilir."),
       InfoCardItem("ogrenogretsurec_info_54", "Nesne Pekiştireç", "-Organizmanın sergilediği olumlu davranışın nesneler ile ödüllendirilmesidir.\n-Sınavda sınıfın en yüksek puanını alan öğrencinin tablet ile ödüllendirilmesi örnektir."),
-      InfoCardItem("ogrenogretsurec_info_55", "Faaliyet Pekiştireç", "-Organizmanın sergilediği olumlu davranışın sevdiği faaliyetler ile ödüllendirilmesidir.\n-Yıl sonu başarı puanı istenilen düzeyde olan öğrencinin yaz futbol okuluna yazdırılması örnek olarak verilebilir."),
-      InfoCardItem("ogrenogretsurec_info_56", "", ""),
-      InfoCardItem("ogrenogretsurec_info_57", "", ""),
-
+      InfoCardItem("ogrenogretsurec_info_55", "Faaliyet Pekiştireç", "-Organizmanın sergilediği olumlu davranışın sevdiği faaliyetler ile ödüllendirilmesidir.\n-Yıl sonu başarı puanı istenilen düzeyde olan öğrencinin yaz futbol okuluna yazdırılması örnek olarak verilebilir.\n-İstenilen davranışı gösteren çocuğa istediği oyuncak kostümünü almak da bu kapsamda değerlendirilir."),
+      InfoCardItem("ogrenogretsurec_info_56", "Pekiştirme Aralıkları", "-Sürekli pekiştirme,\n-Sabit zaman aralıklı pekiştirme\n-Değişken zaman aralıklı pekiştirme\n-Sabit oranlı pekiştirme\n-Değişken oranlı pekiştirme"),
+      InfoCardItem("ogrenogretsurec_info_57", "Sürekli pekiştirme", "-İstenilen davranış her gerçekleştiğinde pekiştireç verilir.\n-İlk öğrenmelerde tercih edilir.\n-En basit pekiştirme yöntemidir.\n-Düzenli ders çalışma alışkanlığı kazandırılmak istenen bir çocuğun, her ders çalışmasında ödüllendirilmesi örnek olarak verilebilir.\n-Sönmeye karşı direnci düşüktür."),
+      InfoCardItem("ogrenogretsurec_info_58", "Sabit zaman aralıklı pekiştirme", "-Pekiştirme belirlenmiş aralıklar ile yapılır.\n-Her 40 dakikada bir eksi almayan öğrencilerin ödüllendirilmesi.\n-Dereceye giren öğrencilerin her hafta Cuma günü ödüllendirilmesi."),
+      InfoCardItem("ogrenogretsurec_info_59", "Değişken zaman aralıklı pekiştirme", "-Organizma pekiştirmenin ne zaman geleceğini bilmez.\n-Davranış devam ederken aniden ödül verilir.\n-Bu durum davranışta sürekliliği sağlamada etkilidir.\n-Öğretmenin zamanı bildirmeden ön sınav yapması, öğrencilerin defrelerinin zaman bildirilmeden kontrol edilmesi örnek olarak verilebilir."),
+      InfoCardItem("ogrenogretsurec_info_60", "Sabit oranlı pekiştirme", "-Pekiştirecin verilme durumunu belirleyen davranışın sayısıdır.\n-İstenilen davranış belli sayıda gösterildikten sonra pekiştireç verilir.\n-Öğrencinin verdiği 5 doğru cevap için kantinden çikolata alması, girilen ders sayısı kadar ek ücret alınması örnek olarak verilebilir."),
+      InfoCardItem("ogrenogretsurec_info_61", "Değişken oranlı pekiştirme", "-Pekiştirecin verilme durumunda davranışın kaç kez tekrarlanacağı belirtilmemiştir.\n-Sönme direnci en yüksek olan pekiştireçtir.\n-Yere atılan çöpleri alanlara ödül veren öğretmenin, bazen 1 kez atana bazen 3 kez atana ödül vermesi örnektir.\n-Pekiştirecin kaç davranıştan sonra geleceği belli olmadığı için organizmayı sürekliliğe iter."),
+    ]),InfoCardModel("Öğrenme ve Öğretme Süreçleri-13 (Yeni)", [
+      InfoCardItem("ogrenogretsurec_info_62", "Ceza-1", "-Organizmanın, istenmeyen davranışı yapmasına engel olmak için organizmaya uygulanan yaptırım olarak tanımlanır.\n-Amaç organizmanın olumsuz davranıştan uzaklaşmasını sağlamaktır.\n-Davranıştan sonra ceza verilmesi esastır.\n-Aksi taktirde organizma neden cezalandırıldığını bilemeyeceği için davranışın ortadan kaldırılmasına katkısı olmayacaktır."),
+      InfoCardItem("ogrenogretsurec_info_63", "Ceza-2", "-Ceza alınma olasılılğı olduğu sürece organizma istenmeyen davranışı göstermeyecektir.\n-Ancak ceza ortadan kalktığında organizma aynı davranışı gösterme eğilimi gösterecektir.\n-Ceza istenmeyen davranışı ortadan kaldırırken başka istenmeyen davranışların ortaya çıkmasına sebep olabilir.\n-Ceza, organizmada saldırganlığa neden olabilir."),
+      InfoCardItem("ogrenogretsurec_info_64", "Ceza/Olumsuz Pekiştirme-1", "-En çok karıştırılan kavramlardandır.\n-İstenmeyen davranış sonucunda organizmaya ceza verilir.\n-Olumsuz pekiştirmede ise istenilen davranış ortaya çıktığında istenmeyen durum ortamdan çekilir.\n-Beden eğitimi dersinde kavga eden öğrencinin topunu almak ceza iken kavga etmeyen çocuğun inmiş topunu alıp şişmiş top vermek olumsuz pekiştireçtir. "),
+      InfoCardItem("ogrenogretsurec_info_65", "Ceza/Olumsuz Pekiştirme-2", "-Davranış sonucunda ceza verilirse, davranışın ortaya çıkma olasılığı azalır.\n-Davranış sonucunda olumsuz pekiştirme yapılırsa davranışın ortaya çıkma olasılığı artar.\n-Ceza olumsuz pekiştireçleri ortama getirirken olumsuz pekiştirmede olumsuz pekiştireçler ortadan kaldırılır."),
+      InfoCardItem("ogrenogretsurec_info_66", "Ceza Türleri", "İki tür ceza bulunur. Bunlar;\n-1. Tür Ceza,\n-2. Tür Cezadır."),
+      InfoCardItem("ogrenogretsurec_info_67", "1. Tür Ceza", "-İstenmeyen uyarıcı ortama sokulur.\n-Ortama istenmeyen uyarıcı girdiği anda davranış durur.\n-Ortama giren uyarıcı olumsuz pekiştireçtir.\n-Susmayan sınıfa öğretmenin sert bakış atması, kemer takmayan sürücünün çevirmede ceza yemesi örnek olarak verilebilir."),
+      InfoCardItem("ogrenogretsurec_info_68", "2. Tür Ceza", "-İstenen uyarıcı ortamdan çekilir.\n-Ortamdan istenilen uyarıcı çekilerek istenilen davranış gerçekleştirilir.\n-Ortamdan çekilen uyarıcı olumlu pekiştireçtir.\n-Ödevini yapmayan öğrencinin bilgisayar oynayamaması, notları düşük olan öğrencinin yıl sonu gezisine katılamaması örnek olarak verilebilir."),
+      InfoCardItem("ogrenogretsurec_info_69", "Ceza Uygulanırken-1", "-Cezanın davranışı hızlı ama geçici söndüreceği unutulmamalıdır.\n-Cezalandırma uygulanacaksa davranış sonrası gecikme olmamalııdr.\n-Aynı davranışa ceza vermekte kararlı davranılmalıdır.\n-Ceza aniden verilmemeli, öncesinde bildirilmelidir.\n-Kişiliği hedefleyen cezalar verilmemelidir."),
+      InfoCardItem("ogrenogretsurec_info_70", "Ceza Uygulanırken-2", "-Başkalarına ders verme, korkutma, söz geçirme veya ispatlama gibi amaçlarla ceza verilmemelidir.\n-Davranış gerçekleşmeden veya gerçekleşmesinin üzerinden uzun süre geçtikten sonra ceza verilmemelidir.\n-Ceza uygulanan kişi için anlamsız olmamalıdır.\n-Fiziksel olarak zarar verecek türden cezalar verilmemelidir."),
+    ]),
+    InfoCardModel("Öğrenme ve Öğretme Süreçleri-14 (Yeni)", [
+    InfoCardItem("ogrenogretsurec_info_71", "Watson", "-Davranışçıların babası Watson sayılır.\n-Watson'un savundğu görüşe göre insanlar yaratılırlar.\n-Bebeklerin koşullanma yoluyla öğretmen, polis, müzisyen vs. olabileceğini savunur.\n-Öğrenme sürecinde, öğretmenin görevinin öğrenme çevresinin kontrolü olduğunu belirtir."),
+    InfoCardItem("ogrenogretsurec_info_72", "Watson Bitişiklik Kuramı-1", "-Öğrenmenin ön koşulunun bitişiklik olduğunu söyler.\n-Organizmanın uyarıcıya verdiği tepki neticesinde bitişiklik oluşur.\n-Bitişiklik oluştuktan sonra ne zaman aynı uyarıcıyı görse, aynı tepki ortaya çıkar.\n-Davranışın çevresel etmenler ile gerçekleştiğini savunur.\n-Davranışta kalıtsal özelliklerin etkisinin olmadığını savunur."),
+    InfoCardItem("ogrenogretsurec_info_73", "Watson Bitişiklik Kuramı-2", "-Davranış kazandırmada öncelikle nötr uyarıcı verilmelidir.\n-Daha sonra koşulsuz uyarıcı verilmeli ve ikisi arasındaki süre kısa olmalıdır.(bitişiklik)\n-Öğrenme için bitişikliğin yanında tekrar da önemli yer kaplamaktadır.\n-Bu ifadeler Pavlov'un ifadeleri ile büyük ölçüde benzerlik göstermektedir.\n-Buradan hareketle Pavlov'un fikirlerini benimsediği söylenebilir."),
+    InfoCardItem("ogrenogretsurec_info_74", "Korku Koşullanması", "-Daha önce tepkisiz kalınan bir uyarıcıya korku tepkisi geliştirilmesidir.\n-Duygusal öğrenmelerin klasik koşullanmada var olduğunun ispat edilmiştir.\n-Korku koşullanmasının tespit edilmesi için, bir deney gerçekleştirilmiştir.\n-Bu deyin nasıl yapıldığına göz atalım."),
+    InfoCardItem("ogrenogretsurec_info_75", "Tavşan Deneyi-1", "-Öğrencisi Rayner ile gerçekleştirmiştir.\n-Korkunun doğal tepki mi yoksa öğrenilebilir bir deneyim mi olduğunu anlamak için yapılmıştır.\n-8 aylık bebek olan Albert'a maske, tavşan, fare vb. ilk kez gördüğü maddeler gösterilir.\n-Amaç koşulsuz(doğal) tepkinin varlığını ölçmektir.\n-Albert herşeye güler, hiçbir nesneden korkmaz."),
+    InfoCardItem("ogrenogretsurec_info_76", "Tavşan Deneyi-2", "-Albert boş bir odaya bırakılarak yanına fare gönderilir.\n-Albert fareden korkmaz aksine oynamak isterç\n-Daha sonra fareye her dokunduğunda rahatsız edici sesler çıkartılır.\n-Seslerden korkan Albert ağlar.\n-Bu işlem birkaç kez yapıldıktan sonra Albert fareye dokunmaktan korkar hale gelir."),
+    InfoCardItem("ogrenogretsurec_info_77", "Tavşan Deneyi-3", "-Fareye her dokunduğunda rahatsız edici sesler çıkartmaya devam edilir.\n-Albert her ses çıkartılmasında ağlamaya devam başlar.\n-Bu işlem birkaç gün devam ettikten sonra odaya beyaz tavşan bırakılır.\n-Albert, fareye benzeyen tavşanı veya benzer objeleri görünce de ağlamaya başlar.\n-Böylece korkuların öğrenilebildiği ispatlanır."),
+    InfoCardItem("ogrenogretsurec_info_78", "Korkunun Giderilmesi", "-Korku sonradan öğrenilebiliyorsa, korkulan bir durumdan korkmama da öğrenilebilir.\n-Korkunun giderilmesi işlemi aşama aşama gerçekleştirilir.\n-Önce uzağa tavşan konmuş sonra yavaş yavaş yaklaştırılmıştır.\n-Süreç sonunda Albert tavşandan korkma davranışını tekrar göstermemeiştir."),
+    InfoCardItem("ogrenogretsurec_info_79", "En Son En Sık İlkesi", "-Bir uyarıcıya verilecek tepkinin, uyarıcıya karşı yapılan en son ve en sık tepki olduğunu savunur.\n-Öğrenme için pekiştirmeye ihtiyaç duyulmadığını belirtmiştir.\n-Öğrenmenin güçlü olmasının temel koşulunun sık verilen koşullu ve koşulsuz uyarıcılar olduğu savunulur."),
+    //InfoCardItem("ogrenogretsurec_info_80", "", ""),
+    //InfoCardItem("ogrenogretsurec_info_81", "", ""),
+    //InfoCardItem("ogrenogretsurec_info_82", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_83", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_84", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_85", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_86", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_87", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_88", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_89", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_90", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_91", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_92", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_93", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_94", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_95", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_96", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_97", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_98", "", ""),
+    // InfoCardItem("ogrenogretsurec_info_99", "", ""),
     ]),
     InfoCardModel("Hazırlanıyor", [
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
@@ -120,19 +165,9 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
     ]),
 /*    InfoCardModel("", [
-      InfoCardItem("ogrenogretsurec_info_58", "", ""),
-      InfoCardItem("ogrenogretsurec_info_59", "", ""),
-      InfoCardItem("ogrenogretsurec_info_60", "", ""),
-      InfoCardItem("ogrenogretsurec_info_61", "", ""),
-      InfoCardItem("ogrenogretsurec_info_62", "", ""),
-      InfoCardItem("ogrenogretsurec_info_63", "", ""),
-      InfoCardItem("ogrenogretsurec_info_64", "", ""),
-      InfoCardItem("ogrenogretsurec_info_65", "", ""),
-      InfoCardItem("ogrenogretsurec_info_66", "", ""),
-      InfoCardItem("ogrenogretsurec_info_67", "", ""),
-      InfoCardItem("ogrenogretsurec_info_68", "", ""),
-      InfoCardItem("ogrenogretsurec_info_69", "", ""),
-      InfoCardItem("ogrenogretsurec_info_7", "", ""),
+
+
+
     ])*/
   ];
 
