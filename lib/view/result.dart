@@ -82,19 +82,15 @@ class Result extends StatelessWidget {
                     ),
                     Column(
                       children: [
-                        TextButton(
+                       TextButton(
                           onPressed: () {
-                            Navigator.pushAndRemoveUntil(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => HomePage(index: 1,)),
-                                (route) => false);
+                            Navigator.pop(context);
                             testPROVIDER
                                 .clearValue();
                             skorPROVIDER
                                 .clearTrueFalseValue();
                           },
-                          child: Text("Anasayfa"),
+                          child: Text("Farklı Test Çöz"),
                         ),
                         TextButton(
                           onPressed: () {
@@ -120,7 +116,21 @@ class Result extends StatelessWidget {
                                     builder: (context) => resultReplay ?? Test(list: list, listShuffle: listShuffle,)),
                                 (route) => false);*/
                           },
-                          child: Text("Yeni Test Çöz"),
+                          child: Text("Aynı Testi Çöz"),
+                        ),
+                        TextButton(
+                          onPressed: () {
+                            Navigator.pushAndRemoveUntil(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => HomePage(index: 1,)),
+                                    (route) => false);
+                            testPROVIDER
+                                .clearValue();
+                            skorPROVIDER
+                                .clearTrueFalseValue();
+                          },
+                          child: Text("Anasayfa"),
                         ),
                       ],
                     )

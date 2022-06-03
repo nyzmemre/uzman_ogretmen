@@ -1,22 +1,40 @@
 import 'package:flutter/material.dart';
 
 import '../../model/question.dart';
+import '../../model/test_list_homepage_model.dart';
 
 class EgitimArastirmaQuesViewModel extends ChangeNotifier{
-  List<Question> _egitimArastirmaList=[
-    ///"I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
+  ///"I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
+  List<TestListHomepageModel> _egitimArastirmaList=[
+   // TestListHomepageModel("Test 1",[  ]),
+   TestListHomepageModel("Karışık Test Çöz",[  Question("egitimarastirma_ques_Q1","", "Bir konuda öğrenilen veya öğretilen şeylere aşağıdakilerden hangisi denir?","Bilgi",["Eğitim","Konu","Bilgi","Öğretim","Veri"]),
+     Question("egitimarastirma_ques_Q2","I-Öğrenilir\nII-Öğretilir\nIII-Zihinsel süreçleri kapsar", "Bilgi ile ilgili yukarıdakilerden hangisi veya hangileri doğru olarak verilmiştir?","I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
+     Question("egitimarastirma_ques_Q3","", "Geçerliliği birçok kişi tarafından kabul edilmiş sistemli bilgilere aşağıdakiilerden hangisi denir?","Bilim",["Bilgi","Bilim","Araştırma","Hipotez","Fikir"]),
+     Question("egitimarastirma_ques_Q4","Öğretmeninin sorduğu soruyu cevaplamak için parmak kaldırarak söz isteyen Fatih,\n-'Geçerliliği birçok kişi tarafından kabul edilmiş sistemli bilgilere denir.' demiştir.", "Buna göre Fatih'in öğretmeni aşağıdaki sorulardan hangisini sormuştur?","Bilim nedir?",["Fayda nedir?","Kültür nedir?","Araştırma nedir?","Bilim nedir?","Ar-ge nedir?"]),
+     Question("egitimarastirma_ques_Q5","I-Gerçeğe aykırıdır\nII-Sistemlidir\nIII-Deneysel çalışılabilir", "Yukarıdakilerden hangisi veya hangileri bilim ile ilgili olarak doğru verilmiştir?","II-III", ["Yalnız I","Yalnız II","Yalnız III","II-III","I-II-III"]),
+     Question("egitimarastirma_ques_Q6","", "Öğretmeninin sorusuna, 'Bir konuda öğrenilen veya öğretilen şeydir' diye cevap veren Esra'nın öğretmeni aşağıdakilerden hangisini sormuştur?","Bilgi nedir?",["Fayda nedir?","Bilgi nedir?","Araştırma nedir?","Bilim nedir?","Ar-ge nedir?"]),
+     Question("egitimarastirma_ques_Q7","", "Açığa çıkartılmak istenen gerçeğin veya olgunun bilimsel yöntemlerle ortaya konmasına aşağıdakilerden hangisi denir?","Araştırma",["Bilgi","Bilim","Araştırma","Hipotez","Envanter"]),
+     Question("egitimarastirma_ques_Q8","", "Aşağıdakilerden hangisi araştırmanın en önemli ön koşuludur?","Sorunun olması",["Fikrin olması","Merakın olması","Faaliyet alanının olması","Koşulun olması","Sorunun olması"]),
+     Question("egitimarastirma_ques_Q9","4. sınıf öğrencisi Burak, araştırma konusunda deneyler yapmak istemektedir.", "Buna göre Burak aşağıdakilerden hangi araştırmaa yöntemini kullanacaktır?","Nicel araştıma",["Nicel araştıma","Betimsel araştırma","Temel araştırma","Nitel araştırma","Konu araştırması"]),
+     Question("egitimarastirma_ques_Q10","I-Nikel araştırma\nII-Nicel araştırma\nIII-Temel araştırma", "Yukarıdakilerden hangisi veya hangileri araştırma türlerindendir?","Yalnız II", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
+   ]),
+   TestListHomepageModel("Test 1",[   Question("egitimarastirma_ques_Q1","", "Bir konuda öğrenilen veya öğretilen şeylere aşağıdakilerden hangisi denir?","Bilgi",["Eğitim","Konu","Bilgi","Öğretim","Veri"]),
+     Question("egitimarastirma_ques_Q2","I-Öğrenilir\nII-Öğretilir\nIII-Zihinsel süreçleri kapsar", "Bilgi ile ilgili yukarıdakilerden hangisi veya hangileri doğru olarak verilmiştir?","I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
+     Question("egitimarastirma_ques_Q3","", "Geçerliliği birçok kişi tarafından kabul edilmiş sistemli bilgilere aşağıdakiilerden hangisi denir?","Bilim",["Bilgi","Bilim","Araştırma","Hipotez","Fikir"]),
+     Question("egitimarastirma_ques_Q4","Öğretmeninin sorduğu soruyu cevaplamak için parmak kaldırarak söz isteyen Fatih,\n-'Geçerliliği birçok kişi tarafından kabul edilmiş sistemli bilgilere denir.' demiştir.", "Buna göre Fatih'in öğretmeni aşağıdaki sorulardan hangisini sormuştur?","Bilim nedir?",["Fayda nedir?","Kültür nedir?","Araştırma nedir?","Bilim nedir?","Ar-ge nedir?"]),
+     Question("egitimarastirma_ques_Q5","I-Gerçeğe aykırıdır\nII-Sistemlidir\nIII-Deneysel çalışılabilir", "Yukarıdakilerden hangisi veya hangileri bilim ile ilgili olarak doğru verilmiştir?","II-III", ["Yalnız I","Yalnız II","Yalnız III","II-III","I-II-III"]),
+     Question("egitimarastirma_ques_Q6","", "Öğretmeninin sorusuna, 'Bir konuda öğrenilen veya öğretilen şeydir' diye cevap veren Esra'nın öğretmeni aşağıdakilerden hangisini sormuştur?","Bilgi nedir?",["Fayda nedir?","Bilgi nedir?","Araştırma nedir?","Bilim nedir?","Ar-ge nedir?"]),
+     Question("egitimarastirma_ques_Q7","", "Açığa çıkartılmak istenen gerçeğin veya olgunun bilimsel yöntemlerle ortaya konmasına aşağıdakilerden hangisi denir?","Araştırma",["Bilgi","Bilim","Araştırma","Hipotez","Envanter"]),
+     Question("egitimarastirma_ques_Q8","", "Aşağıdakilerden hangisi araştırmanın en önemli ön koşuludur?","Sorunun olması",["Fikrin olması","Merakın olması","Faaliyet alanının olması","Koşulun olması","Sorunun olması"]),
+     Question("egitimarastirma_ques_Q9","4. sınıf öğrencisi Burak, araştırma konusunda deneyler yapmak istemektedir.", "Buna göre Burak aşağıdakilerden hangi araştırmaa yöntemini kullanacaktır?","Nicel araştıma",["Nicel araştıma","Betimsel araştırma","Temel araştırma","Nitel araştırma","Konu araştırması"]),
+     Question("egitimarastirma_ques_Q10","I-Nikel araştırma\nII-Nicel araştırma\nIII-Temel araştırma", "Yukarıdakilerden hangisi veya hangileri araştırma türlerindendir?","Yalnız II", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
+   ]),
+   TestListHomepageModel("Hazırlanıyor",[
+     Question("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor", ["Hazırlanıyor","Hazırlanıyor","Hazırlanıyor","Hazırlanıyor","Hazırlanıyor"])
+   ]),
+  ];
 
-   Question("egitimarastirma_ques_Q1","", "Bir konuda öğrenilen veya öğretilen şeylere aşağıdakilerden hangisi denir?","Bilgi",["Eğitim","Konu","Bilgi","Öğretim","Veri"]),
-   Question("egitimarastirma_ques_Q2","I-Öğrenilir\nII-Öğretilir\nIII-Zihinsel süreçleri kapsar", "Bilgi ile ilgili yukarıdakilerden hangisi veya hangileri doğru olarak verilmiştir?","I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
-   Question("egitimarastirma_ques_Q3","", "Geçerliliği birçok kişi tarafından kabul edilmiş sistemli bilgilere aşağıdakiilerden hangisi denir?","Bilim",["Bilgi","Bilim","Araştırma","Hipotez","Fikir"]),
-   Question("egitimarastirma_ques_Q4","Öğretmeninin sorduğu soruyu cevaplamak için parmak kaldırarak söz isteyen Fatih,\n-'Geçerliliği birçok kişi tarafından kabul edilmiş sistemli bilgilere denir.' demiştir.", "Buna göre Fatih'in öğretmeni aşağıdaki sorulardan hangisini sormuştur?","Bilim nedir?",["Fayda nedir?","Kültür nedir?","Araştırma nedir?","Bilim nedir?","Ar-ge nedir?"]),
-   Question("egitimarastirma_ques_Q5","I-Gerçeğe aykırıdır\n-Sistemlidir\nIII-Deneysel çalışılabilir", "Yukarıdakilerden hangisi veya hangileri bilim ile ilgili olarak doğru verilmiştir?","II-III", ["Yalnız I","Yalnız II","Yalnız III","II-III","I-II-III"]),
-   Question("egitimarastirma_ques_Q6","", "Öğretmeninin sorusuna, 'Bir konuda öğrenilen veya öğretilen şeydir' diye cevap veren Esra'nın öğretmeni aşağıdakilerden hangisini sormuştur?","Bilgi nedir?",["Fayda nedir?","Bilgi nedir?","Araştırma nedir?","Bilim nedir?","Ar-ge nedir?"]),
-   Question("egitimarastirma_ques_Q7","", "Açığa çıkartılmak istenen gerçeğin veya olgunun bilimsel yöntemlerle ortaya konmasına aşağıdakilerden hangisi denir?","Araştırma",["Bilgi","Bilim","Araştırma","Hipotez","Envanter"]),
-   Question("egitimarastirma_ques_Q8","", "Aşağıdakilerden hangisi araştırmanın en önemli ön koşuludur?","Sorunun olması",["Fikrin olması","Merakın olması","Faaliyet alanının olması","Koşulun olması","Sorunun olması"]),
-   Question("egitimarastirma_ques_Q9","4. sınıf öğrencisi Burak, araştırma konusunda deneyler yapmak istemektedir.", "Buna göre Burak aşağıdakilerden hangi araştırmaa yöntemini kullanacaktır?","Nicel araştıma",["Nicel araştıma","Betimsel araştırma","Temel araştırma","Nitel araştırma","Konu araştırması"]),
-   Question("egitimarastirma_ques_Q10","I-Nikel araştırma\nII-Nicel araştırma\nIII-Temel araştırma", "Yukarıdakilerden hangisi veya hangileri araştırma türlerindendir?","Yalnız II", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
-  // Question("egitimarastirma_ques_Q11","", "","",["","","","",""]),
+    // Question("egitimarastirma_ques_Q11","", "","",["","","","",""]),
   // Question("egitimarastirma_ques_Q12","", "","",["","","","",""]),
   // Question("egitimarastirma_ques_Q13","", "","",["","","","",""]),
   // Question("egitimarastirma_ques_Q14","", "","",["","","","",""]),
@@ -87,6 +105,6 @@ class EgitimArastirmaQuesViewModel extends ChangeNotifier{
   // Question("egitimarastirma_ques_Q78","", "", "", ["","","","",""]),
   // Question("egitimarastirma_ques_Q79","", "", "", ["","","","",""]),
   // Question("egitimarastirma_ques_Q8","", "", "", ["","","","",""]),
-  ];
-  List<Question> get egitimArastirma=>_egitimArastirmaList;
+
+  List<TestListHomepageModel> get egitimArastirma=>_egitimArastirmaList;
 }

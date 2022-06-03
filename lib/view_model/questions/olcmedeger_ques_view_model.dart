@@ -130,5 +130,5 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
    // Question("olcmedeger_ques_Q79","", "", "", ["","","","",""]),
    // Question("olcmedeger_ques_Q8","", "", "", ["","","","",""]),
   ];
-  List<Question> get ogrenOgretSurec=>_olcmeDegerList;
+  List<Question> get olcmeDegerList=>_olcmeDegerList;
 }

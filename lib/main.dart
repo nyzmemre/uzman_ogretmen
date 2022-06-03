@@ -6,9 +6,11 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:uzman_ogretmen/model/info_card_model.dart';
 import 'package:uzman_ogretmen/view/onboard.dart';
 import 'package:uzman_ogretmen/view/splash.dart';
+import 'package:uzman_ogretmen/view_model/test_list_complete_view_model.dart';
 
 import 'model/info_card_item.dart';
 import 'model/note.dart';
+import 'model/test_list_homepage_model.dart';
 import 'view_model/egitim_ogretim_view_model.dart';
 import 'view_model/genel_kultur_view_model.dart';
 import 'core/constants/my_theme.dart';
@@ -30,6 +32,7 @@ void main() async {
   Hive.registerAdapter(QuestionAdapter());
   Hive.registerAdapter(InfoCardItemAdapter());
   Hive.registerAdapter(InfoCardModelAdapter());
+  Hive.registerAdapter(TestListHomepageModelAdapter());
   SharedPreferences prefs = await SharedPreferences.getInstance();
   initScreen = await prefs.getInt("initScreen");
   await prefs.setInt("initScreen", 1);
@@ -40,6 +43,7 @@ void main() async {
   await Hive.openBox<InfoCardItem>("favoritesInfoCards");
   await Hive.openBox<InfoCardModel>("competeCards");
   await Hive.openBox<bool>("soneklenenler");
+  await Hive.openBox<TestListHomepageModel>("testLists");
 
   runApp(MultiProvider(providers: [
     ChangeNotifierProvider<TurkceQuesViewModel>(create: (_) => TurkceQuesViewModel()),
@@ -54,6 +58,7 @@ void main() async {
     ChangeNotifierProvider<NoteViewModel>(create: (_) => NoteViewModel()),
     ChangeNotifierProvider<InfoCardFavoriteViewModel>(create: (_) => InfoCardFavoriteViewModel()),
     ChangeNotifierProvider<InfoCardCompeteViewModel>(create: (_) => InfoCardCompeteViewModel()),
+    ChangeNotifierProvider<TestListCompleteViewModel>(create: (_) => TestListCompleteViewModel()),
   ], child: UzmanOgretmen()));
 }
 

@@ -16,7 +16,7 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
       InfoCardItem("eo_Info_285","Bilişsel davranış","-Zihinsel süreç gerektiren davranışlardır.\n-Eylemin yapılmasında sebep sonuç ilişkisi kurma, dikkat etme, hatırlama, yorum çıkartma ve hayalgücünü kullanma gibi zihinsel süreçler etkilidir."),
       InfoCardItem("eo_Info_286","Duyuşsal davranış","-Duygular ön plandadır.\n-Sevinç, üzüntü, korku, heyecan gibi duyguların beyin süzgecinden geçerek davranışa dönüşmesidir."),
       InfoCardItem("eo_Info_287","Psikomotor davranış","-El göz koordinasyonu gerektirir.\n-Yürüme, koşma, zıplama, kaldırma gibi fiziksel aktiviteler içerir."),
-      InfoCardItem("eo_Info_288","Öğrenilmiş davranış","-Davranış öğrenme ürünüdür.\n-Öğrenme ürünü olan davranışlar kalıcır olur."),
+      InfoCardItem("eo_Info_288","Öğrenilmiş davranış","-Davranış öğrenme ürünüdür.\n-Öğrenme ürünü olan davranışlar kalıcı olur."),
       InfoCardItem("eo_Info_289","İstendik davranış","-Öğrenme planlı bir eğitim sürecinde gerçekleşir.\n-Gelişigüzel kültürlenme sonucu da öğrenme gerçekleşebilir."),
       InfoCardItem("eo_Info_290","İstenmedik davranış","-Öğrenme hatalı eğitim sürecinde gerçekleşir.\n-Kötü kültürlenme de öğrenmeye sebep olmuş olabilir."),
       InfoCardItem("eo_Info_291","Geçici davranış","-İlaç kullanımı ve alkol gibi durumlar sebebiyle ortaya çıkan davranışlardır.\n-Davranışlar kalıcı değil kısa sürelidir."),

@@ -11,6 +11,7 @@ import 'package:uzman_ogretmen/view_model/questions/olcmedeger_ques_view_model.d
 import 'package:uzman_ogretmen/view_model/questions/ozelegitim_ques_view_model.dart';
 import 'package:uzman_ogretmen/view_model/questions/sosyaletkilesim_ques_view_model.dart';
 
+import '../model/test_list_homepage_model.dart';
 import '../view_model/questions/egitim_ogretim_ques_view_model.dart';
 import '../view_model/questions/genel_kultur/cografya_ques_view_model.dart';
 import '../view_model/questions/genel_kultur/guncel_bilgiler_ques_view_model.dart';
@@ -25,6 +26,7 @@ import '../view/test.dart';
 import '../view_model/questions/turkce_test_view_model.dart';
 import 'false_tests.dart';
 import 'favorite_questions.dart';
+import 'test_content_page.dart';
 
 class TestHomepage extends StatelessWidget {
   const TestHomepage({Key? key}) : super(key: key);
@@ -53,13 +55,13 @@ class TestHomepage extends StatelessWidget {
                 navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
                 navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),
                 navigateTestButton(context, Test(list: _egitimOgretimQues.egitimOgretimList),  "Eğitim Bilimleri"),
-                navigateTestButton(context, Test(list: _ogrenogretQues.ogrenOgret),  "Öğrenme ve Öğretmen Süreçleri"),
-                navigateTestButton(context, Test(list: _olcmedegerlendirmeQues.ogrenOgretSurec),  "Ölçme ve Değerlendirme" ),
-                navigateTestButton(context, Test(list: _ozelEgitimQues.ozelEgitim),  "Özel Eğitim ve Rehberlik" ),
-                navigateTestButton(context, Test(list: _egitimArastirmaQues.egitimArastirma),  "Eğitim Araştırmaları ve AR-GE Çalışmaları" ),
-                navigateTestButton(context, Test(list: _egitimKapsayicilikQues.egitimKapsayicilik),  "Eğitimde Kapsayıcılık" ),
-                navigateTestButton(context, Test(list: _cevreIklimQues.cevreIklim),  "Çevre Eğitimi ve İklim Değişikliği" ),
-                navigateTestButton(context, Test(list: _sosyalEtkilesimQues.sosyalEtkilesim),  "Sosyal Etkileşim ve İletişim" ),
+                navigateTestButton(context, TestContentPage(appbarTitle:"Öğrenme ve Öğretmen Süreçleri", list: _ogrenogretQues.ogrenOgret,),  "Öğrenme ve Öğretmen Süreçleri"),
+                navigateTestButton(context, Test(list: _olcmedegerlendirmeQues.olcmeDegerList),  "Ölçme ve Değerlendirme" ),
+                navigateTestButton(context, TestContentPage(appbarTitle: "Özel Eğitim ve Rehberlik",list: _ozelEgitimQues.ozelEgitim),  "Özel Eğitim ve Rehberlik" ),
+                navigateTestButton(context, TestContentPage(appbarTitle:"Eğitim Araştırmaları ve AR-GE Çalışmaları", list: _egitimArastirmaQues.egitimArastirma),  "Eğitim Araştırmaları ve AR-GE Çalışmaları" ),
+                navigateTestButton(context, TestContentPage(appbarTitle:"Eğitimde Kapsayıcılık", list: _egitimKapsayicilikQues.egitimKapsayicilik),  "Eğitimde Kapsayıcılık" ),
+                navigateTestButton(context, TestContentPage(appbarTitle: "Çevre Eğitimi ve İklim Değişikliği",list: _cevreIklimQues.cevreIklim),  "Çevre Eğitimi ve İklim Değişikliği" ),
+                navigateTestButton(context, TestContentPage(appbarTitle:"Sosyal Etkileşim ve İletişim" ,list: _sosyalEtkilesimQues.sosyalEtkilesim),  "Sosyal Etkileşim ve İletişim" ),
                 navigateTestButton(context, Test(list: _dijitalYetkinlikQues.dijitalYetkinlik),  "Dijital Yetkinlik" ),
                 navigateTestButton(context, Test(list: _guvenliOkulQues.guvenliOkul),  "Güvenli Okul ve Okul Güvenliği" ),
 

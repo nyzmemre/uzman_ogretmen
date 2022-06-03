@@ -43,13 +43,13 @@ Future<bool> exerciseCancel(BuildContext context) {
                       }
 
                       //geri dönüşte alıştırma sekmesinde olması için inital indexe değer gönderdim.
-                      // Navigator.pop(context);
+                       Navigator.pop(context);
 
-                      Navigator.pushAndRemoveUntil(
+                     /* Navigator.pushAndRemoveUntil(
                           context,
                           MaterialPageRoute(
                               builder: (context) => HomePage(index: 1)),
-                              (route) => false);
+                              (route) => false);*/
                       //Navigator.pushNamedAndRemoveUntil(context, kRouteHomePage, (route) => false);
                     }),
                 MaterialButton(
