@@ -5,7 +5,7 @@ import '../../model/test_list_homepage_model.dart';
 
 class SosyalEtkilesimQuesViewModel extends ChangeNotifier{
   List<TestListHomepageModel> _sosyalEtkilesimList=[
-  TestListHomepageModel("Karışık Test Çöz",[
+  TestListHomepageModel("Sosyal Etkileşim-Karışık Test Çöz",[
     Question("sosyaletkilesim_ques_Q1","I-İletişim duygu, düşünce bilgi ve becerileri aktarma sürecidir\nII-İletişim eğlence, eğitme ya da etkileme amaçları ile kurulabilir.\nIII-İletişim yaşam boyu devam eder.", "İletişim ile ilgili yukarıda verilen ifadelerden hangileri doğrudur?", "I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
     Question("sosyaletkilesim_ques_Q2","", "İletişimin sosyal bağlamdaki temel fonksiyonlarından hangisi hatalı verilmiştir?", "Dezenformasyon", ["Sosyalizasyon","Motivasyon","Dezenformasyon","Kültürel Gelişme","Entegrasyon"]),
     Question("sosyaletkilesim_ques_Q3","I-İletişim semboliktir\nII-İletişim kültürel ve sosyal değişime paralel olarak değişim gösterir.\nIII-İletişim dinamik olmayan bir süreç özelliği gösterebilir.", "İletişimin özellikleri ile ilgili yukarıda verilen ifadelerden hangileri doğrudur?", "I-II", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
@@ -28,7 +28,7 @@ class SosyalEtkilesimQuesViewModel extends ChangeNotifier{
     Question("sosyaletkilesim_ques_Q20","", "İnsanın bilişsel ve bireysel gelişimi ile ilgili olan temel iletişim öğesi aşağıdakilerden hangisidir?", "Eğitim", ["Enformasyon","Bilişsel Kapasite","Kültürel Gelişme","Entegrasyon","Eğitim"]),
 
   ]),
-  TestListHomepageModel("Test 1",[
+  TestListHomepageModel("Sosyal Etkileşim-Test 1",[
     Question("sosyaletkilesim_ques_Q1","I-İletişim duygu, düşünce bilgi ve becerileri aktarma sürecidir\nII-İletişim eğlence, eğitme ya da etkileme amaçları ile kurulabilir.\nIII-İletişim yaşam boyu devam eder.", "İletişim ile ilgili yukarıda verilen ifadelerden hangileri doğrudur?", "I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
     Question("sosyaletkilesim_ques_Q2","", "İletişimin sosyal bağlamdaki temel fonksiyonlarından hangisi hatalı verilmiştir?", "Dezenformasyon", ["Sosyalizasyon","Motivasyon","Dezenformasyon","Kültürel Gelişme","Entegrasyon"]),
     Question("sosyaletkilesim_ques_Q3","I-İletişim semboliktir\nII-İletişim kültürel ve sosyal değişime paralel olarak değişim gösterir.\nIII-İletişim dinamik olmayan bir süreç özelliği gösterebilir.", "İletişimin özellikleri ile ilgili yukarıda verilen ifadelerden hangileri doğrudur?", "I-II", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
@@ -41,7 +41,7 @@ class SosyalEtkilesimQuesViewModel extends ChangeNotifier{
     Question("sosyaletkilesim_ques_Q10","", "Kodlama ve kod çözme işlemlerini sırasıyla yapan iletişimin temel öğeleri hangileridir?", "Kaynak-Alıcı", ["Alıcı-Kaynak","Kaynak-Alıcı","Kanal-Alıcı","Kaynak-Kanal","Kanal-İletişim Aracı"]),
 
   ]),
-  TestListHomepageModel("Test 2",[
+  TestListHomepageModel("Sosyal Etkileşim-Test 2",[
     Question("sosyaletkilesim_ques_Q11","", "İletişim sürecini olumsuz etkileyen faktör aşağıdakilerden hangisidir?", "Gürültü", ["Kod Çözme","Alıcı","Kodlama","Gürültü","Kanal"]),
     Question("sosyaletkilesim_ques_Q12","", "Kamuoyunu ilgilendiren konularda farklı görüşleri netleştirmek, fikir alışverişi ve fikir birliği için uygun ortamı sağlamak ve geniş kamuoyu katılımı sağlamak şeklinde ifade edilen iletişim fonksiyonu aşağıdakilerden hangisidir?", "Tartışma", ["Tartışma","Motivasyon","Sosyalizasyon","Kültürel Gelişme","Entegrasyon"]),
     Question("sosyaletkilesim_ques_Q13","", "Bireysel ya da grup olarak eğlenme amacıyla yapılan aktivitelerin yaygınlaştırılmasını sağlamak şeklinde ifade edilen iletişim fonksiyonu aşağıdakilerden hangisidir?", "Eğlence", ["Motivasyon","Eğlence","Sosyalizasyon","Kültürel Gelişme","Entegrasyon"]),

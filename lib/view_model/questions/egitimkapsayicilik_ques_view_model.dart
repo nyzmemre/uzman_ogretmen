@@ -5,7 +5,7 @@ import '../../model/test_list_homepage_model.dart';
 
 class EgitimKapsayicilikQuesViewModel extends ChangeNotifier{
   List<TestListHomepageModel> _egitimKapsayicilikList=[
-    TestListHomepageModel("Karışık Test Çöz",[
+    TestListHomepageModel("Eğitimde Kapsayıcılık-Karışık Test Çöz",[
       Question("egitimkapsayicilik_ques_Q1","I-Dışlanma\nII-Eşitsizlik\nIII-Ayrımcılık", "Kapsayıcı eğitim ihtiyacı olan çocukların yaşadığı olumsuz davranışlar hangi şıkta doğru verilmiştir?", "I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
       Question("egitimkapsayicilik_ques_Q2","", "Aşağıdakilerden hangisinde UNESCO’ya göre kapsayıcı eğitimin odaklandığı temel alanlar doğru verilmiştir?", "Sistem Kapsayıcılığı, Eğitime Erişim Kapsayıcılığı, Sosyal Kapsayıcılık", ["Sistem Kapsayıcılığı, Eğitime Erişim Kapsayıcılığı, Sosyal Kapsayıcılık","Eğitim Kapsayıcılığı, Eşitlik Kapsayıcılığı, Sistem Kapsayıcılığı","Fırsat Eşitliği Kapsayıcılığı, Pozitif Ayrımcılık Kapsayıcılığı, Sosyal Kapsayıcılık","Adalet Kapsayıcılığı, Eşitlik Kapsayıcılığı, Eğitim Kapsayıcılığı","Eğitim Kapsayıcılığı, Sosyal Kapsayıcılık, Fırsat Eşitliği Kapsayıcılığı"]),
       Question("egitimkapsayicilik_ques_Q3","", "Kapsayıcı eğitimin gerekçeleri hangi şıkta doğru verilmiştir?", "Sosyal, Ekonomik, Eğitimsel Gerekçe", ["Toplumsal, Bireysel, Ulusal Gerekçe","Sosyal, Ekonomik, Eğitimsel Gerekçe","Bireysel, Eğitimsel, Sosyal Gerekçe","Ekonomik, Toplumsal, Ulusal Gerekçe","Eğitimsel, Sosyal, Bireysel Gerekçe"]),
@@ -33,7 +33,7 @@ class EgitimKapsayicilikQuesViewModel extends ChangeNotifier{
       Question("egitimkapsayicilik_ques_Q25","", "Yabancı uyruklu farklı dine mensup bir öğrencinin okulda yaşayabileceği ayrımcılık sebepleri hangisinde doğru olarak verilmiştir?", "Etnik Kökenleri - Dini İnançları", ["Sosyoekonomik Düzeyleri – Dini İnançları","Dini İnançları – Fiziksel Yetersizlikleri","Özel Gereksinimleri - Dini İnançları","Etnik Kökenleri – Sosyoekonomik Durumları","Etnik Kökenleri - Dini İnançları"]),
 
     ]),
-    TestListHomepageModel("Test 1",[
+    TestListHomepageModel("Eğitimde Kapsayıcılık-Test 1",[
       Question("egitimkapsayicilik_ques_Q1","I-Dışlanma\nII-Eşitsizlik\nIII-Ayrımcılık", "Kapsayıcı eğitim ihtiyacı olan çocukların yaşadığı olumsuz davranışlar hangi şıkta doğru verilmiştir?", "I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
       Question("egitimkapsayicilik_ques_Q2","", "Aşağıdakilerden hangisinde UNESCO’ya göre kapsayıcı eğitimin odaklandığı temel alanlar doğru verilmiştir?", "Sistem Kapsayıcılığı, Eğitime Erişim Kapsayıcılığı, Sosyal Kapsayıcılık", ["Sistem Kapsayıcılığı, Eğitime Erişim Kapsayıcılığı, Sosyal Kapsayıcılık","Eğitim Kapsayıcılığı, Eşitlik Kapsayıcılığı, Sistem Kapsayıcılığı","Fırsat Eşitliği Kapsayıcılığı, Pozitif Ayrımcılık Kapsayıcılığı, Sosyal Kapsayıcılık","Adalet Kapsayıcılığı, Eşitlik Kapsayıcılığı, Eğitim Kapsayıcılığı","Eğitim Kapsayıcılığı, Sosyal Kapsayıcılık, Fırsat Eşitliği Kapsayıcılığı"]),
       Question("egitimkapsayicilik_ques_Q3","", "Kapsayıcı eğitimin gerekçeleri hangi şıkta doğru verilmiştir?", "Sosyal, Ekonomik, Eğitimsel Gerekçe", ["Toplumsal, Bireysel, Ulusal Gerekçe","Sosyal, Ekonomik, Eğitimsel Gerekçe","Bireysel, Eğitimsel, Sosyal Gerekçe","Ekonomik, Toplumsal, Ulusal Gerekçe","Eğitimsel, Sosyal, Bireysel Gerekçe"]),
@@ -45,7 +45,7 @@ class EgitimKapsayicilikQuesViewModel extends ChangeNotifier{
       Question("egitimkapsayicilik_ques_Q9","I-İbadetleri\nII-Mezhepleri\nIII- İnançları", "Öğrencilerin yaşadığı yukarıdaki durumlardan hangileri dini inanç kategorisine girer?", "I-II-III", ["I-III","Yalnız II","II-III","I-II","I-II-III"]),
       Question("egitimkapsayicilik_ques_Q10","", "Aile yapısı sebebiyle ayrımcılığa uğrayan öğrencinin durumu aşağıdakilerden hangisi sebebiyledir?", "Sosyoekonomik Düzeyleri", ["Sosyoekonomik Düzeyleri","Etnik Kökenleri","Fiziksel Yetersizlik ve Özel Gereksinimleri","Din İnanç ve Yaşayışları","Cinsiyetleri"]),
     ]),
-    TestListHomepageModel("Test 2",[
+    TestListHomepageModel("Eğitimde Kapsayıcılık-Test 2",[
       Question("egitimkapsayicilik_ques_Q11","", "Eğitim sistemlerinin, okulların, öğretmenlerin sosyal, kültürel ve bireysel çeşitliliğe saygı duymaları hangi tür kapsayıcılığa girer?", "Sistem Kapsayıcılığı", ["Toplumsal Kapsayıcılık","Sistem Kapsayıcılığı","Eğitime Erişim Kapsayıcılığı","Sosyal Kapsayıcılık","Pozitif Kapsayıcılık"]),
       Question("egitimkapsayicilik_ques_Q12","", "Tüm bireyler için nitelikli eğitime eşit erişim olanağının sağlanması hangi tür kapsayıcılığa girer?", "Eğitime Erişim Kapsayıcılığı", ["Sistem Kapsayıcılığı","Sosyal Kapsayıcılık","Eğitime Erişim Kapsayıcılığı","Fırsat Eşitliği Kapsayıcılığı","Toplumsal Kapsayıcılık"]),
       Question("egitimkapsayicilik_ques_Q13","", "Tüm paydaşların beklentilerini kapsayacak şekilde eğitim süreçlerinin geliştirilmesi hangi tür kapsayıcılığa girer?", "Sosyal Kapsayıcılık", ["Eğitime Erişim Kapsayıcılığı","Sistem Kapsayıcılığı","Sosyal Kapsayıcılık","Fırsat Eşitliği Kapsayıcılığı","Toplumsal Kapsayıcılık"]),
@@ -57,7 +57,7 @@ class EgitimKapsayicilikQuesViewModel extends ChangeNotifier{
       Question("egitimkapsayicilik_ques_Q19","I-Tüm çocukların fırsat eşitliği elde etmesi\nII-Öğrencilerin okula ilgilerinin ve derslere katılımlarının artması\nIII- Öğrencilerin okul ve toplum yaşamlarının ilişkilendirilmesi ve bütünleştirmesi", "Yukarıdaki ifadelerden hangileri kapsayıcı eğitim faydaları kapsamında değerlendirilebilir?", "I-II-III", ["Yalnız I","II-III","I-III","I-II","I-II-III"]),
       Question("egitimkapsayicilik_ques_Q20","", "Öğrenme güçlüğü çeken çocukların okulda olumsuz davranışlara maruz kalmalarının sebebi aşağıdakilerden hangisidir?", "Fiziksel Yetersizlik ve Özel Gereksinimleri", ["Etnik Kökenleri","Dini İnançları","Cinsiyetleri","Fiziksel Yetersizlik ve Özel Gereksinimleri","Sosyo-ekonomik Düzeyleri"]),
     ]),
-    TestListHomepageModel("Test 3",[
+    TestListHomepageModel("Eğitimde Kapsayıcılık-Test 3",[
       Question("egitimkapsayicilik_ques_Q21","", "Yüksek gelir düzeyine sahip ailelerin çocuklarının okulda olumsuz davranışlara maruz kalmalarının sebebi aşağıdakilerden hangisidir?", "Sosyoekonomik Düzeyleri", ["Sosyoekonomik Düzeyleri","Fiziksel Yetersizlik ve Özel Gereksinimleri","Etnik Kökenleri","Dini İnançları","Cinsiyetleri"]),
       Question("egitimkapsayicilik_ques_Q22","", "Kapsayıcı eğitim konusunda yoğun çalışmaları bulunan uluslararası kuruluşlar hangisinde doğru olarak verilmiştir?", "UNICEF - UNESCO", ["WHO - ILO","UNESCO - OECD","UNICEF - UNESCO","UNICEF - G20"," WHO-OECD"]),
       Question("egitimkapsayicilik_ques_Q23","", "Kapsayıcı eğitim, tüm çocukların aynı okulda birlikte öğrenmeleridir şeklinde kapsayıcı eğitim tanımı yapan uluslararası kuruluş aşağıdakilerden hangisidir?", "UNICEF", ["OECD","WHO","G20","UNICEF","UNESCO"]),

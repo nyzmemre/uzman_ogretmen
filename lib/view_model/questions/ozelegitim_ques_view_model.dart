@@ -6,7 +6,7 @@ import '../../model/test_list_homepage_model.dart';
 class OzelEgitimQuesViewModel extends ChangeNotifier{
  /// "I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
   List<TestListHomepageModel> _ozelEgitimList=[
-    TestListHomepageModel("Karışık Test Çöz",[
+    TestListHomepageModel("Özel Eğitim-Karışık Test Çöz",[
       Question("eo_Q45","", "Aşağıdakilerden hangisi rehberlik hizmetinin ilkelerinden değildir?", "Sorunlu öğrencilere yöneliktir", ["Gönüllülük esastır","İnsana saygı esastır","İşbirliği gerektirir","Sorunlu öğrencilere yöneliktir","Eğitimin ayrılmaz parçasıdır"]),
       Question("eo_Q46","", "Aşağıdakilerden hangisi rehberlik hizmeti ilkelerinden değildir?", "Her okulda rehberlik hizmeti olmamalıdır", ["Koruyucudur","Okul, aile ve çevreyi ilgilendirir","Her okulda rehberlik hizmeti olmamalıdır","Yaşam boyu yararlanılabilinir","Örgütlenmiştir"]),
       Question("eo_Q47","", "Aşağıdakilerden hangisi Rehberlik ve Psikolojik Danışmalıkta yaralanılan bilim dallarından değildir?", "Uzay bilimi", ["Psikoloji","Sosyoloji","Eğitim Bilimi","Ekonomi","Uzay bilimi"]),
@@ -89,7 +89,7 @@ class OzelEgitimQuesViewModel extends ChangeNotifier{
       Question("ozelegitim_ques_Q49","", "Aşağıdakilerden hangisi yeni açılacak özel eğitim sınıfının valilik olurunda bulunmaz?", "Sınıf rehber öğretmeni", ["Sınıfın kademesi","Sınıf rehber öğretmeni","Eğitim Programı","Yetersizlik türü","Okul adı"]),
       Question("ozelegitim_ques_Q50","I-Eğitim Programı\nII-Yetersizlik Türü\nIII-Sınıf Rehber Öğretmeni", "Yukarıdakilerden hangisi veya hangileri yeni açılacak özel eğitim sınıfının valilik olurunda bulunmaz?", "Yalnız III", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
     ]),
-    TestListHomepageModel("Test 1",[    Question("eo_Q45","", "Aşağıdakilerden hangisi rehberlik hizmetinin ilkelerinden değildir?", "Sorunlu öğrencilere yöneliktir", ["Gönüllülük esastır","İnsana saygı esastır","İşbirliği gerektirir","Sorunlu öğrencilere yöneliktir","Eğitimin ayrılmaz parçasıdır"]),
+    TestListHomepageModel("Özel Eğitim-Test 1",[    Question("eo_Q45","", "Aşağıdakilerden hangisi rehberlik hizmetinin ilkelerinden değildir?", "Sorunlu öğrencilere yöneliktir", ["Gönüllülük esastır","İnsana saygı esastır","İşbirliği gerektirir","Sorunlu öğrencilere yöneliktir","Eğitimin ayrılmaz parçasıdır"]),
       Question("eo_Q46","", "Aşağıdakilerden hangisi rehberlik hizmeti ilkelerinden değildir?", "Her okulda rehberlik hizmeti olmamalıdır", ["Koruyucudur","Okul, aile ve çevreyi ilgilendirir","Her okulda rehberlik hizmeti olmamalıdır","Yaşam boyu yararlanılabilinir","Örgütlenmiştir"]),
       Question("eo_Q47","", "Aşağıdakilerden hangisi Rehberlik ve Psikolojik Danışmalıkta yaralanılan bilim dallarından değildir?", "Uzay bilimi", ["Psikoloji","Sosyoloji","Eğitim Bilimi","Ekonomi","Uzay bilimi"]),
       Question("eo_Q48","", "Aşağıdakilerden hangisi rehberliğin temel taşlarından değildir?", "Her öğrenci geliştirilemez", ["Bireye yardım etme sürecidir","Her öğrenci geliştirilemez","Bilimseldir","Profesyoneldir","Bireyin kendini gerçekleştirmesini sağlar"]),
@@ -100,7 +100,7 @@ class OzelEgitimQuesViewModel extends ChangeNotifier{
       Question("eo_Q54","", "Öğrencinin ilgi ve yeteneğine uygun mesleğe yöneldiği mesleki seçim devresi aşağıdakilerden hangisidir?", "Gerçekçi Devre", ["Fantezi Devre","Geçici Devre","Gerçekçi Devre","Hayali Devre","Gelişen Devre"]),
       Question("eo_Q55","", "Çocukların meslekleri taklit ettiği mesleki seçim devresi aşağıdakilerden hangisidir?", "Fantezi Devre", ["Fantezi Devre","Geçici Devre","Gerçekçi Devre","Hayali Devre","Gelişen Devre"]),
     ]),
-    TestListHomepageModel("Test 2",[
+    TestListHomepageModel("Özel Eğitim-Test 2",[
       Question("eo_Q56","", "Aşağıdakilerden hangisi meslek seçiminde birey hakkında dikkat edileceklerden değildir?", "Kardeş sayısı", ["Fiziksel özellikler","İlgisi","Yetenekleri","Kardeş sayısı","Yaşantıları"]),
       Question("eo_Q57","", "Grup rehberliği ile ilgili aşağıdakilerden hangisi yanlıştır?", "Danışman kendi fikrini gruba açıklamalı", ["Belli bir grupla yürütülür","Her öğrenciye saygı duyulmalıdır","Her öğrencinin katılımı sağlanmalıdır","Meslek tannıma, ders çalışma gibi konularda yardıcı olunur","Danışman kendi fikrini gruba açıklamalı"]),
       Question("eo_Q58","", "Yüksek öğretimde verilen rehberlik hizmetinin amaçları aşağıdakilerden hangisinde yanlış verilmiştir?", "Okuma-yazma", ["Barınma","Okuma-yazma","Başarı","Beslenme","Mesleğe hazırlama"]),
@@ -112,7 +112,7 @@ class OzelEgitimQuesViewModel extends ChangeNotifier{
       Question("eo_Q64","", "Aşağıdakilerden hangisi Rehberlik ve Psikolojik Danışma yürütme komisyonunda bulunmaz?", "Sınıf başkanları", ["Sınıf başkanları","Psikolojik danışman","Disiplin Kurulundan bir kişi","Okul öncesi öğrenci temsilcisi","Okul aile birliğinden bir kişi"]),
       Question("eo_Q65","", "Aşağıdakilerden hangisi Rehberlik ve Psikolojik Danışma yürütme komisyonunun görevlerinden birisi değildir?", "Sınıf rehber öğretmenlerini belirleme", ["Yıllık rehberlik planlarının uygulanmasını sağlama","Mesleki rehberlik çalışmalarını uygulama","Eğitim ortamındaki kişilerin işbirliğini sağlama","Sınıf rehber öğretmenlerini belirleme","Rehberlik hizmetlerinde ortaya çıkan sorunları inceleme"]),
     ]),
-    TestListHomepageModel("Test 3",[
+    TestListHomepageModel("Özel Eğitim-Test 3",[
       Question("eo_Q66","", "Aşağıdakilerden hangisi rehberlik çalışmalarında okul müdürünün görevlerinden biri değildir?", "Rehberlik etkinliklerine fiilen katılma", ["Sınıf rehber öğretmenlerini görevlendirme","Rehberlik yürütme komisyonunu kurma","Yıllık rehberlik planlarının uygulanmasını sağlama","Yeni gelen öğrencinin gelişim dosyasını rehberlik servisine iletme","Rehberlik etkinliklerine fiilen katılma"]),
       Question("eo_Q67","", "Aşağıdakilerden hangisi rehberlik çalışmalarında okul müdür yardımcısının görevlerinden biri değildir", "Yürütme komisyonunu kurar", ["Yürütme komisyonu toplantısına katılır","Yürütme komisyonunu kurar","Okul müdürünün vereceği görevleri yapar","Sorumlu olduğu sınıftaki öğrenci sorunlarını rehberlik servisine iletir","Sorumlu olduğu sınıftaki öğrencilerin bilgi ve belgelerini rehberlik servisine iletir"]),
       Question("eo_Q68","", "Aşağıdakilerden hangisi Rehberlik çalışmalarında koordinatör psikolojik danışmanın görevlerinden biri değildir?", "Rehberlik yürütme komisonunu kurar", ["Rehberlik programlarını okul müdürüne iletir","Rehberlik programları hakkında öğretmenler kuruluna bilgi verir","Rehberlik hizmetleri etkinliklerine fiilen katılır","Rehberlik yürütme komisonunu kurar","Okul yönetimi ile rehberlik servisi arasında iletişim sağlar"]),
@@ -124,7 +124,7 @@ class OzelEgitimQuesViewModel extends ChangeNotifier{
       Question("eo_Q74","", "Aşağıdakilerden hangisi öğrencinin diğer kişiler tarafından nasıl görüldüğünü gösteren tekniktir?", "Kimdir bu", ["Anket","Otobiyografi","Kimdir bu","Veli toplantısı","Anekdot"]),
       Question("eo_Q75","I-Subjektiflik\nII-Kullanışlılık\nIII-Ekonomiklik", "Yukarıdakilerden hangisi veya hangileri öğrenciyi tanıma tekniği olan testlerin iyi olduğunu gösteren özelliklerdendir?", "II-III", ["Yalnız I","Yalnız II","Yalnız III","II-III","I-II-III"]),
     ]),
-    TestListHomepageModel("Yönetmelik Test 1",[
+    TestListHomepageModel("Yönetmelik-Test 1",[
       Question("ozelegitim_ques_Q1","", "Aşağıdakilerden hangisi özel eğitimin temel ilkelerinden değildir?","Eğitim hizmetlerinin yönetici taleplerine göre sunulması",["Bireysel farklılıkları dikkate alır","Eğitim hizmetlerinin yönetici taleplerine göre sunulması","Özel eğitimin erken dönemde başlaması","Bireylerin istekleri doğrultusunda özel eğitim hizmetlerinden yararlandırılması","Eğitim programlarının bireyselleştirilmesi"]),
       Question("ozelegitim_ques_Q2","I-İşbirliği ile çalışma\nII-Bireyselleştirme\nIII-Erken dönemde özel eğitim", "Yukarıdakilerden hangisi veya hangileri özel eğitimin temel ilkelerindendir?","I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
       Question("ozelegitim_ques_Q3","", "Aşağıdakilerden hangisi özel eğitimin temel ilkeleri arasında yer almaz?","Sosyal çevreden uzaklaştırılarak özbakım becerilerinin geliştirilmesi",["Erken dönemde başlanması","İstek ve yeterliliğe göre hizmet yapılandırması","Kurum ve kuruluşlarla işbirliği yapılması","Ailelerin aktif katılımının sağlanması","Sosyal çevreden uzaklaştırılarak özbakım becerilerinin geliştirilmesi"]),
@@ -136,7 +136,7 @@ class OzelEgitimQuesViewModel extends ChangeNotifier{
       Question("ozelegitim_ques_Q9","I-Okul müdürü\nII-Sınıf Öğretmeni\nIII-Veli", "Eğitsel değerlendirme ve tanılama süreci ile ilgili yapılacak iş ve işlemlerde yukarıdakilerden hangisi veya hangilerinin görüşü alınır?","Yalnız III", ["Yalnız I","Yalnız II","Yalnız III","II-III","I-II-III"]),
       Question("ozelegitim_ques_Q10","", "Aşağıdakilerden hangisi eğitsel değerlendirme ve tanılama için gerekli belgelerden değildir?","Bireysel Davranış Değerlendirme Formu",["Velinin yazılı talebi","Engelli Sağlık Kurulu Raporu","Bireysel Davranış Değerlendirme Formu","Eğitsel Destek İstek Forumu","Dönem Sonu Bireysel Performans Değerlendirme Formu"]),
     ]),
-    TestListHomepageModel("Yönetmelik Test 2",[
+    TestListHomepageModel("Yönetmelik-Test 2",[
       Question("ozelegitim_ques_Q11","I-Eğitsel Değerlendirme İstek Formu\nII-Engelli Sağlık Kurulu Raporu\nIII-Dönem Sonu Bireysel Performans Değerlendirme Formu", "Yukarıdakilerden hangisi veya hangileri eğitsel değerlendirme ve tnaılama için gerekli belgelerdendir?","I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
       Question("ozelegitim_ques_Q12","I-Eğitim Öğretim Değerlendirme Raporu\nII-Engelli Sağlık Kurulu Raporu\nIII-Dönem Sonu Bireysel Performans Değerlendirme Formu", "Yukarıdakilerden hangisi veya hangileri eğitsel değerlendirme ve tnaılama için gerekli belgelerdendir?","II-III", ["Yalnız I","Yalnız II","Yalnız III","II-III","I-II-III"]),
       Question("ozelegitim_ques_Q13","I-Eğitim Kalite Belirleme Raporu\nII-Özelleştirilmiş Faaliyet Raporu\nIII-Dönem Sonu Bireysel Performans Değerlendirme Formu", "Yukarıdakilerden hangisi veya hangileri eğitsel değerlendirme ve tnaılama için gerekli belgelerdendir?","Yalnız III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
@@ -148,7 +148,7 @@ class OzelEgitimQuesViewModel extends ChangeNotifier{
       Question("ozelegitim_ques_Q19","", "Özel eğitim ihtiyacı olan bireylerin her tür ve kademedeki eğitimlerini aşağıdakilerden hangisi yoluyla sürdürmeleri esastır?","Kaynaştırma/Bütünleştirme",["Araştırma/geliştirme","Sorgulama/Tespit etme","Kaynaştırma/Bütünleştirme","Öğrenme/Test çözme","Analiz/Sentez"]),
       Question("ozelegitim_ques_Q20","", "Aşağıdakilerden hangisi özel eğitim ihtiyacı olan bireylerin her tür ve kademedeki eğitimlerinde öncelikli olarak kullanılmalıdır?","Kaynaştırma/Bütünleştirme",["Kaynaştırma/Bütünleştirme","Araştırma/geliştirme","Sorma/Öğrenme","Tekrar/Ezber","Analiz/Sentez"]),
     ]),
-    TestListHomepageModel("Yönetmelik Test 3",[
+    TestListHomepageModel("Yönetmelik-Test 3",[
       Question("ozelegitim_ques_Q21","", "İlköğretim veya ortaöğretim programlarını takip eden özel eğitim ihtiyacı olan öğrencilerden öğrenimlerini tamamlayamayanlar ya da öğrenim çağı dışına çıkanlar ile örgün eğitim kurumlarındaki öğrenim hakkını kullananların kayıtları aşağıdakilerden hangisine yapılır?","Açık öğretim okulları",["Dengi örgün eğitim kurumu","Özel okullar","Çıraklık eğitim","Açık öğretim okulları","Alan uzmanı ile sahada eğitim"]),
       Question("ozelegitim_ques_Q22","", "Özel eğitim ihtiyacı olan 0-36 aylık bireylerin faaliyetlerinin süreleri aşağıdakilerden hangisinde doğru olarak verilmiştir?","Haftada 2 gün-İkişer saat",["Haftada 1 gün-İkişer saat","Haftada 2 gün-İkişer saat","Haftada 3 gün-Üçer saat","Haftada 4 gün-İkişer saat","Haftada 3 gün-Birer saat"]),
       Question("ozelegitim_ques_Q23","", "Özel eğitim ihtiyacı olan 0-36 aylık bireylerin faaliyetlerindeki eğitim saati süresi kaç dakikadır?","40",["30","35","40","45","50"]),
@@ -161,7 +161,7 @@ class OzelEgitimQuesViewModel extends ChangeNotifier{
       Question("ozelegitim_ques_Q30","", "Hastanede eğitim hizmetinde ilköğretim kademesinde olanlar için ders saati haftada kaç ders saatinden az olamaz?","10",["10","16","21","30","35"]),
 
     ]),
-    TestListHomepageModel("Yönetmelik Test 4",[Question("ozelegitim_ques_Q31","Özel eğitim programları uygulanan özel eğitim okulları ile bu programların uygulandığı sınıflarda tuvalet eğitimini kazanamamış, yoğun davranış problemleri gösteren ve grup eğitimine uyum sağlayamayan öğrencilerin grup eğitimine hazırlanması amacıyla bire bir eğitim uygulaması yapılır.", "Bu eğitimialacak öğrencilerin tespiti ile öğrencilerin alacağı haftalık ders saati ve yürütülecek eğitim faaliyetlerine ilişkin planlama haftalık toplam ders saatinin yüzde kaçını aşmayacak şekilde yapılır?", "40", ["20","30","40","50","60"]),
+    TestListHomepageModel("Yönetmelik-Test 4",[Question("ozelegitim_ques_Q31","Özel eğitim programları uygulanan özel eğitim okulları ile bu programların uygulandığı sınıflarda tuvalet eğitimini kazanamamış, yoğun davranış problemleri gösteren ve grup eğitimine uyum sağlayamayan öğrencilerin grup eğitimine hazırlanması amacıyla bire bir eğitim uygulaması yapılır.", "Bu eğitimialacak öğrencilerin tespiti ile öğrencilerin alacağı haftalık ders saati ve yürütülecek eğitim faaliyetlerine ilişkin planlama haftalık toplam ders saatinin yüzde kaçını aşmayacak şekilde yapılır?", "40", ["20","30","40","50","60"]),
       Question("ozelegitim_ques_Q32","", "Özel eğitim programları uygulanan özel eğitim okullarında yapılan grup eğitimine hazırlık uygulaması haftalık ders planlaması aşağıdakilerden hangisi tarafından yapılır?", "BEP geliştirme birimi", ["Okul idaresi","Rehberlik servisi","İlçe Milli Eğitim Müdürlüğü","BEP geliştirme birimi","RAM"]),
       Question("ozelegitim_ques_Q33","", "Tamamlayıcı eğitim faaliyetleri, aynı tür yetersizliğe sahip en fazla kaç öğrenci ile yürütülür?", "3", ["1","2","3","4","5"]),
       Question("ozelegitim_ques_Q34","", "Tamamlayıcı eğitim faaliyetleri, her bir öğrenci için haftalık kaç ders saati olacak şekilde planlanır", "2", ["1","2","3","4","5"]),
@@ -172,7 +172,7 @@ class OzelEgitimQuesViewModel extends ChangeNotifier{
       Question("ozelegitim_ques_Q39","", "Aşağıdakilerden hangisi BİLSEM'e kayıt yaptıran öğrencilerin alındığı programlardan biri değildir?", "Özbakım beceri geliştirme", ["Bireysel yetenekleri fark ettirme","Özbakım beceri geliştirme","Proje üretimi ve yönetimi","Destek eğitim","Özel yetenekleri geliştirme"]),
       Question("ozelegitim_ques_Q40","I-Okul Öncesi eğitim\nII-İlköğretim eğitimi\nIII-Mesleki ve Teknik eğitim", "Yukarıdakilerden hangisi veya hangilerinin uygulandığı özel eğitim okullarında kaynaştırma eğitimi verilebilir?", "I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
     ]),
-    TestListHomepageModel("Yönetmelik Test 5",[
+    TestListHomepageModel("Yönetmelik-Test 5",[
       Question("ozelegitim_ques_Q41","", "Tam zamanlı kaynaştırma/bütünleştirme yoluyla eğitim hizmetlerinin sunulması ile ilgili olarak verilen bilgilerden hangisi yanlıştır?", "Özel programları takip edilir", ["Özel programları takip edilir","BEP hazırlanır","Ortaöğretimi tamamlayan öğrencilere akranlarına verilen diploma düzenlenir","Destek eğitim odası açılır","Öğrenciler sınıflara eşit sayılarda dağıtılır"]),
       Question("ozelegitim_ques_Q42","", "Birleştirilmiş sınıflar hariç olmak üzere, tam zamanlı kaynaştırma/bütünleştirme yoluyla eğitim uygulaması yapılan okullarda özeleğitim ihtiyacı olan bireyler gelişim özellikleri de dikkate alınarak sınıflara en fazla kaç öğrenci yerleştirilebilir?", "2", ["1","2","3","4","5"]),
       Question("ozelegitim_ques_Q43","", "Kaynaştırma/bütünleştirme yoluyla eğitim yapılan özel eğitim okullarında sınıf mevcutları, özel eğitim ihtiyacı olan bireyler dahil olmak üzere okul öncesi eğitimde en fazla öğrenciden oluşur?", "14", ["5","8","12","14","15"]),

@@ -7,7 +7,7 @@ class EgitimArastirmaQuesViewModel extends ChangeNotifier{
   ///"I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
   List<TestListHomepageModel> _egitimArastirmaList=[
    // TestListHomepageModel("Test 1",[  ]),
-   TestListHomepageModel("Karışık Test Çöz",[  Question("egitimarastirma_ques_Q1","", "Bir konuda öğrenilen veya öğretilen şeylere aşağıdakilerden hangisi denir?","Bilgi",["Eğitim","Konu","Bilgi","Öğretim","Veri"]),
+   TestListHomepageModel("Eğitim Araştırma-Karışık Test Çöz",[  Question("egitimarastirma_ques_Q1","", "Bir konuda öğrenilen veya öğretilen şeylere aşağıdakilerden hangisi denir?","Bilgi",["Eğitim","Konu","Bilgi","Öğretim","Veri"]),
      Question("egitimarastirma_ques_Q2","I-Öğrenilir\nII-Öğretilir\nIII-Zihinsel süreçleri kapsar", "Bilgi ile ilgili yukarıdakilerden hangisi veya hangileri doğru olarak verilmiştir?","I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
      Question("egitimarastirma_ques_Q3","", "Geçerliliği birçok kişi tarafından kabul edilmiş sistemli bilgilere aşağıdakiilerden hangisi denir?","Bilim",["Bilgi","Bilim","Araştırma","Hipotez","Fikir"]),
      Question("egitimarastirma_ques_Q4","Öğretmeninin sorduğu soruyu cevaplamak için parmak kaldırarak söz isteyen Fatih,\n-'Geçerliliği birçok kişi tarafından kabul edilmiş sistemli bilgilere denir.' demiştir.", "Buna göre Fatih'in öğretmeni aşağıdaki sorulardan hangisini sormuştur?","Bilim nedir?",["Fayda nedir?","Kültür nedir?","Araştırma nedir?","Bilim nedir?","Ar-ge nedir?"]),
@@ -18,7 +18,7 @@ class EgitimArastirmaQuesViewModel extends ChangeNotifier{
      Question("egitimarastirma_ques_Q9","4. sınıf öğrencisi Burak, araştırma konusunda deneyler yapmak istemektedir.", "Buna göre Burak aşağıdakilerden hangi araştırmaa yöntemini kullanacaktır?","Nicel araştıma",["Nicel araştıma","Betimsel araştırma","Temel araştırma","Nitel araştırma","Konu araştırması"]),
      Question("egitimarastirma_ques_Q10","I-Nikel araştırma\nII-Nicel araştırma\nIII-Temel araştırma", "Yukarıdakilerden hangisi veya hangileri araştırma türlerindendir?","Yalnız II", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
    ]),
-   TestListHomepageModel("Test 1",[   Question("egitimarastirma_ques_Q1","", "Bir konuda öğrenilen veya öğretilen şeylere aşağıdakilerden hangisi denir?","Bilgi",["Eğitim","Konu","Bilgi","Öğretim","Veri"]),
+   TestListHomepageModel("Eğitim Araştırma-Test 1",[   Question("egitimarastirma_ques_Q1","", "Bir konuda öğrenilen veya öğretilen şeylere aşağıdakilerden hangisi denir?","Bilgi",["Eğitim","Konu","Bilgi","Öğretim","Veri"]),
      Question("egitimarastirma_ques_Q2","I-Öğrenilir\nII-Öğretilir\nIII-Zihinsel süreçleri kapsar", "Bilgi ile ilgili yukarıdakilerden hangisi veya hangileri doğru olarak verilmiştir?","I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
      Question("egitimarastirma_ques_Q3","", "Geçerliliği birçok kişi tarafından kabul edilmiş sistemli bilgilere aşağıdakiilerden hangisi denir?","Bilim",["Bilgi","Bilim","Araştırma","Hipotez","Fikir"]),
      Question("egitimarastirma_ques_Q4","Öğretmeninin sorduğu soruyu cevaplamak için parmak kaldırarak söz isteyen Fatih,\n-'Geçerliliği birçok kişi tarafından kabul edilmiş sistemli bilgilere denir.' demiştir.", "Buna göre Fatih'in öğretmeni aşağıdaki sorulardan hangisini sormuştur?","Bilim nedir?",["Fayda nedir?","Kültür nedir?","Araştırma nedir?","Bilim nedir?","Ar-ge nedir?"]),

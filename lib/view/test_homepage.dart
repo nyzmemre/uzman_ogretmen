@@ -7,8 +7,10 @@ import 'package:uzman_ogretmen/view_model/questions/egitimarastirma_ques_view_mo
 import 'package:uzman_ogretmen/view_model/questions/egitimkapsayicilik_ques_view_model.dart';
 import 'package:uzman_ogretmen/view_model/questions/guvenliokul_ques_view_model.dart';
 import 'package:uzman_ogretmen/view_model/questions/ogrenogret_ques_view_model.dart';
+import 'package:uzman_ogretmen/view_model/questions/okulgelistirme_ques_view_model.dart';
 import 'package:uzman_ogretmen/view_model/questions/olcmedeger_ques_view_model.dart';
 import 'package:uzman_ogretmen/view_model/questions/ozelegitim_ques_view_model.dart';
+import 'package:uzman_ogretmen/view_model/questions/sosyalduygusal_ques_view_model.dart';
 import 'package:uzman_ogretmen/view_model/questions/sosyaletkilesim_ques_view_model.dart';
 
 import '../model/test_list_homepage_model.dart';
@@ -43,6 +45,9 @@ class TestHomepage extends StatelessWidget {
     DijitalYetkinlikQuesViewModel _dijitalYetkinlikQues=DijitalYetkinlikQuesViewModel();
     GuvenliOkulQuesViewModel _guvenliOkulQues=GuvenliOkulQuesViewModel();
     EgitimOgretimQuesViewModel _egitimOgretimQues=EgitimOgretimQuesViewModel();
+    OkulGelistirmeQuesViewModel _okulGelistirmeQues=OkulGelistirmeQuesViewModel();
+    SosyalDuygusalQuesViewModel _sosyalDuygusalQues=SosyalDuygusalQuesViewModel();
+
     return WillPopScope(
       onWillPop: () async{
         Navigator.pushNamedAndRemoveUntil(context, kRouteHomePage, (route) => false);
@@ -56,16 +61,23 @@ class TestHomepage extends StatelessWidget {
                 navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),
                 navigateTestButton(context, Test(list: _egitimOgretimQues.egitimOgretimList),  "Eğitim Bilimleri"),
                 navigateTestButton(context, TestContentPage(appbarTitle:"Öğrenme ve Öğretmen Süreçleri", list: _ogrenogretQues.ogrenOgret,),  "Öğrenme ve Öğretmen Süreçleri"),
-                navigateTestButton(context, Test(list: _olcmedegerlendirmeQues.olcmeDegerList),  "Ölçme ve Değerlendirme" ),
+                navigateTestButton(context, TestContentPage(appbarTitle:"Ölçme ve Değerlendirme",list: _olcmedegerlendirmeQues.olcmeDegerList),  "Ölçme ve Değerlendirme" ),
                 navigateTestButton(context, TestContentPage(appbarTitle: "Özel Eğitim ve Rehberlik",list: _ozelEgitimQues.ozelEgitim),  "Özel Eğitim ve Rehberlik" ),
                 navigateTestButton(context, TestContentPage(appbarTitle:"Eğitim Araştırmaları ve AR-GE Çalışmaları", list: _egitimArastirmaQues.egitimArastirma),  "Eğitim Araştırmaları ve AR-GE Çalışmaları" ),
                 navigateTestButton(context, TestContentPage(appbarTitle:"Eğitimde Kapsayıcılık", list: _egitimKapsayicilikQues.egitimKapsayicilik),  "Eğitimde Kapsayıcılık" ),
                 navigateTestButton(context, TestContentPage(appbarTitle: "Çevre Eğitimi ve İklim Değişikliği",list: _cevreIklimQues.cevreIklim),  "Çevre Eğitimi ve İklim Değişikliği" ),
                 navigateTestButton(context, TestContentPage(appbarTitle:"Sosyal Etkileşim ve İletişim" ,list: _sosyalEtkilesimQues.sosyalEtkilesim),  "Sosyal Etkileşim ve İletişim" ),
-                navigateTestButton(context, Test(list: _dijitalYetkinlikQues.dijitalYetkinlik),  "Dijital Yetkinlik" ),
-                navigateTestButton(context, Test(list: _guvenliOkulQues.guvenliOkul),  "Güvenli Okul ve Okul Güvenliği" ),
+                navigateTestButton(context, TestContentPage(appbarTitle:"Dijital Yetkinlik",list: _dijitalYetkinlikQues.dijitalYetkinlik),  "Dijital Yetkinlik" ),
+                navigateTestButton(context, TestContentPage(appbarTitle:"Güvenli Okul ve Okul Güvenliği"  ,list: _guvenliOkulQues.guvenliOkul),  "Güvenli Okul ve Okul Güvenliği" ),
+                Divider(),
+                AutoSizeText("Başöğretmenlik Ek Konular",style: GoogleFonts.quicksand(),
+          minFontSize: 8,
+          maxLines: 2,),
+                Divider(),
+                navigateTestButton(context, TestContentPage(appbarTitle:"Okul Geliştirme ve Liderlik"  ,list: _okulGelistirmeQues.okulGelistirme),  "Okul Geliştirme ve Liderlik" ),
+                navigateTestButton(context, TestContentPage(appbarTitle:"Sosyal Duygusal Öğrenme Becerilerinin Geliştirilmesi"  ,list: _sosyalDuygusalQues.sosyalDuygusal),  "Sosyal Duygusal Öğrenme Becerilerinin Geliştirilmesi" ),
 
-          /*      navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
+                /*      navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
                 navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),
                 navigateTestButton(context, Test(list: _turkceQuesViewModel.turkceQuesList),  "Türkçe Testi"),
                 navigateTestButton(context, Test(list: _egitimOgretim.egitimOgretimList),  "Eğitim Öğretim" ),

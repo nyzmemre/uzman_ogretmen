@@ -6,7 +6,7 @@ import '../../model/test_list_homepage_model.dart';
 class DijitalYetkinlikQuesViewModel extends ChangeNotifier{
   ///"I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
   List<TestListHomepageModel> _dijitalYetkinlikList=[
-    TestListHomepageModel("Karışık Test Çöz",[
+    TestListHomepageModel("Dijital Yetkinlik-Karışık Test Çöz",[
       Question("dijitalyetkinlik_ques_Q1","", "Bilgi, beceri ve tutumların gerekli tüm davranışlar ile birlikte kullanılabilmesine aşağıdakilerden hangisi denir?","Yetkinlik",["Kazanım","Alışkanlık","Yetkinlik","Strateji","Erişilebilirlik"]),
       Question("dijitalyetkinlik_ques_Q2","I-Beceri\nII-Öğrenme\nIII-Davranış","Yukarıdakilerden hangisi veya hangileri dijital yetkinliğin temel unsurlarındandır?","Yalnız I",["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
       Question("dijitalyetkinlik_ques_Q3","I-Beceri gerektirir\nII-Bilgi gerektirir\nIII-Sonradan kazanılamaz", "Yukarıdakilerden hangisi veya hangileri Dijital Yetkinlik kapsamında düşünüldüğünde doğrudur?","I-II", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
@@ -48,7 +48,7 @@ class DijitalYetkinlikQuesViewModel extends ChangeNotifier{
       Question("dijitalyetkinlik_ques_Q39","", "İki veya daha fazla kişinin, internet ortamından birbirlerine metin, resim, dosya veya farklı ekler içererek gönderilebilen mesaj sistemi aşağıdakilerden hangisidir?", "e-posta", ["Sosyal mesaj","Kurumsal mesaj","e-Direct","e-posta",""]),
       Question("dijitalyetkinlik_ques_Q40","", "Kurum çalışanlarının toplu, özel veya sınırlı mesajlaşmaları, dosya gönderim ve alımı yapabilmeleri ve müşteri ilişkilerini yönetebilmeleri için kullandıkları sistem aşağıdakilerden hangisidir?", "E-posta", ["Sosyal medya","E-posta","Kurum telefonu","Anlık mesajlaşma uygulamaları","Kurumsal web sayfası"]),
     ]),
-    TestListHomepageModel("Test 1",[
+    TestListHomepageModel("Dijital Yetkinlik-Test 1",[
       Question("dijitalyetkinlik_ques_Q1","", "Bilgi, beceri ve tutumların gerekli tüm davranışlar ile birlikte kullanılabilmesine aşağıdakilerden hangisi denir?","Yetkinlik",["Kazanım","Alışkanlık","Yetkinlik","Strateji","Erişilebilirlik"]),
       Question("dijitalyetkinlik_ques_Q2","I-Beceri\nII-Öğrenme\nIII-Davranış","Yukarıdakilerden hangisi veya hangileri dijital yetkinliğin temel unsurlarındandır?","Yalnız I",["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
       Question("dijitalyetkinlik_ques_Q3","I-Beceri gerektirir\nII-Bilgi gerektirir\nIII-Sonradan kazanılamaz", "Yukarıdakilerden hangisi veya hangileri Dijital Yetkinlik kapsamında düşünüldüğünde doğrudur?","I-II", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
@@ -61,7 +61,7 @@ class DijitalYetkinlikQuesViewModel extends ChangeNotifier{
       Question("dijitalyetkinlik_ques_Q10","Öğrencilerin araştırma ödevlerini yaparken zorlandıklarını fark eden Kazım öğretmen, öğrencilerinin bu alanda teknolojiyi doğru kullanamadıklarını farketmiştir.", "Öğrencilerine doğru teknoloji kullanımını öğretmek isteyen Kazım öğretmenin, aşağıdaki yeterliliklerden hangisini öğrencilerine kazandırması gerekmektedir?","Dijital Yetkinlik",["Dijital Yetkinlik","Ödev Sorumluluğu","Araştırma Becerileri","Farkındalık Eğitimi","Sosyal Sorumluluk"]),
 
     ]),
-    TestListHomepageModel("Test 2",[
+    TestListHomepageModel("Dijital Yetkinlik-Test 2",[
       Question("dijitalyetkinlik_ques_Q11","I-Beceri\nII-Tutum\nIII-Bilgi", "Yukarıdakilerden hangisi veya hangileri dijital yetkinliğin temel unsurları arasında yer alır?","I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
       Question("dijitalyetkinlik_ques_Q12","I-Bilgi\nII-Alışkanlık\nIII-Kazanım", "Yukarıdakilerden hangisi veya hangileri dijital yetkinliğin temel unsurları arasında yer alır?","Yalnız I", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
       Question("dijitalyetkinlik_ques_Q13","I-Tutum\nII-Söylem\nIII-Kazanım", "Yukarıdakilerden hangisi veya hangileri dijital yetkinliğin temel unsurları arasında yer almaz?","I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
@@ -72,7 +72,7 @@ class DijitalYetkinlikQuesViewModel extends ChangeNotifier{
       Question("dijitalyetkinlik_ques_Q18","", "Öğrencilerin akıllı tahtayı kullanarak ders sürecine aktif katılımları, dijital yetkinlik konusunda hangi temel dayanağı karşıladıklarını gösterir?","Beceri",["Bilgi","Tutum","Kazanım","Farkındalık","Beceri"]),
       Question("dijitalyetkinlik_ques_Q19","Yazılımcı, varolan kabiliyetleri ile insanlık yararına bir program geliştirmiştir.", "Yukarıdaki cümlede, dijital yetkinliğin temel dayanakları düşünüldüğünde aşağıdakilerden hangisi doğrudur?","Olumlu tutum geliştirmiştir",["Bilgi toplama süreci tamamen bitmiştir","Beceri kazanmak için bir üst aşamaya geçilmelidir","Olumlu tutum geliştirmiştir","Farkındalık aşaması tamamlanmışır","Yeni öğrenmeler ertelenmiştir"]),
       Question("dijitalyetkinlik_ques_Q20","", "Kişinin duygu, düşünce ve bilgisinin alıcılara aktarım sürecine aşağıdakilerden hangisi denir?","İletişim",["Gönderim","İletişim","Belgelendirme","Konumlama","Geri bildirim"]),
-    ]),TestListHomepageModel("Test 3",[
+    ]),TestListHomepageModel("Dijital Yetkinlik-Test 3",[
       Question("dijitalyetkinlik_ques_Q21","Orhan, duygu ve düşüncelerini net bir şekilde ifade edebilme gücüne sahiptir. Ayrıca bilgisini paylaşma konusunda hiçbir sıkıntı yaşamamaktadır.", "Verilen ifadeye göre, Orhan'ın aşağıdaki yönlerinden hangisinin öncelikle güçlü olduğu söylenebilir?","İletişim",["Kabiliyet","Fedakarlık","Sosyal sorumluluk","İletişim","Özbakım becerisi"]),
       Question("dijitalyetkinlik_ques_Q22","Sınıfta varlığı pek farkedilmeyen Elif'in arkadaşları ile duygu, düşünce ve bilgisini paylaşmada yeterli olmadığı sınıf öğretmeni tarafından farkedilmiştir.", "Sınıf öğretmeni, Elif'in aşağıdaki becerilerinden hangisini arttırmaya yönelik çalışmalar yapması gerekmektedir?","İletişim",["Sosyal sorumluluk","Fedakarlık","İletişim","Samimiyet","Özbakım becerisi"]),
       Question("dijitalyetkinlik_ques_Q23","I-Dil ile\nII-Semboller ile\nIII-Simgeler ile", "Yukarıdakilerden hangisi veya hangileri iletişim türlerindendir?","I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
@@ -83,7 +83,7 @@ class DijitalYetkinlikQuesViewModel extends ChangeNotifier{
       Question("dijitalyetkinlik_ques_Q28","", "Aşağıdakilerden hangisi iletişim sürecinde kaynak ile ilgili doğru bir ifade değildir?","İletişim sürecinin tamamlandığı yerdir",["İletişim sürecinin tamamlandığı yerdir","Alıcıya iletiyi gönderendir","İletişim sürecini başlatandır","Kişi veya materyal olabilir","Dijital öğrenme ortamları kaynak olabilir"]),
       Question("dijitalyetkinlik_ques_Q29","I-İletişimin başlangıcıdır\nII-İletişimin temel öğesidir\nIII-İletişim sürecinin bittiği noktadır", "Yukarıda verilen ifadelerden hangisi veya hangileri kaynak ile ilgili doğru bir ifadedir?", "I-II", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
       Question("dijitalyetkinlik_ques_Q30","", "Aşağıdakilerden hangisi iletişim sürecinde alıcı ile ilgili doğru bir ifadedir?", "İletilen duygu ve düşüncenin aktarıldığı birimdir", ["İletişim sürecinin başlangıcıdır","Mesajın aktarım şekline karar verir","İletilen duygu ve düşüncenin aktarıldığı birimdir","Geri bildirimi alandır","Sadece dinleyici konumundadır"]),
-    ]),TestListHomepageModel("Test 4",[
+    ]),TestListHomepageModel("Dijital Yetkinlik-Test 4",[
       Question("dijitalyetkinlik_ques_Q31","", "Aşağıdakilerden hangisi iletişim sürecinde mesaj ile ilgili doğru bir ifadedir?", "Kaynağın alıcıya iletmek istedikleridir", ["Yalnızca dijital ortamda gerçekleşir","Semboller kullanılmaz","Simgeler kullanılmaz","Kaynağın alıcıya iletmek istedikleridir","Derinlemesine bilgi içermek zorundadır"]),
       Question("dijitalyetkinlik_ques_Q32","I-Mesajlaşma uygulamaları\nII-Video içerik platformları\nIII-Yazılı web araçları", "Aşağıdakilerden hangisi veya hangileri iletişim sürecinde günümüzde kullanılan kanallardandır?", "I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
       Question("dijitalyetkinlik_ques_Q33","", "Aşağıdakilerden hangisi geri bildirim ile ilgili doğru bir ifade değildir?", "İletişimin her aşamasında olmak zorundadır", ["Mimiklerle yapılabilir","İletişimin her aşamasında olmak zorundadır","Alıcı tarafından verilir","Semboller kullanılabilir","Yazılı veya sözlü olabilir"]),

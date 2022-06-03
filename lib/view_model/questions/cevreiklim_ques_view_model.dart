@@ -7,7 +7,7 @@ class CevreIklimQuesViewModel extends ChangeNotifier{
   ///"I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
 
   List<TestListHomepageModel> _cevreIklimList=[
-    TestListHomepageModel("Karışık Test Çöz",[
+    TestListHomepageModel("Çevre İklim-Karışık Test Çöz",[
       Question("cevreiklim_ques_Q1","", "Tüm canlıların hayat boyu ilişkilerini sürdürdükleri ortama aşağıdakilerden hangisi denir?","Çevre",["Sosyal alan","Korunan alan","Orman","Çevre","Milli Park"]),
       Question("cevreiklim_ques_Q2","", "Aşağıdakilerden hangisi çevrenin önemleri arasında sayılamaz?","İnsan yetkisiyle değiştirilir ve geliştirilir",["Hayatın sürdürülmesi için temel unsurdur","Tüm kaynakların yer aldığı merkezdir","İnsan yetkisiyle değiştirilir ve geliştirilir","Ortak kullanım alanıdır","Canlıların etkileşimlerine ev sahipliği yapar"]),
       Question("cevreiklim_ques_Q3","Toplumun, tüm canlılara hitap eden ortak kullanım alanlarında, doğru etkileşimi kurması için gerekli temel kuralları öğrenmesi esastır.", "Yukarıdaki bilgiye göre aşağıdakilerden hangisi bireyin gelişiminde önemli bir yere sahiptir?","Çevre eğitimi",["Çevre eğitimi","Sosyal alan becerisi","Sorun çözme bilgisi","Temel eğitim","Aile eğitimi"]),
@@ -23,7 +23,7 @@ class CevreIklimQuesViewModel extends ChangeNotifier{
       Question("cevreiklim_ques_Q13","", "Aşağıdakilerden hangisi ortaokul kademesindeki öğrencilerin çevre ile ilgili yapması beklenen davranışlardan biri değildir?","Bilimsel araştırmalar yapma",["Bilimsel araştırmalar yapma","Çevresel konularda sentez düzeyinde tutum geliştirme","Çevre ile ilgili analizler gerçekleştirme","Çevre bilgisini tamamlamış olma","Çevrede olup bitenleri kavrama"]),
       Question("cevreiklim_ques_Q14","", "Aşağıdakilerden hangisi doğal dengelerin bozulması ile ilgili değildir?","Yanardağ hareketliliğinin artması",["Asit yağmurlarının yağması","Yanardağ hareketliliğinin artması","Hava kirliliğinin artması","Topraktaki zararlıların artması","Karbon salınımının artması"]),
     ]),
-    TestListHomepageModel("Test 1",[
+    TestListHomepageModel("Çevre İklim-Test 1",[
       Question("cevreiklim_ques_Q1","", "Tüm canlıların hayat boyu ilişkilerini sürdürdükleri ortama aşağıdakilerden hangisi denir?","Çevre",["Sosyal alan","Korunan alan","Orman","Çevre","Milli Park"]),
       Question("cevreiklim_ques_Q2","", "Aşağıdakilerden hangisi çevrenin önemleri arasında sayılamaz?","İnsan yetkisiyle değiştirilir ve geliştirilir",["Hayatın sürdürülmesi için temel unsurdur","Tüm kaynakların yer aldığı merkezdir","İnsan yetkisiyle değiştirilir ve geliştirilir","Ortak kullanım alanıdır","Canlıların etkileşimlerine ev sahipliği yapar"]),
       Question("cevreiklim_ques_Q3","Toplumun, tüm canlılara hitap eden ortak kullanım alanlarında, doğru etkileşimi kurması için gerekli temel kuralları öğrenmesi esastır.", "Yukarıdaki bilgiye göre aşağıdakilerden hangisi bireyin gelişiminde önemli bir yere sahiptir?","Çevre eğitimi",["Çevre eğitimi","Sosyal alan becerisi","Sorun çözme bilgisi","Temel eğitim","Aile eğitimi"]),
@@ -36,7 +36,7 @@ class CevreIklimQuesViewModel extends ChangeNotifier{
       Question("cevreiklim_ques_Q10","", "Aşağıdakilerden hangisi çevre bilincine sahip bireylerde görülmesi gereken davranışlardan biridir?","Çevreye uyum sağlamak",["Çevreyi etkileyen olaylara kayıtsız kalmak","Çevre ile etkileşimini azaltmak","Çevreye uyum sağlamak","Çevreyi etkileyecek durumlarda çekimser duruş sergilemek","Çevre bilincini oluşturacak etkinliklerden uzak durmak"]),
 
     ]),
-    TestListHomepageModel("Test 2",[
+    TestListHomepageModel("Çevre İklim-Test 2",[
       Question("cevreiklim_ques_Q11","5. sınıf kademesinde sınıfı olan Semra öğretmen, sınıfına çevre bilinci konusunda faydalı bilgiler vermek istemiş ancak yapacağı etkinlikler konusunda kararsız kalmıştır.", "Aşağıdakilerden hangisi Semra öğretmene verilebilecek tavsiyelerden biri olamaz?","Öğrencilerine eğitimlerini ailelerinin tamamlamasını bildirmeli",["Öğrencilerinin çevre ile etkileşimlerini arttırmalı","Öğrencilerine eğitimlerini ailelerinin tamamlamasını bildirmeli","Görsel materyaller ile anlatımlarını desteklemeli","Farkındalık oluşturacak etkinlikler düzenleyerek öğrencilerine görevler vermeli","Küçük yarışmalar düzenleyerek ödüllendirmeler yapmalı"]),
       Question("cevreiklim_ques_Q12","I-Çevre analizi\nII-Çevreyi tanıma\nIII-Nüfus hareketliliği", "Okul öncesi eğitim kademesinde öğrencilerin yukarıdaki sorumluluklardan hangisine sahip olmaları beklenir?","Yalnız II",["Yalnız I","Yalnız II","Yalnız III","II-III","I-II-III"]),
       Question("cevreiklim_ques_Q13","", "Aşağıdakilerden hangisi ortaokul kademesindeki öğrencilerin çevre ile ilgili yapması beklenen davranışlardan biri değildir?","Bilimsel araştırmalar yapma",["Bilimsel araştırmalar yapma","Çevresel konularda sentez düzeyinde tutum geliştirme","Çevre ile ilgili analizler gerçekleştirme","Çevre bilgisini tamamlamış olma","Çevrede olup bitenleri kavrama"]),
