@@ -73,13 +73,15 @@ class OzelEgitimInfoViewModel extends ChangeNotifier{
       InfoCardItem("eo_Info_215","5-İhtiyaçlar Yaklaşımı","Meslek seçimini psikolojik ihtiyaçların belirlediğini savunur.",),
       InfoCardItem("eo_Info_216","6-Psikoanalitik Yaklaşım","Meslek seçimini kişisel dinamiklerin belirlediini savunur.",),
     ]), InfoCardModel("Özel Eğitim ve Rehberlik-6", [
-      InfoCardItem("eoozelegitim_Info_217","Rehberlik Modelleri","-Parsonian Model,\n-Eğitim Rehberlik Kaynaştırılması,\n-Klinik Yaklaşım,\n-Karar Vermeye Yardımcı Model,\n-Kapsamlı PDR Programı"),
+      InfoCardItem("eoozelegitim_Info_217","Rehberlik Modelleri","-Parsonian Model,\n-Eğitim Rehberlik Kaynaştırılması,\n-Klinik Yaklaşım,\n-Karar Vermeye Yardımcı Model,\n-Gelişimsel Rehberlik Modeli\n-Kapsamlı PDR Programı"),
       InfoCardItem("eoozelegitim_Info_218","Parsion Model","-Meslek seçiminde rehberlik hizmetinin olması gerektiğini savunan modeldir.\n-Frank Parsons tarafından geliştirilmiştir.\n-Amaç, bireyin kendine en uygun mesleği keşfetmesini sağlamaktır.\n-Rehberliğin yöneltici yönünün önemine dikkat çekilmesini sağlamıştır.\n-3 aşamada gerçekleşir. Bunlar\n\n-Bireyi tanıma\n-Meslekleri tanıma\n-İşe yerleştirme"),
       InfoCardItem("eoozelegitim_Info_219","Eğitim Rehberlik Kaynaştırılması","-Brewer tarafından geliştirilmiştir.\n-Eğitim ile rehberliğin özdeşliğini konu alır.\n-Rehberliğin bilgi verme yönünü ön plana alır.\n-Sınıf içerisinde de rehberlik faaliyeti yürütülmesi gerektiğini belirtir.\n-Rehberlik saati uygulamasını savunur.\n-Rehberliğin eğitimde tamamlayıcı yönde olduğunu savunur."),
-      InfoCardItem("eoozelegitim_Info_220","",""),
-      InfoCardItem("eoozelegitim_Info_221","",""),
-      InfoCardItem("eoozelegitim_Info_222","",""),
-      InfoCardItem("eoozelegitim_Info_223","",""),
+      InfoCardItem("eoozelegitim_Info_220","Klinik Yaklaşım-1","-Öncüsü Williamson'dur.\n-Özellik-Faktör kuramı olarak da bilinir.\n-Özellik, bireyin kendisidir ve test ile ölçülen yapısını ortaya çıkartır.\n-Faktör ise iş performansının başarılı olabilmesi için gereken karakter yapısını inceler.\n-Bu tanımlar göz önüne alındığında, birey incelemesi yönüyle Parsons modeline benzer.\n-Anket, kişisel dosya ve test ile tanıma yapılır. "),
+      InfoCardItem("eoozelegitim_Info_221","Klinik Yaklaşım-2","-Sorun belirlenmeden çözülmesi mümkün değildir.\n-Sorun belirlendikten sonra da nedenleri ayrıntılı olarak belirlenmelidir.\n-Günümüzde kullanılmakta olan toplu dosya sistemi ve ölçme aracının temelini oluşturmuştr.\n-Bireye her yönüyle tanındıktan sonra karar vermesine yardım edilir.\n-Bireysel farklılıklara önem verir."),
+      InfoCardItem("eoozelegitim_Info_222","Karar Vermeye Yardımcı Model","-Tiedeman, Jones ve Katz kurucularıdır.\n-Rehberlik süreci karar verme süreci olarak nitelendirilir.\n-Meslek seçimine yardımcıdır.\n-Bireyin benimsediği değerlerin incelenmesi gerektiğini savunur."),
+      InfoCardItem("eoozelegitim_Info_223","Gelişimsel Rehberlik Modeli","-"),
+      InfoCardItem("eoozelegitim_Info_224","",""),
+      InfoCardItem("eoozelegitim_Info_225","",""),
     ]),
 
 
