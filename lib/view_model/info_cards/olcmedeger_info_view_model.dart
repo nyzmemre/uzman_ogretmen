@@ -31,9 +31,6 @@ class OlcmeDegerInfoViewModel extends ChangeNotifier{
       InfoCardItem("olcmedeger_info_22", "Doğal Sıfır", "-Gerçekten yokluğu ifade eden sıfırdır. \n-Sıfır (0) kilogram olan bir nesne gerçekten yoktur."),
       InfoCardItem("olcmedeger_info_23", "Tanımlanmış Sıfır", "-İlgili uzmanlarca tanımı yapılan sıfırdır. \n-Gerçekten yokluğu ifade etmez. \n-Oluşturulmuş bir başlangıç noktasına verilen isimdir. \n-Örneğin hava sıcaklığının sıfır (0) derece olması bir yokluğu ifade etmemektedir. \n-Çünkü hissedilebilen bir hava sıcaklığı vardır."),
     ]),
-
-
-
     InfoCardModel("Ölçme ve Değerlendirme-3 (Yeni)", [
       InfoCardItem("eo_Info_101","","Ölçme; varlıkların bir niteliğe ne derece sahip olduklarının gözlemlenip sembolleştirilmesidir. Doğrudan ölçme ve Dolaylı ölçme olarak 2 çeşittir.",),
       InfoCardItem("eo_Info_102","Doğrudan Ölçme","-Ölçülecek niteliğin doğrudan gözlemlenmesidir.\n-Örn: Deney yapan öğrenciye puan vermek\n",),
