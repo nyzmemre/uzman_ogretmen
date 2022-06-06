@@ -152,7 +152,7 @@ class OgrenOgretQuesViewModel extends ChangeNotifier{
       Question("ogrenogret_ques_Q20","I-Refleksif\nII-Psikomotor\nIII-Geçici", "Yukarıdakilerden hangisi davranış olarak nitelendirilebilir?","I-II-III",["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
 
     ]),
-    TestListHomepageModel("Öğrenme ve Öğretme-Test 3 (Yeni)", [
+    TestListHomepageModel("Öğrenme ve Öğretme-Test 3", [
       Question("ogrenogret_ques_Q21","I-Duyuşsal\nII-Bilişsel\nIII-İstenmedik", "Yukarıdakilerden hangisi davranış olarak nitelendirilebilir?","I-II-III",["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
       Question("ogrenogret_ques_Q22","", "Davranış ile ilgili verilen ifadelerden hangisi doğru değildir?","İstenmedik olamaz",["İstenmedik olamaz","Geçici olabilir","Refleksif olabilir","Duyuşsal olabilir","Öğrenilmiş olabilir"]),
       Question("ogrenogret_ques_Q23","Sema öğretmen, 5.sınıf kademesinde ilk kez derse girmiştir. İlk dersinde, öğrencilerinin olaylar ile ilgili sebep sonuç ilişkisi kurma yeterliliklerini ölçmek için etkinlikler yapmıştır.", "Sema öğretmen yukarıdaki etkinlik ile öğrencilerinin hangi alandaki davranışlarını öğrenmeyi amaçlamıştır?","Bilişsel",["Duyuşsal","İstendik","Bilişsel","Psikomotor","Öğrenilmiş"]),
@@ -165,7 +165,7 @@ class OgrenOgretQuesViewModel extends ChangeNotifier{
       Question("ogrenogret_ques_Q30","", "Sınıfta yazı yazmakta zorlanan öğrencileri için etkinlikler düzenlemeyi düşünen Kazım öğretmen, öğrencilerinin hangi davranış alanı ile ilgili çalışma yapmış olacaktır?", "Psikomotor",["Refleksif","Duyuşsal","Psikomotor","Geçici","Bilişsel"]),
 
     ]),
-    TestListHomepageModel("Öğrenme ve Öğretme-Test 4 (Yeni)", [
+    TestListHomepageModel("Öğrenme ve Öğretme-Test 4", [
       Question("ogrenogret_ques_Q31","", "Planlı bir eğitim sürecinde veya gelişigüzel kültürlenme ile oluşan öğrenmeler aşağıdaki kavramlardan hangisi ile ifade edilir?", "İstendik davranış", ["Geçici davranış","İstendik davranış","Doğuştan gelen davranış","İstenmedik davranış","Bilişsel davranış"]),
       Question("ogrenogret_ques_Q32","Harun, yaz tatilini değerlendirmek için yüzme kursuna yazılmıştır. Bu kursta, günlük olarak alacakları eğitimler önceden planlanmıştır. Harun, kurs bitiminde iyi bir yüzücü olacağını düşünmektedir.", "Harun'un kayıt olduğu kurs ile kazanacağı öğrenmeyi içine alan davranış türü aşağıdakilerden hangisidir?", "İstendik davranış", ["Geçici davranış","Duyuşsal davranış","İstendik davranış","Geçici davranış","Öğrenilmiş davranış"]),
       Question("ogrenogret_ques_Q33","Robotik kodlama kursuna kayıt yaptıran Fatma, kurs günlerini iple çekmektedir. Kursta birçok farklı cihazın tasarımını öğrenmektedir. Ancak kodlama kısmında sürekli benzer hataları yapmaktadır. Sürece baktığında bunun kendinden kaynaklanmadığı ve hatalı eğitim sonucunda edinilen bir öğrenme olduğunu farketmiştir.", "Buna göre Fatma, kursta aşağıdaki davranış türlerinden hangisine sahip olmuştur?", "İstenmedik davranış", ["Geçici davranış","Duyuşsal davranış","Öğrenilmiş davranış","Geçici davranış","İstenmedik davranış"]),
@@ -178,7 +178,7 @@ class OgrenOgretQuesViewModel extends ChangeNotifier{
       Question("ogrenogret_ques_Q40","I-Öğrenme yöntemi\nII-Öğrenme malzemesi\nIII-Öğrenme sıklığı", "Yukarıdakilerden hangisi veya hangileri öğrenmeyi etkileyen faktörlerden biri değildir?", "Yalnız III", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
 
     ]),
-    TestListHomepageModel("Öğrenme ve Öğretme-Test 5 (Yeni)", [
+    TestListHomepageModel("Öğrenme ve Öğretme-Test 5", [
       Question("eo_Q119","", "Aşağıdakilerden hangisi öğrenme ile ilgili doğru bir ifade değildir?", "Kalıcı olması gerekmez", ["Davranış değişikliği gerektirir","Olumlu ve olumsuz yönde olabilir","Kalıcı olması gerekmez","Refleksif hareketler öğrenme kabul edilmez","Çevresel faktörler etkendir"]),
       Question("eo_Q120","I-Refleksif\nII-Kalıcı\nIII-Olumlu", "Öğrenme sürecinin gerçekleştiğinden söz edebilmek için yukarıdakilerden hangisi kesinlikle gereklidir?", "Yalnız II", ["Yalnız I","Yalnız II","Yalnız III","II-III","I-II-III"]),
       Question("eo_Q121","I-Gözlenebilir\nII-Yaşansısal\nIII-Kalıcı", "Öğrenmenin gerçekleştiğinden söz edilebilmesi için yukarıdakilerden hangisi veya hangilerinin bulunması gerekir?", "I-II-III", ["Yalnız I","Yalnız II","Yalnız III","II-III","I-II-III"]),
@@ -190,7 +190,7 @@ class OgrenOgretQuesViewModel extends ChangeNotifier{
       Question("eo_Q127","", "Gelişigüzel kültürlenme sonucu ortaya çıkan öğrenmeler aşağıdaki davranış türlerinden hangisine girer?", "İstendik davranış", ["Bilişsel davranış","İstendik davranış","Öğrenilmiş davranış","Psikomotor davranış","Duyuşsal davranış"]),
       Question("eo_Q129","", "Hatalı eğitim süreçleri sonunda ortaya çıkan öğrenmeler aşağıdaki davranış türlerinden hangisine girer?", "İstenmedik davranış", ["Bilişsel davranış","İstendik davranış","Öğrenilmiş davranış","İstenmedik davranış","Duyuşsal davranış"]),
     ]),
-    TestListHomepageModel("Öğrenme ve Öğretme-Test 6 (Yeni)", [
+    TestListHomepageModel("Öğrenme ve Öğretme-Test 6", [
       Question("eo_Q130","", "Kötü kültürlenme sonucu ortaya çıkan öğrenmeler aşağıdaki davranış türlerinden hangisine girer?", "İstenmedik davranış", ["Bilişsel davranış","İstendik davranış","Öğrenilmiş davranış","İstenmedik davranış","Duyuşsal davranış"]),
       Question("eo_Q131","", "İlaç kullanımı ve alkol gibi durumlar sebebiyle ortaya çıkan davranışlar aşağıdakilerden hangisidir?", "Geçici davranış", ["Geçici davranış","İstendik davranış","Öğrenilmiş davranış","İstenmedik davranış","Duyuşsal davranış"]),
       Question("eo_Q132","", "Refleksif, içgüdüsel ve kontrol dışı ortaya çıkan davranışlar aşağıdakilerden hangisidir?", "Doğuştan gelen davranış", ["Geçici davranış","İstendik davranış","Öğrenilmiş davranış","İstenmedik davranış","Doğuştan gelen davranış"]),
@@ -203,7 +203,7 @@ class OgrenOgretQuesViewModel extends ChangeNotifier{
       Question("eo_Q139","", "Bireyin veya organizmanın, önceki öğrenmelerinin yeni öğrenmelerine etki etmesi aşağıdakilerden hangisi ile ifade edilir?", "Eski yaşantılar",["Eski yaşantılar","Dikkat","Güdü","Türe özgü hazıroluş","Genel uyarılmışlık düzeyi"]),
 
     ]),
-    TestListHomepageModel("Öğrenme ve Öğretme-Test 7 (Yeni)", [
+    TestListHomepageModel("Öğrenme ve Öğretme-Test 7" , [
       Question("eo_Q140","", "Aşağıdakilerden hangisi öğrenmeyi etkileyen faktörlerden öğrenme yöntemi ile ilgili değildir?", "Dikkat", ["Konunun yapısı","Dikkat","Zaman kullanımı","Etkin katılım","Dönüt"]),
       Question("eo_Q141","I-Güdü\nII-Etkin katılım\nIII-Dikkat", "Aşağıdakilerden hangisi öğrenmeyi etkileyen faktörlerden öğrenme yöntemi ile ilgilidir?", "Yalnız II", ["Yalnız I","Yalnız II","Yalnız III","II-III","I-II-III"]),
       Question("eo_Q142","I-Bütün-Bütün-Parça\nII-Bütün-Parça-Parça\nIII-Parça-Bütün-Parça", "Yukarıdakilerden hangisi veya hangileri etkili öğrenme yöntemlerinden biri değildir?", "I-II-III", ["Yalnız I","Yalnız II","Yalnız III","II-III","I-II-III"]),
@@ -219,9 +219,14 @@ class OgrenOgretQuesViewModel extends ChangeNotifier{
     TestListHomepageModel("Öğrenme ve Öğretme-Test 8 (Yeni)", [
       Question("eo_Q151","", "Uyarıcının o an çevrede varolan tüm uyarıcılardan daha güçlü olması durumu öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Algısal ayırt edilebilirlik", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
       Question("eo_Q152","", "Yeni öğrenmelerin eski öğrenmelerden esinlenilerek gerçekleşmesi durumu öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Anlamsal çağrışım", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
-      Question("eo_Q153","", "Konuların iki boyutlu çizelge ile hiyerarşik olarak ilişkilerinin gösterilmesi öğrenme mazlemesi ile iligili faktörlerden hangisi ile ilgilidir?", "Kavramsal gruplandırma", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
-      Question("eo_Q154","", "İçeriğin deneyimlerle ve bilgilerle ilişkilendirilmesi öğrenme mazlemesi ile iligili faktörlerden hangisi ile ilgilidir?", "Çağrışımsal gruplandırma", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
+      Question("eo_Q153","", "Konuların iki boyutlu çizelge ile hiyerarşik olarak ilişkilerinin gösterilmesi öğrenme mazlemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Kavramsal gruplandırma", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
+      Question("eo_Q154","", "İçeriğin deneyimlerle ve bilgilerle ilişkilendirilmesi öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Çağrışımsal gruplandırma", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
       Question("eo_Q155","", "İçeriğin dilsel gelişime uygun olarak verilmesi aşağıdaki öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Telaffuz edilebilirlik", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
+      Question("eoogrogr_Q156","Akif, en çok sevdiği oyun karakteri olan örümcek adam figürünü lunaparkta hemen farkederek yanına gitmiştir.", "Buna göre süpermen ile Akif'in durumu öğrenme malzemesi ile ilgili faktörlerden hangisine karşılık gelir?","Algısal ayırt edilebilirlik", ["Telaffuz edilebilirlik","Anlamsal çağrışım","Kavramsal gruplandırma","Çağrışımsal gruplandırma","Algısal ayırt edilebilirlik"]),
+      Question("eoogrogr_Q157","Öğrenme stratejileri geliştirilirken geçmiş yaşantılardaki öğrenmeler yeni öğrenmeleri destekleyici olmalıdır.", "Aşağıdakilerden hangisi bu ifadeyi karşılayan öğrenme malzemesi ile ilgili faktörlerdendir?", "Anlamsal çağrışım", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
+      Question("eoogrogr_Q158","", "Kavram haritaları öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Kavramsal gruplandırma", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
+      Question("eoogrogr_Q159","Çocukluk yıllarında toptancılık yapan babasıyla birlikte birçok il gezen Mahir coğrafya öğretmeni olarak görev yapmaktadır.", "Ders anlatımında birçok il görmesinin avantajlarını kullanarak anlatımlar yapan Mahir Öğretmen, öğrenme malzemesi ile ilgili faktörlerden hangisini kullanmaktadır?", "Çağrışımsal gruplandırma", ["Telaffuz edilebilirlik","Kavramsal gruplandırma","Anlamsal çağrışım","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma"]),
+      Question("eoogrogr_Q160","Erdal, dersler içerisinde en çok Müzik Öğretmeni Bahadır'ın derslerini sevmektedir. Bunm sebebini öğretmeninin anlaşılır örneklerle nota öğretimi yapması olarak göstermiştir.", "Erdal'ın Bahadır Öğretmeni beğenme sebebi öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Telaffuz edilebilirlik", ["Telaffuz edilebilirlik","Anlamsal çağrışım","Kavramsal gruplandırma","Çağrışımsal gruplandırma","Algısal ayırt edilebilirlik"]),
 
     ]),
     TestListHomepageModel("Hazırlanıyor",[
