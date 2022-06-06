@@ -159,7 +159,7 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
       Question("eo_Q41","", "Aşağıdakilerden hangisi kavrama düzende hedef alanı değildir?", "Bir konu hakkında öykü yazma", ["Bir cümlenin anlamını açıklama","Bir testin belirteç tablosuna uygun olup olmadığına karar verme","Cümleyi öğlerine ayırma","Öykü yazma","Bir konu hakkında öykü yazma"]),
       Question("eo_Q42","", "Z puanı ile ilgili verilen bilgilerden hangisi yanlıştır?", "Negatif değer alamaz", ["Ortalaması 0'dır","Standar sapması 1'dir","Ortalamnın altında veya üstünde olduğu hakkında bilgi verir","Negatif değer alamaz","Ham puandan ortalama çıkarılır, standart sapmaya bölünür"]),
     ]),
-    TestListHomepageModel("Ölçme Değerlendirme-Test 5 (Yeni)",[
+    TestListHomepageModel("Ölçme Değerlendirme-Test 5 ",[
       Question("olcmedeger_ques_Q1","I-Türetilmiş Ölçme\nII-Doğrudan Ölçme\nIII-Dolaylı Ölçme", "Yukarıdakilerden hangileri ölçmenin türlerindendir?","I-II-III", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
       Question("olcmedeger_ques_Q2","", "Ölçülmek istenen değişkenin yapısı, doğrudan gözleme uygun olmadığı için başka bir değişken ya da özellik yardımıyla ölçülmesine ne ad verilir?","Dolaylı Ölçme",["Model ile Ölçme","Doğrudan Ölçme","Türetilmiş Ölçme","Dolaylı Ölçme","Yapısal Ölçme"]),
       Question("olcmedeger_ques_Q3","Ölçme sonuç ifadesi herkesin üzerinde uzlaştığı ….. ile yapılır. Ölçme de …… kullanılması ile kişiler arası iletişim ve yorumlama işlemleri kolaylaşır. Ölçme ile ilgili objektiflik sağlanmış olur.", "Noktalı yerlere gelmesi gereken ifade aşağıdakilerden hangisidir?","Birim",["Ölçek","Ölçüm","Birim","İzomorf","Homomorf"]),
@@ -171,7 +171,7 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
       Question("olcmedeger_ques_Q9","", "Aşağıdaki hangi ölçek türü ikilisinde sıfır değerinin bir anlamı yoktur?","Sınıflama-Sıralama",["Sınıflama-Sıralama","Eşit Aralıklı-Sıralama","Sınıflama-Oranlı","Oranlı-Eşit Aralıklı","Sıralama-Oranlı"]),
       Question("olcmedeger_ques_Q10","", "Aşağıdakilerden hangisi doğrudan (temel) ölçmedir?","",["Pazarda terazi ile elma ağırlıklarının ölçülmesi","Hava sıcaklığının termometre ile ölçülmesi","İş yerindeki kişilerin mesleki tükenmişlik seviyelerinin ölçülmesi","Manavın reyondaki karpuzları sayması","İle ait nüfus yoğunluğunun ölçülmesi"]),
     ]),
-    TestListHomepageModel("Ölçme Değerlendirme-Test 6 (Yeni)",[
+    TestListHomepageModel("Ölçme Değerlendirme-Test 6 ",[
       Question("olcmedeger_ques_Q11","", "Rakamsal olarak ifade edilebilir özelikte olan değişken aşağıdakilerden hangisidir?","Nicel Değişken",["Ara Değişken","Bağımlı Değişken","Bağımsız Değişken","Nicel Değişken","Nitel Değişken"]),
       Question("olcmedeger_ques_Q12","", "Betimsel olarak ifade edilen değişken aşağıdakilerden hangisidir?","Nitel Değişken",["Nicel Değişken","Ara Değişken","Bağımsız Değişken","Nitel Değişken","Bağımlı Değişken"]),
       Question("olcmedeger_ques_Q13","I-Eşitlik\nII-Amaca Uygunluk\nIII-Genellik", "Yukarıdakilerden hangisi ya da hangileri ölçmede birimin taşıması gereken özelliklerindendir?", "I-II-III", ["I-III","Yalnız II","II-III","I-II","I-II-III"]),
@@ -183,7 +183,7 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
       Question("olcmedeger_ques_Q19","", "Ayşe Liselere Giriş Sınavında üçüncü olmuştur. Bu sonuç hangi tür ölçek kullanılarak elde edilmiş olabilir?", "Sıralama", ["Sınıflama","Sıralama","Puanlama","Eşit Aralıklı","Eşit Oranlı"]),
       Question("olcmedeger_ques_Q20","", "Derse karşı tutumun başarıya olan etkisini ölçmek için hangi tür ölçme yöntemi kullanılmalıdır?","Dolaylı Ölçme",["Doğrudan Ölçme","Dolaylı Ölçme","Objektif Ölçme","Türetilmiş Ölçme","Karşılaştırmalı Ölçme"]),
     ]),
-    TestListHomepageModel("Ölçme Değerlendirme-Test 7 (Yeni)",[
+    TestListHomepageModel("Ölçme Değerlendirme-Test 7 ",[
       Question("olcmedeger_ques_Q21","", "Bir anasınıfında yapılan sayım sonucunda sınıfta toplam 18 öğrenci olduğu belirleniyor. Yapılan ölçme türü aşağıdakilerden hangisidir?","Doğrudan Ölçme",["Doğrudan Ölçme","Dolaylı Ölçme","Objektif Ölçme","Türetilmiş Ölçme","Dolaylı Ölçme"]),
       Question("olcmedeger_ques_Q22","I-Güvenirlik\nII-Genellik\nIII-Objektiflik\nIV-Kullanışlılık\nV-Eşitlik", "Yukarıda verilen kavramlardan hangileri iletişimin temel öğelerindendir?", "II-IV-V", ["II-IV-V","I-II-V","I-III-IV","I-II-IV","I-II-III-IV-V"]),
       Question("olcmedeger_ques_Q23","", "Güvenirlik Katsayısı hangi sayısal değerler arasındadır?", "0 ile 1", ["-1 ile +1","-1 ile 0","0 ile 1","1 ile 2","0 ile 2"]),
@@ -196,7 +196,7 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
       Question("olcmedeger_ques_Q30","", "Çok kalabalık bir sınıfta Damla öğretmenin hangi ölçme aracını uygulaması uygun değildir?","Sözlü Sınav",["Sözlü Sınav","Yazılı Sınav","Çoktan Seçmeli Test","Eşleştirme Testi","Doğru Yanlış Testi"]),
     ]),
 
-    TestListHomepageModel("Ölçme Değerlendirme-Test 8 (Yeni)",[
+    TestListHomepageModel("Ölçme Değerlendirme-Test 8 ",[
       Question("olcmedeger_ques_Q31","", "Öğretmenin yaptığı yazılıda tüm konuları içeren yeterli sayıda soru hazırlaması ölçme aracının hangi niteliğini olumlu yönde etkiler?","Kapsam Geçerliliği",["Amaca Uygunluk","Kullanışlılık","Kapsam Geçerliliği","Güvenirlik","Tutarlılık"]),
       Question("olcmedeger_ques_Q32","", "Aşağıdakilerden hangisi yazılı sınavların güvenirliğini azaltır?","Şans başarısının olması",["Kopyanın önüne geçilmesi","Şans başarısının olması","Sınav süresinin yeterli olması","Anlaşılır, net ve açık bir dil kullanılması","Bileni bilmeyenden ayırt edici sorular bulunması"]),
       Question("olcmedeger_ques_Q33","I-Soru Sayısı Azdır\nII-Şans Faktörü Vardır\nIII-Puanlama Nesnel Olarak Yapılmaktadır", "Yukarıdakilerden hangisi-hangileri sözlü sınavların özelliklerindendir?", "Yalnız I", ["I-III","I-II","II-III","Yalnız II","Yalnız I"]),
@@ -208,7 +208,7 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
       Question("olcmedeger_ques_Q39","", "Çoktan seçmeli bir sınavda soru sayısının arttırılması aşağıdaki ikililerden hangisini olumlu etkiler?","Kapsam Geçerliliği-Güvenirlik",["Kapsam Geçerliliği-Güvenirlik","Kullanışlılık-Güvenirlik","Kullanışlılık-Geçerlilik","Şans Faktörü-Kapsam Geçerliliği","Kapsam Geçerliliği-Kullanışlılık"]),
       Question("olcmedeger_ques_Q40","", "Eksik ve yanlış öğrenmeleri saptamak için hangi sınav türünün kullanılması en uygundur?","Çoktan Seçmeli",["Çoktan Seçmeli","Sözlü","Doğru Yanlış","Eşleştirme","Yazılı"]),
     ]),
-    TestListHomepageModel("Ölçme Değerlendirme-Test 9 (Yeni)",[
+    TestListHomepageModel("Ölçme Değerlendirme-Test 9 ",[
       Question("olcmedeger_ques_Q41","", "Yaz öğretmen aritmetik ortalaması 70 olan bir test hazırlamak isterse madde güçlük indeksi 0,4 olan kaç madde kullanması gerekir?","175",["225","200","175","125","150"]),
       Question("olcmedeger_ques_Q42","", "Emre öğretmenin 50 soru sorduğu sınavda aritmetik ortalama 40 olarak gerçekleşmiş ise madde güçlük indeksi ortalaması kaçtır?","0,8",["0,1","0,2","0,4","0,6","0,8"]),
       Question("olcmedeger_ques_Q43","", "Ortalama madde güçlük indeksi 0,4 ve aritmetik ortalaması 50 olan bir sınavda kaç soru sorulmuştur?","125",["75","100","125","150","175"]),
@@ -220,7 +220,7 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
       Question("olcmedeger_ques_Q49","", "Aslı öğretmen tüm sınav notlarını iyi, orta ve kötü olarak 3 gruba ayırıyorsa hangi puanlama tekniğini kullanıyordur?","Sınıflama",["Karşılaştırma","Anahtarlama","Eşleştirme","Sınıflama","Sıralama"]),
       Question("olcmedeger_ques_Q50","I-Yazılı sınavları puanlamak kolaydır\nII-Yazılı sınavlarda şans başarısı çok düşüktür\nIII-Puanlama genelde objektiftir", "Yazılı sınavlarla ilgili verilen ifadelerden hangileri doğrudur?","Yalnız II",["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
     ]),
-    TestListHomepageModel("Ölçme Değerlendirme-Test 10 (Yeni)",[
+    TestListHomepageModel("Ölçme Değerlendirme-Test 10 ",[
       Question("olcmedeger_ques_Q51","", "Sınav yapan ve sınav olanın en fazla etkileşim içerisinde bulunduğu sınav türü hangisidir?","Sözlü Sınav",["Çoktan Seçmeli Test","Eşleştirme Soruları","Doğru Yanlış Testleri","Sözlü Sınav","Yazılı Sınav"]),
       Question("olcmedeger_ques_Q52","", "Puanlaması kolay olan ve şans başarısı olmayan sınav türü aşağıdakilerden hangisidir?","Kısa Yanıtlı",["Eşleştirme","Doğru Yanlış","Yazılı Yoklama","Çoktan Seçmeli","Kısa Yanıtlı"]),
       Question("olcmedeger_ques_Q53","I-Şans Başarısı Yüksektir\nII-Yazılılardan Daha Zor Puanlanırlar\nIII-Ezbere Dayalı Bilgileri Ölçmezler", "Kısa yanıtlı testler ile ilgili verilen bilgilerden hangi-hangileri doğrudur?","Hiçbiri",["Yalnız I","Yalnız II","Yalnız III","I-II-III","Hiçbiri"]),
@@ -232,6 +232,64 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
       Question("olcmedeger_ques_Q59","", "Harun öğretmenin öğrencilere yaptığı sınav sonucu elde ettiği puanla gerçek puanın farkına ne ad verilir?","Hata",["Ölçek","Ölçüm","Ölçü","Ölçüt","Hata"]),
       Question("olcmedeger_ques_Q60","", "Eğitim öğretim sürecinde en çok kullanılan ölçme türü aşağıdakilerden hangisidir?","Dolaylı Ölçme",["Sabit Ölçme","Dolaylı Ölçme","Doğrudan Ölçme","Türetilmiş Ölçme","Objektif Ölçme"]),
 
+      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 11 (Yeni)",[
+      Question("olcmedeger_ques_Q61","", "Bireyin sahip olduğu bir niteliğe sahip oluş miktarını sayı ya da sembollerle ifade etme işlemidir. Tanımlanan kavram aşağıdakilerden hangisidir?","Ölçme",["Ölçüm","Değerlendirme","Ölçme","Ölçek","Ölçüt"]),
+      Question("olcmedeger_ques_Q62","I-Bilsem sınavına giren bir öğrencinin zekasının ölçülmesi.\nII-Bir sıvının sıcaklığının termometre ile ölçülmesi.\nIII-Bir dolabın boyunun metre ile ölçülmesi.", "Yukarıda verilen ifadelerden hangisi ya da hangileri bir ölçme işlemidir?","I-II-III",["Yalnız I","I-II","I-III","II-III","I-II-III"]),
+      Question("olcmedeger_ques_Q63","", "Eğitim-öğretim sürecinde ölçmenin işlevi gereği öncelikle hangi soruya cevap vermesi beklenir?","Ne kadar eğitim verdik?",["Ne kadar eğitim verdik?"," Nasıl eğitim verdik?","Neden eğitim verdik?","Nerede eğitim verdik?","Niçin eğitim verdik?"]),
+      Question("olcmedeger_ques_Q64","", "Aşağıda verilen ölçme işlemlerinden hangisi yöntem bakımından diğerlerinden farklıdır?","Boyun Ölçülmesi",["Boyun Ölçülmesi","İlginin ölçülmesi","Tutumun ölçülmesi","Zekanın ölçülmesi","Öğrenci Başarısının ölçülmesi"]),
+      Question("olcmedeger_ques_Q65","", "Bir araştırmacının yapacağı ölçme işleminde cevaplandırması gereken ilk sorunun aşağıdakilerden hangisi olması beklenir?","Neyi ölçeceğiz?",["Neyle ölçeceğiz?","Nasıl Ölçeceğiz?","Neden Ölçeceğiz?","Neyi ölçeceğiz?","Ne Kadar Ölçeceğiz?"]),
+      Question("olcmedeger_ques_Q66","", "Aşağıdakilerden hangisi doğrudan ölçmedir?","Bir sınıftaki erkek öğrencilerin sayısını belirlemek",["Öğrencilere standart zeka testi yapmak","Bir sınıftaki erkek öğrencilerin sayısını belirlemek","Öğrencilerin derse olan ilgilerini ölçmek"," Öğrencilerin derse karşı olan tutumlarını ölçmek","Öğrencilerin İngilizce başarısını ölçmek"]),
+      Question("olcmedeger_ques_Q67","", "Aşağıda dolaylı ve doğrudan ölçme ile ilgili olarak verilen bilgilerden hangisi yanlıştır?","Dolaylı ölçmelerde hata ihtimali daha azdır.",[" Dolaylı ölçmelerde tanımlanmış sıfır kullanılır.","Dolaylı ölçmelerde hata ihtimali daha azdır.","Temel (Doğrudan) ölçmelerde elde edilen veriler daha objektiftir.","Doğrudan ölçme ölçülecek özelliğin doğrudan gözlemlenmesidir."," Doğrudan ölçmelerde mutlak sıfır kullanılır."]),
+      Question("olcmedeger_ques_Q68","", " Aşağıdakilerden hangisi doğrudan ölçmenin dolaylı ölçmeye göre avantajlarından biri değildir?","Hata olma olasılığı daha yüksektir.",[" Daha kesin ve net sonuçlar verir.","Mutlak sıfır kullanılır.","Sıfır gerçek yokluğu tanımlar.","Objektifliği daha yüksektir.","Hata olma olasılığı daha yüksektir."]),
+      Question("olcmedeger_ques_Q69","", " Aşağıdakilerden hangisi doğrudan ölçmenin özelliklerinden biri değildir?","Öznelliği yüksektir.",["Kesin ve net sonuçlar verir.","Mutlak sıfır kullanılır.","Öznelliği yüksektir.","Sıfır gerçek yokluğu tanımlar.","Hata olma olasılığı düşüktür."]),
+      Question("olcmedeger_ques_Q70","", " Aşağıdakilerden hangisi dolaylı ölçmenin özelliklerinden biri değildir?","Sıfır uzmanlar tarafından oluşturulmuş bir başlangıç noktası değildir.",["Bağıl (İzafi) sıfır kullanılır.","Sıfır uzmanlar tarafından oluşturulmuş bir başlangıç noktası değildir.","Öznelliği yüksektir.","Sıfır gerçek yokluğu tanımlamaz","Hata olma olasılığı doğrudan ölçmeye göre yüksektir."
+      ]),
+    ]),TestListHomepageModel("Ölçme Değerlendirme-Test 12 (Yeni)",[
+       Question("olcmedeger_ques_Q71","I-Tanılanmış Sıfır\nII-Bağıl Sıfır\nIII-İzafi Sıfır", "Dolaylı ölçmede kullanılan sıfır yukarıdakilerden hangisidir?","I-II-III",["Yalnız I","I-II","I-III","II-III","I-II-III"]),
+       Question("olcmedeger_ques_Q72","I-Temel Ölçme\nII-İzomorf Ölçme\nIII-Türetilmiş Ölçme", "Yukarıdaki ifadelerden hangileri doğrudan ölçme ile aynı anlama gelmektedir?","I-II",["Yalnız I","I-III","II-III","I-II","I-II-III"]),
+       Question("olcmedeger_ques_Q73","", "Öğrencilerin Türkçe ders tutumlarının akademik başarılarına olan etkisini inceleyen bir öğretmenin çalışmasındaki bağımsız değişken aşağıdakilerden hangisidir?","Ders Tutumu",["Ders Tutumu","Türkçe Dersi","Akademik Başarı","Öğretmen","Öğretim Yöntem ve Teknikleri"]),
+       Question("olcmedeger_ques_Q74","", "Öğrencilerin Türkçe ders tutumlarının akademik başarılarına olan etkisini inceleyen bir öğretmenin çalışmasındaki bağımlı değişken aşağıdakilerden hangisidir?","Akademik Başarı",["Akademik Başarı","Ders Tutumu","Türkçe Dersi","Öğretmen","Öğretim Yöntem ve Teknikleri"]),
+       Question("olcmedeger_ques_Q75","I-Sınıf mevcudu ile akademik başarı arasında negatif yönlü bir ilişki vardır.\nII-Araştırmada sınıf mevcudu bağımlı değişkendir.\nIII-Araştırmada akademik başarı bağımlı değişkendir.", "Sınıf mevcutlarının fazla olduğu okullarda öğrencilerin akademik başarılarının düşük olduğu görülmüştür. Buna göre yukarıdaki ifadelerden hangisi ya da hangileri doğrudur?","I-III",["Yalnız I","I-II","I-III","II-III","I-II-III"]),
+       Question("olcmedeger_ques_Q76","", "Bir niteliğin gözlem sonuçlarının sayı ya da sembollerle ifade edilmesine ne ad verilir?","Ölçme",["Değerlendirme","Ölçüt","Ölçek","Ölçme","Karar"]),
+       Question("olcmedeger_ques_Q77","", "Bir üniversite öğrencisinin aldığı notlara göre dersten kalması aşağıdakilerden hangisi ile ilgilidir?","Değerlendirme",["Ölçme","Ölçüt","Ölçmede Eşitlik","Karar","Değerlendirme"]),
+       Question("olcmedeger_ques_Q78","", "Aşağıdaki kavramlardan hangisi türetilmiş ölçme kullanılarak ölçülebilir?","Hız",["Uzunluk","Ağırlık","Hız","Tutum","İlgi"]),
+       Question("olcmedeger_ques_Q79","I-Hız\nII-Yoğunluk\nIII-Tutum", "Yukarıdaki ifadelerden hangileri türetilmiş ölçme yardımıyla ölçülebilir?","I-II",["I-II","I-III","II-III","I-II-III","Hiçbiri"]),
+       Question("olcmedeger_ques_Q80","", "Aşağıdakilerden hangisi doğrudan ölçülemez?","Tutum ve İlgiler",["Hasan’ın boyu","Tutum ve İlgiler","Yaz’ın göz rengi","Onur’un kardeş sayısı","Aydın ve İzmir Arasındaki Mesafe"]),
+      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 13 (Yeni)",[
+      Question("olcmedeger_ques_Q81","", "Çoktan seçmeli bir testte yanlış olan seçeneklere ne ad verilir?","Çeldirici",["Şık","Kök","Çeldirici","Madde","Alternatif"]),
+      Question("olcmedeger_ques_Q82","", "Bir öğretmenin çoktan seçmeli testleri tercih etme sebebi aşağıdakilerden hangisi olabilir?","Kapsam Geçerliliği",["Kolay Hazırlanması","Kapsam Geçerliliği","Kolay Değerlendirilmesi","Uygulamanın Kısa Sürmesi","Şans Başarısının Düşük Olması"]),
+      Question("olcmedeger_ques_Q83","", "Öğrencilerin yeni öğrendiklerini pekiştirmeleri için verilen ödev türü aşağıdakilerden hangisidir?","Alıştırmalar",["Dönem Ödevi","Portfolyo","Proje","Alıştırmalar","Yaratıcı Ödevler"]),
+      Question("olcmedeger_ques_Q84","", "Öğrencilerin kazanımlarını ve becerilerini desteklemek amacıyla verilen uzun süreçli görevlere ne ad verilir?","Proje",["Hazırlık Ödevi","Portfolyo","Alıştırmalar","Yaratıcı Ödevler","Proje"]),
+      Question("olcmedeger_ques_Q85","", "Aşağıdakilerden hangisi kişi hakkında bilgi edinme yollarından biri değildir?","Gant Şeması",["Anket","Görüşme","Gözlem","Gant Şeması","İzleme Testi"]),
+      Question("olcmedeger_ques_Q86","", "Ölçme sonuçlarının bir ölçütle karşılaştırılmasından sonraki karar verme sürecine ne ad verilir?","Değerlendirme",["Ölçek","Değerlendirme","Ölçme","Kriter","Ölçüm"]),
+      Question("olcmedeger_ques_Q87","", "Ölçme işlemi için uygun aracın seçilmesine ne ad verilir?","Kullanışlılık",["Kullanışlılık","Eşitlik","Genellik","Geçerlik","Güvenirlik"]),
+      Question("olcmedeger_ques_Q88","", "90,78,25,78,78,32,25 şeklinde verilen öğrenci notlarının ranj değeri aşağıdakilerden hangisidir?","65",["25","57","65","32","78"]),
+      Question("olcmedeger_ques_Q89","", "90,78,25,78,78,32,25 şeklinde verilen öğrenci notlarının mod değeri aşağıdakilerden hangisidir?","78",["65","32","25","78","57"]),
+      Question("olcmedeger_ques_Q90","", "90,78,25,78,78,32,25 şeklinde verilen öğrenci notlarının aritmetik ortalaması aşağıdakilerden hangisidir?","58",["65","58","32","25","78"]),
+      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 14 (Yeni)",[
+      Question("olcmedeger_ques_Q91","I-Standart Sapma\nII-Ranj\nIII-Tepe Değer", "Yukarıdakilerden hangileri merkezi dağılım ölçülerindendir?","I-II",["Yalnız I","Yalnız II","Yalnız III","I-II","II-III"]),
+      Question("olcmedeger_ques_Q92","I-Aritmetik Ortalama\nII-Ortanca (Medyan)\nIII-Mod (Tepe Değer)", "Yukarıdakilerden hangileri merkezi eğilim ölçülerindendir?","I-II-III",["Yalnız II","I-II","I-III","II-III","I-II-III"]),
+      Question("olcmedeger_ques_Q93","", "Bir çocuğun 3 ve 5.yaşları arasındaki süre ne tür bir değişken özelliği gösterir?","Sürekli Değişken",["Sürekli Değişken","Süreksiz Değişken","Bağımsız Değişken","Bağımlı Değişken","Ara Değişken"]),
+      Question("olcmedeger_ques_Q94","", "Bağımsız değişkenlerin bağımlı değişkenler üzerindeki etkisini arttıran değişkenlere ne isim verilir?","Ara Değişken",["Bağımsız Değişken","Sürekli Değişken","Ara Değişken","Bağımlı Değişken","Süreksiz Değişken"]),
+      Question("olcmedeger_ques_Q95","", "Bir öğrencinin kardeş sayısı ne tür bir değişken özelliği göstermektedir?","Süreksiz Değişken",["Bağımsız Değişken","Süreksiz Değişken","Sürekli Değişken","Ara Değişken","Bağımlı Değişken"]),
+      Question("olcmedeger_ques_Q96","I-Ölçmeden ölçmeye miktar değişebilir.\nII-Puanlayıcı kaynaklıdır.\nIII-Güvenirliği Etkiler.", "Sistematik hatalarla ilgili verilen ifadelerden hangisi ya da hangileri doğrudur?","I-II",["Yalnız I","II-III","Yalnız II","I-II","I-II-III"]),
+      Question("olcmedeger_ques_Q97","I-Kaynağı yönü ve miktarı bellidir.\nII-Geçerliliği Düşürür.\nIII-Güvenirliği Etkilemez.", "Sistematik hatalarla ilgili verilen ifadelerden hangisi ya da hangileri doğrudur?","I-II-III",["Yalnız I","II-III","I-III","I-II","I-II-III"]),
+      Question("olcmedeger_ques_Q98","I-Kaynağı belli değildir.\nII-Miktarı belli değildir.\nIII-Yönü belli değildir.", "Tesadüfi hatalarla ilgili verilen ifadelerden hangisi ya da hangileri doğrudur?","Hiçbiri",["Yalnız I","Yalnız II","Yalnız III","I-II","Hiçbiri"]),
+      Question("olcmedeger_ques_Q99","I-Soruların hedeflerle ilişkili olması.\nII-Öznel puanlama yapılması.\nIII-Aynı zorluk derecesinde sorular sorulması.", "Hangisi geçerliliği arttırma yollarındandır?","Yalnız I",["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
+      Question("olcmedeger_ques_Q100","I-Güvenirlik 0-1 arası değerler alır.\nII-Ölçülmek istenen niteliğin doğru olarak ölçülmesidir.\nIII-1’e yakınsa çok hatalıdır.", "Güvenirlik ile ilgili verilen ifadelerden hangileri doğrudur?","I-II",["Yalnız I","Yalnız II"," I-II","II-III ","I-II-III"]),
+
+      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 15 (Yeni)",[
+      Question("olcmedeger_ques_Q101","", "Aşağıdakilerden hangisi dolaylı ölçme işlemidir?","Öğrencinin akademik başarısının ölçülmesi",["Öğrencinin ağırlığının ölçülmesi","Öğrencinin akademik başarısının ölçülmesi","Öğrencinin boyunun ölçülmesi","Sınıftaki öğrenci sayısının berlirlenmesi","Okuldaki derslik sayısının belirlenmesi"]),
+      Question("olcmedeger_ques_Q102","", "Aşağıdakilerden hangisi için doğrudan ölçme kullanılabilir?","Cinsiyet",["İlgi","Cinsiyet","Akademik Başarı","Tutum","Zeka"]),
+      Question("olcmedeger_ques_Q103","I-Sınıflama\nII-Puanlama Anahtarı\nIII-Sıralama\nIV-Genel İzlenim", "Yukarıda verilen yazılı puanlama tekniklerinin güvenirliği en yüksekten olandan en düşük olana doğru sıralaması aşağıdakilerden hangisidir?","II-III-I-IV",["I-II-IV-III","III-II-I-IV","II-III-I-IV","IV-II-III-I","II-IV-III-I"]),
+      Question("olcmedeger_ques_Q104","I-Sınıflama\nII-Puanlama Anahtarı\nIII-Sıralama\nIV-Genel İzlenim", "Yukarıda verilen yazılı puanlama tekniklerinin güvenirliği en düşük olandan en yüksek olana doğru sıralaması aşağıdakilerden hangisidir?","IV-I-III-II",["I-II-IV-III","IV-II-I-III","II-IV-I-III","IV-I-III-II","II-IV-III-I"]),
+      Question("olcmedeger_ques_Q105","", "Hangisi yazılı yoklamalarda kullanılan bir puanlama tekniği değildir?","Rubrik",["Rubrik","Sınıflama","Sıralama","Puanlama Anahtarı","Genel İzlenim"]),
+      Question("olcmedeger_ques_Q106","", "Yazılı yoklamalarda kullanılan puanlama tekniklerinden hangisinin güvenirliği en yüksektir?","Puanlama Anahtarı",["Puanlama Anahtarı","Sınıflama","Sıralama","Rubrik","Genel İzlenim"]),
+      Question("olcmedeger_ques_Q107","", "Yazılı yoklamalarda kullanılan puanlama tekniklerinden hangisinin güvenirliği en düşüktür?","Genel İzlenim",["Rubrik","Genel İzlenim","Sıralama","Puanlama Anahtarı","Sınıflama"]),
+      Question("olcmedeger_ques_Q108","I-Her madde tek bir davranışı ölçmelidir.\nII-Bir maddenin cevabı diğerinin içinde yer almamalıdır.\nIII-Yer alan maddeler birbirinden bağımsız olmalıdır.", "Hangisi geçerliliği arttırma yollarındandır?","I-II-III",["I-II","II-III","I-III","Yalnız III","I-II-III"]),
+      Question("olcmedeger_ques_Q109","I-Olanak varsa birden fazla puanlayıcı bulunmalıdır.\nII-Dereceli puanlama anahtarı kullanılmalıdır.\nIII-Puanlamada ölçülen davranışlar dışında kılık, kıyafet vb. içinde puanlama yapılabilir.", "Hangisi geçerliliği arttırma yollarındandır?","I-II",["Yalnız II","II-III","I-III","I-II","I-II-III"]),
+      Question("olcmedeger_ques_Q110","I-Test Tekrar Test Yöntemi\nII-Eşdeğer Formlar Yöntemi\nIII-Kruger Formülleri.", "Yukarıda verilen kavramlardan hangileri güvenirlik kestirim yöntemlerindendir?","I-II",["Yalnız I","Yalnız II"," I-II","II-III ","I-II-III"]),
+
       ]),
    /* TestListHomepageModel("Test 7",[
 
@@ -241,26 +299,8 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
     ]),
   ];
    // Question("olcmedeger_ques_11111111","Hazırlanıyor", "Hazırlanıyor","Hazırlanıyor",["Hazırlanıyor","Hazırlanıyor","Hazırlanıyor","Hazırlanıyor","Hazırlanıyor"]),
-      //Question("olcmedeger_ques_Q61","", "", "", ["","","","",""]),
-   //Question("olcmedeger_ques_Q62","", "", "", ["","","","",""]),
-   //Question("olcmedeger_ques_Q63","", "", "", ["","","","",""]),
-   //Question("olcmedeger_ques_Q64","", "", "", ["","","","",""]),
-   //Question("olcmedeger_ques_Q65","", "", "", ["","","","",""]),
-   //Question("olcmedeger_ques_Q66","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q67","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q68","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q69","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q70","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q71","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q72","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q73","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q74","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q75","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q76","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q77","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q78","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q79","", "", "", ["","","","",""]),
-   // Question("olcmedeger_ques_Q8","", "", "", ["","","","",""]),
+
+
 
   List<TestListHomepageModel> get olcmeDegerList=>_olcmeDegerList;
 }
