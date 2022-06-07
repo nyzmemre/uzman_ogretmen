@@ -83,6 +83,19 @@ class OgrenOgretQuesViewModel extends ChangeNotifier{
       Question("ogrenogret_ques_Q37","Fahri, insanlara lakap takmayı çok sevmektedir. Bu davranışı sebebiyle, çevresindeki bazı arkadaşları üzgün olduklarını ifade etmişlerdir.", "Fahri'nin arkadaşları içinde bulundukları durumu hangi davranış türünde ifade etmiş olur?", "Duyuşsal",["Duyuşsal","İstendik","Bilişsel","Psikomotor","Öğrenilmiş"]),
       Question("ogrenogret_ques_Q38","", "Bebeklerin, buldukları cisimleri ağızlarına götürmeleri hangi davranış türüne girer?", "Doğuştan gelen davranış",["Duyuşsal davranış","İstendik davranış","Doğuştan gelen davranış","Psikomotor davranış","Öğrenilmiş davranış"]),
       Question("ogrenogret_ques_Q39","I-Öğrenme malzemesi\nII-Öğrenme kabulü,\nIII-Öğretilen konu", "Yukarıdakilerden hangisi öğrenmeyi etkileyen faktörlerdendir?", "I-II", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
+      Question("eo_Q151","", "Uyarıcının o an çevrede varolan tüm uyarıcılardan daha güçlü olması durumu öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Algısal ayırt edilebilirlik", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
+      Question("eo_Q152","", "Yeni öğrenmelerin eski öğrenmelerden esinlenilerek gerçekleşmesi durumu öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Anlamsal çağrışım", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
+      Question("eo_Q153","", "Konuların iki boyutlu çizelge ile hiyerarşik olarak ilişkilerinin gösterilmesi öğrenme mazlemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Kavramsal gruplandırma", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
+      Question("eo_Q154","", "İçeriğin deneyimlerle ve bilgilerle ilişkilendirilmesi öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Çağrışımsal gruplandırma", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
+      Question("eo_Q155","", "İçeriğin dilsel gelişime uygun olarak verilmesi aşağıdaki öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Telaffuz edilebilirlik", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
+      Question("eoogrogr_Q156","Akif, en çok sevdiği oyun karakteri olan örümcek adam figürünü lunaparkta hemen farkederek yanına gitmiştir.", "Buna göre süpermen ile Akif'in durumu öğrenme malzemesi ile ilgili faktörlerden hangisine karşılık gelir?","Algısal ayırt edilebilirlik", ["Telaffuz edilebilirlik","Anlamsal çağrışım","Kavramsal gruplandırma","Çağrışımsal gruplandırma","Algısal ayırt edilebilirlik"]),
+      Question("eoogrogr_Q157","Öğrenme stratejileri geliştirilirken geçmiş yaşantılardaki öğrenmeler yeni öğrenmeleri destekleyici olmalıdır.", "Aşağıdakilerden hangisi bu ifadeyi karşılayan öğrenme malzemesi ile ilgili faktörlerdendir?", "Anlamsal çağrışım", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
+      Question("eoogrogr_Q158","", "Kavram haritaları öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Kavramsal gruplandırma", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
+      Question("eoogrogr_Q159","Çocukluk yıllarında toptancılık yapan babasıyla birlikte birçok il gezen Mahir coğrafya öğretmeni olarak görev yapmaktadır.", "Ders anlatımında birçok il görmesinin avantajlarını kullanarak anlatımlar yapan Mahir Öğretmen, öğrenme malzemesi ile ilgili faktörlerden hangisini kullanmaktadır?", "Çağrışımsal gruplandırma", ["Telaffuz edilebilirlik","Kavramsal gruplandırma","Anlamsal çağrışım","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma"]),
+      Question("eoogrogr_Q160","Erdal, dersler içerisinde en çok Müzik Öğretmeni Bahadır'ın derslerini sevmektedir. Bunm sebebini öğretmeninin anlaşılır örneklerle nota öğretimi yapması olarak göstermiştir.", "Erdal'ın Bahadır Öğretmeni beğenme sebebi öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Telaffuz edilebilirlik", ["Telaffuz edilebilirlik","Anlamsal çağrışım","Kavramsal gruplandırma","Çağrışımsal gruplandırma","Algısal ayırt edilebilirlik"]),
+
+
+
       //Question("ogrenogret_ques_Q40","", "", "", ["","","","",""]),
       //Question("ogrenogret_ques_Q41","", "", "", ["","","","",""]),
       //Question("ogrenogret_ques_Q42","", "", "", ["","","","",""]),
@@ -227,8 +240,35 @@ class OgrenOgretQuesViewModel extends ChangeNotifier{
       Question("eoogrogr_Q158","", "Kavram haritaları öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Kavramsal gruplandırma", ["Anlamsal çağrışım","Kavramsal gruplandırma","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma","Telaffuz edilebilirlik"]),
       Question("eoogrogr_Q159","Çocukluk yıllarında toptancılık yapan babasıyla birlikte birçok il gezen Mahir coğrafya öğretmeni olarak görev yapmaktadır.", "Ders anlatımında birçok il görmesinin avantajlarını kullanarak anlatımlar yapan Mahir Öğretmen, öğrenme malzemesi ile ilgili faktörlerden hangisini kullanmaktadır?", "Çağrışımsal gruplandırma", ["Telaffuz edilebilirlik","Kavramsal gruplandırma","Anlamsal çağrışım","Algısal ayırt edilebilirlik","Çağrışımsal gruplandırma"]),
       Question("eoogrogr_Q160","Erdal, dersler içerisinde en çok Müzik Öğretmeni Bahadır'ın derslerini sevmektedir. Bunm sebebini öğretmeninin anlaşılır örneklerle nota öğretimi yapması olarak göstermiştir.", "Erdal'ın Bahadır Öğretmeni beğenme sebebi öğrenme malzemesi ile ilgili faktörlerden hangisi ile ilgilidir?", "Telaffuz edilebilirlik", ["Telaffuz edilebilirlik","Anlamsal çağrışım","Kavramsal gruplandırma","Çağrışımsal gruplandırma","Algısal ayırt edilebilirlik"]),
-
     ]),
+    TestListHomepageModel("Öğrenme ve Öğretme-Test 9 (Yeni)", [
+      Question("eoogrogr_Q161","", "Aşağıdaki ifadelerden hangisi davranışçı kuram ile ilgili doğru bir ifade değildir?","Öğrenmeler arasında bağ yoktur",["Öğrenme, davranış ile uyarıcının etkileşimi ile oluşur","Davranış değişikliği pekiştirme ile gerçekleşir","Öğrenmeler arasında bağ yoktur","Pragmatisttir","Çevresel etmenlerden etkilenir"]),
+      Question("eoogrogr_Q162","Evde beslediği kedisine otomatik mama düzeneği alan Mustafa, birkaç defa düzeneğe basmasını beklemeden mama vermiştir. Bu yüzden kedi bir türlü düzeneğe basmayı öğrenememiştir.", "Bu durum davranışçı kuramın aşağıdaki ilkelerinden hangisini doğrulamaktadır?","Koşullanma yanlış kazanılırsa öğrenme gerçekleşmez",["Organizma faydaya dayalıdır, çıkarcıdır","Önceki öğrenmeler sonraki öğrenmeleri etkiler","Öğrenmede çevresel etmenler önemlidir","Koşullanma yanlış kazanılırsa öğrenme gerçekleşmez","Öğrenme yalnızca gözlemlenebilen davranışlar ile ilgilenir"]),
+      Question("eoogrogr_Q163","", "Davrnaışçı kuram ile ilgili olarak aşağıda verilen ifadelerden hangisi doğru değildri?","Sosyal çevre dikkate alınmamalıdır",["Öğrenme pekiştireç yolu ile gerçekleşir","Sosyal çevre dikkate alınmamalıdır","Öğrenmenin gerçekleşmesi için davranış değişikliği şarttır","Davranış değişikliği gözlemlenebilir olmalıdır","Ödül ve ceza yöntemi vardır"]),
+      Question("eoogrogr_Q164","Öğrenme, davranış değişikliğinin gerçekleşmesidirve gözlemlenebilir olmalıdır.", "Yukarıdaki ifadeyi en iyi açıklayan yaklaşım aşağıdakilerden hangisinde doğru verilmiştir?","Davranışçı kuram",["Bilişsel kuram","Nörofizyolojik kuram","Benlik gelişimi","Duyuşsal kuram","Davranışçı kuram"]),
+      Question("eoogrogr_Q165","", "","",["","","","",""]),
+      Question("eoogrogr_Q166","", "","",["","","","",""]),
+      Question("eoogrogr_Q167","", "","",["","","","",""]),
+      Question("eoogrogr_Q168","", "","",["","","","",""]),
+      Question("eoogrogr_Q169","", "","",["","","","",""]),
+      Question("eoogrogr_Q170","", "","",["","","","",""]),
+    ]),
+    TestListHomepageModel("Öğrenme ve Öğretme-Test 10 (Yeni)", [
+      Question("eoogrogr_Q171","", "","",["","","","",""]),
+      Question("eoogrogr_Q172","", "","",["","","","",""]),
+      Question("eoogrogr_Q173","", "","",["","","","",""]),
+      Question("eoogrogr_Q174","", "","",["","","","",""]),
+      Question("eoogrogr_Q175","", "","",["","","","",""]),
+      Question("eoogrogr_Q176","", "","",["","","","",""]),
+      Question("eoogrogr_Q177","", "","",["","","","",""]),
+      Question("eoogrogr_Q178","", "","",["","","","",""]),
+      Question("eoogrogr_Q179","", "","",["","","","",""]),
+      Question("eoogrogr_Q180","", "","",["","","","",""]),
+    ]),
+
+
+
+
     TestListHomepageModel("Hazırlanıyor",[
       Question("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor", ["Hazırlanıyor","Hazırlanıyor","Hazırlanıyor","Hazırlanıyor","Hazırlanıyor"])
     ]),
