@@ -349,9 +349,9 @@ class OgrenOgretQuesViewModel extends ChangeNotifier{
       Question("ogrenogret_ques_Q89","Enes, asitli içecekleri gördüğünde hemen içmek istemektedir. Babası bu davranıştan uzaklaşması için içeceğine karabir koymuşve içirmiştir. Babasının bu uygulamasından sonra Enes, asitli içecek gördüğünde asla içmek istememiştir.", "Buna göre Enes'in babasının uyguladığı davranış kaldırma süreci aşağıdakilerden hangisinde doğru verilmiştit?", "İtici uyarıcıya koşullanma", ["Sistematik duyarsızlaşma","İtici uyarıcıya koşullanma","Karşıt koşullanma","Yeniden koşullanma","Sönme"]),
       Question("ogrenogret_ques_Q90","Sınıfta gereksiz yere parmak kaldırarak söz hakkı isteyen öğrencileri sınıf öğretmenleri görmezden gelmektedir.", "Bunun sonucunda öğrencilerin parmak kaldırma davranışlarında bir anda artış olması aşağıdaki kavramlardan hangisi ile ilgilidir?", "Sönme patlaması", ["Sönme kararsızlığı","Sönme karşıtlığı","Sönme eksikliği","Sönme patlaması","Sönme hassasiyeti"]),
     ]),
-   /* TestListHomepageModel("Öğrenme ve Öğretme-Test 14 (Yeni)", [
-      Question("ogrenogret_ques_Q71","Mustafa, abisiyle birlikte basketbol oynamaktadır. Abisinin top hakimiyeti en çok hayran olduğu noktalardan biridir. Henüz avuçlarının yeterince büyük olmamasından dolayı Mustafa, top kontrolünü tam sağlayamamaktadır.", "Buna göre Mustafa'nın yaşadığı zorluk aşağıdakilerden hangisinde doğru verilmiştir?", "", ["Alışmanın gerçekleşmeemiş olması","Basketbol ile yaşantının gerçekleşmemiş olması","Öğrenme aktarımında sorun yaşanmıştır","Davranışın gerektirdiği olgunlaşma düzeyinin oturmamış olası",""]),
-      Question("ogrenogret_ques_Q72","", "", "", ["","","","",""]),
+    TestListHomepageModel("Öğrenme ve Öğretme-Test 14 (Yeni)", [
+      Question("ogrenogret_ques_Q71","Mustafa, abisiyle birlikte basketbol oynamaktadır. Abisinin top hakimiyeti en çok hayran olduğu noktalardan biridir. Henüz avuçlarının yeterince büyük olmamasından dolayı Mustafa, top kontrolünü tam sağlayamamaktadır.", "Buna göre Mustafa'nın yaşadığı zorluk aşağıdakilerden hangisinde doğru ifade edilmiştir?", "Davranışın gerektirdiği olgunlaşma düzeyine ulaşılmamıştır", ["Alışmanın gerçekleşmemiş olması","Basketbol ile yaşantının gerçekleşmemiş olması","Öğrenme aktarımında sorun yaşanmıştır","Davranışın gerektirdiği olgunlaşma düzeyine ulaşılmamıştır","Abisi uygun rol model olmamaktadır"]),
+      Question("ogrenogret_ques_Q72","", "Aşağıdakilerden hangisi öğrenme sonucu gerçekleşmeyen bir davranıştır?", "", ["Araba kullanmak","Limon kelimesi geçince ağzın sulanması","Çiçek kokusundan etkilenip hapşurmak","Vahşi hayvanlardan korkmak","Telefon aramasına cevap vermek"]),
       Question("ogrenogret_ques_Q73","", "", "", ["","","","",""]),
       Question("ogrenogret_ques_Q74","", "", "", ["","","","",""]),
       Question("ogrenogret_ques_Q75","", "", "", ["","","","",""]),
@@ -360,7 +360,7 @@ class OgrenOgretQuesViewModel extends ChangeNotifier{
       Question("ogrenogret_ques_Q78","", "", "", ["","","","",""]),
       Question("ogrenogret_ques_Q79","", "", "", ["","","","",""]),
       Question("ogrenogret_ques_Q80","", "", "", ["","","","",""]),
-    ]),*/
+    ]),
 /*TestListHomepageModel("Öğrenme ve Öğretme-Test 14 (Yeni)", [
       Question("ogrenogret_ques_Q71","", "", "", ["","","","",""]),
       Question("ogrenogret_ques_Q72","", "", "", ["","","","",""]),
