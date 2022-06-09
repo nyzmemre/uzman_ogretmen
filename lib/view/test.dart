@@ -84,7 +84,7 @@ class _TestState extends State<Test> {
                               element.quesTop==widget.list[skr.getIndex].quesTop && element.quesBottom==widget.list[skr.getIndex].quesBottom))*/
                                   ? Icon(
                                 Icons.favorite,
-                                color: kWhite,
+                                color: kRed,
                               )
                                   : Icon(
                                 Icons.favorite_border,

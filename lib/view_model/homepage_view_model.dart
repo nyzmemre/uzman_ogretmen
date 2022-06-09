@@ -1,4 +1,5 @@
 import 'package:uzman_ogretmen/view/favorite_info_card.dart';
+import 'package:uzman_ogretmen/view_model/info_cards/bilisseldusunme_info_view_model.dart';
 import 'package:uzman_ogretmen/view_model/info_cards/cevreiklim_info_view_model.dart';
 import 'package:uzman_ogretmen/view_model/info_cards/dijitalyetkinlik_info_view_model.dart';
 import 'package:uzman_ogretmen/view_model/info_cards/egitimarastirma_info_view_model.dart';
@@ -37,6 +38,7 @@ class HomePageViewModel{
   static EgitimInfoViewModel _egitimInfoViewModel=EgitimInfoViewModel();
   static OkulGelistirmeInfoViewModel _okulGelistirmeInfoViewModel=OkulGelistirmeInfoViewModel();
   static SosyalDuygusalInfoViewModel _sosyalDuygusalInfoViewModel=SosyalDuygusalInfoViewModel();
+  static BilisselDusunmeInfoViewModel _bilisselDusunmeInfoViewModel=BilisselDusunmeInfoViewModel();
   List<MyContainer> _homepageInfoCardList=[
     MyContainer("Eğitim Bilimleri", kRouteTest, kRed, _egitimInfoViewModel.egitimOgretimInfoCard),
     MyContainer("Öğrenme ve Öğretme Süreçleri", kRouteTest, kRed, _ogrenmeogretmesurec.ogrenmeOgretmeSurec),
@@ -50,6 +52,7 @@ class HomePageViewModel{
     MyContainer("Güvenli Okul ve Okul Güvenliği", kRouteTest, kBlue,_guvenliOkulInfoViewModel.guvenliOkul),
     MyContainer("(Başöğretmenlik) Okul Geliştirme ve Liderlik", kRouteTest, kBlue,_okulGelistirmeInfoViewModel.okulGelistirme),
     MyContainer("(Başöğretmenlik) Sosyal Duygusal Öğrenme Becerilerinin Geliştirilmesi", kRouteTest, kBlue,_sosyalDuygusalInfoViewModel.sosyalDuygusal),
+    MyContainer("(Başöğretmenlik) Bilişsel Düşünme Becerileri", kRouteTest, kBlue,_bilisselDusunmeInfoViewModel.bilisselDusunme),
 
 
     /* MyContainer("TÜRKÇE", kRouteTest, kRed, _turkce.turkceInfoCard),
