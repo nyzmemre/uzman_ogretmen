@@ -285,7 +285,7 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
       Question("olcmedeger_ques_Q59","", "Harun öğretmenin öğrencilere yaptığı sınav sonucu elde ettiği puanla gerçek puanın farkına ne ad verilir?","Hata",["Ölçek","Ölçüm","Ölçü","Ölçüt","Hata"]),
       Question("olcmedeger_ques_Q60","", "Eğitim öğretim sürecinde en çok kullanılan ölçme türü aşağıdakilerden hangisidir?","Dolaylı Ölçme",["Sabit Ölçme","Dolaylı Ölçme","Doğrudan Ölçme","Türetilmiş Ölçme","Objektif Ölçme"]),
 
-      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 11 (Yeni)",[
+      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 11",[
       Question("olcmedeger_ques_Q61","", "Bireyin sahip olduğu bir niteliğe sahip oluş miktarını sayı ya da sembollerle ifade etme işlemidir. Tanımlanan kavram aşağıdakilerden hangisidir?","Ölçme",["Ölçüm","Değerlendirme","Ölçme","Ölçek","Ölçüt"]),
       Question("olcmedeger_ques_Q62","I-Bilsem sınavına giren bir öğrencinin zekasının ölçülmesi.\nII-Bir sıvının sıcaklığının termometre ile ölçülmesi.\nIII-Bir dolabın boyunun metre ile ölçülmesi.", "Yukarıda verilen ifadelerden hangisi ya da hangileri bir ölçme işlemidir?","I-II-III",["Yalnız I","I-II","I-III","II-III","I-II-III"]),
       Question("olcmedeger_ques_Q63","", "Eğitim-öğretim sürecinde ölçmenin işlevi gereği öncelikle hangi soruya cevap vermesi beklenir?","Ne kadar eğitim verdik?",["Ne kadar eğitim verdik?"," Nasıl eğitim verdik?","Neden eğitim verdik?","Nerede eğitim verdik?","Niçin eğitim verdik?"]),
@@ -296,7 +296,7 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
       Question("olcmedeger_ques_Q68","", " Aşağıdakilerden hangisi doğrudan ölçmenin dolaylı ölçmeye göre avantajlarından biri değildir?","Hata olma olasılığı daha yüksektir.",[" Daha kesin ve net sonuçlar verir.","Mutlak sıfır kullanılır.","Sıfır gerçek yokluğu tanımlar.","Objektifliği daha yüksektir.","Hata olma olasılığı daha yüksektir."]),
       Question("olcmedeger_ques_Q69","", " Aşağıdakilerden hangisi doğrudan ölçmenin özelliklerinden biri değildir?","Öznelliği yüksektir.",["Kesin ve net sonuçlar verir.","Mutlak sıfır kullanılır.","Öznelliği yüksektir.","Sıfır gerçek yokluğu tanımlar.","Hata olma olasılığı düşüktür."]),
       Question("olcmedeger_ques_Q70","", " Aşağıdakilerden hangisi dolaylı ölçmenin özelliklerinden biri değildir?","Sıfır uzmanlar tarafından oluşturulmuş bir başlangıç noktası değildir.",["Bağıl (İzafi) sıfır kullanılır.","Sıfır uzmanlar tarafından oluşturulmuş bir başlangıç noktası değildir.","Öznelliği yüksektir.","Sıfır gerçek yokluğu tanımlamaz","Hata olma olasılığı doğrudan ölçmeye göre yüksektir."]),
-    ]),TestListHomepageModel("Ölçme Değerlendirme-Test 12 (Yeni)",[
+    ]),TestListHomepageModel("Ölçme Değerlendirme-Test 12)",[
        Question("olcmedeger_ques_Q71","I-Tanılanmış Sıfır\nII-Bağıl Sıfır\nIII-İzafi Sıfır", "Dolaylı ölçmede kullanılan sıfır yukarıdakilerden hangisidir?","I-II-III",["Yalnız I","I-II","I-III","II-III","I-II-III"]),
        Question("olcmedeger_ques_Q72","I-Temel Ölçme\nII-İzomorf Ölçme\nIII-Türetilmiş Ölçme", "Yukarıdaki ifadelerden hangileri doğrudan ölçme ile aynı anlama gelmektedir?","I-II",["Yalnız I","I-III","II-III","I-II","I-II-III"]),
        Question("olcmedeger_ques_Q73","", "Öğrencilerin Türkçe ders tutumlarının akademik başarılarına olan etkisini inceleyen bir öğretmenin çalışmasındaki bağımsız değişken aşağıdakilerden hangisidir?","Ders Tutumu",["Ders Tutumu","Türkçe Dersi","Akademik Başarı","Öğretmen","Öğretim Yöntem ve Teknikleri"]),
@@ -307,7 +307,7 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
        Question("olcmedeger_ques_Q78","", "Aşağıdaki kavramlardan hangisi türetilmiş ölçme kullanılarak ölçülebilir?","Hız",["Uzunluk","Ağırlık","Hız","Tutum","İlgi"]),
        Question("olcmedeger_ques_Q79","I-Hız\nII-Yoğunluk\nIII-Tutum", "Yukarıdaki ifadelerden hangileri türetilmiş ölçme yardımıyla ölçülebilir?","I-II",["I-II","I-III","II-III","I-II-III","Hiçbiri"]),
        Question("olcmedeger_ques_Q80","", "Aşağıdakilerden hangisi doğrudan ölçülemez?","Tutum ve İlgiler",["Hasan’ın boyu","Tutum ve İlgiler","Yaz’ın göz rengi","Onur’un kardeş sayısı","Aydın ve İzmir Arasındaki Mesafe"]),
-      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 13 (Yeni)",[
+      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 13",[
       Question("olcmedeger_ques_Q81","", "Çoktan seçmeli bir testte yanlış olan seçeneklere ne ad verilir?","Çeldirici",["Şık","Kök","Çeldirici","Madde","Alternatif"]),
       Question("olcmedeger_ques_Q82","", "Bir öğretmenin çoktan seçmeli testleri tercih etme sebebi aşağıdakilerden hangisi olabilir?","Kapsam Geçerliliği",["Kolay Hazırlanması","Kapsam Geçerliliği","Kolay Değerlendirilmesi","Uygulamanın Kısa Sürmesi","Şans Başarısının Düşük Olması"]),
       Question("olcmedeger_ques_Q83","", "Öğrencilerin yeni öğrendiklerini pekiştirmeleri için verilen ödev türü aşağıdakilerden hangisidir?","Alıştırmalar",["Dönem Ödevi","Portfolyo","Proje","Alıştırmalar","Yaratıcı Ödevler"]),
@@ -318,7 +318,7 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
       Question("olcmedeger_ques_Q88","", "90,78,25,78,78,32,25 şeklinde verilen öğrenci notlarının ranj değeri aşağıdakilerden hangisidir?","65",["25","57","65","32","78"]),
       Question("olcmedeger_ques_Q89","", "90,78,25,78,78,32,25 şeklinde verilen öğrenci notlarının mod değeri aşağıdakilerden hangisidir?","78",["65","32","25","78","57"]),
       Question("olcmedeger_ques_Q90","", "90,78,25,78,78,32,25 şeklinde verilen öğrenci notlarının aritmetik ortalaması aşağıdakilerden hangisidir?","58",["65","58","32","25","78"]),
-      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 14 (Yeni)",[
+      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 14",[
       Question("olcmedeger_ques_Q91","I-Standart Sapma\nII-Ranj\nIII-Tepe Değer", "Yukarıdakilerden hangileri merkezi dağılım ölçülerindendir?","I-II",["Yalnız I","Yalnız II","Yalnız III","I-II","II-III"]),
       Question("olcmedeger_ques_Q92","I-Aritmetik Ortalama\nII-Ortanca (Medyan)\nIII-Mod (Tepe Değer)", "Yukarıdakilerden hangileri merkezi eğilim ölçülerindendir?","I-II-III",["Yalnız II","I-II","I-III","II-III","I-II-III"]),
       Question("olcmedeger_ques_Q93","", "Bir çocuğun 3 ve 5.yaşları arasındaki süre ne tür bir değişken özelliği gösterir?","Sürekli Değişken",["Sürekli Değişken","Süreksiz Değişken","Bağımsız Değişken","Bağımlı Değişken","Ara Değişken"]),
@@ -330,7 +330,7 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
       Question("olcmedeger_ques_Q99","I-Soruların hedeflerle ilişkili olması.\nII-Öznel puanlama yapılması.\nIII-Aynı zorluk derecesinde sorular sorulması.", "Hangisi geçerliliği arttırma yollarındandır?","Yalnız I",["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
       Question("olcmedeger_ques_Q100","I-Güvenirlik 0-1 arası değerler alır.\nII-Ölçülmek istenen niteliğin doğru olarak ölçülmesidir.\nIII-1’e yakınsa çok hatalıdır.", "Güvenirlik ile ilgili verilen ifadelerden hangileri doğrudur?","I-II",["Yalnız I","Yalnız II"," I-II","II-III ","I-II-III"]),
 
-      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 15 (Yeni)",[
+      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 15",[
       Question("olcmedeger_ques_Q101","", "Aşağıdakilerden hangisi dolaylı ölçme işlemidir?","Öğrencinin akademik başarısının ölçülmesi",["Öğrencinin ağırlığının ölçülmesi","Öğrencinin akademik başarısının ölçülmesi","Öğrencinin boyunun ölçülmesi","Sınıftaki öğrenci sayısının berlirlenmesi","Okuldaki derslik sayısının belirlenmesi"]),
       Question("olcmedeger_ques_Q102","", "Aşağıdakilerden hangisi için doğrudan ölçme kullanılabilir?","Cinsiyet",["İlgi","Cinsiyet","Akademik Başarı","Tutum","Zeka"]),
       Question("olcmedeger_ques_Q103","I-Sınıflama\nII-Puanlama Anahtarı\nIII-Sıralama\nIV-Genel İzlenim", "Yukarıda verilen yazılı puanlama tekniklerinin güvenirliği en yüksekten olandan en düşük olana doğru sıralaması aşağıdakilerden hangisidir?","II-III-I-IV",["I-II-IV-III","III-II-I-IV","II-III-I-IV","IV-II-III-I","II-IV-III-I"]),
@@ -342,7 +342,45 @@ class OlcmeDegerQuesViewModel extends ChangeNotifier{
       Question("olcmedeger_ques_Q109","I-Olanak varsa birden fazla puanlayıcı bulunmalıdır.\nII-Dereceli puanlama anahtarı kullanılmalıdır.\nIII-Puanlamada ölçülen davranışlar dışında kılık, kıyafet vb. içinde puanlama yapılabilir.", "Hangisi geçerliliği arttırma yollarındandır?","I-II",["Yalnız II","II-III","I-III","I-II","I-II-III"]),
       Question("olcmedeger_ques_Q110","I-Test Tekrar Test Yöntemi\nII-Eşdeğer Formlar Yöntemi\nIII-Kruger Formülleri.", "Yukarıda verilen kavramlardan hangileri güvenirlik kestirim yöntemlerindendir?","I-II",["Yalnız I","Yalnız II"," I-II","II-III ","I-II-III"]),
 
+      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 16 (Yeni)",[
+      Question("olcmedeger_ques_Q101","I-Özellik olduğu gibi ölçülür\nII-Geçerlik ve Güvenirlik Yüksektir\nIII-Tanımlanmış Sıfır Vardır", "Doğrudan ölçme işlemi için yukarıda verilen ifadelerden hangileri doğrudur?", "I-II", ["Hiçbiri","I-II","I-III","II-III","Hepsi"]),
+      Question("olcmedeger_ques_Q102","", "Doğrudan ölçme ile verilen ifadelerden hangisi yanlıştır?", "Nitelik başka bir niteliğe dayanarak ölçülür.", ["Özellik birebir ölçülür.","Gerçek sıfır kullanılır.","Geçerlik yüksektir.","Nitelik başka bir niteliğe dayanarak ölçülür.","Güvenirlik yüksektir."]),
+      Question("olcmedeger_ques_Q103","", "Doğrudan ölçme ile verilen ifadelerden hangisi doğrudur?", "Gerçek sıfır vardır.", ["Geçerlik düşüktür.","Güvenirlik düşüktür.","Gerçek sıfır vardır.","Nitelik başka bir niteliğe dayanarak ölçülür.","Doğrudan gözlenemeyen nitelikler için kullanılabilir."]),
+      Question("olcmedeger_ques_Q104","", "Sınıflama ölçekleri ile ilgili verilen ifadelerden hangisi yanlıştır?", "Nesneleri özelliklerinin miktarına göre sıralar.", ["Nesneleri özelliklerinin miktarına göre sıralar.","Simetriktir.","Matematiksel işlemler yapılamaz.","Frekans, mod, yüzdelik işlemler yapılabilir.","Adlandırma ölçeği olarakta bilinirler."]),
+      Question("olcmedeger_ques_Q105","", "Sınıflama ölçekleri ile ilgili verilen ifadelerden hangisi doğrudur?", "Nesneleri özelliklerine göre sınıflar.", ["Belirli başlangıç noktaları vardır.","Mod,yüzde,frekans işlemleri yapılamaz.","Matematiksel işlemler yapılabilir.","Asimetrik özellik gösterirler.","Nesneleri özelliklerine göre sınıflar."]),
+      Question("olcmedeger_ques_Q106","I-Frekans,mod işlemleri yapılabilir.\nII-Simetrik özellik gösterirler.\nIII-Nesneleri özelliklerin miktarına göre sıralar.", "Sınıflama ölçekleri ile verilen ifadelerden hangisi ya da hangileri doğrudur?", "I-II", ["Yalnız I","Yalnız II","I-II","Yalnız III","I-II-III"]),
+      Question("olcmedeger_ques_Q107","", "Eşit aralıklı ölçek ile ilgili verilen ifadelerden hangisi yanlıştır?", "Oranlama işlemi yapılabilir.", ["Ölçülen niteliğin sahip oluş miktarına göre eşit aralıklı olarak sıralanmasıdır.","Matematiksel işlemler (toplama, çıkarma, aritmetik ortalama) yapılabilir","Dolaylı ölçme kapsamında değerlendirilir.","Oranlama işlemi yapılabilir.","Standart sapma işlemi yapılabilir."]),
+      Question("olcmedeger_ques_Q108","", "Eşit aralıklı ölçek ile ilgili verilen ifadelerden hangisi yanlıştır?", "Gerçek sıfır vardır.", ["Toplama işlemi yapılabilir.","Çıkarma işlemi yapılabilir.","Aritmetik ortalaması alınabilir.","Gerçek sıfır vardır.","Standart sapma işlemi yapılabilir."]),
+      Question("olcmedeger_ques_Q109","", "Eşit aralıklı ölçek ile ilgili verilen ifadelerden hangisi yanlıştır?", "Aritmetik ortalaması alınamaz.", ["Bulunan tüm birimler eşit aralıktadır.","Çıkarma işlemi yapılabilir.","Aritmetik ortalaması alınamaz.","Bağıl sıfır vardır.","Standart sapma işlemi yapılabilir."]),
+      Question("olcmedeger_ques_Q110","", "En hassas ölçüm yapan ölçek aşağıdakilerden hangisidir?", "Eşit Oranlı Ölçek", ["Eşit oranlı ölçek","Eşit aralıklı ölçek","Sınıflandırma ölçeği","Sıralama ölçeği","Hassas Duyarlılık Ölçeği"]),
+
+      ]),TestListHomepageModel("Ölçme Değerlendirme-Test 17 (Yeni)",[
+      Question("olcmedeger_ques_Q101","", "En gelişmiş ve en iyi ölçüm yapan ölçek aşağıdakilerden hangisidir?", "Eşit Oranlı Ölçek", ["Eşit Aralıklı Ölçek","Eşit Oranlı Ölçek","Rubrik","Sıralama Ölçeği","Sınıflama Ölçeği"]),
+      Question("olcmedeger_ques_Q102","", "Eşit oranlı ölçek ve eşit aralıklı ölçeği birbirinden ayıran unsur aşağıdakilerden hangisidir?", "Sıfırın Kullanımı", ["Matematiksel İşlemler","Sıfırın Kullanımı","Oranlama İşlemi","Mod,Frekans,Yüzde İşlemleri","Hiçbiri"]),
+      Question("olcmedeger_ques_Q103","", "Eşit oranlı ölçek ile ilgili verilen bilgilerden hangisi yanlıştır?", "Tanımlanmış sıfır kullanılır.", ["Tanımlanmış sıfır kullanılır.","Gerçek sıfır kullanılır.","Oranlama işlemi yapılabilir.","Tüm istatistiksel işlemler yapılabilir.","Tüm matematiksel işlemler yapılabilir."]),
+      Question("olcmedeger_ques_Q104","", "Aşağıdaki eşleştirmelerden hangisi yanlıştır?", "Eşit Oranlı Ölçek-Bağıl Sıfır", ["Dolaylı Ölçme-Bağıl Sıfır","Sıralama Ölçeği-Bağıl Sıfır","Doğrudan Ölçme-Gerçek Sıfır","Eşit Aralıklı Ölçek-Bağıl Sıfır","Eşit Oranlı Ölçek-Bağıl Sıfır"]),
+      Question("olcmedeger_ques_Q105","I-Sıfır Gerçektir\nII-Matematiksel ve İstatistiksel Tüm İşlemler Yapılabilir\nIII-En gelişmiş ölçektir", "Eşit oranlı ölçek ile ilgili verilen bilgilerden hangileri doğrudur?", "I-II-III", ["Yalnız I","Yalnız III","ı-III","I-II","I-II-III"]),
+      Question("olcmedeger_ques_Q106","", "Gerçek sıfırın kullanıldığı ölçme unsurları hangi şıkta doğru olarak verilmiştir?", "Eşit Oranlı Ölçek-Doğrudan Ölçme", ["Doğrudan Ölçme-Eşit Aralıklı Ölçek","Eşit Aralıklı Ölçek-Dolaylı Ölçme","Eşit Oranlı Ölçek-Dolaylı Ölçme","Eşit Oranlı Ölçek-Doğrudan Ölçme","Sınıflama Ölçeği-Sıralama Ölçeği"]),
+      Question("olcmedeger_ques_Q107","", "Bağıl sıfırın kullanıldığı ölçme unsurları hangi şıkta doğru olarak verilmiştir?", "Eşit Aralıklı Ölçme-Dolaylı Ölçme", ["Doğrudan Ölçme-Eşit Aralıklı Ölçme","Eşit Aralıklı Ölçme-Dolaylı Ölçme","Eşit Oranlı Ölçme-Dolaylı Ölçme","Eşit Oranlı Ölçek-Doğrudan Ölçme","Sınıflama Ölçeği-Doğrudan Ölçme"]),
+      Question("olcmedeger_ques_Q108","", "Ölçmede kullanılan ölçüt türleri hangi şıkta doğru olarak verilmiştir?", "Mutlak Ölçüt-Bağıl Ölçüt", ["Mutlak Ölçüt-Bağıl Ölçüt","Gerçek Ölçüt-Bağıl Ölçüt","İzafi Ölçüt-Mutlak Ölçüt","Objektif Ölçüt-Sübjektif Ölçüt","Gerçek Ölçüt-Tanımlanmış Ölçüt"]),
+      Question("olcmedeger_ques_Q109","", "Aşağıdakilerden hangisi bağıl ölçüt örneğidir?", "İlk beşe girenler hediyeyi kapar.", ["Sınavda geçme notu 70’dir.","10 doğru yapan sınavda başarılı olur.","İlk beşe girenler hediyeyi kapar.","10 yanlışı olan sınavdan kalır.","Devamsızlığı 20 günden az olanlar sınava girmeye hak kazanır."]),
+      Question("olcmedeger_ques_Q110","", "Aşağıdakilerden hangisi mutlak ölçüt örneğidir?", "Hiç yanlışı olmayanlar başarılıdır.", ["Sınavda çan eğrisine göre başarı durumları belirlenecektir.","Yüzde 5’e girenler sınava girmeye hak kazanırlar.","İlk 10’a girenler ödüllendirilecektir.","Sadece sınıf birincileri kontenjan sınavına girebilirler.","Hiç yanlışı olmayanlar başarılıdır."]),
+
       ]),
+
+   /* TestListHomepageModel("Ölçme Değerlendirme-Test 18 (Yeni)",[
+      Question("olcmedeger_ques_Q101","", "","",["","","","",""]),
+      Question("olcmedeger_ques_Q102","", "","",["","","","",""]),
+      Question("olcmedeger_ques_Q103","", "","",["","","","",""]),
+      Question("olcmedeger_ques_Q104","", "","",["","","","",""]),
+      Question("olcmedeger_ques_Q105","", "","",["","","","",""]),
+      Question("olcmedeger_ques_Q106","", "","",["","","","",""]),
+      Question("olcmedeger_ques_Q107","", "","",["","","","",""]),
+      Question("olcmedeger_ques_Q108","", "","",["","","","",""]),
+      Question("olcmedeger_ques_Q109","", "","",["","","","",""]),
+      Question("olcmedeger_ques_Q110","", "","",["","","","",""]),
+
+      ]),*/
    /* TestListHomepageModel("Test 7",[
 
       ]),*/
