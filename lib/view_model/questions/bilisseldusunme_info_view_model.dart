@@ -1,0 +1,115 @@
+import 'package:flutter/material.dart';
+
+import '../../model/question.dart';
+import '../../model/test_list_homepage_model.dart';
+
+class BilisselDusunmeQuesViewModel extends ChangeNotifier{
+
+  List<TestListHomepageModel> _bilisselDusunmeList=[
+    TestListHomepageModel("Bilişsel Düşünme-Karışık Test Çöz",[
+      Question("bilisseldusunme_ques_Q1"," I-Problem Çözme\nII-Karar Verme\nIII-Eleştirel Düşünme", "Yukarıda verilen ifadelerden hangileri temel düşünme becerileri arasındadır?", "I-II-III", ["Yalnız I","I-II","II-III","I-III","I-II-III"]),
+      Question("bilisseldusunme_ques_Q2","", "………. becerisi temel düşünme becerilerindendir. Seçenekler arasında en uygun olanı seçmeye ……….... becerisi adı verilir. Cümlelerde boş bırakılan yere gelmesi gereken ifade aşağıdakilerden hangisidir?", "Karar", ["Problem Çözme","Karşılaştırma","Karar","Eleştirel Düşünme","Yaratıcı Düşünme"]),
+      Question("bilisseldusunme_ques_Q3","", "Analiz yaparak, akıl yürüterek neye inanacağını seçme yetisi ………………………‘dir. ", "Eleştirel Düşünme", ["Problem Çözme","Karşılaştırma","Değerlendirme","Eleştirel Düşünme","Yaratıcı Düşünme"]),
+      Question("bilisseldusunme_ques_Q4","", "Yeni ve özgün şeyler ortaya konmasını sağlayan temel düşünce becerisi …………… ‘dir.", "Yaratıcı Düşünme", ["Problem Çözme","Karşılaştırma","Sentez","Eleştirel Düşünme","Yaratıcı Düşünme"]),
+      Question("bilisseldusunme_ques_Q5","", "İlk üç sırada yer alan bilişsel beceri basamakları hangi şıkta doğru olarak sıralanmıştır?", "Bilgi-Kavrama-Uygulama", ["Uygulama-Kavrama-Bilgi","Bilgi-Kavrama-Uygulama","Bilgi-Uygulama-Kavrama","Uygulama-Bilgi-Kavrama","Kavrama-Bilgi-Uygulama"]),
+      Question("bilisseldusunme_ques_Q6","", "Son üç sırada yer alan bilişsel beceri basamakları hangi şıkta doğru olarak sıralanmıştır?", "Analiz-Sentez-Değerlendirme", ["Analiz-Sentez-Değerlendirme","Sentez-Analiz-Değerlendirme","Değerlendirme-Analiz-Sentez","Değerlendirme-Sentez-Analiz","Sentez-Değerlendirme-Analiz"]),
+      Question("bilisseldusunme_ques_Q7","I-Yordama Basamağı\nII-Analiz Basamağı\nIII-Yaratıcı Düşünme Basamağı", "Yukarıda verilen bilişsel beceri basamaklarından hangisi ya da hangileri doğrudur?", "Yalnız II", ["Yalnız I","Yalnız II","I-II","II-III","Hepsi"]),
+      Question("bilisseldusunme_ques_Q8","I-Yaratıcı Düşünme Basamağı\nII-Eleştirel Düşünme Basamağı\nIII-Bilgi Basamağı", "Yukarıda verilen bilişsel beceri basamaklarından hangisi ya da hangileri yanlıştır?", "I-II", ["Yalnız I","Yalnız II","I-II","II-III","Hepsi"]),
+      Question("bilisseldusunme_ques_Q9","", "…………., bireyin kendi düşünme-karar verme mekanizmaları hakkındaki bilgi sahibi olması ve bu süreçleri kontrol edebilmesidir. Cümlede boşluk bırakılan yere gelmesi gereken en uygun ifade aşağıdakilerden hangisidir?", "Üst Biliş", ["Üst Biliş","Öz Denetim","Oto Kontrol","Biliş","Eleştirel Düşünme"]),
+      Question("bilisseldusunme_ques_Q10","", "………..bireyin bir nesne ya da olayla ilgili olarak bilgili ve bilinçli olma durumudur. Cümlede boşluk bırakılan yere gelmesi gereken en uygun ifade aşağıdakilerden hangisidir?", "Biliş", ["Bilgi","Bilişsel Seviye","Üst Biliş","Biliş","Veri"]),
+    ]),
+    TestListHomepageModel("Bilişsel Düşünme-Test 1",[
+      Question("bilisseldusunme_ques_Q1"," I-Problem Çözme\nII-Karar Verme\nIII-Eleştirel Düşünme", "Yukarıda verilen ifadelerden hangileri temel düşünme becerileri arasındadır?", "I-II-III", ["Yalnız I","I-II","II-III","I-III","I-II-III"]),
+      Question("bilisseldusunme_ques_Q2","", "………. becerisi temel düşünme becerilerindendir. Seçenekler arasında en uygun olanı seçmeye ……….... becerisi adı verilir. Cümlelerde boş bırakılan yere gelmesi gereken ifade aşağıdakilerden hangisidir?", "Karar", ["Problem Çözme","Karşılaştırma","Karar","Eleştirel Düşünme","Yaratıcı Düşünme"]),
+      Question("bilisseldusunme_ques_Q3","", "Analiz yaparak, akıl yürüterek neye inanacağını seçme yetisi ………………………‘dir. ", "Eleştirel Düşünme", ["Problem Çözme","Karşılaştırma","Değerlendirme","Eleştirel Düşünme","Yaratıcı Düşünme"]),
+      Question("bilisseldusunme_ques_Q4","", "Yeni ve özgün şeyler ortaya konmasını sağlayan temel düşünce becerisi …………… ‘dir.", "Yaratıcı Düşünme", ["Problem Çözme","Karşılaştırma","Sentez","Eleştirel Düşünme","Yaratıcı Düşünme"]),
+      Question("bilisseldusunme_ques_Q5","", "İlk üç sırada yer alan bilişsel beceri basamakları hangi şıkta doğru olarak sıralanmıştır?", "Bilgi-Kavrama-Uygulama", ["Uygulama-Kavrama-Bilgi","Bilgi-Kavrama-Uygulama","Bilgi-Uygulama-Kavrama","Uygulama-Bilgi-Kavrama","Kavrama-Bilgi-Uygulama"]),
+      Question("bilisseldusunme_ques_Q6","", "Son üç sırada yer alan bilişsel beceri basamakları hangi şıkta doğru olarak sıralanmıştır?", "Analiz-Sentez-Değerlendirme", ["Analiz-Sentez-Değerlendirme","Sentez-Analiz-Değerlendirme","Değerlendirme-Analiz-Sentez","Değerlendirme-Sentez-Analiz","Sentez-Değerlendirme-Analiz"]),
+      Question("bilisseldusunme_ques_Q7","I-Yordama Basamağı\nII-Analiz Basamağı\nIII-Yaratıcı Düşünme Basamağı", "Yukarıda verilen bilişsel beceri basamaklarından hangisi ya da hangileri doğrudur?", "Yalnız II", ["Yalnız I","Yalnız II","I-II","II-III","Hepsi"]),
+      Question("bilisseldusunme_ques_Q8","I-Yaratıcı Düşünme Basamağı\nII-Eleştirel Düşünme Basamağı\nIII-Bilgi Basamağı", "Yukarıda verilen bilişsel beceri basamaklarından hangisi ya da hangileri yanlıştır?", "I-II", ["Yalnız I","Yalnız II","I-II","II-III","Hepsi"]),
+      Question("bilisseldusunme_ques_Q9","", "…………., bireyin kendi düşünme-karar verme mekanizmaları hakkındaki bilgi sahibi olması ve bu süreçleri kontrol edebilmesidir. Cümlede boşluk bırakılan yere gelmesi gereken en uygun ifade aşağıdakilerden hangisidir?", "Üst Biliş", ["Üst Biliş","Öz Denetim","Oto Kontrol","Biliş","Eleştirel Düşünme"]),
+      Question("bilisseldusunme_ques_Q10","", "………..bireyin bir nesne ya da olayla ilgili olarak bilgili ve bilinçli olma durumudur. Cümlede boşluk bırakılan yere gelmesi gereken en uygun ifade aşağıdakilerden hangisidir?", "Biliş", ["Bilgi","Bilişsel Seviye","Üst Biliş","Biliş","Veri"]),
+
+    ]),
+   /* TestListHomepageModel("Bilişsel Düşünme-Test 2",[
+      Question("bilisseldusunme_ques_Q11","", "","",["","","","",""]),
+      Question("bilisseldusunme_ques_Q12","", "","",["","","","",""]),
+      Question("bilisseldusunme_ques_Q13","", "","",["","","","",""]),
+      Question("bilisseldusunme_ques_Q14","", "","",["","","","",""]),
+      Question("bilisseldusunme_ques_Q15","", "","",["","","","",""]),
+      Question("bilisseldusunme_ques_Q16","", "","",["","","","",""]),
+      Question("bilisseldusunme_ques_Q17","", "","",["","","","",""]),
+      Question("bilisseldusunme_ques_Q18","", "","",["","","","",""]),
+      Question("bilisseldusunme_ques_Q19","", "","",["","","","",""]),
+      Question("bilisseldusunme_ques_Q20","", "","",["","","","",""]),
+
+    ]),*/
+    TestListHomepageModel("Hazırlanıyor",[
+      Question("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor", ["Hazırlanıyor","Hazırlanıyor","Hazırlanıyor","Hazırlanıyor","Hazırlanıyor"])
+    ]),
+  ];
+
+
+  // Question("bilisseldusunme_ques_Q21","", "","",["","","","",""]),
+  // Question("bilisseldusunme_ques_Q22","", "","",["","","","",""]),
+  // Question("bilisseldusunme_ques_Q23","", "","",["","","","",""]),
+  // Question("bilisseldusunme_ques_Q24","", "","",["","","","",""]),
+  // Question("bilisseldusunme_ques_Q25","", "","",["","","","",""]),
+  // Question("bilisseldusunme_ques_Q26","", "","",["","","","",""]),
+  // Question("bilisseldusunme_ques_Q27","", "","",["","","","",""]),
+  // Question("bilisseldusunme_ques_Q28","", "","",["","","","",""]),
+  // Question("bilisseldusunme_ques_Q29","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q30","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q31","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q32","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q33","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q34","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q35","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q36","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q37","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q38","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q39","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q40","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q41","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q42","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q43","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q44","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q45","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q46","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q47","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q48","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q49","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q50","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q51","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q52","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q53","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q54","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q55","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q56","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q57","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q58","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q59","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q60","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q61","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q62","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q63","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q64","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q65","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q66","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q67","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q68","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q69","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q70","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q71","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q72","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q73","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q74","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q75","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q76","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q77","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q78","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q79","", "", "", ["","","","",""]),
+  // Question("bilisseldusunme_ques_Q8","", "", "", ["","","","",""]),
+
+  List<TestListHomepageModel> get bilisselDusunmeList=>_bilisselDusunmeList;
+}
