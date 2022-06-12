@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:uzman_ogretmen/core/constants/extensions/extensions.dart';
+
+import '../../core/constants/extensions/extensions.dart';
 
 class MyContainer extends StatelessWidget {
   final String text;

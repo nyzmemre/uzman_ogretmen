@@ -6,7 +6,6 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:hawk_fab_menu/hawk_fab_menu.dart';
 
 import 'test.dart';
-import '../core/constants/extensions/extensions.dart';
 import '../core/constants/colors/my_colors.dart';
 import '../core/constants/functions/functions.dart';
 import '../core/my_widgets/my_scaffold.dart';

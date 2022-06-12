@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:uzman_ogretmen/core/my_widgets/my_appbar.dart';
 
+import '../../core/my_widgets/my_appbar.dart';
 import '../../core/constants/colors/my_colors.dart';
 
 class MyScaffold extends StatelessWidget {

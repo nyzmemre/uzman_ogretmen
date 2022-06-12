@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:uzman_ogretmen/view/notes.dart';
-import 'package:uzman_ogretmen/view/test_homepage.dart';
 
+import '../../../view/notes.dart';
+import '../../../view/test_homepage.dart';
 import '../../../view/false_tests.dart';
 import '../../../view/favorite_questions.dart';
 import '../../constants/routes/route_text.dart';

@@ -2,8 +2,8 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hawk_fab_menu/hawk_fab_menu.dart';
-import 'package:uzman_ogretmen/view/test_homepage.dart';
 
+import '../view/test_homepage.dart';
 import '../core/my_widgets/my_appbar.dart';
 import 'content_list_page.dart';
 import 'favorite_info_card.dart';

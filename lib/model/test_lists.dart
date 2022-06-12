@@ -1,5 +1,5 @@
 
-import 'package:uzman_ogretmen/model/question.dart';
+import 'question.dart';
 
 class TestListModel{
   final String text;

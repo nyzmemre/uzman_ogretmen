@@ -18,7 +18,7 @@ class MyTheme {
       bodyText2: GoogleFonts.lato(
         fontSize: 16.0,
         fontWeight: FontWeight.w300,
-        color: kBlack,
+        color: kBlack54,
       ),
       headline1: GoogleFonts.roboto(
         fontSize: 32.0,

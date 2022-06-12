@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:uzman_ogretmen/model/info_card_item.dart';
 
+import '../../model/info_card_item.dart';
 import '../../model/info_card_model.dart';
 
 class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {

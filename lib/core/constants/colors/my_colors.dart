@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 final Color kWhite = Colors.white;
-final Color kBlack = Colors.black54;
+final Color kBlack=Colors.black;
+final Color kBlack54 = Colors.black54;
 final Color kScaffoldBackground = Color(0xFFEDEDED);
 final Color kRed = Color(0xFFD3422F);
 final Color kYellow=Color(0xFFEFAF39);

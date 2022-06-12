@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:uzman_ogretmen/core/constants/extensions/extensions.dart';
-import 'package:uzman_ogretmen/view_model/note_view_model.dart';
+
+import '../../core/constants/extensions/extensions.dart';
+import '../../view_model/note_view_model.dart';
 
 addNote(BuildContext context) async {
   TextEditingController _title=TextEditingController();

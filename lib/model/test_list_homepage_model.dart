@@ -1,6 +1,6 @@
 import 'package:hive/hive.dart';
-import 'package:uzman_ogretmen/model/question.dart';
 
+import 'question.dart';
 part 'test_list_homepage_model.g.dart';
 
 

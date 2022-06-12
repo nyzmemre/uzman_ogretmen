@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
-import 'package:uzman_ogretmen/core/my_widgets/my_scaffold.dart';
-import 'package:uzman_ogretmen/view/test.dart';
 
+import '../core/my_widgets/my_scaffold.dart';
+import '../view/test.dart';
 import '../core/constants/colors/my_colors.dart';
 import '../core/my_widgets/my_appbar.dart';
 import '../model/test_list_homepage_model.dart';

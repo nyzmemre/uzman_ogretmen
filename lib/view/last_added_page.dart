@@ -1,9 +1,10 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:uzman_ogretmen/core/constants/extensions/extensions.dart';
-import 'package:uzman_ogretmen/core/my_widgets/my_appbar.dart';
-import 'package:uzman_ogretmen/core/my_widgets/my_scaffold.dart';
+
+import '../core/constants/extensions/extensions.dart';
+import '../core/my_widgets/my_appbar.dart';
+import '../core/my_widgets/my_scaffold.dart';
 
 class LastAddedPage extends StatelessWidget {
   const LastAddedPage({Key? key}) : super(key: key);

@@ -3,10 +3,10 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:uzman_ogretmen/model/info_card_model.dart';
-import 'package:uzman_ogretmen/view/onboard.dart';
-import 'package:uzman_ogretmen/view/splash.dart';
-import 'package:uzman_ogretmen/view_model/test_list_complete_view_model.dart';
+import 'model/info_card_model.dart';
+import 'view/onboard.dart';
+import 'view/splash.dart';
+import 'view_model/test_list_complete_view_model.dart';
 
 import 'model/info_card_item.dart';
 import 'model/note.dart';

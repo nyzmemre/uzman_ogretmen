@@ -2,8 +2,8 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:uzman_ogretmen/core/constants/extensions/extensions.dart';
 
+import '../core/constants/extensions/extensions.dart';
 import '../core/constants/colors/my_colors.dart';
 import '../model/info_card_item.dart';
 import '../core/constants/texts/texts.dart';
@@ -246,7 +246,7 @@ class FavoriteInfoCard extends StatelessWidget {
                                     child: AutoSizeText(
                                       item.text,
                                       style: GoogleFonts.quicksand(
-                                        color: kBlack,
+                                        color: kBlack54,
                                         // fontWeight: FontWeight.w800
                                       ),
                                       minFontSize: 10,

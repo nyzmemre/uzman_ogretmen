@@ -118,7 +118,7 @@ class _TestState extends State<Test> {
                              AutoSizeText(
                                data.newTestList[skr.getIndex].quesBottom,
                                style: GoogleFonts.beVietnam(
-                                   color: kBlack,
+                                   color: kBlack54,
                                    fontWeight: FontWeight.w800
                                ),
                                minFontSize: 10,
@@ -225,7 +225,7 @@ class _TestState extends State<Test> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 AutoSizeText(answerOption+" )", style: GoogleFonts.quicksand(
-                    color: kBlack,fontWeight: FontWeight.w400
+                    color: kBlack54,fontWeight: FontWeight.w400
                 ),
                   minFontSize: 10,
                   maxLines: 1,),
@@ -233,7 +233,7 @@ class _TestState extends State<Test> {
                 Flexible(child: Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8.0),
                   child: AutoSizeText(text, style: GoogleFonts.quicksand(
-                      color: kBlack,fontWeight: FontWeight.w400
+                      color: kBlack54,fontWeight: FontWeight.w400
                   ),
                     minFontSize: 10,
                     maxLines: 5,),

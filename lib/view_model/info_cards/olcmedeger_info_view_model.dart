@@ -32,25 +32,38 @@ class OlcmeDegerInfoViewModel extends ChangeNotifier{
       InfoCardItem("bb_olcmedeger_info_23", "Tanımlanmış Sıfır", "-İlgili uzmanlarca tanımı yapılan sıfırdır. \n-Gerçekten yokluğu ifade etmez. \n-Oluşturulmuş bir başlangıç noktasına verilen isimdir. \n-Örneğin hava sıcaklığının sıfır (0) derece olması bir yokluğu ifade etmemektedir. \n-Çünkü hissedilebilen bir hava sıcaklığı vardır."),
     ]),
     InfoCardModel("Ölçme ve Değerlendirme-3 (Yeni)", [
-      InfoCardItem("bb_eo_Info_101","","Ölçme; varlıkların bir niteliğe ne derece sahip olduklarının gözlemlenip sembolleştirilmesidir. Doğrudan ölçme ve Dolaylı ölçme olarak 2 çeşittir.",),
-      InfoCardItem("bb_eo_Info_102","Doğrudan Ölçme","-Ölçülecek niteliğin doğrudan gözlemlenmesidir.\n-Örn: Deney yapan öğrenciye puan vermek\n",),
-      InfoCardItem("bb_eo_Info_103","Dolaylı Ölçme","Ölçülen özellik ile ölçmede kullanılan aracın özelliği birbirinden farklıdır. Örn: Termometre ile sıcaklık ölçmek\n\nDolaylı ölçme ikiye ayrılır.\nBunlar;\n-Göstergeyle Ölçme,\n-Türetilmiş Ölçme olarak tanımlanmaktadır.",),
+      InfoCardItem("bb_eo_Info_101","Ölçme","Varlıkların bir niteliğe ne derece sahip olduklarının gözlemlenip sembolleştirilmesidir. Doğrudan ölçme ve Dolaylı ölçme olarak 2 çeşittir.",),
+      InfoCardItem("bb_eo_Info_102","Doğrudan Ölçme (Temel, İzomorf)","-Ölçülecek niteliğin doğrudan gözlemlenmesidir.\n-Gerçek sıfır vardır.\n-Nitelik olduğu gibi ölçülür.\n-Geçerlik ve güvenirlik yüksektir.\n-Doğrudan gözlenebilen nitelikler söz konusuysa yapılan işlem doğrudan ölçmedir.\n-Örn: Deney yapan öğrenciye puan vermek",),
+      InfoCardItem("bb_eo_Info_103","Dolaylı Ölçme","-Ölçmek istenilen niteliğin başka bir niteliğe dayanarak ölçülme durumdur. \n-Ölçülen özellik ile ölçmede kullanılan aracın özelliği birbirinden farklıdır. Örn: Termometre ile sıcaklık ölçmek\n\nDolaylı ölçme ikiye ayrılır.\nBunlar;\n-Göstergeyle Ölçme,\n-Türetilmiş Ölçme olarak tanımlanmaktadır.",),
       InfoCardItem("bb_eo_Info_103222","Göstergeyle Ölçme","-Herhangi bir değişkenin özelliğini, başka değişkenler veya araçlardan faydalanarak ölçmeye verilen isimdir.\n-Yaylı kantarla ağırlık ölçmek örnek olarak verilebilir.",),
       InfoCardItem("bb_eo_Info_103333","Türetilmiş Ölçme","-Ölçülen iki ayrı nitelik üzerinde yapılan işlemlerle yeni bir ölçme sonucuna ulaşmaya verilen isimdir.\n-Hız=yolxzaman formülünün kullanılarak hızın bulunması örnek olarak verilebilir.",),
       InfoCardItem("bb_eo_Info_103444","Ölçme Adımları","-Ölçme adımları aşağıdaki gibi sıralanır.\n-Öncelikle ölçülecek olan özellik belirlenir. \n-Kullanılacak ölçme aracı seçilir ve hazırlanır.\n-Ölçme kuralı belirlenir.\n-Ölçme sonucu sayı ya da sembollerle ifade edilir.",),
       InfoCardItem("bb_eo_Info_104","Ölçek","Ölçme işleminde ölçekler kullanılır. 4 çeşittir; \n-Sınıflama,\n-Sıralama,\n-Eşit aralıklı,\n-Oranlı",),
-      InfoCardItem("bb_eo_Info_105","Sınıflama Ölçeği","Ölçülecek nesnelerin belli özelliklere göre sınıflandırılan ölçektir. Benzerlikleri ve farklılıkları gösterir. Örn: Erkekler ile kızların gruplandırılması",),
-      InfoCardItem("bb_eo_Info_106","Sıralama(Derecelendirme) Ölçeği","Nesneleri özelliklerinin miktarına göre sıralayan ölçektir. Örn: Öğrenci başarılı/başarısız deniyorsa sıralama ölçeği vardır.",),
-      InfoCardItem("bb_eo_Info_107","Eşit Aralıklı Ölçek","Nesneleri özelliklere göre sıralayan ölçektir. Sonucun 0 olması o niteliğin olmadığı anlamına gelmez. Örn: Termometre",),
-      InfoCardItem("bb_eo_Info_107","Eşit Aralıklı Ölçek","Nesneleri özelliklere göre sıralayan ölçektir. Sonucun 0 olması o niteliğin olmadığı anlamına gelmez. Örn: Termometre",),
-      InfoCardItem("bb_eo_Info_108","Oranlı Ölçek","-Başlangıç noktası gerçek sıfırdır.\n-En gelişmiş ölçektir.\n-Örn: Metre, Terazi",),
+      InfoCardItem("bb_eo_Info_105","Sınıflama Ölçeği-1","Ölçülecek nesnelerin belli özelliklere göre sınıflandırılan ölçektir. Benzerlikleri ve farklılıkları gösterir. Örn: Erkekler ile kızların gruplandırılması",),
+      ///yeni eklenen
+      InfoCardItem("bb_eo_Info_105_11","Sınıflama Ölçeği-2","-Sınıflama ölçeklerinin belli bir başlangıç noktası yoktur.\n- Sayılar isimlendirme için kullanılırlar. \n-Bu sebeple adlandırma ölçeği olarak da isimlendirilirler. \n-Sınıflama ölçeklerinde matematiksel işlemler (dört işlem) yapılamaz. \n-Ancak frekans, mod ve yüzde işlemleri yapılabilir.",),
+      InfoCardItem("bb_eo_Info_105_12","Sınıflama Ölçeği-3","-Sınıflandırma ölçekleri simetriklik özelliği gösterirler. \n-Matematiksel olarak ifade etmek gerekirse x=y ve y=z ise x=z’dir. \n- Ahmet Mehmet’e beziyorsa, Mehmet Ercan’a benziyorsa, Ercan’da Ahmet’e benziyordur.",),
+      ///yeni eklenen
+      InfoCardItem("bb_eo_Info_106","Sıralama(Derecelendirme) Ölçeği-1","Nesneleri özelliklerinin miktarına göre sıralayan ölçektir. Örn: Öğrenci başarılı/başarısız deniyorsa sıralama ölçeği vardır.",),
+      ///Yeni eklenen
+      InfoCardItem("bb_eo_Info_106_11","Sıralama(Derecelendirme) Ölçeği-2","-Sıralama ölçeklerinde matematiksel işlemler (dört işlem) yapılamaz.\n-Ancak karşılaştırma (büyüklük, küçüklük vb.), yüzdelik ve medyan işlemleri yapılabilir.\n-Sınıflama ölçeklerinde olduğu gibi ifadelerin matematiksel anlamı yoktur.\n-Örneğin sıfırın anlamı bir ölçüm durumunda sıfırıncı olmadığı için yoktur. ",),
+      InfoCardItem("bb_eo_Info_106_12","Sıralama(Derecelendirme) Ölçeği-3","-Simetri özelliği yoktur, asimetrik özelliği vardır.\n-Yani Ayşe’nin saçı Zeynep’in saçından uzunsa, Zeynep’in saçı Ayşe’nin saçından uzun değildir.\n-Geçişlilik özelliği vardır. Yani x > y ve y > z ise x > z diyebiliriz.",),
+      ///Yeni eklenen
+      InfoCardItem("bb_eo_Info_107","Eşit Aralıklı Ölçek-1","-Ölçülen niteliğin sahip oluş miktarına göre eşit aralıklarla sıralanmasıdır. Örn: Termometre\n-Ölçekte bulunan tüm birimler eşittir.\n-Sıfır bağıl sıfırdır.\n-Yani hava sıcaklığının sıfır derece olması bir yokluğu ifade etmemektedir.\n-Bu yüzden eşit aralıklı ölçekler dolaylı ölçme kapsamında değerlendirilirler. ",),
+      InfoCardItem("bb_eo_Info_107_11","Eşit Aralıklı Ölçek-2","-Toplama, çıkarma, aritmetik ortalama, standart sapma işlemleri yapılabilirken oranlama işlemleri yapılamaz.\n-Bir ölçekte bağıl sıfır varsa ve birimlerin arasındaki mesafeler eşitse ancak o zaman eşit aralıklı ölçek olarak isimlendirilebilirler.",),
+      InfoCardItem("bb_eo_Info_108","Eşit Oranlı Ölçek","-Ölçülen nitelik hakkında en hassas sonuçları veren ölçektir.\n-Başlangıç noktası gerçek sıfırdır.\n-En gelişmiş ölçektir.\n-Örn: Metre, Terazi\n-Her türlü matematiksel ve istatistiksel işlem yapılabilir (Oranlama dahil). ",),
+      InfoCardItem("bb_eo_Info_108_11","Eşit Oranlı Ölçek","-Eşit oranlı ölçek sık sık eşit aralıklı ölçek ile karıştırılabilmektedir.\n-Bu ayrım sıfırın yapısal özelliği ile yapılabilir.\n-Sıfır gerçek ise ve gerçek yokluğu ifade ediyorsa o ölçek eşit oranlıdır.\n-Sıfır bağıl ise ve gerçek yokluğ u ifade etmiyorsa o ölçek eşit aralıklıdır. ",),
     ]),
 
     InfoCardModel("Ölçme ve Değerlendirme-4", [
       InfoCardItem("bb_eo_Info_109","Değerlendirme","Ölçme sonuçlarının bir ölçüte göre karşılaştırılıp karara varılmasıdır.",),
       InfoCardItem("bb_eo_Info_110","Değerlendirme-2","-Ölçmeyi içine alır.\n-Önce ölçme, sonra değerlendirme yapılır.\n-Ölçme nesneldir.\n-Değerlendrime öznel olabilir.",),
       InfoCardItem("bb_eo_Info_111","Değerlendirme-3","Değerlendirme 3 amaçla yapılır.\n-Öğrencileri tanıma,\n-Öğrenmeyi izleme,\n-Öğrenme seviyesini belirleme",),
-      InfoCardItem("bb_eo_Info_112","Ölçüt","Bir yargıya varabilmek için kullanılan ilkedir.",),
+      ///Yeni eklenen
+      InfoCardItem("bb_eo_Info_112","Ölçüt","-Bir yargıya varabilmek için kullanılan ilkedir.\n-Ölçütler iki başlık altında incelenir. \n\nBunlar; \n-Mutlak Ölçüt \n-Bağıl Ölçüt’tür.",),
+      InfoCardItem("bb_eo_Info_112_11","Mutlak Ölçüt","-Mutlak ölçüt süreç öncesinde belirlenen, tüm bireylerin erişebildiği genel geçer bir kriterdir.\n-Sınavdan geçme notu 70’dir ifadesi mutlak ölçüte örnek olarak verilebilir.\n-Tüm bireyler için ulaşılabilirdir.\n-Sınavdan yeterli notu alan herkes dersten geçebilir.\n-Literatürde kriter temelli ölçme olarak da geçmektedir.",),
+      InfoCardItem("bb_eo_Info_112_12","Bağıl Ölçüt","-Bireylerin performanslarının birbirlerini etkilediği süreç içerisinde gelişen bir kriterdir.\n-Standart sapma, varyans, vb. istatistiki ölçütler kullanılır.\n-Sınavda ilk yüzde 30’a girenler başarılı sayılacaktır ifadesi örnek olarak verilebilir.\n-En, ilk vb. kelimeler bağıl ölçüte ait ifadelerdir.\n-Literatürde norm temelli ölçme olarak da geçmektedir.",),
+     ///-------------------
       InfoCardItem("bb_eo_Info_113","Mutlak Değerlendirme","Önceden karar verilen standartla öğrenci değerlendirilir.\n-Standart üstü başarılı altı başarısızdır.\n-Öğretmen fikri ve programın hedefleri ölçüttür.\n-Yeni programda kullanılması önerilmiyor.",),
       InfoCardItem("bb_eo_Info_114","Bağıl Değerlendirme","Öğrenmeler sınıf içerisinde öğrenciler karşılaştırılarak sınıfın standartlarına göre değerlendirilir. Aritmetik ortalama, standart sapma dikkate alınır.",),
       InfoCardItem("bb_eo_Info_115","Ölçme Hatası","Gerçek puan ile gözlenen puan arasındaki farktır. 3 çeşittir; \n-Sabir Hatalar,\n-Sistematik hatalar,\n-Rastgele hatalar.",),

@@ -51,7 +51,9 @@ class InfoCard extends StatelessWidget {
                       children: [
 
                         AutoSizeText(content[index].subTitle,
-                          style: GoogleFonts.beVietnam(fontWeight: FontWeight.w900,fontSize: 18),
+                          style: GoogleFonts.beVietnam(fontWeight: FontWeight.w900,
+                              color: kBlack,
+                              fontSize: 18),
                           // style: Theme.of(context).textTheme.subtitle2,
                           //    textAlign: TextAlign.center,
                         ),
@@ -59,7 +61,9 @@ class InfoCard extends StatelessWidget {
                         AutoSizeText(
                           content[index].text,
                           style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500
+                              fontWeight: FontWeight.w600,
+                            color: kBlack,
+                            height: 1.4
                           ),
                           //style: GoogleFonts.openSans(),
                           //style: GoogleFonts.montserrat(),

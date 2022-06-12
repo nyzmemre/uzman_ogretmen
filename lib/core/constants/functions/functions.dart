@@ -4,8 +4,8 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:uzman_ogretmen/view/test_homepage.dart';
-import 'package:uzman_ogretmen/view_model/skor_view_model.dart';
+import '../../../view/test_homepage.dart';
+import '../../../view_model/skor_view_model.dart';
 
 import '../../../view/homepage.dart';
 import '../../../view_model/test_view_model.dart';

@@ -1,16 +1,16 @@
-import 'package:uzman_ogretmen/view/favorite_info_card.dart';
-import 'package:uzman_ogretmen/view_model/info_cards/bilisseldusunme_info_view_model.dart';
-import 'package:uzman_ogretmen/view_model/info_cards/cevreiklim_info_view_model.dart';
-import 'package:uzman_ogretmen/view_model/info_cards/dijitalyetkinlik_info_view_model.dart';
-import 'package:uzman_ogretmen/view_model/info_cards/egitimarastirma_info_view_model.dart';
-import 'package:uzman_ogretmen/view_model/info_cards/egitimkapsayicilik_info_view_model.dart';
-import 'package:uzman_ogretmen/view_model/info_cards/guvenliokul_info_view_model.dart';
-import 'package:uzman_ogretmen/view_model/info_cards/ogrenogretsurec_info_view_model.dart';
-import 'package:uzman_ogretmen/view_model/info_cards/okulgelistirme_info_view_model.dart';
-import 'package:uzman_ogretmen/view_model/info_cards/olcmedeger_info_view_model.dart';
-import 'package:uzman_ogretmen/view_model/info_cards/ozelegitim_info_view_model.dart';
-import 'package:uzman_ogretmen/view_model/info_cards/sosyalduygusal_info_view_model.dart';
-import 'package:uzman_ogretmen/view_model/info_cards/sosyaletkilesim_info_view_model.dart';
+
+import 'info_cards/bilisseldusunme_info_view_model.dart';
+import 'info_cards/cevreiklim_info_view_model.dart';
+import 'info_cards/dijitalyetkinlik_info_view_model.dart';
+import 'info_cards/egitimarastirma_info_view_model.dart';
+import 'info_cards/egitimkapsayicilik_info_view_model.dart';
+import 'info_cards/guvenliokul_info_view_model.dart';
+import 'info_cards/ogrenogretsurec_info_view_model.dart';
+import 'info_cards/okulgelistirme_info_view_model.dart';
+import 'info_cards/olcmedeger_info_view_model.dart';
+import 'info_cards/ozelegitim_info_view_model.dart';
+import 'info_cards/sosyalduygusal_info_view_model.dart';
+import 'info_cards/sosyaletkilesim_info_view_model.dart';
 
 import '../core/constants/colors/my_colors.dart';
 import '../core/constants/routes/route_text.dart';
