@@ -58,34 +58,46 @@ class DijitalYetkinlikInfoViewModel extends ChangeNotifier{
 
         //  "Örnek", "Okul idaresine yıllık planımızı teslim etmemiz gerektiğini düşünelim. Diyelim ki bunun için bizden e-posta kullanılması istendi. Bu e-postada TO kısmına okul müdür yardımcısının (gönderilecek kişi) adresi yazılacak. CC kısmına okul müdürünün adresi yazıabilir. BCC bölümüne de okuldaki zümrenizin adres eklenebilir. BCC eklendiği için idareciler zümrelerinizi göremez."),
     ]),
+    InfoCardModel("AB Dijital Eğitim Eylem Planı", [
+      InfoCardItem("hh_dijitalyetkinlik_info_31", "Avrupa Birliği Dijital Eğitim Eylem Planı 2021-2027", "-Teknolojide yaşanan hızlı değişim toplumun, bireylerin ve kurumların (kamu-özel) bu gelişmelere ve yeni düzene uyum sağlayabilmeleri için eğitim ihtiyacını doğurmaktadır.\n-Avrupa Birliği Eğitim Komisyonu bu ihtiyacı göz önünde bulundurarak tüm üye ülkelerde uygulanmak üzere bir eylem planı hazırlamıştır.\n-Dijital eylem planının 2021-2027 yıllarını kapsayacak şekilde eğitim kurumları ve sivil toplum kuruluşları aracılığıyla uygulanması öngörülmektedir. "),
+      InfoCardItem("hh_dijitalyetkinlik_info_32", "Eylem Planı Temel Kavramları-1", "-Eylem planına ilişkin temel kavramlar şu şekilde sıralanabilir;\n\n-Dijital dönüşümde yapay zeka, bulut bilişim gibi teknolojilerin gelişimiyle hızlanmaya devam edecektir.\n-Dijitalleşme kavramı pek çok avantaj sağlamasına rağmen peşi sıra sorunlar ve zorluklarda getirebilir."),
+      InfoCardItem("hh_dijitalyetkinlik_info_33", "Eylem Planı Temel Kavramları-2", "-Dijitalleşme esnekliği, yaratıcılığı ve verimliliği arttırabilir. Ancak dezenformasyon ve sosyal medya figürleri açık, demokratik toplumları baltalamak ve savunmasız grupları daha da marjinalleştirmekle tehdit etmektedir.Dijital altyapı ve ekipman tedariğinin sınırlılığı ve bireylerin dijital yetkinlikleri ile ilgili farklılıklar devam etmektedir.\n-Dijital eğitim konusunda sektörler arası güçlü bir işbirliği ile eğitimin dijital dönüşümü için birlikte çalışmak çok önemlidir."),
+      InfoCardItem("hh_dijitalyetkinlik_info_34", "Eylem Planı Temel Kavramları-3", "-Dijital teknolojiler öğretimin kalitesinin ve miktarının iyileştirilmesi, öğretim yöntemlerinin ve pedagojilerinin dijitalleştirilmesi için gerekli altyapıların geliştirilmesi fırsatını sunmaktadır.\n-Dijital çağda gelişmek ve topluma olumlu bir şekilde dahil olmak için gerekli becerilere ve yetkinliklere yatırım yaparak, vatandaşları gittikçe daha bağlantılı, küreselleşmiş bir geleceğe hazırlamak çok önemlidir."),
+      InfoCardItem("hh_dijitalyetkinlik_info_35", "Eylem Planı Başlıkları", "-Avrupa birliği eğitim komisyonu, teknoloji kullanımını ve eğitimde dijital yeterliliklerin geliştirilmesini desteklemek için bir dijital eğitim eylem planını hazırlamıştır.\n-Eylem Planı üç ana başlık ve on bir alt eylemden oluşmaktadır. Ana başlıklar şu şekildedir;\n\nI-Eğitim ve Öğretimde Dijital Teknolojiden Daha Fazla Yararlanma (3 Eylem)\nII-Dijital Yeterlilik ve Becerilerin Geliştirilmesi (5 Eylem)\nIII- Veri Analizi ve Öngörü ile Eğitimi Geliştirme (3 Eylem)"),
+      InfoCardItem("hh_dijitalyetkinlik_info_36", "Detaylı Anlatım", "Avrupa Birliği Dijital Eğitim Eylem Planı 2027 yılına kadar geçerliliğini sürdürmektedir. Her bir eylem planı başlığının bu yüzden önemli olduğunu düşündüğümüz için ayrı konu başlıkları halinde detaylıca inceledik. Ayrıntılı anlatıma ulaşmak için diğer konu başlıklarına göz atabilirsiniz."),
+
+    ]),
+    InfoCardModel("Eğitim ve Öğretimde Dijital Teknolojiden Daha Fazla Yararlanma", [
+      InfoCardItem("hh_dijitalyetkinlik_info_37", "Eylemler", "Eğitim ve Öğretimde Dijital Teknolojiden Daha Fazla Yararlanma için belirlenen 3 eylem aşağıdaki gibidir.\n\n-Okullarda Nitelikli İnternet Bağlantısı\n-SELFIE (Öz-Yansıtma) Aracı ve Okullar İçin Rehberlik Planı\n-Dijital İmzalanmış Belgeler-Blockchain"),
+      InfoCardItem("hh_dijitalyetkinlik_info_38", "Okullarda Nitelikli İnternet Bağlantısı", "-Okullar için yüksek kapasiteli geniş bant internet bağlantısının önemini vurgulamayı ve internet altyapı hizmetini artırmayı hedeflemektedir.\n-Avrupa Birliğindeki okulların %18’inde güvenilir geniş bant bağlantısı bulunmamaktadır."),
+      InfoCardItem("hh_dijitalyetkinlik_info_39", "SELFIE (Öz-Yansıtma) Aracı ve Okullar İçin Rehberlik Planı", "-Okulların dijital teknolojileri eğitim-öğretim alanında nasıl ve ne kadar kullandıklarını belirlemeleri için kullanılan bir araçtır. SELFIE, ilk, orta, lise ve mesleki okullar için bir öz-yansıtma aracıdır.\n-SELFIE öğrenme ve öğretme sürecinde dijital teknolojilerin kullanımıyla ilgili öğretmenlere, öğrencilere ve okul yöneticilerine yöneltilen sorularla okulların değerlendirilmesine yardımcı olur.\n-Okullar, kendi durumları için sorular ekleyerek veya değiştirerek aracı özelleştirebilmektedirler. "),
+      InfoCardItem("hh_dijitalyetkinlik_info_40", "Dijital İmzalanmış Belgeler-Blockchain", "-Bir kişiye verilen sertifikanın elektronik ortama taşınarak (Europass) işverenler, eğitim sağlayıcılar ve diğer kurumlar tarafından görülüp doğruluğunun onaylanmasının sağlanmasıdır.\n-Bu eylem kapsamında, Avrupa Birliği üyesi bir devletten gelen kişiye ait sertifikaların diğer ülkelerde de anlaşılmasını ve doğru bir şekilde yorumlanmasını sağlamak için ortak bir teknik yaklaşım geliştirilmesidir. "),
+
+    ]),InfoCardModel("Dijital Yeterlilik ve Becerilerin Geliştirilmesi", [
+      InfoCardItem("hh_dijitalyetkinlik_info_41", "Eylemler", "Dijital Yeterlilik ve Becerilerin Geliştirilmesi için belirlenen 5 eylem aşağıdaki gibidir.\n\n-Yüksek Eğitim Merkezi\n-Açık Bilim Becerileri\n-Okullarda Avrupa Birliği Bilişim Kod Haftası\n-Eğitimde Siber Güvenlik\n-Kızlar İçin Dijital ve Girişimcilik Becerilerinde Eğitim"),
+      InfoCardItem("hh_dijitalyetkinlik_info_42", "Yüksek Eğitim Merkezi", "-Yükseköğretim kurumlarının dijital teknolojileri kullanarak çevrimiçi platformlar oluşturması.\n-Platform, online öğrenme, sanal hareketlilik, çevrimiçi kampüsler gibi uygulamalar için merkez görevi görecektir.\n-Bu Platform Erasmus + programı ile desteklenecektir."),
+      InfoCardItem("hh_dijitalyetkinlik_info_43", "Açık Bilim Becerileri", "-Yükseköğretim düzeyinde akademik personelin ve öğrencilerin dijital yeterlilikleri ve bilim becerilerini geliştirmeyi amaçlamaktadır.\n-Eylem tasarım, geliştirme süreçleri, bilimsel verilerin toplanması, analizi ve iletimi konularında eğitici eğitimlerinin düzenlenmesini teşvik etmektedir.\n-Açık Bilim; yapılan tüm araştırmaların verilerinin ve sonuçlarının, yazılan tüm makalelerin, yayınlanan tüm kitapların herkesin erişimine açık olmasıdır."),
+      InfoCardItem("hh_dijitalyetkinlik_info_44", "Okullarda Avrupa Birliği Bilişim Kod Haftası", "-İlkokul, ortaokul, lise ve meslek okullarının her yıl iki hafta süren AB Bilişim Kod Haftası’na katılmalarının teşvik edilmesi.\n-Kodlama uygulamaları ile mantıksal düşünme, problem çözme ve yaratıcılığın geliştirilmesi hedeflenmektedir."),
+      InfoCardItem("hh_dijitalyetkinlik_info_45", "Eğitimde Siber Güvenlik", "-Bu eylem çevrimiçi ortamda karşılaşılan riskler konusunda farkındalığı artırır ve çevrimiçi güvenlik konusunda öğrencilerin, eğitimcilerin kapasitelerini geliştirmesini destekler.\n-Bu amaç doğrultusunda iki farklı çalışma yapılacaktır.\n-Bu iki farklı çalışma bir sonraki kartta verilmiştir."),
+      InfoCardItem("hh_dijitalyetkinlik_info_46", "Eğitimde Siber Güvenlik 2 farklı çalışma", "\nI-Çocuklar, ebeveynler, bakıcılar ve öğretmenler için çevrimiçi güvenlik, medya okuryazarlığı ve siber hijyen konusunda bilinçlendirme kampanyaları düzenlenecektir.\nII-İlköğretim ve ortaöğretimde siber güvenlik ve siber güvenlik öğretimine pedagojik yaklaşımlar hakkında eğitici eğitimleri düzenlenecektir."),
+      InfoCardItem("hh_dijitalyetkinlik_info_47", "Kızlar İçin Dijital ve Girişimcilik Becerilerinde Eğitim", "-Dijital, girişimci yeterliliklerin geliştirilmesi, gençlerin iş hayatına ve topluma katılımının temelini oluşturmaktadır.\n-Bu eylem, ilköğretim ve ortaöğretimdeki kızlar için Avrupa çapında dijital ve girişimcilik becerileri üzerine bir dizi çalışma yapılmasını kapsamaktadır."),
+    ]),
+    InfoCardModel("Veri Analizi ve Öngörü ile Eğitimi Geliştirme", [
+      InfoCardItem("hh_dijitalyetkinlik_info_48", "Eylemler", "-Veri Analizi ve Öngörü ile Eğitimi Geliştirme için belirlenen 5 eylem aşağıdaki gibidir.\n\n-Eğitimde Bilgi İletişim Teknolojileri Çalışmaları\n-Yapay Zekâ ve Analitik\n-Stratejik Öngörü"),
+      InfoCardItem("hh_dijitalyetkinlik_info_49", "Eğitimde Bilgi İletişim Teknolojileri Çalışmaları", "-Bu Eylem basamağında eğitimde BİT kullanımının yaygınlaştırılmasında kaydedilen ilerlemeyi değerlendirmek ve sonuçları önceki verilerle karşılaştırmak amaçlanmaktadır.\n-BİT’in eğitimde pedagojik kullanımı için bir çerçeve geliştirilmesi ve BİT kullanımının ölçülebilir bilişsel sonuçlarla ilişkilendirilmesi hedeflenmektedir."),
+      InfoCardItem("hh_dijitalyetkinlik_info_50", "Yapay Zekâ ve Analitik", "-Önümüzdeki yıllarda iş piyasasında hangi mesleklere ve becerilere ihtiyaç duyulabilir?\n-Bu eylem, gelecekteki beceri ve beceri eksikliklerini tahmin etmek için yapay zeka ve analitik dijital araçların kullanılmasını teşvik etmektedir."),
+      InfoCardItem("hh_dijitalyetkinlik_info_51", "Stratejik Öngörü", "-İlköğretim, ortaöğretim ve yükseköğretimde dijital teknolojilerin etkisi ve potansiyeli hakkında bir dizi politika, araştırma ve rehberlik belgesi yayınlanacaktır.\n-Bugün eğitim kurumlarının karşılaştığı zorluklara yenilikçi çözümler belirlemek için AB çapında bir eğitim hackathonu düzenlenecektir.\n-Hackathon belli bir ortak fikre sahip insanların belirli bir süre içerisinde, takım çalışması halinde aynı ortamda aynı havayı soluyarak yenilikçi fikirlerini ortaya dökmesidir. "),
+       ]),
     InfoCardModel("Hazırlanıyor", [
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
     ]),
 
-
-    //InfoCardItem("hh_dijitalyetkinlik_info_31", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_32", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_33", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_34", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_35", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_36", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_37", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_38", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_39", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_40", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_41", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_42", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_43", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_44", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_45", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_46", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_47", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_48", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_49", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_50", "", ""),
-    //InfoCardItem("hh_dijitalyetkinlik_info_51", "", ""),
+    //
+    //
+    //
+    //
     //InfoCardItem("hh_dijitalyetkinlik_info_52", "", ""),
     //InfoCardItem("hh_dijitalyetkinlik_info_53", "", ""),
     //InfoCardItem("hh_dijitalyetkinlik_info_54", "", ""),
