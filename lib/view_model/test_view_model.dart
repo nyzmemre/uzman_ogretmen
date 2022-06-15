@@ -19,8 +19,8 @@ class TestViewModel extends ChangeNotifier {
     for (int i = 0; i < list.length; i++) {
       _newTestList.insert(
           i,
-          Question(list[i].questionId, list[i].quesTop, list[i].quesBottom, list[i].correctAns,
-              list[i].answList));
+          Question( list[i].questionId, list[i].quesTop, list[i].quesBottom, list[i].correctAns,
+              list[i].answList, answSolve: list[i].answSolve),);
     }
     for (int i = 0; i < list.length; i++) {
       _answerKeyList.insert(i, newTestList[i].correctAns);
@@ -38,7 +38,7 @@ class TestViewModel extends ChangeNotifier {
         _newTestList.insert(
             i,
             Question(list[i].questionId,list[i].quesTop, list[i].quesBottom, list[i].correctAns,
-                list[i].answList));
+                list[i].answList,answSolve: list[i].answSolve));
       }
       for (int i = 0; i < list.length; i++) {
         _answerKeyList.insert(i, newTestList[i].correctAns);

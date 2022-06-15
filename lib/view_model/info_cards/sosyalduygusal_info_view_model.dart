@@ -30,7 +30,7 @@ class SosyalDuygusalInfoViewModel extends ChangeNotifier{
       InfoCardItem("kk_sosyalduygusal_info_16", "Sosyal Duygusal Öğrenme-3","Bu beceriler ile kendisinin ve başkalarının duygularının farkında olan birey, günlük problem ve zorluklarla etkin bir şekilde başa çıkabilmekte, depresyon ve stresten uzaklaşabilmektedir. "),
       InfoCardItem("kk_sosyalduygusal_info_17", "Sosyal Duygusal Öğrenme-4","-Sosyal duygusal öğrenme okul gelişimi içinde bir kılavuz-çerçeve özelliği taşımaktadır. \n-SDÖ ile güvenli ve ilgili bir öğrenme ortamı, süreci ve devamlılığı sağlanmaktadır."),
          ]),
-    InfoCardModel("Sosyal Duygusal Öğrenme-4", [
+    InfoCardModel("Sosyal Duygusal Öğrenme Yeterlilikleri", [
     InfoCardItem("kk_sosyalduygusal_info_18", "Sosyal Duygusal Öğrenme Yeterlilikleri","-CASEL’in geliştirdiği yaklaşıma göre sosyal duygusal öğrenmenin (SDÖ) beş temel yeterliliği vardır. \n-Bu beş temel yeterlilik şunlardır: \n\n-Öz Farkındalık (Self Awareness)\n-Öz Yönetim (Self Regulation)\n-Sosyal Farkındalık (Social Awareness)\n-İlişki Becerileri (Positive Relationships)\n-Sorumlu Karar Verme (Responsible Decision Making)"),
     InfoCardItem("kk_sosyalduygusal_info_19", "Öz Farkındalık (Self Awareness)-1","Öz farkındalık, bireyin kendi duygularını, düşüncelerini, güçlü ve zayıf yönlerini, stres durumlarını, bireysel sınırlarını fark etme ve bu unsurların davranışlarını nasıl etkilediğini anlama durumudur."),
     InfoCardItem("kk_sosyalduygusal_info_20", "Öz Farkındalık (Self Awareness)-2", "-Öz farkındalığa ait alt yeterlilikler şunlardır; \n\n-Kendisi Hakkında Gerçekçi Bir Algı Sahibi Olma\n-Öz Yeterlilik\n-Özgüven\n-Duygularını İsimlendirme\n-Güçlü Yönlerini Bilme"),

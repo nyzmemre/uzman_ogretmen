@@ -61,7 +61,7 @@ class InfoCard extends StatelessWidget {
                         AutoSizeText(
                           content[index].text,
                           style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w600,
+                              fontWeight: FontWeight.w500,
                             color: kBlack,
                             height: 1.4
                           ),

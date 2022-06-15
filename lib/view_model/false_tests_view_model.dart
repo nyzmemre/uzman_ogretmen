@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
+import 'package:uzman_ogretmen/model/info_card_item.dart';
 
 import '../model/question.dart';
 
@@ -20,13 +21,13 @@ class FalseTestsViewModel{
   }*/
 
 
-addFalseList(BuildContext context, String questionId, String quesTop,String quesBottom,String correctAns,List<String>answList){
+addFalseList(BuildContext context, String questionId, String quesTop,String quesBottom,String correctAns,List<String>answList, InfoCardItem? answSolve){
  // var list=Provider.of<TestViewModel>(context, listen: false).newTestList;
   print(falseList.length);
   //contain yanlış yapılan soru listede var mı diye kontrol ediyor.
   var contain=falseList.values.where((element) => (element.questionId==questionId));
   if(contain.isEmpty)
-  falseList.add(Question(questionId, quesTop, quesBottom, correctAns, answList,));
+  falseList.add(Question(questionId, quesTop, quesBottom, correctAns, answList,answSolve: answSolve ));
   else falseList=falseList;
 }
   deleteItem(String questionId) {

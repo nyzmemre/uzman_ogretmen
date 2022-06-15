@@ -21,7 +21,8 @@ if(favoriteList.values.any((element) => element.questionId==list[index].question
       list[index].quesTop,
       list[index].quesBottom,
       list[index].correctAns,
-      list[index].answList));}
+      list[index].answList,
+  answSolve: list[index].answSolve));}
     notifyListeners();
   }
 }

@@ -62,6 +62,7 @@ class SkorViewModel extends ChangeNotifier {
           curTest.newTestList[_index].quesBottom,
           curTest.newTestList[_index].correctAns,
           curTest.newTestList[_index].answList,
+          curTest.newTestList[_index].answSolve
          );
 
       /*  ScaffoldMessenger.of(context).showSnackBar(

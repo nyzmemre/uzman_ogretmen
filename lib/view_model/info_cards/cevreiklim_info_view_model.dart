@@ -5,16 +5,16 @@ import '../../model/info_card_model.dart';
 
 class CevreIklimInfoViewModel extends ChangeNotifier{
   List<InfoCardModel> _cevreIklimList = [
-    InfoCardModel("Çevre Eğitimi-1", [
-      InfoCardItem("ff_info_1", "Nedir?", "-Tüm canlıların hayat boyu ilişkilerini sürdürdükleri ortamlardır.\n-Canlılar çevre içerisinde etkileşim halindedir.\n-Etkileşimler, biyolojik, sosyal, ekonomik ve fiziki olabilir."),
-      InfoCardItem("ff_info_2", "Neden Önemli?", "-Hayatın sürdürülmesi için temel unsurdur.\n-Tüm kaynakların yer aldığı merkezdir.\n-Canlıların etkileşimlerine ev sahipliği yapar.\n-Ortak kullanım alanıdır.\n-Tüm canlılara hitap eder."),
+    InfoCardModel("Çevre Eğitimi Genel Bakış", [
+      InfoCardItem("ff_info_1", "Çevre Nedir?", "-Tüm canlıların hayat boyu ilişkilerini sürdürdükleri ortamlardır.\n-Canlılar çevre içerisinde etkileşim halindedir.\n-Etkileşimler, biyolojik, sosyal, ekonomik ve fiziki olabilir."),
+      InfoCardItem("ff_info_2", "Çevre Neden Önemlidir?", "-Hayatın sürdürülmesi için temel unsurdur.\n-Tüm kaynakların yer aldığı merkezdir.\n-Canlıların etkileşimlerine ev sahipliği yapar.\n-Ortak kullanım alanıdır.\n-Tüm canlılara hitap eder."),
       InfoCardItem("ff_info_3", "Çevre Eğitimi", "-Toplumun çevre konusunda bilinçlenmesidir.\n-Çevre eğitimi alan bireylerin, çevre konusunda olumlu tutum ve davranışlar sergilemesi beklenir.\n-Olumlu davranışların ve davranış değişikliklerinin kalıcı olması beklenir.\n-Bu davranışların kazanılması için çaba gerekir.\n-Çevresel sorunların çözülmesinde, eğitimle, bireyin aktif katılımı beklenir."),
       InfoCardItem("ff_info_4", "Çevre Eğitiminin Amaçları", "-Bireylerin çevreyi tanımalarını sağlamak.\n-Bireylere çevre bilinci kazandırmak.\n-Çevremizdeki varolan sorunların tespitinin yapılmasını sağlamak.\n-Ortaya çıkabilecek çevresel sorunların önceden tespitini sağlamak.\n-Çevresel sorunların çözümünde bireylerin aktif katılımlarını sağlamak.\n-Toplumda çevre bilincini yerleştirmek.\n-Yaşanılabilir çevre oluşturma sürecinde olumlu davranış değişiklikleri gerçekleştirmek"),
       InfoCardItem("ff_info_5", "Ne zaman başlar?", "-Çevre eğitiminin erken yaşlarda başlaması esastır.\n-Bu sebeple henüz okul öncesine devam etmekte olan bireylerin bu eğitimlerden faydalanması esastır.\n-Çevre eğitimi okul öncesi eğitim kurumlarının faaliyetleri arasında yer almaktadır.\n-Bireylerin erken yaşta gerekli bilinci ve tutumları kazanmaları ülkemizin ve dünyanın geleceği için önem arz etmektedir."),
       InfoCardItem("ff_info_6","Neler yapılabilir?", "-Çevre eğitimleri kapsamında erken dönemde başlayacak faaliyetlerde oyun ile öğrenme temel alınabilir.\n-Geri dönüşüm kutuları, çöp kutuları, atık kutuları gibi basit tasarımlar bu yaş grubuna tasarlatılabilir.\n-İlkokul ve ortaokul çağındak çocuklar için animasyonlar daha ilgi çekici olacaktır.\n-Ortaöğretim ve üzeri yaşlarda eğitimler verilmek suretiyle çevre bilincini oluşturmak mümkündür."),
       InfoCardItem("ff_info_6_1","Geniş Anlatım", "-Çevre Eğitiminin temeli Tiflis Konferansı'nda atılmıştır.\n-Bu kapsamda daha geniş hedef, amaç ve esasların anlatımları ilerleyen bilgi kartlarında tekrar gelecektir. Bunun için 'Çevre Eğitiminin Temelleri' konu başlıklarına göz atabilirsiniz."),
 
-    ]), InfoCardModel("Çevre Eğitimi-2", [
+    ]), InfoCardModel("Okul Kademelerinde Çevre Eğitimi", [
        InfoCardItem("ff_info_7", "Çevre bilinci", "-Doğal çevreye dikkat ederek, saygı duyarak ve olumlu tutum ve davranışlar geliştirerek faydalı davranışlarda bulunmaktır.\n-Çevreye karşı olumlu ve olumsuz tutum ve davranışlar sergilenebilir.\n-Olumsuz olan davranışların çevre bilinci sayesinde olumlu yöne dönüşmesi beklenir."),
       InfoCardItem("ff_info_8", "Çevre bilincine olumlu katkılar", "-Çevre bilinci çok küçük yaşlarda kazandırılmalıdır.\n-Okul öncesi çağlarda bu amaçlarla etkinlikler düzenlenmelidir.\n-Çocukların çevre ile etkileşimleri arttırılmalıdır.\n-Çevre ile etkileşimi çok olan bireylerin bilinci kazanmaları daha kolay olacaktır.\n-İlkokul ve ortaokul çağlarında materyal destekli eğitimler verilmeli, geziler düzenlenmelidir."),
       InfoCardItem("ff_info_9", "Farkındalık örnekleri", "-Yerdeki çöplerden rahatsız olan bireyler,\n-Çöp atma davranışına karşı duruş sergileyen bireyler,\n-Yaşadığı çevreyi koruma konusunda hassasiyet gösteren bireyler,\n-Ülkenin ve dünyanın çevresel sorunlarına karşı olumlu tutum sergileyebilen bireyler bu alanda farkındalık sahibi bireyler olarak gösterilebilir."),
@@ -27,7 +27,7 @@ class CevreIklimInfoViewModel extends ChangeNotifier{
       InfoCardItem("ff_info_16", "Ortaöğretim dönemi", "-Çevre bilinci oluşmuş, beklenen tutum ve davranışları gösteren bireyler yetişmiştir.\n-Okul dersleri ile varolan öğrenmeleri desteklenerek geliştirilir."),
       InfoCardItem("ff_info_17", "Yükseköğretim dönemi", "-Alanda uzmanlaşma dönemidir.\n-Çevre bilimleri ile ilgili bölümlerde öğrenciler eğitim alabilir.\n-Bilimsel araştırmalar yapılır.\n-Alt yaş gruplarına ilişkin çalışmalar düzenlenir.\n-Sadece yaşadığı çevreye ilişkin değil daha genel çerçevede fikir üretmesi beklenir."),
 
-    ]),InfoCardModel("Çevre Eğitimi-3", [
+    ]),InfoCardModel("Çevre Kirliliği-1", [
       InfoCardItem("ff_info_18", "Doğal dengelerin bozulması-1", "-İnsanoğlunun doğayı kontrol altına almaya başlaması ateşin bulunmasına kadar dayanmaktadır.\n-Gelişen uygarlıklar, hızlı sanayileşme hem doğadaki insan kontrolünü arttırmış hem de insan kaynaklı zararların doğada görünmesini arttırmıştır.\n-Zararların büyümesi ile birlikte doğal dengeler bozulmaya başlamıştır.\n-Bu başta insan olmak üzere tüm canlıları olumsuz olarak etkilemiştir."),
       InfoCardItem("ff_info_19", "Doğal dengelerin bozulması-2", "-Sanayileşmenin ve makineleşmenin artması enerji ihtiyaçlarını arttırmıştır.\n-Uzun yıllar boyunca alternatif ve doğal enerji kaynakları kullanmak yerine, günün sonunda doğaya zarar verecek enerji kaynakları kullanılmıştır.\n-Bu durum doğal dengenin bozulmasını hızlandıran bir faktör olmuştur."),
       InfoCardItem("ff_info_20", "Çevre Kirliliği", "-Genel bir kavram olan çevre kirliliği özelde 3 temel unsurun kirlenmesi ile ilgilenir.\nBunlar;\n-Toprak,\n-Hava\n-Sudur."),
@@ -40,7 +40,7 @@ class CevreIklimInfoViewModel extends ChangeNotifier{
       InfoCardItem("ff_info_27", "Su Kirliliği-2", "-İçme suları genellikle doğal veya yapay göl veya nehirlerden karşılanmaktadır.\n-Su artıma sistemlerinin yeterli olmadığı durumlarda, hala dünyada birçok insan çeşitli hastalıklara yakalanmaktadır.\n-Arıtma sistemleri için fiziksel, kimyasal, biyolojik ve ileri arıtma yöntemleri kullanılmaktadır."),
       InfoCardItem("ff_info_28", "Su Kirliliği-3", "-Su kirliliği sebebiyle birçok farklı alan zarar görmektedir.\n\nBunlar;\n-Temiz suya erişimi olmayan yüz binlerce insan her yıl çeşitli hastalıklara yakalanmaktadır.\n-Sulardaki canlıların ölümlerine sebep olmaktadır.\n-Hastalıkların tedavisi, suların temizlenmesi ve çevreye verilen zararların giderilmesi için ekonomik harcamalar yapılmaktadır."),
     ]),
-    InfoCardModel("Çevre Eğitimi-4 (Yeni)", [
+    InfoCardModel("Çevre Kirliliği-2", [
       InfoCardItem("ff_info_18", "Çevre Kirliliği Sebepleri", "Çevre Kirliliği insan faaliyetleri sonucu ya da doğal sebeplerle gerçekleşir."),
       InfoCardItem("ff_info_19", "İnsan Faaliyetleri", "-Endüstriyel ve Evsel Atıklar|\n-Hızlı Nüfus Artışı ve Plansız Şehirleşme|\n-Fosil Yakıtların Aşırı Kullanımı|\n-Orman Yangınları ve Ağaçların Kesilmesi\n-Tarım İlaçlarının Aşırı Kullanımı\n-Nükleer ve Radyoaktif Atıklar"),
       InfoCardItem("ff_info_20", "Doğal Sebepler", "-Depremler\n-Seller\n-Volkanik Patlamalar"),
@@ -81,23 +81,25 @@ class CevreIklimInfoViewModel extends ChangeNotifier{
       InfoCardItem("ff_info_47", "Beceri Düzeyinde Özel Hedefler", "-Çevre sorunlarını tanıma, inceleme ve araştırma sonucunda toplanan verilerden sonuçlar çıkarabilme,\n-Çevre sorunlarına getirdiği çözümleri gösterebilme,\n-Çevre sorunlarına getirdiği çözümleri değerlendirebilme yetkinliğini gösterebilme,\n-Yeni sahip olduğu bilgiler ile değer yargılarını değiştirebilme,\n-Başarılı çevre projeleri ile ilgili analizlerini gösterebilme hedefleri (III. seviye) bulunmaktadır."),
       InfoCardItem("ff_info_48", "Katılım Düzeyinde Özel Hedefler", "-Çevre sorunlarının çözümünde girişim becerilerini kullanabilmeli,\n-Yurttaş girişimlerinde yeterlilik düzeylerini sergileyebilmeli,\n-Sürdürülebilir kalkınma senaryosu geliştirilirken yurttaş girişim becerilerini kullanabilme yetisini gösterebilme gibi hedefleri (IV. seviye) bulunmaktadır."),
            ]),
-
-    InfoCardModel("Hazırlanıyor", [
-      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
-      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
-      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+    InfoCardModel("İklim (Hazırlanıyor)", [
+      InfoCardItem("ff_info_49", "İçerik Hazırlanıyor", ""),
+     // InfoCardItem("ff_info_50", "", ""),
+     // InfoCardItem("ff_info_51", "", ""),
+     // InfoCardItem("ff_info_52", "", ""),
+     // InfoCardItem("ff_info_53", "", ""),
+     // InfoCardItem("ff_info_54", "", ""),
+     // InfoCardItem("ff_info_55", "", ""),
+     // InfoCardItem("ff_info_56", "", ""),
     ]),
+
+   /* InfoCardModel("Hazırlanıyor", [
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+    ]),*/
    /* InfoCardModel("", [
 
-      InfoCardItem("ff_info_49", "", ""),
-      InfoCardItem("ff_info_50", "", ""),
-      InfoCardItem("ff_info_51", "", ""),
-      InfoCardItem("ff_info_52", "", ""),
-      InfoCardItem("ff_info_53", "", ""),
-      InfoCardItem("ff_info_54", "", ""),
-      InfoCardItem("ff_info_55", "", ""),
-      InfoCardItem("ff_info_56", "", ""),
-      InfoCardItem("ff_info_57", "", ""),
+           InfoCardItem("ff_info_57", "", ""),
       InfoCardItem("ff_info_58", "", ""),
       InfoCardItem("ff_info_59", "", ""),
       InfoCardItem("ff_info_60", "", ""),

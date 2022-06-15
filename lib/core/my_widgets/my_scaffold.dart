@@ -8,9 +8,10 @@ class MyScaffold extends StatelessWidget {
   final Widget body;
   final String? appBarTitle;
   final Widget? floatingActionButton;
+  final FloatingActionButtonLocation? floatingActionButtonLocation;
   final Widget? bottomNavigationBar;
 
-  const MyScaffold({Key? key, required this.body, this.appBar, this.appBarTitle, this.floatingActionButton, this.bottomNavigationBar})
+  const MyScaffold({Key? key, required this.body, this.appBar, this.appBarTitle, this.floatingActionButton,this.floatingActionButtonLocation, this.bottomNavigationBar})
       : super(key: key);
 
   @override
@@ -21,6 +22,7 @@ class MyScaffold extends StatelessWidget {
             child: Scaffold(
               bottomNavigationBar: bottomNavigationBar,
               floatingActionButton: floatingActionButton ,
+            floatingActionButtonLocation: floatingActionButtonLocation,
             appBar: appBar ?? MyAppbar(appBarTitle: appBarTitle ?? "AppBar"),
           backgroundColor: kScaffoldBackground,
           body: body,
