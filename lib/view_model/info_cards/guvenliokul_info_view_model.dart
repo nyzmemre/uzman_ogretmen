@@ -110,11 +110,10 @@ class GuvenliOkulInfoViewModel extends ChangeNotifier{
       InfoCardItem("ii_guvenliokul_info_68", "Sağlıksız gıdalar ", "-Okul içerisinde sağlıksız sayılacak gıdaların bulundurulması, tüketilmesi veya satılması konusunda caydırıcı tedbirler alınmak zorundadır.\n-Okul kantininde bu kapsamda gerekli denetlemeler titizlikle yürütülmelidir.\n-Öğrencilerin dışarıdan sağlıksız gıdalar getirerek okul içerisinde tüketmeleri engellenmelidir.\n-Tatlandırıcı, koruyucu ve renklendirici gıdalar içeren ürünler tehlikeli ürünler kapsamındadır."),
       InfoCardItem("ii_guvenliokul_info_69", "Akran Zorbalığı", "-Okul yaşantısı içerisinde, öğrencilerin birbirlerine yaptıkları tekrarlayan ve olumsuz etkilere sebep olan her türlü fiziksel veya psikolojik eylemler olarak nitelendirilebilir.\n-Akran zorbalığı, hem uygulayan hem de uygulanan üzerinde olumsuz etkilere sebep olur.\n-Fiziksel, sözel, sosyal, eşyalara veya siber zorbalıklar akran zorbalığı kapsamında ele alınabilir. "),
       InfoCardItem("ii_guvenliokul_info_70", "Öğretmen – idareci şiddeti", "-Öğretmen veya idarecinin öğrenciye, öğretmene veya idareciye uyguladığı şiddet bu kapsamda ele alınır.\n-Şiddetin her türlüsünün reddedilmesinin gerekliliği bir yana bu durumun üzücü şekilde bazen tekrarlanması gerçeği göz ardı edilmemelidir.\n-Şiddetin okul içersinde varlığının önüne geçebilmek için gerekli tedbirler alınmalıdır."),
-      InfoCardItem("ii_guvenliokul_info_71", "", ""),
-      InfoCardItem("ii_guvenliokul_info_72", "", ""),
-      InfoCardItem("ii_guvenliokul_info_73", "", ""),
-      InfoCardItem("ii_guvenliokul_info_74", "", ""),
-      InfoCardItem("ii_guvenliokul_info_75", "", ""),
+      InfoCardItem("ii_guvenliokul_info_71", "Veli Şiddeti", "-Son yıllarda, velilerin okulda bulunma oranlarında artış görülmektedir.\n-Ancak unutulmamalıdır ki okula gelen her veli okul için yapıcı olmayabiliyor.\n-Maalesef son yıllarda artan veli şiddeti oranları bunun kanıtı durumundadır.\n-İdarecilerin, öğretmenlerin ve diğer öğrencilerin veli şiddetine maruz kalma olasılığına karşı gerekli tedbirler alınmalıdır."),
+      InfoCardItem("ii_guvenliokul_info_72", "Sınav Kaygısı", "-Mevcut sistemde öğrencilerin başarılı sayılabilmeleri için akademik başarıları önem arz etmektedir.\n-Bu kapsamda yapılan sınavlarda başarılı olma isteği sınav kaygısına sebep olmaktadır.\n-Sınav kaygısı, sadece öğrencileri değil aileleri de etkileyen bir süreçtir.\n-Okulda şiddet eyilimlerini arttırma riski taşıdığı için, okul içi ve dışı etkinlikler ile çeşitli çalışmalar yapılmalıdır."),
+      InfoCardItem("ii_guvenliokul_info_73", "Servis Kazaları", "-Şehir içi ulaşım imkanlarının artması, velilerin çalışan konumda olması veya okula gidiş geliş süresince güvenlik kaygılarının artması sebebiyle okul servisi kullanım oranları artmıştır.\n-Okul servislerinin öğrencileri bırakıp aldığı süreçlerde, okul çevresindeki güvenliklerinin sağlanması okul güvenliği kapsamında değerlendirilmektedir."),
+      InfoCardItem("ii_guvenliokul_info_74", "Doğal Afetler", "-Doğal afet, tüm toplumların ansızın yaşayabilecekleri bir durumdur.\n-Afetler yaşanmadan önce gerekli tedbirlerin alınması, afet sırasında oluşabilecek zararın azaltılmasında önemli bir faktördür.\n-Öğrencilerin çeşitli çalışmalarla ve tatbikatlarla bilinçlendirilmesi, okul güvenliğini arttırıcı bir unsur olarak karşımıza çıkmaktadır."),
           ]),
 
 
@@ -124,13 +123,7 @@ class GuvenliOkulInfoViewModel extends ChangeNotifier{
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
     ]),
 
-
-//
-//
-//
-//
-//
-//
+//InfoCardItem("ii_guvenliokul_info_75", "", ""),
 //InfoCardItem("ii_guvenliokul_info_76", "", ""),
 //InfoCardItem("ii_guvenliokul_info_77", "", ""),
 //InfoCardItem("ii_guvenliokul_info_78", "", ""),
