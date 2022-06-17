@@ -56,6 +56,23 @@ class EgitimKapsayiciInfoViewModel extends ChangeNotifier{
     InfoCardItem("ee_egitimkapsayici_info_28", "Ortamın Düzenlenmesi-4", "-İlgi çeken ancak dikkat dağınıklığına da sebep olmayan bir sınıf ortamı oluşturulmalıdır.\n-Öğrencilerde sınıf birliği ve aidiyet duygusu oluşmalıdır.\n-Öğretmen-öğrenci, öğrenci-öğrenci arasında etkili bir iletişim sağlanmalıdır."),
     InfoCardItem("ee_egitimkapsayici_info_29", "Ortamın Düzenlenmesi-5", "-Güvenli bir sınıf ortamı oluşturulmalıdır.\n-Eğitim öğretim sürecinde farklı, zenginleştirilmiş yöntem ve teknikler kullanılmalıdır.\n-Aktif ve etkin bir öğrenme ortamı oluşturulmalıdır. "),
   ]),
+    InfoCardModel("Salamanca Bildirisi (Yeni)", [
+    InfoCardItem("ee_egitimkapsayici_info_30", "Bilgiler", "-7-10 Haziran 1994 yılında İspanya'nın Salamanca kentinde bir araya gelinmiştir.\n-Toplantıya 92 devlet ile 25 uluslararası kuruluşun temsilcileri katıldı.\n-Toplantı, UNESCO ve İspanya Hükümeti işbirliği ile gerçekleşti.\n-Amaç, özellikle özel eğitim gerektiren çocuklar için okulları tüm çocuklara hizmet verecek şekilde düzenleyerek kapsayıcı eğitim yaklaşımı ile herkes için eğitim hedefine ulaşmaktı."),
+    InfoCardItem("ee_egitimkapsayici_info_31", "Salamanca Bildirisi-1", "-Her çocuk, eğitim görme temel hakkına sahiptir.\n-Eğitim fırsatı verilmelidir.\n-Her çocuk, kendine özgü özelliklere, ilgi, yetenek ve öğrenme ihtiyaçlarına sahiptir\n-İhtiyaç çeşitliliği dikkate alınarak eğitim sistemleri düzenlenmeli ve eğitim programları gerçekleştirilmelidir.\n-Özel eğitim gereksinimli çocuklar eğitim öğretime devam edebilmelidir."),
+    InfoCardItem("ee_egitimkapsayici_info_32", "Salamanca Bildirisi-2", "-Özel eğitim gereksinimi olan çocuklar, diğer çocuklardan ayırt edilmemelidir.\n-Normal okullar bu çocukların ihtiaçlarını karşılayan, çocuğu merkeze alan eğitim sistemini kullanmalıdır.\n-Ayırıcı tutumla mücadele edilmelidir.\n-Normal okullar, herkesi hoş karşılayan toplumun oluşturulmasında ve herkes için eğitimin başarılmasında en etkili araçtır.\n-Normal okullar çocukların çoğuna etkili bir eğitim sağlamaktadır."),
+    InfoCardItem("ee_egitimkapsayici_info_33", "Hükümetlere Öneriler-1", "Bildiriye katılan hükümetlere öneriler;\n\n-Tüm çocukları kapsayacak eğitim sistemlerini geliştirmek amacıyla en üst politik ve bütçe önceliğini vermeleri gerekmektedir.\n-Zorlayıcı sebepler dışında tüm çocukların normal okullarda eğitim görmeleri sağlanmalıdır.\n-Kapsayıcı eğitimde ilerlemiş olan ülkelerin, kapsayıcı okullar ile ilgili bilgi alış verişinde bulunmaları teşvik edilmelidir."),
+    InfoCardItem("ee_egitimkapsayici_info_34", "Hükümetlere Öneriler-2", "-Özel eğitim gereksinimi olan çocukların ve yetişkinlerin eğitim imkanları, planlama, kontrol ve değerlendirme için yerelleşmiş ve katılımcı mekanizmalar kurmaları desteklenmelidir.\n-Özel eğitim ihtiyaçlarının hazırlıklarının planlama ve karar verme süreçlerinde kuruluşlara katılımın sağlanmalıdır.\n-Mesleki yöndeki çalışmalara verilen desteklerin yanında erken tanı ve müdahalelerde de gayret sarfedilmelidir.\n-Bu kapsamda öğretmen yetiştirme programları hazırlanmalıdır."),
+    InfoCardItem("ee_egitimkapsayici_info_35", "Tüm Kuruluşlara Çağrı", "-Toplantıya katılan tüm kurum ve kuruluşların kapsayıcı eğitim yaklaşımını onaylamalarını ve tüm eğitim programlarının tamamlayıcı bir parçası olmaları talep edilmiştir.\n-Kapsayıcı eğitimin imkanlarının planlanması, uygulanması ve değerlendirilmesinde katılımların güçlendirilmesi ve ulusal resmi organlarla işbirliğinin arttırılmasını talep etmiştir.\n-Öğretmenlerin ve öğretmenlik kuruluşlarının çalışmalarını arttırmaları istenmiştir."),
+
+     ]),
+    InfoCardModel("Eğitimde Ayrımcılığa Karşı Sözleşme (Yeni)", [
+    InfoCardItem("ee_egitimkapsayici_info_37", "Genel Bilgiler", "-UNESCO tarafından 14 Aralık 1960 tarihinde kabul edilmiştir.\n-Toplantı Paris'te yapılmıştır.\n-Temelde İnsan Hakları Evrensel Beyannamesi’nin ayrımcılık yasağı ilkesini esas alır.\n-UNESCO Kurucu Belgesi'ndeki , uluslar arasında eğitimde fırsat eşitliği ve insan haklarına evrensel saygının geliştirilmesi konusunda işbirliği yapılması amacını taşır.\n-Herkes için eğitimde fırsat ve muamele eşitliğini teşvik etme görevini kabul eder."),
+    InfoCardItem("ee_egitimkapsayici_info_38", "Madde 1", "-Bu Sözleşme’nin amacı bakımından “ayrımcılık” terimi; ırk, renk, cinsiyet, dil, din, siyasi veya başka bir görüş, ulusal veya toplumsal köken, ekonomik koşul ya da doğum temeline dayanan, eğitimde muamele eşitliğini engelleyen veya ortadan kaldıran veya bunu amaçlayan ve özellikle;\n-Herhangi bir kişiyi ya da grubu her düzeyde ya da herhangi bir türde eğitime erişimden mahrum bırakmak\n-Herhangi bir kişiyi ya da grubu, daha düşük standartta bir eğitime sınırlamak,"),
+    InfoCardItem("ee_egitimkapsayici_info_39", "Madde 1 Devamı", "-Bu Sözleşme’nin 2. maddesinin hükümleri saklı kalmak üzere kişiler ya da gruplar için ayrı eğitim sistemleri veya kurumları kurmak ya da sürdürmek; ya da\n-Herhangi bir kişi ya da grubu, insan onuruyla bağdaşmayan koşullara maruz bırakmak üzere yapılan herhangi bir dışlama, dışarıda bırakma, sınırlama veya tercihi içerir.\n-“eğitim” terimi eğitimin tüm tür ve seviyelerini kasteder ve eğitime erişimi, eğitimin kalitesini ve standartlarını ve hangi koşullar altında verilmesi gerektiğini içerir."),
+    InfoCardItem("ee_egitimkapsayici_info_40", "Madde 2", "Bir Devlet tarafından izin verilmesi halinde, aşağıdaki durumlar bu Sözleşme’nin 1. maddesi anlamında ayrımcılık oluşturmayacaktır:\n-Eğitim, materyal ve diğer tüm koşullarda eşit imkanlar sunmak şartıyla her iki cinsiyetten öğrenciler için ayrı eğitim kurumları tasarlamak,\n-Veli iznine bağlı olarak din ve dil gerekçeleriyle ayrı kurumlarda eğitim verilmesi,\n-Özel eğitim kurumlarının kurulması."),
+    InfoCardItem("ee_egitimkapsayici_info_41", "", ""),
+    InfoCardItem("ee_egitimkapsayici_info_42", "", ""),
+      ]),
     InfoCardModel("Hazırlanıyor", [
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
@@ -66,19 +83,8 @@ class EgitimKapsayiciInfoViewModel extends ChangeNotifier{
  InfoCardItem("ee_egitimkapsayici_info_5", "", ""),
 
 
-      InfoCardItem("ee_egitimkapsayici_info_30", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_31", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_32", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_33", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_34", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_35", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_36", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_37", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_38", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_39", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_40", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_41", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_42", "", ""),
+
+
       InfoCardItem("ee_egitimkapsayici_info_43", "", ""),
       InfoCardItem("ee_egitimkapsayici_info_44", "", ""),
       InfoCardItem("ee_egitimkapsayici_info_45", "", ""),
