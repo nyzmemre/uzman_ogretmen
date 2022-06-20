@@ -19,7 +19,7 @@ class SosyalEtkilesimInfoViewModel extends ChangeNotifier{
       InfoCardItem("gg_sosyaletkilesim_info_4", "İletişimin Temel Özellikleri-2", "-İletişimin semboliktir. (Bu semboller sözcükler, rakamlar, harfler, sesler, jest ve mimiklerdir.)\n-Alıcı ve gönderici mesaja aynı anlamı yüklüyorsa o zaman iletişim tam olarak ortaya çıkar.\n-İletişim insan davranışlarının bir ürünüdür."),
       InfoCardItem("gg_sosyaletkilesim_info_5", "İletişimin Temel Özellikleri-3", "İletişim dinamik bir süreçtir. (Gönderici ve alıcı durumlarına göre değişiklik gösterebilir.)\n-İletişim kültürel ve sosyal değişime paralel olarak değişim gösterir.\n-Zamanla bazı kelimeler ve kavramlar yerini yenilerine bırakırlar."),
     ]),
-    InfoCardModel("İletişimin Temel Fonksiyonları", [
+    InfoCardModel("İletişimin Temel Fonksiyonları-1", [
       InfoCardItem("gg_sosyaletkilesim_info_6", "Sosyal Bağlamdaki Fonksiyonları-1", "İletişimin dört temel fonksiyonu vardır.\n\nBunlar; \n-Bilgi,\n-Motivasyon,\n-Kontrol\n-Heyecanlandırmadır."),
       InfoCardItem("gg_sosyaletkilesim_info_7", "Sosyal Bağlamdaki Fonksiyonları-2", "İletişimin sosyal bağlamdaki temel fonksiyonları ise şu şekilde sıralanabilir:\n\n-1.	Enformasyon:\n-Sosyalizasyon\n-Motivasyon\n-Tartışma\n-Eğitim\n-Kültürel gelişme\n-Eğlence\n-Entegrasyon"),
       InfoCardItem("gg_sosyaletkilesim_info_8", "Enformasyon", "Kişisel, ulusal ve uluslararası durumları anlamak ve doğru sonuçlara ulaşmak için gerekli verilerin toplanması, depolanması ve yayılmasını sağlamaktır."),

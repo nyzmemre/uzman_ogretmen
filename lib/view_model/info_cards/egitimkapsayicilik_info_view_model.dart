@@ -115,7 +115,16 @@ class EgitimKapsayiciInfoViewModel extends ChangeNotifier{
       InfoCardItem("ee_egitimkapsayici_info_85", "Ait olma-2", "Karşılanırsa\n\n-Sınıf ortamında kabul gördüğü için okula aidiyeti gelişir. Arkadaşlık ilişkileri olumludur. Okula devamlılığına olumlu katkı yapar.\n\n\nKarşılanmadığında\n-Problemli davranışlarında artış görülür. Kavgacı bir yapıya bürünebilir. Ait olma duygusu gelişmediği için grupla hareket etmez."),
       InfoCardItem("ee_egitimkapsayici_info_86", "Güç-1", "-Bireyin kişisel gelişimine karşılık gelir. Bu gelişimini tamamlayan unsurlar;\n-Bireyin bilgi ve beceri kazanması,\n-Yaşam kalitesini arttırmaya çalışması,\n-Başarıya yönelmesi\n-Kendini değerli hissetmesi olarak tanımlanabilir.\n\n-Güç ihtiyacı karşılanırsa veya karşılanmazsa neler olabileceğine bir sonraki kartta bakalım. "),
       InfoCardItem("ee_egitimkapsayici_info_87", "Güç-2", "Karşılanırsa\n\n-Aile ve öğretmenlerinden destek gören çocuklar kendini güçlü hissederler.\n\n\nKarşılanmazsa\n\n-Akademik başarısında düşüklük beklenir. Bu durum sınıf içi sosyal iletişimini etkiler. Başarı duygusu tetiklenemez."),
-      InfoCardItem("ee_egitimkapsayici_info_88", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_88", "Eğlence-1", "-Oyun bir çocuğun kendini ifade biçimidir.\n-Eğlence ihtiyacı oyun ve eğlenme ile birlikte öğrenmeyi içermektedir.\n-Çocuklara işbirliğini ve diğerleriyle geçinmeyi öğretir.\n-Stresi azaltır, yaratıcılı ortaya çıkartır ve kişiler arası doğru ilişkilerin kurulmasını sağlar."),
+      InfoCardItem("ee_egitimkapsayici_info_89", "Eğlence-2", "Karşılanırsa\n\n-Oyun ve eğlence ile iyi arkadaşlıklar kurulur ve akademik başarı artar.\n\n\nKarşılanmazsa\n\n-Akranları tarafından dışlanabilir. Bu da onu yalnızlaştırır. Sanatsal ve sportif etkinliklere katılımı azaltır."),
+      InfoCardItem("ee_egitimkapsayici_info_90", "Hayatta kalma/güvenlik-1", "-İnsanların temel yaşam gereksinimleri barınma, beslenme ve güvenliği içerisinde barındırır.\n-İnsanların bu gereksinimlerinin muhakkak karşılanması gerekir.\n-Okulda öğrencinin kendini güvende hissetmesi öğrenmelerini kolaylaştırıcı bir unsur olarak karşımıza çıkar.\n-Ayrıca güvenli okul, öğrenme isteğini arttırır."),
+      InfoCardItem("ee_egitimkapsayici_info_91", "Hayatta kalma/güvenlik-2", "Karşılanırsa\n\n-Okula güven duyan çocuk okula istekli gelir. Bu durum okul içi motivasyonunu arttırır. Akranları ile iyi ilişkiler kurmasını sağlar.\n\n\nKarşılanmazsa\n\n-İçe kapanık, tedirgin ve kuşkulu tavırlar sergiler. Öğrenmeye olan ilgisi, motivasyonu düşer. Bu durum başarısını olumsuz etkiler."),
+      InfoCardItem("ee_egitimkapsayici_info_92", "Özgürlük-1", "-Bireyin sağlıklı karar vermesini sağlar.\n-Hareket sahasını genişleterek bireyin karar mekanizmasına olumlu yönde katkı sağlar.\n-Özgürlük duygusunu elinde bulunduran bireyler, içinden geldiği gibi davranır ve hayatın kontrolünü elinde bulundurur.\n-Bu durum onları mutlu eder."),
+      InfoCardItem("ee_egitimkapsayici_info_93", "Özgürlük-2", "Karşılanırsa\n\n-Sınıf içerisinde verilecek kararlarda öğrencileri serbest bırakmak, özgürlük duygusuna olumlu katkı sağlar. \n\n\nKarşılanmazsa\n\n-Karşılaştığı problemlerle başetme duygularını olumsuz etkiler. Öğrenmeye olan ilgisi ve motivasyonu düşer."),
+
+        ]),
+    InfoCardModel("Kaynaştırma Ortamında Görülen Engeller (Yeni)", [
+
 
         ]),
     InfoCardModel("Salamanca Bildirisi (Yeni)", [
@@ -165,10 +174,7 @@ class EgitimKapsayiciInfoViewModel extends ChangeNotifier{
 
 
 
-      InfoCardItem("ee_egitimkapsayici_info_89", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_90", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_91", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_92", "", ""),
+
       InfoCardItem("ee_egitimkapsayici_info_93", "", ""),
       InfoCardItem("ee_egitimkapsayici_info_94", "", ""),
       InfoCardItem("ee_egitimkapsayici_info_95", "", ""),

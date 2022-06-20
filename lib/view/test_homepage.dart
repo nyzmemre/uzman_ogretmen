@@ -1,6 +1,7 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:uzman_ogretmen/view_model/questions/bilisseldusunme_ques_view_model.dart';
 
 import '../core/constants/routes/route_text.dart';
 import '../view_model/questions/cevreiklim_ques_view_model.dart';
@@ -41,6 +42,7 @@ class TestHomepage extends StatelessWidget {
     EgitimOgretimQuesViewModel _egitimOgretimQues=EgitimOgretimQuesViewModel();
     OkulGelistirmeQuesViewModel _okulGelistirmeQues=OkulGelistirmeQuesViewModel();
     SosyalDuygusalQuesViewModel _sosyalDuygusalQues=SosyalDuygusalQuesViewModel();
+    BilisselDusunmeQuesViewModel _bilisselDusunmeQues=BilisselDusunmeQuesViewModel();
 
     return WillPopScope(
       onWillPop: () async{
@@ -70,6 +72,7 @@ class TestHomepage extends StatelessWidget {
                 Divider(),
                 navigateTestButton(context, TestContentPage(appbarTitle:"Okul Geliştirme ve Liderlik"  ,list: _okulGelistirmeQues.okulGelistirme),  "Okul Geliştirme ve Liderlik" ),
                 navigateTestButton(context, TestContentPage(appbarTitle:"Sosyal Duygusal Öğrenme Becerilerinin Geliştirilmesi"  ,list: _sosyalDuygusalQues.sosyalDuygusal),  "Sosyal Duygusal Öğrenme Becerilerinin Geliştirilmesi" ),
+                navigateTestButton(context, TestContentPage(appbarTitle:"Bilişsel Düşünme Becerileri"  ,list: _bilisselDusunmeQues.bilisselDusunmeList),  "Bilişsel Düşünme Becerileri" ),
 
                 /*      navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
                 navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),
