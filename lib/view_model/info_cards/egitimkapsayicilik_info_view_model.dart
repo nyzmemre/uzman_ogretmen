@@ -124,9 +124,37 @@ class EgitimKapsayiciInfoViewModel extends ChangeNotifier{
 
         ]),
     InfoCardModel("Kaynaştırma Ortamında Görülen Engeller (Yeni)", [
-
+      InfoCardItem("ee_egitimkapsayici_info_93", "Engeller-1", "-Hareketlilik\n-Dürtüsellik\n-Öz bakım ihtiyaçlarını karşılamada gerekli motor becerilerde zayıflık\n-Denge-koordinasyonda zayıflık\n-Sabırsızlık\n-Kolay sinirlenme"),
+      InfoCardItem("ee_egitimkapsayici_info_94", "Engeller-2", "-Motor gelişiminde gerilik\n-Sosyal ilişkilerde güçlük\n-Dil gelişiminde zayıflık\n-Biliş ötesi becerilerde zayıflık\n-Kısa ve uzun süreli bellekte,\n-bilgi toplamada güçlük"),
+      InfoCardItem("ee_egitimkapsayici_info_95", "Engeller-3", "-Sosyal etkileşim ve uyum becerilerinde yetersizlik \n-Öz bakım ve iletişim becerilerinde destek gereksinimi\n-Hareketlilik, psiko-motor beceriler ve bunlara ait davranışlarda güçlük \n-İki eli koordineli kullanma becerilerinde akranlarına göre düşük performans"),
+      InfoCardItem("ee_egitimkapsayici_info_96", "Engeller-4", "-Duyusal girdi olmamasından kaynaklı bilişsel olarak şema oluşturmakta güçlük yaşarlar. \n-Konuşma hızları düşüktür. \n-Alan hâkimiyetlerinin düşük olmasından dolayı, davranışlar sınırlıdır."),
+      InfoCardItem("ee_egitimkapsayici_info_97", "Engeller-5", "-İhtiyaçlarını sözel olarak ifade etmede yetersiz kalırlar. \n-Duyu organının kaybı nedeniyle konuşma ve bilişsel süreçlerde zayıflık görülmektedir. \n-Kimi insanlar düşüncelerini sözcüklerle anlatamadıkları için ya da duyduklarından anlam çıkaramadıkları için sözlü iletişimde zorluk çekerler."),
+      InfoCardItem("ee_egitimkapsayici_info_98", "Engeller-6", "-Kelime ve heceleri tekrar edebilirler. Örneğin: “O-ol-maz”. \n-İsteklerini anlatmak yerine jest, mimik ya da başka türlü işaretleri kullanabilirler.\n-Disleksi (okuma güçlüğü), Disgrafi (yazma güçlüğü) yaşanabilir."),
+      InfoCardItem("ee_egitimkapsayici_info_99", "Engeller-7", "Yazılı ya da sözlü dili anlamak ya da kullanabilmek için gerekli olan bilgi alma süreçlerinin birinde ya da birkaçında ortaya çıkan ve dinleme, konuşma, okuma, yazma, heceleme, dikkat yoğunlaştırma ya da matematiksel işlemleri yapmada yetersizlik nedeniyle, bireyin eğitim performansının ya da sosyal uyumunun olumsuz yönde etkilenmesi durumudur."),
 
         ]),
+    InfoCardModel("Öğretimsel Engeller (Yeni)", [
+      InfoCardItem("ee_egitimkapsayici_info_100", "Öğretimsel Engeller", "Öğretmenin öğretimsel yöntemlerini olumsuz etkileyecek öğrenciler aşağıda verilmiştir.\n-Zihinsel Yetersizliği olan öğrenci\n-İşitme Yetersizliği olan öğrenci\n-Bedensel Yetersizliği olan öğrenci\n-Özel Öğrenme Güçlüğü olan öğrenci\n-Görme Yetersizliği olan öğrenci"),
+      InfoCardItem("ee_egitimkapsayici_info_101", "Kaynaştırma Uygulaması İlkeleri", "Kaynaştırma/bütünleştirme uygulamaları temel olarak şu üç ilkeye dayanmaktadır. Bunlar\n-Müfredata erişim (bireysel farklılıklar temel alınarak), \n-Tam katılım, \n-Süreç temelli değerlendirme\n-Geleneksel öğretim yöntemlerinin kullanılması\n-Materyallerin uyarlanmaması\n-Uygun ortam düzenlemesinin yapılmaması"),
+      InfoCardItem("ee_egitimkapsayici_info_102", "Müfredata erişim", "-Müfredatın amaçlarının ve içeriğinin engeli olan öğrencinin ihtiyaçlarına göre uyarlanması olarak tanımlanmaktadır.\n-Öğrencinin bireysel ihtiyaçlarına göre yapılacak bu düzenlemeler öğrencinin okul ile bağ kurmasını kolaylaştıracaktır.\n-Bu sayede öğrenci, öğrenmeleri için gerekli motivasyona sahip olacaktır."),
+      InfoCardItem("ee_egitimkapsayici_info_103", "Tam katılım", "-: Öğrencilerin ders içi etkinliklere diğer sınıf üyeleri gibi aktif şekilde katılımının sağlanması olarak tanımlanbilir.\n-Öğrenci sınıftan ayrıştırılmamalıdır.\n-Ayrıştırma, kendini değersiz hisseden bir öğrenci profili inşa edecektir.\n-Bu kapsayıcı eğitim anlayışında başarısız olmaya sebep olur.\n-Öğrencinin topluma kazandırılması ve diğer öğrencilerin özel eğitimli bireylerle birlikte yaşamaya alışmaları için birlikte hareket etmeleri sınıf için tam katılım ile başlar."),
+      InfoCardItem("ee_egitimkapsayici_info_104", "Süreç temelli değerlendirme", "-Başarı ölçütü olarak standart öğrenme çıktılarına ulaşmak yerine, başlanılan yer ile ulaşılan yer arasındaki mesafenin esas alınması olarak tanımlanabilir.\n-Öğrencinin öğrenmeleri hemen gerçekleştirmesi beklenemez.\n-Öğrenmesini gerçekleştiremeyen öğrenci süreç içinde desteklenmezse sonuca ulaşamayacaktır."),
+      InfoCardItem("ee_egitimkapsayici_info_105", "Geleneksel öğretim yöntemlerinin kullanılması", "-Geleneksel öğretim yöntemleri, öğretim süreci içerisinde kullanılabilir.\n-Ancak, kalıplaşmış yöntemlerin dışına çıkmama gibi bir kararlılık gösterilmesi durumunda eğitimde yeni yaklaşımlar yakalanamaz.\n-Günümüz eğitim modellerinde, kapsayıcı eğitimi içine alan farklı birçok yöntemin kullanılmaması, onun yerine geleneksel yöntemlerinin uygulanması, öğretim sürecinin öğrenciye olan katkısını azaltacaktır."),
+      InfoCardItem("ee_egitimkapsayici_info_106", "Materyallerin uyarlanmaması", "-Sınıf ortamında öğrenmeleri gerçekleştirirken yardımcı materyallerin kullanılması öğrenmeyi direkt olarak etkileyen faktörlerdendir.\n-Kullanılacak materyallerin yalnızca belirli öğrenme düzeyinde bulunan öğrenciler için kullanılması diğer öğrencilerin öğrenmelerine katkı sağlamayacağı gibi öğrencilerin öğrencilerin yetersizlik duygularını pekiştirecektir."),
+      InfoCardItem("ee_egitimkapsayici_info_107", "Uygun ortam düzenlemesinin yapılmaması", "-Öğrenme ortamı, öğrencilerin öğrenmelerini gerçekleştirdikleri mekan ve ortamlardır.\n-Etkili bir öğrenme ortamı düzenlemesi için tüm öğrencilerin özellikleri dikkate alınmalıdır.\n-Öğrenme ve öğretme hedefleri tespit edilmeli, öğrenmeyi destekleyici etkinlikler için uygun ortam sağlanmalıdır."),
+        ]),
+    InfoCardModel("Özel Eğitim Öğrencisinin Tespiti (Yeni)", [
+      InfoCardItem("ee_egitimkapsayici_info_108", "Süreç", "Özel eğitime ihtiyacı olan öğrencinin izlenmesi, değerlendirilmesi ve yönlendirmesi süreci aşağıdaki aşamaları kapsamaktadır.\n-İlk belirleme\n-Gönderme öncesi süreç\n-Gönderme süreci\n-Ayrıntılı değerlendirme\n-Karar verme\n-BEP hazırlama\n-Değerlendirme "),
+      InfoCardItem("ee_egitimkapsayici_info_109", "İlk belirleme", "-Sınıf rehber öğretmeni öğrencinin okul süreci içerisinde engel türlerinden birisini karşıladığını düşünüyorsa öncelikle öğrenciyi takip etmesi gerekir.\n-Bu süreç içerisinde öğrenci davranışlarının ve performansının sınıf düzeyine olan uygunluğu izlenir.\n-Bilgi edinme süreci informal yollarla yapılır."),
+      InfoCardItem("ee_egitimkapsayici_info_110", "Gönderme öncesi süreç", "-Öncelikle öğrenciye uygun sınıf içi düzenlemeler yapılmalıdır.\n-Öğrencinin bir ilerleme kaydedip kaydetmeme durumuna bakılmalıdır.\n-Örneğin, öğrenme etkinliklerinde öğrenciye uygun düzenlemeler yapılmasına rağmen öğrenme düzeyinde ilerleme kaydedilmezse bir sonraki aşamaya geçilmelidir."),
+      InfoCardItem("ee_egitimkapsayici_info_111", "Gönderme süreci", " Eğer problemin sistematik olduğu gözlemlenmiş veya karar verilmişse hazırlanan gözlem raporu ile birlikte okul rehber öğretmenine başvuru yapılır.\n-Aile bilgilendirilerek onayı alınır.\n-Rehber öğretmen, okul idaresi ve öğrenci ailesi ile birlikte hareket eder.\n-Eğitsel Değerlendirme İsteği Formu hazırlanarak RAM’a gönderme kararı alınır."),
+      InfoCardItem("ee_egitimkapsayici_info_112", "Ayrıntılı değerlendirme", "RAM'de öğrenci ayrıntılı incelemeye alınır.\n-Bu aşamada sadece varolan performans değerlendirilir.\n-Zihinsel performansı ölçülür.\n-Eğer işitme, görme engeli veya otizm, kronik hastalık gibi problemler tespit edilirse muayenesi için öğrenci hastaneye sevk edilir."),
+      InfoCardItem("ee_egitimkapsayici_info_113", "Karar verme", "-Öğrencinin değerlendirilmesi tamamlandıktan sonra özel eğitime ihtiyacı olduğuna karar verilmişse, kaynaştırma öğrencisi olarak yerleştirilir.\n-Süreç en az kısıtlayıcı ortam ile sürdürülmelidir.\n-Bu kavram önemli olduğu için bir sonraki kartta bu kavram açıklanacaktır."),
+      InfoCardItem("ee_egitimkapsayici_info_114", "En Az Kısıtlayıcı Ortam", "-Öğrencinin eğitim ve diğer alanlardaki gereksinimlerinin karşılanmasına yönelik düzenlemelerin yapıldığı, gelişiminin desteklendiği ve gerektiğinde özel eğitim destek hizmetlerinin de sağlandığı ortamlara denir.\n-Önemli olan özel eğitim gereksinimi olan bireyin mümkün olduğunca akranları ile eğitim görmesini sağlamaktır.\n-Bu sağlanırken eğitsel özellikler dikkate alınmalıdır."),
+      InfoCardItem("ee_egitimkapsayici_info_115", "BEP hazırlama", "-Öğrencinin yerleştirildiği okulda, ihtiyaçlarına yönelik olarak hazırlanan programdır.\n-Plan hazırlanırken varolan performansı göz önünde bulundurulur.\n-Programın hazırlanmasındaki amaç öğrencinin eğitim öğretim sürecinden en üst düzeyde faydalanmasını sağlamaktır."),
+      InfoCardItem("ee_egitimkapsayici_info_116", "Değerlendirme", "-Öğrencinin özel eğitim almasına karar verildikten sonraki süreçten itibaren değerlendirme mutlaka yapılmalıdır.\n-Değerlendirme sonuç odaklı değil süreç odaklı yapılmalıdır.\n-Değerlendirme döngüsel olarak tekrarlanmalıdır.\n-Bu sayede BEP ne derece etkili olduğu tespit edilirken yanlış tanı ve uygulamalar da tespit edilmiş olur."),
+      InfoCardItem("ee_egitimkapsayici_info_117", "BEP öncesi itiraz", "-Eğitsel değerlendirme sonucunda yerleştirme kararı alınan öğrencinin ailesinin itiraz hakkı saklıdır.\n-Öğretmenlerin de karara itiraz hakları bulunmaktadır.\n-İtiraz öğrencinin velisi, okul veya kurumdaki rehberlik psikolojik danışma komisyonu tarafından, öğrencinin kuruma kayıt tarihinden itibaren en 30 iş günü izleme süreci sonunda yapılabilir."),
+    ]),
     InfoCardModel("Salamanca Bildirisi (Yeni)", [
     InfoCardItem("ee_egitimkapsayici_info_30", "Bilgiler", "-7-10 Haziran 1994 yılında İspanya'nın Salamanca kentinde bir araya gelinmiştir.\n-Toplantıya 92 devlet ile 25 uluslararası kuruluşun temsilcileri katıldı.\n-Toplantı, UNESCO ve İspanya Hükümeti işbirliği ile gerçekleşti.\n-Amaç, özellikle özel eğitim gerektiren çocuklar için okulları tüm çocuklara hizmet verecek şekilde düzenleyerek kapsayıcı eğitim yaklaşımı ile herkes için eğitim hedefine ulaşmaktı."),
     InfoCardItem("ee_egitimkapsayici_info_31", "Salamanca Bildirisi-1", "-Her çocuk, eğitim görme temel hakkına sahiptir.\n-Eğitim fırsatı verilmelidir.\n-Her çocuk, kendine özgü özelliklere, ilgi, yetenek ve öğrenme ihtiyaçlarına sahiptir\n-İhtiyaç çeşitliliği dikkate alınarak eğitim sistemleri düzenlenmeli ve eğitim programları gerçekleştirilmelidir.\n-Özel eğitim gereksinimli çocuklar eğitim öğretime devam edebilmelidir."),
@@ -175,13 +203,32 @@ class EgitimKapsayiciInfoViewModel extends ChangeNotifier{
 
 
 
-      InfoCardItem("ee_egitimkapsayici_info_93", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_94", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_95", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_96", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_97", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_98", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_99", "", ""),
+
+
+      InfoCardItem("ee_egitimkapsayici_info_118", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_119", "", ""),
+
+      InfoCardItem("ee_egitimkapsayici_info_120", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_121", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_122", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_123", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_124", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_125", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_126", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_127", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_128", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_129", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_130", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_131", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_132", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_133", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_134", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_135", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_136", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_137", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_138", "", ""),
+      InfoCardItem("ee_egitimkapsayici_info_139", "", ""),
+
 
     ])*/
   ];
