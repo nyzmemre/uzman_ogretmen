@@ -73,7 +73,21 @@ class EgitimArastirmaInfoViewModel extends ChangeNotifier{
       InfoCardItem("dd_egitimarastirma_info_41", "Bilimsel Araştırma Yaklaşımları", "Bilimsel araştırma yaklaşımları iki ana başlıkta incelenir.\n\nBunlar;\n-Nicel araştırma\n-Nitel araştırma"),
       InfoCardItem("dd_egitimarastirma_info_42", "Nicel araştırma", "-Olguları, olayları gözlemlenebilir, ölçülebilir ve rakamlarla ifade edilebilir şekle dönüştüren araştırma türüdür.\n-Teori ve hipotez ile başlar. \n-Fizik, kimya, biyoloji, mühendislik alanlarında yapılan çalışmalar örnek olarak verilebilir."),
       InfoCardItem("dd_egitimarastirma_info_43", "Nitel araştırma", "-Gözlem, mülakat ve anket gibi yöntemlerin kullanıldığı, sosyal bir olayın doğal ortamında ortaya konduğu araştırma türüdür. \n-Veri toplama süreci uzun sürdüğü için küçük örneklemler üzerinde çalışmalar yapılır.\n- Niçin ve nasıl sorularına yanıt arar."),
+      InfoCardItem("dd_egitimarastirma_info_44", "Ülkemizde Eğitim Araştırmaları", "Ülkemizde eğitim araştırmaları ile ilgili sorunlar üç başlık altında toplanabilir. Bunlar;\n-Nitelikli araştırmacı yetiştirilmesi,\n-Araştırma ve araştırmacıların desteklenmesi,\n-Araştırma sonuçlarının kullanılmasıdır (Teoriden pratiğe geçiş)."),
          ]),
+
+    InfoCardModel("Bilimsel Araştırma Yöntemleri (Yeni)", [
+      InfoCardItem("dd_egitimarastirma_info_45", "", ""),
+      InfoCardItem("dd_egitimarastirma_info_46", "", ""),
+      InfoCardItem("dd_egitimarastirma_info_47", "", ""),
+      InfoCardItem("dd_egitimarastirma_info_48", "", ""),
+      InfoCardItem("dd_egitimarastirma_info_49", "", ""),
+      InfoCardItem("dd_egitimarastirma_info_50", "", ""),
+              ]),
+
+
+
+
     InfoCardModel("Hazırlanıyor", [
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
@@ -83,13 +97,8 @@ class EgitimArastirmaInfoViewModel extends ChangeNotifier{
    /* InfoCardModel("", [
 
 
-      InfoCardItem("dd_egitimarastirma_info_44", "", ""),
-      InfoCardItem("dd_egitimarastirma_info_45", "", ""),
-      InfoCardItem("dd_egitimarastirma_info_46", "", ""),
-      InfoCardItem("dd_egitimarastirma_info_47", "", ""),
-      InfoCardItem("dd_egitimarastirma_info_48", "", ""),
-      InfoCardItem("dd_egitimarastirma_info_49", "", ""),
-      InfoCardItem("dd_egitimarastirma_info_50", "", ""),
+
+
       InfoCardItem("dd_egitimarastirma_info_51", "", ""),
       InfoCardItem("dd_egitimarastirma_info_52", "", ""),
       InfoCardItem("dd_egitimarastirma_info_53", "", ""),
