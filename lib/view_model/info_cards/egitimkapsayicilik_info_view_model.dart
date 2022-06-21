@@ -155,6 +155,23 @@ class EgitimKapsayiciInfoViewModel extends ChangeNotifier{
       InfoCardItem("ee_egitimkapsayici_info_116", "Değerlendirme", "-Öğrencinin özel eğitim almasına karar verildikten sonraki süreçten itibaren değerlendirme mutlaka yapılmalıdır.\n-Değerlendirme sonuç odaklı değil süreç odaklı yapılmalıdır.\n-Değerlendirme döngüsel olarak tekrarlanmalıdır.\n-Bu sayede BEP ne derece etkili olduğu tespit edilirken yanlış tanı ve uygulamalar da tespit edilmiş olur."),
       InfoCardItem("ee_egitimkapsayici_info_117", "BEP öncesi itiraz", "-Eğitsel değerlendirme sonucunda yerleştirme kararı alınan öğrencinin ailesinin itiraz hakkı saklıdır.\n-Öğretmenlerin de karara itiraz hakları bulunmaktadır.\n-İtiraz öğrencinin velisi, okul veya kurumdaki rehberlik psikolojik danışma komisyonu tarafından, öğrencinin kuruma kayıt tarihinden itibaren en 30 iş günü izleme süreci sonunda yapılabilir."),
     ]),
+    InfoCardModel("Kaba Değerlendirme (Yeni)", [
+      InfoCardItem("ee_egitimkapsayici_info_118", "Kaba Değerlendirme Nedir?", "-Öğrencilerin eksik olduğu alanları tespit etmek için kullanılır.\n-Yaşına uygun olan becerilerden hangilerini yerine getirebildiği ölçülür.\n-Ayrıca öğrencinin programı takip düzeyi ile ilgili de bilgiler verir.\n-Uygulama zamanı öğretim öncesi süreçtedir."),
+      InfoCardItem("ee_egitimkapsayici_info_119", "Kaba Değerlendirmenin Amacı", "-Öğrencilerin becerilerinin tespiti amacıyla yapılır.\n-Tespit edilen beceriler, sosyal beceriler, taklit becerileri, oyun becerileri, dil becerileri vb. çoğaltılabilir.\n-Öğretim öncesi süreçte yapılır.\n-Eğitsel değerlendirmenin yapılması amaçlardan bir tanesidir.\n-Ayrıca BEP planının hazırlanmasına katkı sağlar.\n-Süreç öncesinde yapıldığı için öğrencilerin ihtiyaçlarının tespiti amacıya da yapılabilir."),
+      InfoCardItem("ee_egitimkapsayici_info_120", "Kullanılan Form-1", "-Bir tablo hazırlanır.\n-Hazırlanan tablonun bir bölümünde bildirimler, diğer bölümünde kazanımlar bulunur.\n-Bildirim harfleri yazar, sesleri tanır, noktalama işaretlerini kullanır gibi ifadeler içerir.\n-Buradaki tespitler bilip bilmemesi veya yapıp yapmaması gibi net sonuçlar verir.\n-Heceleri tanıma düzeyi, sesleri tanıma yüzdesi gibi bir duruma ne kadar hakim olduğunun tespiti yapılmaz."),
+      InfoCardItem("ee_egitimkapsayici_info_121", "Kullanılan Form-2", "-Sütunda Evet/Hayır bölümü bulunur.\n-Gözlemlenen davranış eğer var ise + işareti konur, yok ise - işareti konur.\n-Ayrıca formda açıklamalar bölümü bulunur.\n-Gözlenen ek bir durum veya aileden gelecek bilgi paylaşımı vs. gibi durumlar buraya eklenir.\n-Değerlendirme yapılan durumun ses, ışık vs. gibi ortam düzeni de ayrıca not alınır."),
+      InfoCardItem("ee_egitimkapsayici_info_122", "Değerlendirmede Dikkat Edilmesi Gerekenler-1", "-Sorgulanan veya gözlemlenen beceri bireyde var ise +, yok ise - işareti konur.\n-Değerlendirme sırasında bireye müdahale edilmemelidir.\n-Sorulara veya bildirimlere cevap verilirken bireye herhangi bir yardım yapılmamalı, herhangi bir cevaba yönlendirme yapılmamalıdır.\n-Verilen tepki veya cevaplara ilişkin pekiştireç kullanılmamalıdır."),
+      InfoCardItem("ee_egitimkapsayici_info_123", "Değerlendirmede Dikkat Edilmesi Gerekenler-2", "-Değerlendirme, farklı zamanlarda en az 3 kez yapılmalıdır.\n-Özel eğitim alanında hazırlanan engeli olan çocuklara yönelik modüller genel eğitim okullarında görevli öğretmenler için de kullanılabilir.\n-Değerlendirmede aile görüşleri çok çok önem arz etmektedir.\n-Aile görüşlerine yer vermek çok önemlidir.\n-Öğretmende form yoksa kendi alanındaki öğretimsel amaçları zora doğru sıralayarak form hazırlayabilir."),
+       ]),
+    InfoCardModel("BEP Geliştirme Birimi (Yeni)", [
+      InfoCardItem("ee_egitimkapsayici_info_124", "Birim üyeleri", "-Birim başkanı (okul müdürü ya da görevlendireceği müdür yardımcısıdır)\n-Öğrencinin sınıf öğretmeni\n-Okul rehberlik öğretmeni\n-Özel eğitime ihtiyacı olan öğrenci\n-Öğrencinin velisi\n-Öğrencinin dersini okutan alan öğretmenleri\n-Gerektiğinde görüşlerine başvurmak üzere Özel Eğitim Değerlendirme Kurulu’ndan bir üye"),
+      InfoCardItem("ee_egitimkapsayici_info_125", "Açıklamalar-1", "-Öğrencinin dersine giren tüm öğretmenler BEP geliştirme biriminin doğal üyesidir.\n-Performansı belirlenen öğrenci için hangi derslerden BEP hazırlanacağı BEP birimi tarafından karara bağlanır.\n-BEP planının öğrencinin ihtiyaç duyduğu alanda hazırlanması gerekir.\n-BEP ekibi başkanı ve Sınıf Öğretmeni/Sınıf Rehber Öğretmeni BEP raporunun saklanmasından sorumludur."),
+      InfoCardItem("ee_egitimkapsayici_info_126", "Açıklamalar-2", "-Öğrencinin dersine giren tüm öğretmenler, kendi alanları veya dersleri ile ilgili performans almalıdırlar.\n-Öğrencinin dersine giren tüm öğretmenlere Eğitsel Değerlendirme Formu verilmelidir.\n-Form doldurularak bir nüshası saklanıp diğeri sorumlu kişiye verilmelidir.\n-BEP düzenlenen derslerde Bireyselleştirilmiş Eğitim Programı Formu düzenlenir.\n-Ders öğretmeni tarafından form doldurulup bir nüshası saklanarak sorumlu kişiye verilir."),
+      InfoCardItem("ee_egitimkapsayici_info_127", "Etkili BEP Hazırlama-1", "-BEP hazırlarken kullanımı kolay bir format belirlenmelidir.\n-Birey ve ailesinin mümkün olduğunca sürecin içinde olduğundan emin olun. (Bireyin kendi amaçları ve hedefleri konusunda karar verme sürecine katılmak gerekir.)\n-BEP hazırlanırken BEP uygulamasına katılacak olanların BEP hazırlama sürecine aktif olarak katılmalarını sağlayın. (Uygulayıcının süreç başından sonuna kadar aktif olması önemlidir.)"),
+      InfoCardItem("ee_egitimkapsayici_info_128", "Etkili BEP Hazırlama-2", "-BEP yazılırken açık ve anlaşılır bir dil kullanımına özen gösterin. (Bireyin durumu ve süreç açık ve anlaşılır şekilde ifade edilmelidir.) \n-BEP hazırlarken kısa ve öz ifadeler kullanmaya gayret edin. (Her detay ayrıntılı şekilde bulunmak zorunda değildir.) \n-Gerçekçi bir yaklaşım sergileyin. (Yıllarca sürecek bir planlama yapmak yerine 1 yılı kapsayan bir plan yapın)\n-BEP dosyası hazırlayın ve evrakları düzenli şekilde saklayın"),
+
+
+            ]),
     InfoCardModel("Salamanca Bildirisi (Yeni)", [
     InfoCardItem("ee_egitimkapsayici_info_30", "Bilgiler", "-7-10 Haziran 1994 yılında İspanya'nın Salamanca kentinde bir araya gelinmiştir.\n-Toplantıya 92 devlet ile 25 uluslararası kuruluşun temsilcileri katıldı.\n-Toplantı, UNESCO ve İspanya Hükümeti işbirliği ile gerçekleşti.\n-Amaç, özellikle özel eğitim gerektiren çocuklar için okulları tüm çocuklara hizmet verecek şekilde düzenleyerek kapsayıcı eğitim yaklaşımı ile herkes için eğitim hedefine ulaşmaktı."),
     InfoCardItem("ee_egitimkapsayici_info_31", "Salamanca Bildirisi-1", "-Her çocuk, eğitim görme temel hakkına sahiptir.\n-Eğitim fırsatı verilmelidir.\n-Her çocuk, kendine özgü özelliklere, ilgi, yetenek ve öğrenme ihtiyaçlarına sahiptir\n-İhtiyaç çeşitliliği dikkate alınarak eğitim sistemleri düzenlenmeli ve eğitim programları gerçekleştirilmelidir.\n-Özel eğitim gereksinimli çocuklar eğitim öğretime devam edebilmelidir."),
@@ -189,11 +206,11 @@ class EgitimKapsayiciInfoViewModel extends ChangeNotifier{
 
 
     ]),*/
-    InfoCardModel("Hazırlanıyor", [
+    /*InfoCardModel("Hazırlanıyor", [
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
-    ]),
+    ]),*/
 
     /*InfoCardModel("", [
  InfoCardItem("ee_egitimkapsayici_info_5", "", ""),
@@ -205,19 +222,7 @@ class EgitimKapsayiciInfoViewModel extends ChangeNotifier{
 
 
 
-      InfoCardItem("ee_egitimkapsayici_info_118", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_119", "", ""),
-
-      InfoCardItem("ee_egitimkapsayici_info_120", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_121", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_122", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_123", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_124", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_125", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_126", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_127", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_128", "", ""),
-      InfoCardItem("ee_egitimkapsayici_info_129", "", ""),
+ InfoCardItem("ee_egitimkapsayici_info_129", "", ""),
       InfoCardItem("ee_egitimkapsayici_info_130", "", ""),
       InfoCardItem("ee_egitimkapsayici_info_131", "", ""),
       InfoCardItem("ee_egitimkapsayici_info_132", "", ""),
