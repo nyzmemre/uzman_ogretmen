@@ -55,7 +55,7 @@ class TestHomepage extends StatelessWidget {
               children: [
                 navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
                 navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),
-                navigateTestButton(context, Test(list: _egitimOgretimQues.egitimOgretimList),  "Eğitim Bilimleri"),
+               // navigateTestButton(context, Test(list: _egitimOgretimQues.egitimOgretimList),  "Eğitim Bilimleri"),
                 navigateTestButton(context, TestContentPage(appbarTitle:"Öğrenme ve Öğretme Süreçleri", list: _ogrenogretQues.ogrenOgret,),  "Öğrenme ve Öğretmen Süreçleri"),
                 navigateTestButton(context, TestContentPage(appbarTitle:"Ölçme ve Değerlendirme",list: _olcmedegerlendirmeQues.olcmeDegerList),  "Ölçme ve Değerlendirme" ),
                 navigateTestButton(context, TestContentPage(appbarTitle: "Özel Eğitim ve Rehberlik",list: _ozelEgitimQues.ozelEgitim),  "Özel Eğitim ve Rehberlik" ),
@@ -110,7 +110,7 @@ class TestHomepage extends StatelessWidget {
       leading: Icon(Icons.arrow_right),
     title:  AutoSizeText(text,style: GoogleFonts.quicksand(),
       minFontSize: 8,
-      maxLines: 2,)),
+      maxLines: 3,)),
     ));
   }
 }

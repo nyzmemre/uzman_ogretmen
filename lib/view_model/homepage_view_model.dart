@@ -40,7 +40,7 @@ class HomePageViewModel{
   static SosyalDuygusalInfoViewModel _sosyalDuygusalInfoViewModel=SosyalDuygusalInfoViewModel();
   static BilisselDusunmeInfoViewModel _bilisselDusunmeInfoViewModel=BilisselDusunmeInfoViewModel();
   List<MyContainer> _homepageInfoCardList=[
-    MyContainer("Eğitim Bilimleri", kRouteTest, kRed, _egitimInfoViewModel.egitimOgretimInfoCard),
+    //MyContainer("Eğitim Bilimleri", kRouteTest, kRed, _egitimInfoViewModel.egitimOgretimInfoCard),
     MyContainer("Öğrenme ve Öğretme Süreçleri", kRouteTest, kRed, _ogrenmeogretmesurec.ogrenmeOgretmeSurec),
     MyContainer("Ölçme ve Değerlendirme", kRouteTest, kTurquoise,_olcmeDegerInfoViewModel.olcmeDegerList),
     MyContainer("Özel Eğitim ve Rehberlik", kRouteTest, kYellow, _ozelEgitimInfoViewModel.ozelEgitim),

@@ -53,7 +53,7 @@ class TestContentPage extends StatelessWidget {
                                 fontWeight: FontWeight.w800
                             ),
                             minFontSize: 10,
-                            maxLines: 2,
+                            maxLines: 4,
                             // style: Theme.of(context).textTheme.headline6,
                           ),
                           trailing: Consumer<TestListCompleteViewModel>(
