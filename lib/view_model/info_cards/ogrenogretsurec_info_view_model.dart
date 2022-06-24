@@ -39,7 +39,8 @@ class OgrenOgrenSurecInfoViewModel extends ChangeNotifier {
       InfoCardItem("aa_eo_Info_303","Zaman kullanımı","Konunun toplu olarak veya zamansal aralıklarla çalışılması öğrenme yöntemi ile ilgilidir."),
       InfoCardItem("aa_eo_Info_304","Dönüt","-Öğrenmenin ne düzeyde gerçekleştiği hakkında öğrenene bilgi verme sürecidir.\n-Dönüt, öğrenene sık sık verilmelidir.\n-Dönüt hemen verilirse, öğrenmedeki aksaklıklar daha hızlı giderilebilir."),
       InfoCardItem("aa_eo_Info_305","Etkin katılım","-Öğrenenin öğrenilecek konu için süreçte tüm dikkatiyle varolmasıdır.\n-Katılım arttıkça öğrenme artar."),
-    ]),InfoCardModel("Öğrenme Malzemesi İle İlgili Faktörler", [
+    ]),
+    InfoCardModel("Öğrenme Malzemesi İle İlgili Faktörler", [
     InfoCardItem("aa_eo_Info_306","Öğrenme malzemesi ile ilgili faktörler","-Algısal ayırt edilebilirlik,\n-Anlamsal çağrışım,\n-Kavramsal gruplandırma,\n-Çağrışımsal gruplandırma,\n-Telaffuz edilebilirlik"),
     InfoCardItem("aa_eo_Info_307","Algısal ayırt edilebilirlik","-Uyarıcının o an çevrede varolan tüm uyarıcılardan daha güçlü olması durumudur.\n-Bu durumda odak noktası güçlü uyarıcıdadır.\n-Öğrenmeyi direkt olarak etkiler."),
     InfoCardItem("aa_eo_Info_308","Anlamsal çağrışım","-Öğrenme sırasında geçmiş öğrenmelerle bağ kurmaktır.\n-Yani yeni öğrenmeler önceki öğrenmelerden esinlenilerek gerçekleştirilir."),
