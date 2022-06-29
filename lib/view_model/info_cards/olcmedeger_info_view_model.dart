@@ -55,12 +55,12 @@ class OlcmeDegerInfoViewModel extends ChangeNotifier{
       InfoCardItem("bb_eo_Info_107","Eşit Aralıklı Ölçek-1","-Ölçülen niteliğin sahip oluş miktarına göre eşit aralıklarla sıralanmasıdır. Örn: Termometre\n-Ölçekte bulunan tüm birimler eşittir.\n-Sıfır bağıl sıfırdır.\n-Yani hava sıcaklığının sıfır derece olması bir yokluğu ifade etmemektedir.\n-Bu yüzden eşit aralıklı ölçekler dolaylı ölçme kapsamında değerlendirilirler. ",),
       InfoCardItem("bb_eo_Info_107_11","Eşit Aralıklı Ölçek-2","-Toplama, çıkarma, aritmetik ortalama, standart sapma işlemleri yapılabilirken oranlama işlemleri yapılamaz.\n-Bir ölçekte bağıl sıfır varsa ve birimlerin arasındaki mesafeler eşitse ancak o zaman eşit aralıklı ölçek olarak isimlendirilebilirler.",),
       InfoCardItem("bb_eo_Info_108","Eşit Oranlı Ölçek","-Ölçülen nitelik hakkında en hassas sonuçları veren ölçektir.\n-Başlangıç noktası gerçek sıfırdır.\n-En gelişmiş ölçektir.\n-Örn: Metre, Terazi\n-Her türlü matematiksel ve istatistiksel işlem yapılabilir (Oranlama dahil). ",),
-      InfoCardItem("bb_eo_Info_108_11","Eşit Oranlı Ölçek","-Eşit oranlı ölçek sık sık eşit aralıklı ölçek ile karıştırılabilmektedir.\n-Bu ayrım sıfırın yapısal özelliği ile yapılabilir.\n-Sıfır gerçek ise ve gerçek yokluğu ifade ediyorsa o ölçek eşit oranlıdır.\n-Sıfır bağıl ise ve gerçek yokluğ u ifade etmiyorsa o ölçek eşit aralıklıdır. ",),
+      InfoCardItem("bb_eo_Info_108_11","Eşit Oranlı Ölçek","-Eşit oranlı ölçek sık sık eşit aralıklı ölçek ile karıştırılabilmektedir.\n-Bu ayrım sıfırın yapısal özelliği ile yapılabilir.\n-Sıfır gerçek ise ve gerçek yokluğu ifade ediyorsa o ölçek eşit oranlıdır.\n-Sıfır bağıl ise ve gerçek yokluğu ifade etmiyorsa o ölçek eşit aralıklıdır. ",),
     ]),
 
     InfoCardModel("Değerlendirme", [
       InfoCardItem("bb_eo_Info_109","Değerlendirme","Ölçme sonuçlarının bir ölçüte göre karşılaştırılıp karara varılmasıdır.",),
-      InfoCardItem("bb_eo_Info_110","Değerlendirme-2","-Ölçmeyi içine alır.\n-Önce ölçme, sonra değerlendirme yapılır.\n-Ölçme nesneldir.\n-Değerlendrime öznel olabilir.",),
+      InfoCardItem("bb_eo_Info_110","Değerlendirme-2","-Ölçmeyi içine alır.\n-Önce ölçme, sonra değerlendirme yapılır.\n-Ölçme nesneldir.\n-Değerlendirme öznel olabilir.",),
       InfoCardItem("bb_eo_Info_111","Değerlendirme-3","Değerlendirme 3 amaçla yapılır.\n-Öğrencileri tanıma,\n-Öğrenmeyi izleme,\n-Öğrenme seviyesini belirleme",),
       ///Yeni eklenen
       InfoCardItem("bb_eo_Info_112","Ölçüt","-Bir yargıya varabilmek için kullanılan ilkedir.\n-Ölçütler iki başlık altında incelenir. \n\nBunlar; \n-Mutlak Ölçüt \n-Bağıl Ölçüt’tür.",),
@@ -79,16 +79,17 @@ class OlcmeDegerInfoViewModel extends ChangeNotifier{
       InfoCardItem("bb_eo_Info_120","Geçerlik","Örneğin matematik sınavı için hazırlanan sorular sadece matematik dersinin davranışlarını ölçüyorsa sınav geçerlidir.",),
       InfoCardItem("bb_eo_Info_121","Kapsam Geçerliği","Bir sınavda tüm konulardan orantılı şekilde soru soruluyorsa kapsam geçerliği vardır.",),
       InfoCardItem("bb_eo_Info_122","Yordam Geçerliği","Bir testin gelecekte ne olacağını göstermesidir.(Tahmin)",),
-      InfoCardItem("bb_eo_Info_123","Yapı Geçerliği","Testte kon dışı soru yok, bölümler kendi içğinde bağlantılı ise yapı geçerliliği vardır.",),
+      InfoCardItem("bb_eo_Info_123","Yapı Geçerliği","Testte kon dışı soru yok, bölümler kendi içinde bağlantılı ise yapı geçerliliği vardır.",),
       InfoCardItem("bb_eo_Info_124","Geçerliliği Arttırma Yolları","-Sorular hedeflerle ilişkili olmalıdır.\n-Sorular bilenle bilmeyeni ayırt etmelidir.\n-Mutlak sınav planı olmalıdır.\n-Soruların zorluk dereceleri farklı olmalıdır.\n-Nesnel puanlama yapılmalıdır.",),
-    ]), InfoCardModel("Ölçmde Güvenirlik", [
+    ]), 
+    InfoCardModel("Ölçmede Güvenirlik", [
       InfoCardItem("bb_eo_Info_125","Güvenirlik","-Ölçmek istenilen özelliğin doğru olarak ölçülmesidir.\n-Ölçme aracı tekrar uygulandığında aynı sonucu veriyorsa güvenilirdir.\n-Güvenirlik 0-1 arası değer alır.\n-0'a yakınsa çok hatalı, 1'e yakınsa az hatalıdır.",),
       InfoCardItem("bb_eo_Info_126","Güvenirlik Kestirim Yöntemleri","-Test Tekrar Test Yöntemi.\n-Eşdeğer Formlar Yöntemi.\n-İki Yarıya Bölme Yöntemi.\n-Kuder-Richardson 20-21 Formülleri",),
-      InfoCardItem("bb_eo_Info_127","Test Tekrar Test","-Test aynı gruba 2 kez uygulanır.\n-İki uygulama karşılaştırılı.\n-Güvenirlik kaysayısı belirlenir.",),
+      InfoCardItem("bb_eo_Info_127","Test Tekrar Test","-Test aynı gruba 2 kez uygulanır.\n-İki uygulama karşılaştırılır.\n-Güvenirlik katsayısı belirlenir.",),
       InfoCardItem("bb_eo_Info_128","Eşdeğer Formlar Yöntemi","-Bir teste eşdeğer en az iki test hazırlanır.\n-Her test aynı güçlükte ve aynı özellikte olmalıdır.\n-Hazırlaması zordur.",),
       InfoCardItem("bb_eo_Info_129","İki Yargıya Bölme Yöntemi","-En çok kullanılan yöntemdir.\n-Tek numaralı sorulara verilen yanıtlarla çift numaralı sorulara verilen yanıtlardan güvenirlik katsayısı oluşturulur.",),
       InfoCardItem("bb_eo_Info_130","Kuder-Richardson 20-21 Formülü","-Her soruyu doğru yanıtlayan öğrencilerin oranı hesaplanır.\n-İleri analiz teknikleri içerir.\n-Madde analizleri yapılır.",),
-      InfoCardItem("bb_eo_Info_131","Güvenirliği Arttırma Yöntemleri","-Çok soru olmalıdır.\n-Öğrenci seviyesine uygun olmalıdır.\n-Açık, anlaşılır, yazım kurallarına uygun olmalıdır.\n-Puanlama anahtarı kullanılmalıdır.\n-Sorular basitter zora sıralanmalıdır.",),
+      InfoCardItem("bb_eo_Info_131","Güvenirliği Arttırma Yöntemleri","-Çok soru olmalıdır.\n-Öğrenci seviyesine uygun olmalıdır.\n-Açık, anlaşılır, yazım kurallarına uygun olmalıdır.\n-Puanlama anahtarı kullanılmalıdır.\n-Sorular basitten zora sıralanmalıdır.",),
       InfoCardItem("bb_eo_Info_132","Kullanışlılık","Ölçme aracının kolay kullanılmasıdır.",),
     ]),
     InfoCardModel("Ölçme Araçları", [
@@ -98,35 +99,67 @@ class OlcmeDegerInfoViewModel extends ChangeNotifier{
       InfoCardItem("bb_eo_Info_136","2-Uzun Cevaplı Yazılı","-Sorular yazılı sorulur.\n-Cevaplar yazılı verilir.\n-Az sayıda soru sorulur.\n-Puanlama subjektiftir(kendi bakış açısıyla değerlendirilir).\n-Her konuda dengeli soru gelir.",),
       InfoCardItem("bb_eo_Info_137","Uzun Cevaplı Yazılı Devamı","Güvenirliği ve geçerliliği arttırmak için;\n-Sınırlı cevap gerektiren sorular sorulmalı.\n-Tercihli sorular sorulmamalı.\n-Yazı güzelliğine puan verilmemeli.\n-Cevap anahtarı hazırlanmalıdır.",),
       InfoCardItem("bb_eo_Info_138","3-Kısa Cevap Gerektiren Testler","-Cevaplar kısadır.\n-Bilgi düzeyinin üstündeki davranışları yoklayamaz.\n-Puanlama subjektiftir.\n-Öğrenci cevabı hatırlar ve yazar, şans başarısı yoktur.",),
-      InfoCardItem("bb_eo_Info_139","Kısa Cevap Test Devamı","-Yoklanacak davranış önemlidir.\n-Sadece bilenler cevaplamalıdır.\n-Gereksiz bilgiler olmamalıdır.\n-Sorunn tek cevabı olmalı ve başka soruda geçmemelidir.\n-Bilinen kaynaklardan alınmamalıdır.\n-Soru cümleleri kullanılmalıdır.",),
+      InfoCardItem("bb_eo_Info_139","Kısa Cevap Test Devamı","-Yoklanacak davranış önemlidir.\n-Sadece bilenler cevaplamalıdır.\n-Gereksiz bilgiler olmamalıdır.\n-Sorunun tek cevabı olmalı ve başka soruda geçmemelidir.\n-Bilinen kaynaklardan alınmamalıdır.\n-Soru cümleleri kullanılmalıdır.",),
       InfoCardItem("bb_eo_Info_140","4-Doğru Yanlış Testler","-Konu amacına uygun doğru-yanlış ifadeler içerir.\n-%50 cevabı bulma olasılığı vardır.\n-Güvenirliği yüksektir.\n-Geçerliği düşüktür.\n-Objektif puanlanır.",),
-      InfoCardItem("bb_eo_Info_141","5-Çoktan Seçmeli Testler","-Çok sayıda soru sorulur.\n-Kapsam geçerlipş yüksektir.\n-Objektif puanlanır.\nZayıf yanları ise şansla bulma ihtimali ve sürekli araştırma gerektirmesidir.",),
+      InfoCardItem("bb_eo_Info_141","5-Çoktan Seçmeli Testler","-Çok sayıda soru sorulur.\n-Kapsam geçerliği yüksektir.\n-Objektif puanlanır.\nZayıf yanları ise şansla bulma ihtimali ve sürekli araştırma gerektirmesidir.",),
       InfoCardItem("bb_eo_Info_142","Öğrenci Portfolio Dosyası","-Öğrencinin ilgi duyduğu alandaki çalışmalarını topladığı dosyadır.\n-Öğrenci söz sahibidir.\n-Öğretmen rehberlik yapar.\n-Öğrenciye eksiklerini görme imkanı sağlar.\n-Değerlendirme sürecine öğrenci katılır.",),
       InfoCardItem("bb_eo_Info_143","Rubrik(Dereceleme Ölçeği)","-Duyuşsal becerilerin ölçülmesinde kullanılır.\n-Ölçek eşit aralıklı olmalıdır.\n-Aralık geniş tutulmalıdır.\n-Aralığın geniş olması öğrenci motivasyonunu arttırır.",),
       InfoCardItem("bb_eo_Info_144","Performans Değerlendirme","-Planlı etkinlik sonunda elde edilen değerlendirmedir.\n-Okul içinde ve dışında devam eder.\n-Arkadaşlarıyla işbirliği yapmasını sağlar.",),
     ]),
+
+    InfoCardModel("Öğrenciyi Çok Yönlü Tanıma Araçları-Duyuşsal Alan (Yeni)", [
+
+      InfoCardItem("bb_olcmedeger_info_145", "Öğrenciyi Çok Yönlü Tanıma Araçları", "Eğitim öğretim sürecinde öğrencinin sadece bilişsel alandan değerlendirilmemesi gerekir. \n Öğrencinin çok yönlü olarak tanınabilmesi için duyuşsal ve psikomotor alanlardan da değerlendirmelere tabii tutulmasına özen gösterilmelidir. \n Duyuşsal alana ait tanılama araçları şunlardır:"),
+      InfoCardItem("bb_olcmedeger_info_146", "Duyuşsal Tanıma Araçları", "-Duyuşsal Alan tanıma araçları şunlardır: \n-İlgi Ölçekleri\n-Tutum Ölçekleri\n-Gözlem Tekniği"),
+      InfoCardItem("bb_olcmedeger_info_147", "İlgi Ölçekleri-1", "-İlgi, kişinin karşılaştığı bir durum, etkinlik, nesne ya da olaya karşı yakınlık duyma, zevk alma ve belli bir süre hoşlanma tepkisidir. \n-Kişi ilgi duyduğu olgulara kayıtsız kalamaz ve öncelik tanır. \n-İlgiler kişilik gelişimi ile birlikte, çevre ve toplumun etkisi ile gelişirler."),
+      InfoCardItem("bb_olcmedeger_info_148", "İlgi Ölçekleri-2", "-İlgi ölçekleri (envanterleri) kişinin öncelik verdiği, ilgi duyduğu nesne ve etkinlikleri belirlemek için geliştirilmiş sorular dizisidir.\n-İlgi ölçekleri öğrencilerin özellikle duyuşsal özelliklerini tanıma amaçlı kullanılırlar. \n- İlgi envanterleri okul sürecinde öğrencilerin etkinlik, alan, program ve meslek ilgisini belirlemek ve öğrencileri yönlendirmek amacıyla uygulanmaktadır."),
+      InfoCardItem("bb_olcmedeger_info_149", "Tutum Ölçekleri-1", "Tutum kişinin sorun, durum ya da olayı ele alış ve onunla ilgili sergilediği davranış biçimi olarak tanımlanabilir. \n- Tutum duygu ve davranışlarını düzenli bir biçimde oluşturan eğilimdir.\n- Tutumlar dolaylı olarak ölçülebilmektedir. \n- Bu yüzden ölçümü güçtür ve objektif değildir. \n- Aynı sebepten dolayı ölçümlerin güvenirliği ve geçerliği düşüktür."),
+      InfoCardItem("bb_olcmedeger_info_150", "Tutum Ölçekleri-2", "-Tutumların ölçülmesinde gözlem, soru dizileri, yarım cümleler ve hikaye anlatma gibi yöntemlerin yanı sıra farklı tekniklerde (içerik analizi, yanlışı seçme vb.) kullanılmaktadır.\n-Ancak tutum ölçekleri, tutum ölçme yöntemleri arasında en çok tercih edilen ve kullanılanlardır. \n- En çok kullanılan tutum ölçekleri Thurstone Ölçekleri, Likert Ölçekleri, Guttman Ölçekleri ve Duygusal Anlam Ölçekleridir."),
+      InfoCardItem("bb_olcmedeger_info_151", "Gözlem Tekniği-1", "Gözlem kişilerin farklı ortamlarda çeşitli davranışları hakkında onları izleme yoluyla bilgi toplama tekniğidir. \n-Anekdot Kaydı, Gözlem Listesi, Gözlem Fişleri ve Derecelendirme Ölçekleri gözlem tekniğinde kullanılmaktadır.\n-Üç farklı gözlem tipi vardır.  \n-Doğal Gözlem \n-Sistematik Gözlem \n-İç Gözlem"),
+      InfoCardItem("bb_olcmedeger_info_152", "Doğal Gözlem", "Bir olay ya da canlının, herhangi bir dış müdahale olmadan doğal ortamlarında izlenmesidir. \n-Araştırmacı bu esnada tüm davranışları gözlemler ve ayrıntılı olarak kaydeder."),
+      InfoCardItem("bb_olcmedeger_info_153", "Sistematik Gözlem", "Araştırmacı doğal gözlemin aksine seçtiği bir davranış üzerinde sistematik ve planlı olarak gözlem yapar. \n-Araştırmacı gözlemin yer, zaman ve koşullarını belirler. \n-Bu tür gözlemler için laboratuvar vb. özel alanlar oluşturulmuştur. \n-Gözlem esnasında gözlenenler gözlendikleri sürecin farkındadırlar."),
+      InfoCardItem("bb_olcmedeger_info_154", "İçsel Gözlem", "Kişinin kendi üzerinde gözlem yaparak, bilinçli duygu ve düşüncelerini incelemesidir. \n- İç gözlem, insanın kendini yansıtması ve kendini keşfetmesiyle yakından ilgilidir."),
+
+    ]),
+
+    InfoCardModel("Öğrenciyi Çok Yönlü Tanıma Araçları-Psikomotor Alan (Yeni)", [
+      
+      InfoCardItem("bb_olcmedeger_info_155", "Psikomotor Tanıma Araçları", "Psikomotor tanıma araçları şunlardır;\n-Performans Testleri \n-Kontrol Listeleri \n-Gözlem Fişleri \n-Derecelendirme Ölçekleri (Rubrik)"),
+      InfoCardItem("bb_olcmedeger_info_156", "Performans Testleri-1", "Performans testleri, psiko-motor davranışları ölçmek için kullanılan testlerdendir. \n-Beden eğitimi ve görsel sanatlar derslerinde, meslek derslerinde sıklıkla kullanılırlar.\n- Performansın ölçülebilir üç yanı vardır. Bunlar işi yaparken izlenen yol (süreç), işin yapılma hızı ve çıkan ürünün kalitesidir. "),
+      InfoCardItem("bb_olcmedeger_info_157", "Performans Testleri-2", "-Bu sebeple performans testleri üç farklı şekilde uygulanmaktadır. \n-Bunlar Süreç Değerlendirilmesi, \n-Ürün Değerlendirmesi, \n-Ürün ve Sürecin Birlikte Değerlendirilmesidir."),
+      InfoCardItem("bb_olcmedeger_info_158", "Süreç ve Ürünün Değerlendirilmesi", "Sürecin değerlendirilmesi: İlk uygulama olan süreç değerlendirmesinde aşamaların nasıl geçildiğine dikkat edilir.\n-Aşamalarda kontrol listesi, gözlem fişi gibi araçlar kullanılabilir. Ürünün değerlendirilmesi: Derecelendirme ölçekleri kullanılarak sadece süreç sonunda ortaya çıkan ürünün kalitesi dikkate alınarak değerlendirme yapılır."),
+      InfoCardItem("bb_olcmedeger_info_159", "Ürün ve Sürecin Birlikte Değerlendirilmesi", "Ürünün ve sürecin birlikte değerlendirilmesi: Bu uygulamada hem süreç hem de ürün değerlendirmesi kontrol listesi, gözlem fişleri ve derecelendirme ölçekleri birlikte kullanılarak yapılır."),
+      InfoCardItem("bb_olcmedeger_info_160", "Kontrol Listeleri", "Kontrol listeleri en çok psikomotor davranışların ölçülmesinde kullanılır. \n-Gözlenen davranışın yapıldı-yapılmadı, evet-hayır ya da var-yok şeklinde işaretlendiği bir ölçme aracıdır. \n-Gözlem esnasında bireyde istenen davranış var ise evet, yoksa hayır olarak işaretleme yapılır."),
+      InfoCardItem("bb_olcmedeger_info_161", "Gözlem Fişleri", "Gözlem fişleri bir davranışın kaç defa yapıldığını gösteren ölçme araçlarıdır. \n- Gözlem Fişleri tıpkı kontrol listelerinde olduğu gibi davranışın ne derece yapıldığı hakkında bilgi vermez. \n-Sadece davranışın kaç kere yapıldığı hakkında bilgi verir."),
+      InfoCardItem("bb_olcmedeger_info_162", "Derecelendirme Ölçekleri (Rubrik)-1", "Kontrol listeleri ve gözlem fişleri sadece davranışın yapılıp yapılmadığı konusunda bilgi verebilirken, derecelendirme ölçekleri davranışın yapılma düzeyi hakkında bilgi verebilmektedirler."), 
+      InfoCardItem("bb_olcmedeger_info_163", "Derecelendirme Ölçekleri (Rubrik)-2", "Derecelendirme ölçekleri, istendik davranışa verilebilecek için üç, dört, beş puanlı yapıları itibariyle öğrencilerin performanslarını değerlendirmede, puanlama amacı ile kullanılmaktadırlar. \n- Gözlenen özelliğin öğrencide bulunma derecesini ve seviyesini belirleyebildiği için psikomotor alanda kullanılan en gelişmiş ölçme araçlarından birisidir."),
+    
+    ]),
+
     InfoCardModel("Merkezi Eğilim Ölçüleri", [
-      InfoCardItem("bb_eo_Info_145","Merkez Eğilim Ölçüleri","-Aritmetik Ortalama.\n-Ortanca(Medyan).\n-Mod(Tepe Değer)",),
-      InfoCardItem("bb_eo_Info_146","Aritmetik Ortalama","Tüm verilerin toplanıp veri sayısına bölünmesiyle elde edilir.",),
-      InfoCardItem("bb_eo_Info_147","Ortanca(Medyan)","Veriler küçükten büyüğe doğru sıralanır. En ortadaki değer ortanca(medyan)dır.",),
-      InfoCardItem("bb_eo_Info_148","Mod(Tepe Değer)","En fazla tekrar eden değerdir.",),
-      InfoCardItem("bb_eo_Info_149","Merkezi Dağılım Ölçüleri","-Ranj.\n-Standart sapma.\n-Standart hata",),
-      InfoCardItem("bb_eo_Info_150","Ranj","En büyük veri ile en küçük veri arasındaki farka denir.",),
-      InfoCardItem("bb_eo_Info_151","Standart Sapma","-En güvenilir ölçüdür.\n-Ortalamada olan farkların karelerinin ortalamasının kareköküne denir.",),
-      InfoCardItem("bb_eo_Info_152","Standart Hata","Aritmatik ortalamada oluşan hatanın belirlenmesinde kullanılır.",),
+      InfoCardItem("bb_eo_Info_164","Merkez Eğilim Ölçüleri","-Aritmetik Ortalama.\n-Ortanca(Medyan).\n-Mod(Tepe Değer)",),
+      InfoCardItem("bb_eo_Info_165","Aritmetik Ortalama","Tüm verilerin toplanıp veri sayısına bölünmesiyle elde edilir.",),
+      InfoCardItem("bb_eo_Info_166","Ortanca(Medyan)","Veriler küçükten büyüğe doğru sıralanır. En ortadaki değer ortanca(medyan)dır.",),
+      InfoCardItem("bb_eo_Info_167","Mod(Tepe Değer)","En fazla tekrar eden değerdir.",),
+      InfoCardItem("bb_eo_Info_168","Merkezi Dağılım Ölçüleri","-Ranj.\n-Standart sapma.\n-Standart hata",),
+      InfoCardItem("bb_eo_Info_169","Ranj","En büyük veri ile en küçük veri arasındaki farka denir.",),
+      InfoCardItem("bb_eo_Info_170","Standart Sapma","-En güvenilir ölçüdür.\n-Ortalamada olan farkların karelerinin ortalamasının kareköküne denir.",),
+      InfoCardItem("bb_eo_Info_171","Standart Hata","Aritmetik ortalamada oluşan hatanın belirlenmesinde kullanılır.",),
     ]),
     InfoCardModel("Ölçmede İstatistik İşlemleri", [
-      InfoCardItem("bb_eo_Info_153","Test Geliştirme Süreci","-İfadeler açık ve net olmalıdır.\n-Birden fazla anlam çıkarmalı.\n-Az kelime kullanılmalı.\n-Test maddeleri birbirinden bağımsız olmalı.\n-Sorular bir kaynaktan aynen alınmamalı.\n-Çeldiriciler eksik bilgisi olanları yanıltmalı.\n-Hepsi, hiçbiri keimeleri kullanılmamalı",),
-      InfoCardItem("bb_eo_Info_154","Bilişsel Öğrenmeleri Ölçme Araç ve Yöntemleri","-Bilişsel öğrenme; bilgiyi tanıma, hatırlama, akıl yöntemiyle ilgilidir.\n-Alt sınıfları Bilgi(hatırlama), Kavrama(Yorumlama), Uygulama(Bilgiyi kullanma), Analiz(Bütün ve parçalar arasındaki ilişkiyi belirler), Sentez(Parçaları bir araya getirir), Değerlendirme(öğrenmeyi ölçme)",),
-      InfoCardItem("bb_eo_Info_155","Madde Analizi","Maddelerin özelliklerinin belirlenmesini sağlar.",),
-      InfoCardItem("bb_eo_Info_156","Madde Analizi Basamakları","-Cevap kağıtları okunur.\n-Sonuçlar büyükten küçüğe sıralanır.\n-%27 lik bölüm alınır.\n-Her maddenin cevaplana oranı belirlenir.\n-Sonuç değerlendirilir.",),
-      InfoCardItem("bb_eo_Info_157","Test İstatistiği","Ölçümlerden elde edilen sonuçları yorumlamak için standart puanlara ihtiyaç olmuştur. Bunlar Z Puanı ve T Puanıdır.",),
-      InfoCardItem("bb_eo_Info_158","Z Puanı","-Ortalaması 0'dır.\n-Standart sapması 1'dir.\n-Bir puanın ortalamanın altında ya da üstünde olduğu hakkında bilgi verir.\n-Hem puandan ortalama çıkarılır, standart sapmaya bölünür.",),
-      InfoCardItem("bb_eo_Info_159","T Puanı","-Ortalaması 50'dir.\n-Standart sapması 10'dur.\n-T Puanı ile yorumları aynıdır.\n-Z puanında değerler negatif, sıfır veya küsüratlı çıkarsa T puanı kullanılır.",),
-    ]), InfoCardModel("Ölçme ve Değerlendirmenin Faydaları", [
-      InfoCardItem("bb_eo_Info_153","Ölçme ve Değerlendirmenin Faydaları","-Eğitim-öğretim sürecinin olumlu ve olumsuz yanları hakkında bilgi verir. Böylece eğitim programının yenilenmesini sağlar. \n-Eğitim-öğretim hizmetlerinin kalitesini arttırır.\n-Yeterince başarılı olan öğrencilerin motivasyonunu arttırır.",),
-      InfoCardItem("bb_eo_Info_154","Ölçme ve Değerlendirmenin Faydaları","-Öğretmenin öğrenciyi tanımasına olanak sağlar.\n-Öğrencilerin güçlü ve zayıf yönleri hakkında dönüt sağlar.\n-Öğretmenin kendisini tanımasını ve kullandığı yöntem-tekniklerin faydalılığı konusunda dönüt sağlar.",),
-      InfoCardItem("bb_eo_Info_155","Ölçme ve Değerlendirmenin Faydaları","-Öğrencinin durumu ve gelişimi hakkında önce öğretmenin, öğretmen aracılığıyla velilerin bilgilenmesini sağlar.\n-Böylece velilerin eğitim-öğretim sürecine katılımları artar.",),
+      InfoCardItem("bb_eo_Info_172","Test Geliştirme Süreci","-İfadeler açık ve net olmalıdır.\n-Birden fazla anlam çıkarmalı.\n-Az kelime kullanılmalı.\n-Test maddeleri birbirinden bağımsız olmalı.\n-Sorular bir kaynaktan aynen alınmamalı.\n-Çeldiriciler eksik bilgisi olanları yanıltmalı.\n-Hepsi, hiçbiri keimeleri kullanılmamalı",),
+      InfoCardItem("bb_eo_Info_173","Bilişsel Öğrenmeleri Ölçme Araç ve Yöntemleri","-Bilişsel öğrenme; bilgiyi tanıma, hatırlama, akıl yöntemiyle ilgilidir.\n-Alt sınıfları Bilgi(hatırlama), Kavrama(Yorumlama), Uygulama(Bilgiyi kullanma), Analiz(Bütün ve parçalar arasındaki ilişkiyi belirler), Sentez(Parçaları bir araya getirir), Değerlendirme(öğrenmeyi ölçme)",),
+      InfoCardItem("bb_eo_Info_174","Madde Analizi","Maddelerin özelliklerinin belirlenmesini sağlar.",),
+      InfoCardItem("bb_eo_Info_175","Madde Analizi Basamakları","-Cevap kağıtları okunur.\n-Sonuçlar büyükten küçüğe sıralanır.\n-%27 lik bölüm alınır.\n-Her maddenin cevaplana oranı belirlenir.\n-Sonuç değerlendirilir.",),
+      InfoCardItem("bb_eo_Info_176","Test İstatistiği","Ölçümlerden elde edilen sonuçları yorumlamak için standart puanlara ihtiyaç olmuştur. Bunlar Z Puanı ve T Puanıdır.",),
+      InfoCardItem("bb_eo_Info_177","Z Puanı","-Ortalaması 0'dır.\n-Standart sapması 1'dir.\n-Bir puanın ortalamanın altında ya da üstünde olduğu hakkında bilgi verir.\n-Hem puandan ortalama çıkarılır, standart sapmaya bölünür.",),
+      InfoCardItem("bb_eo_Info_178","T Puanı","-Ortalaması 50'dir.\n-Standart sapması 10'dur.\n-T Puanı ile yorumları aynıdır.\n-Z puanında değerler negatif, sıfır veya küsüratlı çıkarsa T puanı kullanılır.",),
+    ]), 
+    
+    InfoCardModel("Ölçme ve Değerlendirmenin Faydaları", [
+      InfoCardItem("bb_eo_Info_179","Ölçme ve Değerlendirmenin Faydaları","-Eğitim-öğretim sürecinin olumlu ve olumsuz yanları hakkında bilgi verir. Böylece eğitim programının yenilenmesini sağlar. \n-Eğitim-öğretim hizmetlerinin kalitesini arttırır.\n-Yeterince başarılı olan öğrencilerin motivasyonunu arttırır.",),
+      InfoCardItem("bb_eo_Info_180","Ölçme ve Değerlendirmenin Faydaları","-Öğretmenin öğrenciyi tanımasına olanak sağlar.\n-Öğrencilerin güçlü ve zayıf yönleri hakkında dönüt sağlar.\n-Öğretmenin kendisini tanımasını ve kullandığı yöntem-tekniklerin faydalılığı konusunda dönüt sağlar.",),
+      InfoCardItem("bb_eo_Info_181","Ölçme ve Değerlendirmenin Faydaları","-Öğrencinin durumu ve gelişimi hakkında önce öğretmenin, öğretmen aracılığıyla velilerin bilgilenmesini sağlar.\n-Böylece velilerin eğitim-öğretim sürecine katılımları artar.",),
 
     ]),
     InfoCardModel("Hazırlanıyor", [
@@ -137,49 +170,7 @@ class OlcmeDegerInfoViewModel extends ChangeNotifier{
     ]),
     /*InfoCardModel("", [
 
- InfoCardItem("bb_olcmedeger_info_24", "", ""),
-      InfoCardItem("bb_olcmedeger_info_25", "", ""),
-      InfoCardItem("bb_olcmedeger_info_26", "", ""),
-      InfoCardItem("bb_olcmedeger_info_27", "", ""),
 
-      InfoCardItem("bb_olcmedeger_info_28", "", ""),
-      InfoCardItem("bb_olcmedeger_info_29", "", ""),
-      InfoCardItem("bb_olcmedeger_info_30", "", ""),
-      InfoCardItem("bb_olcmedeger_info_31", "", ""),
-      InfoCardItem("bb_olcmedeger_info_32", "", ""),
-      InfoCardItem("bb_olcmedeger_info_33", "", ""),
-      InfoCardItem("bb_olcmedeger_info_34", "", ""),
-      InfoCardItem("bb_olcmedeger_info_35", "", ""),
-      InfoCardItem("bb_olcmedeger_info_36", "", ""),
-      InfoCardItem("bb_olcmedeger_info_37", "", ""),
-      InfoCardItem("bb_olcmedeger_info_38", "", ""),
-      InfoCardItem("bb_olcmedeger_info_39", "", ""),
-      InfoCardItem("bb_olcmedeger_info_40", "", ""),
-      InfoCardItem("bb_olcmedeger_info_41", "", ""),
-      InfoCardItem("bb_olcmedeger_info_42", "", ""),
-      InfoCardItem("bb_olcmedeger_info_43", "", ""),
-      InfoCardItem("bb_olcmedeger_info_44", "", ""),
-      InfoCardItem("bb_olcmedeger_info_45", "", ""),
-      InfoCardItem("bb_olcmedeger_info_46", "", ""),
-      InfoCardItem("bb_olcmedeger_info_47", "", ""),
-      InfoCardItem("bb_olcmedeger_info_48", "", ""),
-      InfoCardItem("bb_olcmedeger_info_49", "", ""),
-      InfoCardItem("bb_olcmedeger_info_50", "", ""),
-      InfoCardItem("bb_olcmedeger_info_51", "", ""),
-      InfoCardItem("bb_olcmedeger_info_52", "", ""),
-      InfoCardItem("bb_olcmedeger_info_53", "", ""),
-      InfoCardItem("bb_olcmedeger_info_54", "", ""),
-      InfoCardItem("bb_olcmedeger_info_55", "", ""),
-      InfoCardItem("bb_olcmedeger_info_56", "", ""),
-      InfoCardItem("bb_olcmedeger_info_57", "", ""),
-      InfoCardItem("bb_olcmedeger_info_58", "", ""),
-      InfoCardItem("bb_olcmedeger_info_59", "", ""),
-      InfoCardItem("bb_olcmedeger_info_60", "", ""),
-      InfoCardItem("bb_olcmedeger_info_61", "", ""),
-      InfoCardItem("bb_olcmedeger_info_62", "", ""),
-      InfoCardItem("bb_olcmedeger_info_63", "", ""),
-      InfoCardItem("bb_olcmedeger_info_64", "", ""),
-      InfoCardItem("bb_olcmedeger_info_65", "", ""),
       InfoCardItem("bb_olcmedeger_info_66", "", ""),
       InfoCardItem("bb_olcmedeger_info_67", "", ""),
       InfoCardItem("bb_olcmedeger_info_68", "", ""),
@@ -188,4 +179,5 @@ class OlcmeDegerInfoViewModel extends ChangeNotifier{
     ])*/
   ];
 
-  List<InfoCardModel> get olcmeDegerList => _olcmeDegerList;}
+  List<InfoCardModel> get olcmeDegerList => _olcmeDegerList;
+}

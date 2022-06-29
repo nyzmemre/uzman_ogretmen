@@ -16,7 +16,7 @@ class LastAddedPage extends StatelessWidget {
       appBar: MyAppbar(appBarTitle: "Son Eklenenler"),
       body: ListView(
         children: [
-          content(context, "22.06.2022","-Öğrenme Öğretme Süreçleri soru eklendi.\n-"),
+          content(context, "22.06.2022","-Öğrenme Öğretme Süreçleri geniş özet eklendi.\n-Öğrenme Öğretme Süreçleri soru eklendi.\n-Eğitim Araştırmaları ve AR-GE Çalışmaları geniş özet eklendi.\n-Sosyal İletişim ve Etkileşim soru eklendi.\n-Dijital Yetkinlik özet eklendi.\n-Ölçme ve Değerlendirme özet eklendi."),
           content(context, "22.06.2022","-Eğitim Bilimleri özetlerindeki konular ilgili alanlara eklendiği için bölüm kaldırıldı.\n-Eğitimde Kapsayıcılık Konu Eklendi.\n-Eğitimde Kapsayıcılık Soru Eklendi.\n-Sosyal İletişim ve Etkileşim Konu Eklendi.\n-Sosyal İletişim ve Etkileşim Soru Eklendi.\n-Güvenli Okul ve Okul Güvenliği konu eklendi.\n-Güvenli Okul ve Okul Güvenliği Çözümlü Soru Eklendi.\n-Bilişsel Düşünme Becerileri Soru Eklendi."),
           content(context, "15.06.2022","-Çözümlü soru yapısı eklendi.\n-Bilgi kartlarının okunabilirliği arttırıldı.\n-Öğrenme ve Öğretmen Süreçleri özet eklendi.\n-Öğrenme ve Öğretme Süreçleri soru eklendi.\n-Çevre Eğitimi ve iklim Değişikli konuları eklendi.\n-Çevre Eğitimi ve iklim Değişikli soruları eklendi.\n-Eğitimde Kapsayıcılık konu eklendi.\n-Bilişsel Düşünce Becerileri konu eklendi."),
           content(context, "09.06.2022","-Favori Kartlar Ekranı Düzenlendi.\n-Öğrenme ve Öğretme Süreçleri konu eklendi.\n-Öğrenme ve Öğretme Süreçleri soru eklendi.\n-Dijital Yetkinlik Kavramları eklendi.\n-Çevre Eğitimi ve İklim değişikliği konu eklendi.\n-Çevre Eğitimi ve İklim değişikliği soru eklendi.\n-Bilişsel Düşünme Becerileri konu eklendi"),

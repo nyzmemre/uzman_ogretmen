@@ -52,7 +52,7 @@ class EgitimArastirmaQuesViewModel extends ChangeNotifier{
      Question("egitimarastirma_ques_Q9","4. sınıf öğrencisi Burak, araştırma konusunda deneyler yapmak istemektedir.", "Buna göre Burak aşağıdakilerden hangi araştırma yöntemini kullanacaktır?","Nicel araştıma",["Nicel araştıma","Betimsel araştırma","Temel araştırma","Nitel araştırma","Konu araştırması"]),
      Question("egitimarastirma_ques_Q10","I-Nitel araştırma\nII-Nicel araştırma\nIII-Temel araştırma", "Yukarıdakilerden hangisi veya hangileri araştırma türlerindendir?","Yalnız II", ["Yalnız I","Yalnız II","Yalnız III","I-III","I-II-III"]),
    ]),
-    TestListHomepageModel("Eğitim Araştırma-Test 2 (Yeni)",[
+    TestListHomepageModel("Eğitim Araştırma-Test 2",[
       Question("egitimarastirma_ques_Q11","I-Ar-Ge Çalışmaları İle Bilimsel Bilgi Birikimi Artar\nII-Yeni Sistem, Süreç ve Hizmet Geliştirilebilir\nIII-Öncelikle Ürün Geliştirilmesi Esastır", "Yukarıda Ar-Ge çalışmaları ile ilgili verilen bilgilerden hangisi ya da hangileri doğrudur?", "I-II", ["Yalnız I","Yalnız II","Yalnız III","I-II","I-II-III"]),
       Question("egitimarastirma_ques_Q12","", "Ar-Ge çalışmalarında kullanılan Frascati Kılavuzu hangi uluslararası kuruluş tarafından hazırlatılmıştır?", "OECD", ["UNICEF","UNESCO","OECD","ILO","WHO"]),
       Question("egitimarastirma_ques_Q13","", "Ar-Ge araştırmaları hangi üç temel başlık altında ele alınmaktadır?", "Temel, Uygulamalı, Deneysel", ["Temel, Uygulamalı, Bireysel","Görsel, Bilişsel, Duyuşsal","Sosyal, Temel, İleri","Toplumsal, Bireysel, Uygulamalı","Temel, Uygulamalı, Deneysel"]),
@@ -64,7 +64,7 @@ class EgitimArastirmaQuesViewModel extends ChangeNotifier{
       Question("egitimarastirma_ques_Q19","", "Ar-Ge çalışmalarında hedeflenen sonuçlara ulaşmak için gerekli olan maliyetlerin tam olarak bilinememesi hangi Ar-Ge kriteri ile ilgilidir?","Nihai Aşamadaki Belirsizlik",["Tekrar Edilebilirlik","Yaratıcılık","Yenilikçilik","Nihai Aşamadaki Belirsizlik","Sistematiklik"]),
       Question("egitimarastirma_ques_Q20","", "Kopyalanmamış, taklit edilmemiş yeni ürün, hizmet ve süreç tasarımları hangi Ar-Ge kriteri ile ilgilidir?","Yenilikçilik",["Tekrar Edilebilirlik","Yaratıcılık","Yenilikçilik","Nihai Aşamadaki Belirsizlik","Sistematiklik"]),
     ]),
-    TestListHomepageModel("Eğitim Araştırma-Test 3 (Yeni)",[
+    TestListHomepageModel("Eğitim Araştırma-Test 3",[
        Question("egitimarastirma_ques_Q21","", "Ar-Ge kapsamında yapılacak çalışmaların ilk basamağı aşağıdakilerden hangisidir?","Sorun Tespiti",["Sorun Tespiti","Literatür Taraması","Yapılabilirlik Etüdü","İş Analizi","Ürün-Hizmet Geliştirmesi ve Deneme"]),
        Question("egitimarastirma_ques_Q22","", "Ar-Ge kapsamında yapılacak çalışmaların son basamağı aşağıdakilerden hangisidir?","Ürün-Hizmet Sunumundan Sonra Sorunların Çözüm Faaliyetleri",["Sorun Tespiti","Literatür Taraması","Yapılabilirlik Etüdü","İş Analizi","Ürün-Hizmet Sunumundan Sonra Sorunların Çözüm Faaliyetleri"]),
        Question("egitimarastirma_ques_Q23","", "Ar-Ge kapsamında maliyet, rekabet gibi konuların araştırıldığı basamak aşağıdakilerden hangisidir?","İş Analizi",["Sorun Tespiti","Literatür Taraması","Yapılabilirlik Etüdü","İş Analizi","Ürün-Hizmet Geliştirmesi ve Deneme"]),

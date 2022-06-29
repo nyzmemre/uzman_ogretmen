@@ -58,11 +58,7 @@ class EgitimArastirmaInfoViewModel extends ChangeNotifier{
       InfoCardItem("dd_egitimarastirma_info_17", "Aktarılabilirlik ve Tekrar Edilebilirlik", "Ar-ge süreçlerinin sonuçlarının (ürün, hizmet vb.) yeniden üretilebilir ve tekrar edilebilir olması gerekmektedir."),
     ]),
 
-
-
     ///   ----------------------------------------------------------------------
-
-
 
     InfoCardModel("Ar-ge Aşamaları", [
       InfoCardItem("dd_egitimarastirma_info_18", "Ar-ge Aşamaları-1", "Ar-ge kapsamında yapılacak çalışmaların aşamaları şu şekilde özetlenebilir; \n\n-Fikir-Sorun Tespiti\n-Araştırma-Literatür (Alan yazın) Taraması\n-Fikrin-Çözümün Yapılabilirlik Etüdü\n-Fikrin-Çözümün Geliştirilmesi ve Test Edilmesi\n-İş Analizi (Hizmet-Ürün Talebi, Maliyet, Rekabet vb.)"),
@@ -161,14 +157,14 @@ class EgitimArastirmaInfoViewModel extends ChangeNotifier{
 
 
 InfoCardModel("Nitel Araştırmalar (Yeni)", [
-      InfoCardItem("dd_egitimarastirma_info_61", "Nitel Araştırma Çeşitleri", "-Nitel araştırmanın insan deneyimlerinin ve davranışlarının oluşturduğu karmaşık dünyayı katılımcıların bakış açısından anlayabilmektir. \n-Doğal ortamda ortaya çıkan olayları ve deneyimleri betimlemeyi amaçlar. \n-Temel nitel araştırmalar şunlardır:\n-Etnografik Araştırma, \n-Tarihi Araştırma, \n-Eylem Araştırması, \n-Olgubilim Çalışmaları, \n-Kuram Oluşturma Çalışmaları, \n-Durum Çalışması, \n-Anlatı Araştırması."),
+      InfoCardItem("dd_egitimarastirma_info_61", "Nitel Araştırma Çeşitleri", "-Nitel araştırmanın insan deneyimlerinin ve davranışlarının oluşturduğu karmaşık dünyayı katılımcıların bakış açısından anlayabilmektir. \n-Doğal ortamda ortaya çıkan olayları ve deneyimleri betimlemeyi amaçlar. \n-Temel nitel araştırmalar şunlardır:\n-Etnografik Araştırma, \n-Tarihi Araştırma, \n-Eylem Araştırması, \n-Olgu bilim Çalışmaları, \n-Kuram Oluşturma Çalışmaları, \n-Durum Çalışması, \n-Anlatı Araştırması."),
       InfoCardItem("dd_egitimarastirma_info_62", "Etnografik Araştırma-1", "-Gelenekler, inançlar, diller, davranışlar, yaşayış biçimleri ve kültürle ilgili nitelikli bilgilerini ortaya çıkarmak için bir grubu doğrudan gözlemleyip betimleme yapmaya etnografik araştırma denir. \n-Bu araştırma türünde amaç grup ile doğrudan ilişki kurmak ve grubun kültürel yapısını ve bu yapıyı oluşturan davranış ve deneyimleri ortaya çıkarmaktır.\n-Etnografik araştırmalarda veri, görüşme ya da gözlem yoluyla toplanır."),
       InfoCardItem("dd_egitimarastirma_info_63", "Etnografik Araştırma-1", "-Ortak kültüre sahip bir grubun gelenekleri, inançları, birbiriyle bağlantıları vb. tasvir edici araştırmalardır. \n- Örnek etnografik araştırma soruları şunlar olabilir: \n-Okul içerisindeki kurum kültürü öğretmenleri nasıl etkilemektedir? \n-İş arkadaşları arasında nasıl bir yardımlaşma kültürü vardır? \n-İdarecilerin davranışları bu kültürü nasıl etkilemektedir? \n-Metal müzik dinleyen gençlerin eğilimleri nasıl şekillenmektedir?"),
       InfoCardItem("dd_egitimarastirma_info_64", "Tarihi Araştırma", "-Tarihi araştırmalar o dönem yaşamış insanlarla görüşmeler yapılarak ve dönem dokümanları incelenerek araştırma konusu ile ilgili olarak -Geçmişte ne oldu?-  sorusuna cevap arar. \n-Araştırmacı ilgili dönemde neler yaşandığını olabildiğince net bir şekilde anlamaya ve bunun neden olduğunu ortaya koymaya çalışır."),
       InfoCardItem("dd_egitimarastirma_info_65", "Eylem Araştırması-1", "-Eylem araştırması kişilerin mesleki eylemleri hakkında araştırma yapmaları, eylemler esnasında ortaya çıkan sorunların anlaşılması ve çözülmesi için tek başlarına ya da bir araştırmacı ile birlikte yaptıkları sistematik çalışmalarıdır.\n-Eylem araştırması eylemlerin niteliğini geliştirme çalışmasıdır."),
       InfoCardItem("dd_egitimarastirma_info_66", "Eylem Araştırması-2", "-Örnek eylem araştırma soruları şunlar olabilir: \n-İş yerinde çalışanların etkinliklerini geliştirmek için neler yapılabilir? \n-Öğrenciler okulda disiplinler arası bağlantılar kurmakta zorlanıyor. Bunun nedenleri neler olabilir? \n-Bağlantı kurmalarını sağlamak için neler yapılabilir?"),
-      InfoCardItem("dd_egitimarastirma_info_67", "Olgubilim Çalışmaları-1", "-Olgubilim, yaşamda karşılaşılan ancak detaylı olarak bilgi sahibi olunmayan ya da üzerine çok düşünülmeyen olay, deneyim, kavram ve olguları derinlemesine inceleyen bir araştırma türüdür.\n-Esas olarak öznel deneyimlerin incelendiği bir araştırma türüdür.\n-Fenomen somut olarak denenebilir, algılanabilir olay ve nesnelerdir.\n-Duyularla algılanabilen şeyler için kullanılır."),
-      InfoCardItem("dd_egitimarastirma_info_68", "Olgubilim Çalışmaları-2", "-Fenomenler olaylar, durumlar, tecrübeler veya kavramlar olabilir. \n-Örnek olgubilim araştırma soruları şunlar olabilir: \n-Mesleki tükenmişlik yaşayan öğretmenler ne tür düşüncelere sahiptir? \n-Kanser hastalarının hastalıkları hakkında düşünme biçimleri nasıldır?"),
+      InfoCardItem("dd_egitimarastirma_info_67", "Olgu bilim Çalışmaları-1", "-Olgubilim, yaşamda karşılaşılan ancak detaylı olarak bilgi sahibi olunmayan ya da üzerine çok düşünülmeyen olay, deneyim, kavram ve olguları derinlemesine inceleyen bir araştırma türüdür.\n-Esas olarak öznel deneyimlerin incelendiği bir araştırma türüdür.\n-Fenomen somut olarak denenebilir, algılanabilir olay ve nesnelerdir.\n-Duyularla algılanabilen şeyler için kullanılır."),
+      InfoCardItem("dd_egitimarastirma_info_68", "Olgu bilim Çalışmaları-2", "-Fenomenler olaylar, durumlar, tecrübeler veya kavramlar olabilir. \n-Örnek olgu bilim araştırma soruları şunlar olabilir: \n-Mesleki tükenmişlik yaşayan öğretmenler ne tür düşüncelere sahiptir? \n-Kanser hastalarının hastalıkları hakkında düşünme biçimleri nasıldır?"),
       InfoCardItem("dd_egitimarastirma_info_69", "Kuram Oluşturma Çalışmaları-1", "-Sistematik olarak toplanan ve analiz edilen veri çalışmalarına dayalı olarak gerçekleştirilen kuram geliştirme sürecine kuram oluşturma çalışması adı verilir.\n-Bir kuramın oluşması için sürekli karşılaştırmalı analizler yapılmalıdır.\n-Toplanan veriler anında analiz edilir ve ortaya çıkan kavramlar ve olgular sonraki veri toplama aşamalarına dahil edilirler."),
       InfoCardItem("dd_egitimarastirma_info_70", "Kuram Oluşturma Çalışmaları-2", "-Örnek kuram oluşturma çalışma soruları şunlar olabilir: \n-Palyatif hastalar ne tür bilişsel ve duyuşsal süreçlerden geçmektedir?\n-Okulda öğretmenler nasıl bir sosyalleşme süreci yaşamaktadırlar? Sosyalleşme derecesi açısından cinsiyet farkı söz konusu mudur? "),
       InfoCardItem("dd_egitimarastirma_info_71", "Durum Çalışması-1", "-Gerçek hayatın, güncel bağlam ya da ortamın içerisindeki bir durumun araştırılmasına durum çalışması adı verilir.\n- Bir ya da fazla olayın, sosyal grubun, birbirine bağlı sistemlerin derinlemesine incelendiği bir yöntemdir. \n-Örnek olay çalışması olarak da bilinir.\n-Araştırmacı veri toplarken veya yorum yaparken, verilen içinde saklı olan teoriyi ortaya çıkartır ve araştırma süresince yeni kavram ve teorilere ulaşabilir. "),
@@ -193,7 +189,7 @@ InfoCardModel("Nitel Araştırmalar (Yeni)", [
     ]),
     InfoCardModel("Bilimsel Araştırma Basamakları (Yeni)", [
       InfoCardItem("dd_egitimarastirma_info_84", "Basamaklar", "-Problemi Tanımlama\n-Soruları-Hipotezleri Belirleme\n-Araştırma Desenini Oluşturma\n-Örneklemi Seçme\n-Araçları Belirleme\n-Analiz Yöntemini Belirleme\n-Verileri Toplama\n-Verileri Analiz Etme\n-Raporlaştırma"),
-      InfoCardItem("dd_egitimarastirma_info_85", "Kaynak-Literatür Taraması-1", "-Mevcut kaynak ve belgeleri inceleyerek veri toplamaya literatür (alanyazı) taraması adı verilir. \n-Literatür taraması basit bir Google araması değildir. \n-Çünkü internette dolaşan her bilgi gerçek değildir ve mutlaka teyide ihtiyaç duymaktadır. \n- Bilimsel alanda kitap, dergi, makale vb. mevcut literatürü oluşturmaktadır. "),
+      InfoCardItem("dd_egitimarastirma_info_85", "Kaynak-Literatür Taraması-1", "-Mevcut kaynak ve belgeleri inceleyerek veri toplamaya literatür ( ) taraması adı verilir. \n-Literatür taraması basit bir Google araması değildir. \n-Çünkü internette dolaşan her bilgi gerçek değildir ve mutlaka teyide ihtiyaç duymaktadır. \n- Bilimsel alanda kitap, dergi, makale vb. mevcut literatürü oluşturmaktadır. "),
       InfoCardItem("dd_egitimarastirma_info_86", "Kaynak-Literatür Taraması-2", "-Araştırmacı henüz problemi oluşturmadan önce ön literatür taraması yapar. \n- Problem belirlendikten sonra ise detaylı bir literatür tarama süreci başlar. \n- Çünkü araştırmacı çalışmasına başlamadan önce o konu ile ilgili bilimsel içerikleri bilmek zorundadır.\n-İyi bir literatür taramasının özellikleri diğer sayfada verilmiştir."),
       InfoCardItem("dd_egitimarastirma_info_87", "Kaynak-Literatür Taraması-3", "İyi bir literatür taramasının özellikleri aşağıda verilmiştir.\nn1-Tarama problem ile doğrudan ilgilidir.\n2-Tarama kaynakları bilimsel gerçekliği olan ve kabul görmüş akademik çalışmalardır.\n3-Çalışma sadece listeleme ve özetlemeden oluşmamalıdır. Tarama esnasında incelenen kaynakların zayıf ve güçlü yanlarının da belirlenmesi gerekir."),
       InfoCardItem("dd_egitimarastirma_info_88", "Kaynak-Literatür Taraması-4", "İyi bir literatür taramasının özelliklerinin devamı\nn4-Çalışma konusu ile ilgili bilinen ve bilinmeyenlerin bir sentezini oluşturması gerekmektedir.\n5-Yapılan çalışma literatürde üzerinde uzlaşılmayan bölümleri gösterebilmelidir.\n6-Literatür taraması çalışma ile ilgili daha fazla araştırma gerektiren soruyu ortaya koyabilmelidir.\n7-Yapılan araştırmanın mevcut bilgileri ne kadar zenginleştireceğini gösterebilmelidir."),
@@ -205,7 +201,7 @@ InfoCardModel("Nitel Araştırmalar (Yeni)", [
     ]),
     InfoCardModel("Veri Toplama Yöntemleri  (Yeni)", [
       InfoCardItem("dd_egitimarastirma_info_94", "Yöntemler", "Dört temel veri toplama yöntemi vardır. Bunlar: \n-Gözlem\n-Görüşme \n-Anket ve \n-Ölçekler’dir."),
-      InfoCardItem("dd_egitimarastirma_info_95", "Gözlem", "Gözlem, herhangi bir yerde oluşan davranışları ayrıntılı olarak betimlemek amacıyla kullanılan bir veri toplama tekniğidir.\nİki alt başlığı vardır.\n-Doğrudan doğruya gözlem: Duyu organlarımızla yapılan gözlemdir.\nHemşirenin iğne yaparken yaptıklarını doğrudan gözlemleme. \n-Araçla yapılan gözlem: Kamera vb. gözlemsel araçlar kullanılarak yapılan gözlemdir. "),
+      InfoCardItem("dd_egitimarastirma_info_95", "Gözlem", "Gözlem, herhangi bir yerde oluşan davranışları ayrıntılı olarak betimlemek amacıyla kullanılan bir veri toplama tekniğidir.\n-İki alt başlığı vardır.\n-Doğrudan doğruya gözlem: Duyu organlarımızla yapılan gözlemdir.\n-Hemşirenin iğne yaparken yaptıklarını doğrudan gözlemleme. \n-Araçla yapılan gözlem: Kamera vb. gözlemsel araçlar kullanılarak yapılan gözlemdir. "),
       InfoCardItem("dd_egitimarastirma_info_96", "Görüşme-1", "Görüşme sözlü iletişim ile veri toplama tekniğine verilen addır. \n-Yüz yüze, telefonla, görüntülü arama ile, ses ve görüntü kaydedicilerle de görüşme yapılabilir. \n-Görüşmeler amaca yönelik olarak birey ya da grup görüşmesi şeklinde yapılabilir."),
       InfoCardItem("dd_egitimarastirma_info_97", "Görüşme-2", "-Görüşmeler üç alt başlıkta incelenir.\n1-Yapılanmış Görüşmeler\n2-Yarı yapılandırılmış görüşmeler\n3-Yapılandırılmamış görüşmeler"),
       InfoCardItem("dd_egitimarastirma_info_98", "Görüşme-3", "Yapılanmış Görüşmeler: Bu görüşme türünde görüşme soruları görüşmeci tarafından önceden hazırlanır ve bu plana göre görüşme yapılır. \n-Yarı yapılandırılmış görüşmeler: Görüşmeci önceden hazırlanmış soruları sormakla birlikte net olmayan noktaları betimlemek ve derinleştirmek için sorular sorar. \n-Yapılandırılmamış görüşmeler: Görüşmeci konu ile ilgili sorulacak soruların çerçevesini belirler, esnek bir yöntemdir. Konu ile ilgili görüşmeciye büyük rol düşer ve oldukça deneyimli olması beklenir."),
@@ -232,12 +228,6 @@ InfoCardModel("Nitel Araştırmalar (Yeni)", [
       InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
     ]),*/
    /* InfoCardModel("", [
-      
-
-
-
-
-
 
     ])*/
   ];

@@ -57,7 +57,7 @@ class TestHomepage extends StatelessWidget {
               children: [
                 /*AutoSizeText(Hive.box<int>("totalTrue").values.last.toString()),
                 AutoSizeText(Hive.box<int>("totalFalse").values.last.toString()),*/
-                (Hive.box<int>("totalTrue").length>=0 || Hive.box<int>("totalFalse").length>=0 ) ? InkWell(
+               /* (Hive.box<int>("totalTrue").length>=0 || Hive.box<int>("totalFalse").length>=0 ) ? InkWell(
                     onTap: () {
                       Navigator.push(
                           context, MaterialPageRoute(builder: (context) => StatisticView()));
@@ -68,7 +68,7 @@ class TestHomepage extends StatelessWidget {
                           title:  AutoSizeText("İstatistiklerim",style: GoogleFonts.quicksand(),
                             minFontSize: 8,
                             maxLines: 3,)),
-                    )) : SizedBox(),
+                    )) : SizedBox(),*/
                 navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
                 navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),
                // navigateTestButton(context, Test(list: _egitimOgretimQues.egitimOgretimList),  "Eğitim Bilimleri"),

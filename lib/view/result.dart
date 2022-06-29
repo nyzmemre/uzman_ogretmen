@@ -149,11 +149,20 @@ class Result extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         SizedBox(height: 50, width: 50, child: Icon(Icons.done)),
-        Text(
+        AutoSizeText(
           text,
-          style: TextStyle(
-              color: color, fontWeight: FontWeight.bold, fontSize: 30),
-        )
+        style: GoogleFonts.quicksand(
+    fontWeight: FontWeight.w500,
+    fontSize: 30,
+    color: color,
+    height: 1.4
+    ),
+
+    minFontSize: 10,
+    maxLines: 16,
+
+    ),
+
       ],
     );
   }
