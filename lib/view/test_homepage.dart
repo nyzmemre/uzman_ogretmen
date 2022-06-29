@@ -1,6 +1,8 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:hive/hive.dart';
+import 'package:uzman_ogretmen/view/statistic_view.dart';
 import 'package:uzman_ogretmen/view_model/questions/bilisseldusunme_ques_view_model.dart';
 
 import '../core/constants/routes/route_text.dart';
@@ -53,6 +55,20 @@ class TestHomepage extends StatelessWidget {
         child: SingleChildScrollView(
             child: Column(
               children: [
+                /*AutoSizeText(Hive.box<int>("totalTrue").values.last.toString()),
+                AutoSizeText(Hive.box<int>("totalFalse").values.last.toString()),*/
+                (Hive.box<int>("totalTrue").length>=0 || Hive.box<int>("totalFalse").length>=0 ) ? InkWell(
+                    onTap: () {
+                      Navigator.push(
+                          context, MaterialPageRoute(builder: (context) => StatisticView()));
+                    },
+                    child: Card(
+                      child: ListTile(
+                          leading: Icon(Icons.arrow_right),
+                          title:  AutoSizeText("İstatistiklerim",style: GoogleFonts.quicksand(),
+                            minFontSize: 8,
+                            maxLines: 3,)),
+                    )) : SizedBox(),
                 navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
                 navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),
                // navigateTestButton(context, Test(list: _egitimOgretimQues.egitimOgretimList),  "Eğitim Bilimleri"),

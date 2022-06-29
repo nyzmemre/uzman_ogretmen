@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:hive/hive.dart';
 
 import '../core/constants/colors/my_colors.dart';
 import 'false_tests_view_model.dart';
@@ -10,6 +11,9 @@ class SkorViewModel extends ChangeNotifier {
   int _falseVal = 0;
   int _index = 0;
   double _successPercentVal = 0;
+  int _totalTrueVal=0;
+  int _totalFalseVal=0;
+
   List<Color> btnAnswerColor=[kWhite,kWhite,kWhite,kWhite,kWhite,];
   bool _nextQuestionButon=false;
 
@@ -20,6 +24,10 @@ class SkorViewModel extends ChangeNotifier {
   int get getIndex => _index;
 
   bool get nextQuestionButon=> _nextQuestionButon;
+
+  int get totalTrueVal=> _totalTrueVal;
+
+  int get totalFalseVal=> _totalFalseVal;
 
   
   double get getSuccessPercentVal => _successPercentVal;
@@ -46,6 +54,10 @@ class SkorViewModel extends ChangeNotifier {
      // await Future.delayed(Duration(milliseconds: 1500));
        
        _trueVal++;
+       _totalTrueVal++;
+       await Hive.box<int>("totalTrue").add(_totalTrueVal);
+       print("_totalTrueVal");
+       print(_totalTrueVal);
        _nextQuestionButon=true;
       /* for(int i=0; i<5;i++){
          btnAnswerColor[i]=kWhite;
@@ -81,6 +93,10 @@ class SkorViewModel extends ChangeNotifier {
        }
       //await Future.delayed(Duration(milliseconds: 1500));
           _falseVal++;
+          _totalFalseVal++;
+      await Hive.box<int>("totalFalse").add(_totalFalseVal);
+          print("_totalFalseVal");
+          print(_totalFalseVal);
                 _nextQuestionButon=true;
 
 /* for(int i=0; i<5;i++){
@@ -95,7 +111,6 @@ class SkorViewModel extends ChangeNotifier {
 
   indexCounter() {
     _index++;
-    
     notifyListeners();
   }
   cancelQuesButonTop(){
