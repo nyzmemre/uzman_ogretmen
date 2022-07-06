@@ -27,7 +27,7 @@ class TestViewModel extends ChangeNotifier {
     }
   }
 
-  Future<void> createTest(List<Question> list) async {
+  Future<void> createTest(List<Question> list, {int? testLenght}) async {
     //eğer test listesi boşsa soru ekliyor.
     //değilse devam ediyor. olası geri butonuna basmalar için önlem.
 
@@ -47,7 +47,7 @@ class TestViewModel extends ChangeNotifier {
       _newTestList = _newTestList;
     }
     //soru listesindeki 10 soru harici siliniyor.
-    if (_newTestList.length > 10) _newTestList = _newTestList.sublist(0, 10);
+    if (testLenght==null && _newTestList.length > 10) _newTestList = _newTestList.sublist(0, 10);
   }
 
   clearValue() {

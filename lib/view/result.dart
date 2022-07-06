@@ -53,7 +53,7 @@ class Result extends StatelessWidget {
                     (trueVal! >= falseVal!)
                         ? topIconText("like", "BAŞARILI", kGreen)
                         : topIconText("unlike", "BAŞARISIZ", kRed),
-                    (testPROVIDER.newTestList.length <= 10) ? CircularPercentIndicator(
+                    /*(testPROVIDER.newTestList.length <= 10) ?*/ CircularPercentIndicator(
                       radius: 130,
                       animation: true,
                       lineWidth: 10,
@@ -61,7 +61,7 @@ class Result extends StatelessWidget {
                           (trueVal! >= falseVal!) ? kGreen : kRed,
                       percent: valPercent / 100,
                       center: Text("%" + valPercent.toStringAsFixed(0)),
-                    ) : SizedBox(),
+                    ) /*: SizedBox()*/,
                     AutoSizeText(
                       "Doğru Sayısı: " + trueVal!.toString(),
                       style: GoogleFonts.quicksand(color: kGreen,
@@ -105,10 +105,11 @@ class Result extends StatelessWidget {
                           //  Provider.of<TestViewModel>(context, listen: false).newTestList.clear();
                            print("resultReplay.toString()");
                            print(resultReplay.toString());
-                            Navigator.push(
+                            Navigator.pushAndRemoveUntil(
                                 context,
                                 MaterialPageRoute(
                                     builder: (context) => resultReplay ?? Test(list: list, listShuffle: listShuffle,)),
+                                    (route) => false
                                 );
                             /*Navigator.pushAndRemoveUntil(
                                 context,

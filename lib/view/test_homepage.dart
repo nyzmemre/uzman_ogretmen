@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hive/hive.dart';
 import 'package:uzman_ogretmen/view/statistic_view.dart';
+import 'package:uzman_ogretmen/view/trial_exam_view.dart';
 import 'package:uzman_ogretmen/view_model/questions/bilisseldusunme_ques_view_model.dart';
 
 import '../core/constants/routes/route_text.dart';
@@ -71,6 +72,7 @@ class TestHomepage extends StatelessWidget {
                     )) : SizedBox(),*/
                 navigateTestButton(context, FalseTests(),  "Yanlış Cevaplarım" ),
                 navigateTestButton(context, FavoriteQuestions(),  "Favori Sorular", ),
+                navigateTestButton(context, TrialExamView(),  "Deneme Sınavı", ),
                // navigateTestButton(context, Test(list: _egitimOgretimQues.egitimOgretimList),  "Eğitim Bilimleri"),
                 navigateTestButton(context, TestContentPage(appbarTitle:"Öğrenme ve Öğretme Süreçleri", list: _ogrenogretQues.ogrenOgret,),  "Öğrenme ve Öğretmen Süreçleri"),
                 navigateTestButton(context, TestContentPage(appbarTitle:"Ölçme ve Değerlendirme",list: _olcmedegerlendirmeQues.olcmeDegerList),  "Ölçme ve Değerlendirme" ),

@@ -99,7 +99,7 @@ class GuvenliOkulInfoViewModel extends ChangeNotifier{
     ]),
     InfoCardModel("Okul Güvenliğinin Hukuki Çerçevesi-4", [
       InfoCardItem("ii_guvenliokul_info_60", "Protokol", "19.	MEB ve Çalışma ve Sosyal Güvenli Bakanlığı Arasında “Mesleki ve Teknik Öğretim Kurumlarında İş Sağlığı ve Güvenliği Eğitimi İşbirliği Protokolü” ve “Öğrencilerde Sosyal Güvenlik Bilincini Oluşturmaya ve Geliştirmeye Yönelik İşbirliği Protokolü”\nİş sağlığı ve güvenliği bilincinin okullarda yerleşmesi ve bu alandaki boşluğun giderilmesi…"),
-      InfoCardItem("ii_guvenliokul_info_61", "MEB ile Sağlık Bakanlığı Arasında “Okullarda Uygulanacak Beyaz Bayrak İşbirliği Protokolü", "Okulların temizlik ve hijyen konusunda teşvik edilmesi, okul sağlığının daha iyi düzeye çıkarılması…"),
+      InfoCardItem("ii_guvenliokul_info_61", "Eğitim Kurumlarında Hijyen Şartlarının Geliştirilmesi ve Enfeksiyonu Önleme İş Birliği Protokolü", "Okulların hijyen şartlarının geliştirilmesi, enfeksiyon önleme ve kontrol süreçlerinin tutarlı, geçerli, güvenilir, tarafsız bir anlayışla sürdürülmesi amacıyla 'Okulum Temiz' belgelendirme programı yürürlüğe alınmıştır."),
       InfoCardItem("ii_guvenliokul_info_62", "MEB ile Sağlık Bakanlığı Arasında “Okul Sağlığı Hizmetleri İşbirliği Protokolü", "Okulun çevresi dahil sağlığı olumsuz olarak etkileyen her türlü etmenin denetimi ile okulda çalışanların ve öğrencilerin sağlıklarının en üst düzeye çıkarılması…"),
       InfoCardItem("ii_guvenliokul_info_63", "Milli Eğitim Bakanlığı Sağlık Bakanlığı Arasında İmzalanan “Beslenme Dostu Okul Projesi”", "Okullarda obezite ile mücadele yeterli ve dengeli beslenme ve düzenli fiziksel aktivite alışkanlığının kazandırılması…"),
     ]),
@@ -116,31 +116,51 @@ class GuvenliOkulInfoViewModel extends ChangeNotifier{
       InfoCardItem("ii_guvenliokul_info_73", "Servis Kazaları", "-Şehir içi ulaşım imkanlarının artması, velilerin çalışan konumda olması veya okula gidiş geliş süresince güvenlik kaygılarının artması sebebiyle okul servisi kullanım oranları artmıştır.\n-Okul servislerinin öğrencileri bırakıp aldığı süreçlerde, okul çevresindeki güvenliklerinin sağlanması okul güvenliği kapsamında değerlendirilmektedir."),
       InfoCardItem("ii_guvenliokul_info_74", "Doğal Afetler", "-Doğal afet, tüm toplumların ansızın yaşayabilecekleri bir durumdur.\n-Afetler yaşanmadan önce gerekli tedbirlerin alınması, afet sırasında oluşabilecek zararın azaltılmasında önemli bir faktördür.\n-Öğrencilerin çeşitli çalışmalarla ve tatbikatlarla bilinçlendirilmesi, okul güvenliğini arttırıcı bir unsur olarak karşımıza çıkmaktadır."),
           ]),
+    InfoCardModel("Okul Sağlığı (Yeni)", [
+      InfoCardItem("ii_guvenliokul_info_75", "Tanım", "Okul bünyesinde yer alan personelin ve öğrencilerin sağlıklarının değerlendirilmesi, sağlıklı bir okul yapısının oluşturulması ve sürdürülmesi,  öğrencilere ve bulundukları sosyal ortamdaki bireylere sağlık eğitimleri verilmesi için yapılan tüm çalışmalara denir.\n-Bu kapsamda pek çok kurum ve kuruluşun yürütmekte olduğu projeler bulunmaktadır."),
+      InfoCardItem("ii_guvenliokul_info_76", "Okul Sağlık Hizmeti Amaçları", "Toplum içindeki tüm öğrencileri ;\n-En iyi bedensel\n-Ruhsal sağlığa kavuşmalarını sağlamak\n-Bu çalışmaları sürdürebilmek\n-Sağlık bir çevrede gelişimlerini sürdürmelerine imkan sağlamak\n-Bulundukları aile ve toplumun sağlık düzeyini yükseltmek."),
+      InfoCardItem("ii_guvenliokul_info_77", "Okul Sağlığının Önemi-1", "-Büyüme ve gelişme bozukluklarının önüne geçmek daha kolay olacaktır.\n-Alınacak koruyucu önlemler yaşam boyu fayda sağlar.\n-Kazaların gelişme sıklığı okul ortamında da daha fazladır.\n-Görme ve işitme bozuklukları başarısız öğrenciyi başarısızlığa götürebilir.\n-Okulda sağlık eğitimi her kadamede kolaylık sağlar."),
+      InfoCardItem("ii_guvenliokul_info_78", "Okul Sağlığının Önemi-2", "-Bulaşıcı hastalıkların görülmesi durumunda, ani yayılma risklerine karşı gerekli tedbirler alınmalıdır.\n-Aşılama gibi koruyucu önlemler diğerlerine göre daha kolay şekilde ele alınabilir.\n-Okulun sosyal yapısı için okulun önemi büyüktür."),
 
-    InfoCardModel("Hazırlanıyor", [
-      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
-      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
-      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+           ]),
+    InfoCardModel("Okul Sağlığının Boyutları (Yeni)", [
+      InfoCardItem("ii_guvenliokul_info_80", "Çeşitler", "-Okul Sağlığının boyutları 4 adettir. Bunlar;\n-Okul Çevresi\n-Öğrenci Sağlığı\n-Okul Personelinin Sağlığı\n-Sağlık eğitimi gibi boyutları mevcuttur.\n-Bunlar ile ilgili detaylı açıklamalar daha sonraki kartlarda ve bölümlerde verilecektir."),
+      InfoCardItem("ii_guvenliokul_info_81", "Okul Çevresi-1", "Bu boyutta anlatılmak istenen çevre;\n-Okulun Yeri\n-Okulun Binası\n-Etrafında bulunan binalar\n-Okulun bulunduğu konum\n-Okulun çevresinde bulunan oyun alanları ve parklar\n-Su alt yapısı\n-Isıtma sistemi\n-Havalandırma sistemi\n-Aydınlatma\n-Sınıfların büyüklüğü\n-Sınıf içerisindeki sıralar gibi konuları içerir."),
+      InfoCardItem("ii_guvenliokul_info_82", "Okul Çevresi-2", "-İlk Olarak okul çevresinin örnek oluşturacak şekilde planlanması gerekir.\n-Temiz su ve çevreye ulaşım kolay olmalıdır.\n-Okul Binasının yeri ve konumu anayol üzerinde bulunmamalıdır.\n-Öğrencinin ulaşımının kolay olması gerekir."),
+      InfoCardItem("ii_guvenliokul_info_83", "Okul Çevresi-3", "-100 metre çevresinde bağımlılık yapacak ürünlerin satıldığı alanlardan ve sosyal alanlardan (oyun salonu, kıraathane vb.) uzak olmalıdır.\n-Gürültülü, kötü koku ve duman çıkaran işletmelerden uzak olmalıdır.\n-Elektrik dağıtım şebekelerinden 25m uzakta olmalıdır."),
+      InfoCardItem("ii_guvenliokul_info_79", "Okul Çevresi-4", "-Elektrik dağıtım şebekelerinden 25m uzakta olması\n-Okul Öğrenci sayısına bakılarak her öğrenci için 20-25 metrekare düşecek bir arsa içerisinde bulunmalıdır.\n-Teneffüs anında öğrencilerin kullandığı bahçe alanı en az 500 metrekare veya öğrenci başına 5 metrekare olmalıdır."),
+      InfoCardItem("ii_guvenliokul_info_83", "Okul Çevresi-5", "Katlarda bulunan koridor genişliği 3metre olmalıdır.\n-Sınıf duvar boyalarının açık ve mat renklerde olması . Sınıf içerisinde zeminden itibaren yapılabiliyor ise 1,5 m yağlı boya ile diğer kısımlar plastik boya ile boyanmalıdır. Kolay temizlenebilmelidir.\n-Yazı tahtası mesafesi ön sıra ile 2 metre, sınıf içerisindeki öğrencilerin görebileceği yükseklikte ve parlama yapmasına imkan vermeyecek şekilde yerleştirilmelidir."),
+      InfoCardItem("ii_guvenliokul_info_84", "Okul Çevresi-6", "Okul tuvaletlerinde aranan kriterler;\n-Her 25 kız öğrenci için 1 tuvalet\n-Her 40 erkek öğrenci için 1 tuvalet 2 pisuar\n-15-20 Erkek Öğretmen için 1 tuvalet 2 pisuar\n-5-10 Bayan öğretmen için 1 tuvalet\n-Ortamın havalandırılması dikkat edilmeli\n-Muslukların boy hizası öğrencilerin kolay ulaşabileceği şekilde olmalı\n-Temizliği düzenli bir şekilde yapılmalıdır."),
+      InfoCardItem("ii_guvenliokul_info_85", "Okul Çevresi-7", "Yangından korunma önlemleri kapsamında;\n-Yangın alarm sisteminin bulunması\n-\n-Yangın tüplerinin kullanıma hazır bulunması\n-Okulun 5 derslik ten fazla olması durumdan 2 tane dışarı açılan kapısının olması,"),
+      InfoCardItem("ii_guvenliokul_info_86", "Okul Çevresi-8", "Isınma;\n-Okulun her alanı eşit şekilde ısınmalıdır.\n-İdare, ortak kullanılan odalar ve koridorlar 20 derece , diğer tüm odalar 15 derece olmalıdır."),
+      InfoCardItem("ii_guvenliokul_info_87", "Öğrenci Sağlığı", "-Hastalıkları önlemeyi,\n-Sağlık sorunları hakkında bilgi sahibi olmayı,\n-Gerekli durumlarda müdahale edebilme,\n-Ani gelişen durumlarda acil yardım işlemlerinin gerçekleştirilmesi\n-Eğitim ve danışmanlık olarak ele alınır."),
+      InfoCardItem("ii_guvenliokul_info_88", "Okul Personeli Sağlığı", "Öğretmenler olmak üzere tüm çalışanların sağlığı bu boyutta yer almaktadır.\n-Öğretmenlerin sağlıklı, huzur ve güven dolu bir ortamda çalışmaları, öğrencilerin başarılarını dışında ruhsal ve psikolojik gelişimlerinide olumlu etkiler.\n-Okul ortamında örnek kişiler öğretmenlerdir. Bu neden sağlık açısından da öğrencilere yol gösterici olacak olanlar öğretmenlerdir. Bu nedenle öğretmenlerin eğitimlerinin eksiksiz yapılarak model kişi olarak yer almaları sağlanmalıdır."),
+      InfoCardItem("ii_guvenliokul_info_89", "Sağlık Eğitimi-1", "-İstenilen hedef grupta sağlık, bilgi , tutum , davranış ve değerlerin gelişiminin sağlanmasıdır.\n-Okulda 3 hedef grup bulunmaktadır:  Öğretmen-Öğrenci-Veli\n-Sağlık çalışanları bu 3 hedef grup için gerekli eğitimlerin yapılmasını sağlarlar."),
+      InfoCardItem("ii_guvenliokul_info_90", "Sağlık Eğitimi-2", "-Öğretmen ve Veli yardımı ile öğrencilerin sağlık eğitimlerinin sürdürülebilmesi için ortak hareket edilir. \n-Öğrencilere öncelikle kendi sağlıklarını koruma ve özen gösterme önceliklerinden, daha sonra ise diğer insanları korunma durumlarından gelişmelerini sağlar."),
+
     ]),
+    /*InfoCardModel("Okul Sağlığında İzleme", [
+         InfoCardItem("ii_guvenliokul_info_91", "Büyümenin İzlenmesi-1", "-Büyüme, vücutta yer alan hücre sayısı ve büyüklüğün artması ile vücut hacim ve kütlesinin artışına denir.\n-Beslenme, hormonlar, genetik aktarımlar, psiko-sosyal ortam ve kronik hastalıklardan etkilenir.\n-5 yaş ile ergenlik yaşına geçen süre arasında büyüme yılda 5-6 cm iken"),
+         InfoCardItem("ii_guvenliokul_info_92", "Büyümenin İzlenmesi-2", "Ergenlik zamanına yaklaşınca bu durum yavaşlar\n-Kızlarda 10 yaş Erkeklerde 12 yaş sonrası hızlanma tekrar başlar .\n-Ergenlik süresi gelene kadar normal boyun %80 nine ulaşılır\n-Ergenlik te boy büyüme hız gerçekleşir. Bu boy büyümesine doruk büyüme denir.\n-5-19 yaş arası her yıl en az 1 kere boy ve kilo olarak ölçümlerin yapılıp , uygun standartlar ile karşılaştırılması gerekir."),
+         InfoCardItem("ii_guvenliokul_info_93", "Gelişmenin izlenmesi", "-Organların biyolojik işlevlerine göre farklılaşması ve olgunlaşmasına gelişme denir.\n-2 adet gelişme bulunur. Bunlar\n-Cinsel Gelişme\n-Psikososyal "),
+         InfoCardItem("ii_guvenliokul_info_94", "", ""),
+         InfoCardItem("ii_guvenliokul_info_95", "", ""),
+         InfoCardItem("ii_guvenliokul_info_96", "", ""),
+         InfoCardItem("ii_guvenliokul_info_97", "", ""),
+         InfoCardItem("ii_guvenliokul_info_98", "", ""),
+         InfoCardItem("ii_guvenliokul_info_99", "", ""),
+    ]),*/
 
-//InfoCardItem("ii_guvenliokul_info_75", "", ""),
-//InfoCardItem("ii_guvenliokul_info_76", "", ""),
-//InfoCardItem("ii_guvenliokul_info_77", "", ""),
-//InfoCardItem("ii_guvenliokul_info_78", "", ""),
-//InfoCardItem("ii_guvenliokul_info_79", "", ""),
-//InfoCardItem("ii_guvenliokul_info_80", "", ""),
-//InfoCardItem("ii_guvenliokul_info_81", "", ""),
-//InfoCardItem("ii_guvenliokul_info_82", "", ""),
-//InfoCardItem("ii_guvenliokul_info_83", "", ""),
-//InfoCardItem("ii_guvenliokul_info_84", "", ""),
-//InfoCardItem("ii_guvenliokul_info_85", "", ""),
-//InfoCardItem("ii_guvenliokul_info_86", "", ""),
-//InfoCardItem("ii_guvenliokul_info_87", "", ""),
-//InfoCardItem("ii_guvenliokul_info_88", "", ""),
-//InfoCardItem("ii_guvenliokul_info_89", "", ""),
-//InfoCardItem("ii_guvenliokul_info_90", "", ""),
-//InfoCardItem("ii_guvenliokul_info_91", "", ""),
-//InfoCardItem("ii_guvenliokul_info_92", "", ""),
+
+
+
+
+   /* InfoCardModel("Hazırlanıyor", [
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+      InfoCardItem("Hazırlanıyor", "Hazırlanıyor", "Hazırlanıyor"),
+    ]),*/
+
 //InfoCardItem("ii_guvenliokul_info_93", "", ""),
 //InfoCardItem("ii_guvenliokul_info_94", "", ""),
 //InfoCardItem("ii_guvenliokul_info_95", "", ""),

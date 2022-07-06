@@ -14,18 +14,22 @@ import '../model/question.dart';
 import '../view_model/favorite_view_model.dart';
 import '../view_model/skor_view_model.dart';
 import '../view_model/test_view_model.dart';
+import 'alternative_result.dart';
 import 'result.dart';
 
 class Test extends StatefulWidget {
   final List<Question> list;
   final bool listShuffle;
   final Widget? resultReplay;
+  final int? testLenght;
+
 
   const Test(
       {Key? key,
       required this.list,
       this.listShuffle = true,
-      this.resultReplay})
+      this.resultReplay,
+      this.testLenght})
       : super(key: key);
 
   @override
@@ -38,7 +42,7 @@ class _TestState extends State<Test> {
     if (widget.listShuffle &&
         Provider.of<TestViewModel>(context).newTestList.isEmpty)
       Provider.of<TestViewModel>(context, listen: false)
-          .createTest(widget.list);
+          .createTest(widget.list,testLenght: widget.testLenght);
     else {
       print("addtest çalıştı");
       Provider.of<TestViewModel>(context, listen: false).addTest(widget.list);
@@ -119,76 +123,78 @@ class _TestState extends State<Test> {
                   ),
                   body: SingleChildScrollView(
                     physics: ScrollPhysics(),
-                    child: Column(
-                      children: [
-                        Card(
-                          elevation: 5,
-                          shape: RoundedRectangleBorder(
-                            borderRadius:
-                                BorderRadius.circular(12), // <-- Radius
-                          ),
-                          margin: context.horizontalPadding,
-                          child: Padding(
-                            padding: context.normalPadding,
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                AutoSizeText(
-                                  data.newTestList[skr.getIndex].quesTop,
-                                  style: GoogleFonts.quicksand(),
-                                  minFontSize: 10,
-                                  maxLines: 8,
-                                ),
-                                AutoSizeText(
-                                  data.newTestList[skr.getIndex].quesBottom,
-                                  style: GoogleFonts.beVietnam(
-                                      color: kBlack54,
-                                      fontWeight: FontWeight.w800),
-                                  minFontSize: 10,
-                                  maxLines: 16,
-                                ),
-                              ],
+                    child: InteractiveViewer(
+                      child: Column(
+                        children: [
+                          Card(
+                            elevation: 5,
+                            shape: RoundedRectangleBorder(
+                              borderRadius:
+                                  BorderRadius.circular(12), // <-- Radius
+                            ),
+                            margin: context.horizontalPadding,
+                            child: Padding(
+                              padding: context.normalPadding,
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  AutoSizeText(
+                                    data.newTestList[skr.getIndex].quesTop,
+                                    style: GoogleFonts.quicksand(),
+                                    minFontSize: 10,
+                                    maxLines: 8,
+                                  ),
+                                  AutoSizeText(
+                                    data.newTestList[skr.getIndex].quesBottom,
+                                    style: GoogleFonts.beVietnam(
+                                        color: kBlack54,
+                                        fontWeight: FontWeight.w800),
+                                    minFontSize: 10,
+                                    maxLines: 16,
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
-                        ),
-                        skr.nextQuestionButon
-                            ? questionNextButton(skr, data.newTestList[skr.getIndex].answSolve?.subTitle, data.newTestList[skr.getIndex].answSolve?.text)
-                            : SizedBox(),
-                        ConstrainedBox(
-                          constraints: BoxConstraints(
-                              maxHeight: context.height,
-                              minHeight: context.height * 0.5),
-                          child: ListView.builder(
-                              physics: NeverScrollableScrollPhysics(),
-                              shrinkWrap: true,
-                              itemCount: 5,
-                              itemBuilder: (ctx, int listViewIndex) {
-                                List<String> answerOption = [
-                                  "A",
-                                  "B",
-                                  "C",
-                                  "D",
-                                  "E"
-                                ];
-                                return Padding(
-                                  padding: EdgeInsets.symmetric(vertical: 5),
-                                  child: answerButtons(
-                                    context,
-                                    data.newTestList[skr.getIndex]
-                                        .answList[listViewIndex],
-                                    answerOption[listViewIndex].toString(),
-                                    skr,
-                                    data,
-                                    listViewIndex,
-                                  ),
-                                );
-                              }),
-                        ),
-                      ],
+                          skr.nextQuestionButon
+                              ? questionNextButton(skr, data.newTestList[skr.getIndex].answSolve?.subTitle, data.newTestList[skr.getIndex].answSolve?.text)
+                              : SizedBox(),
+                          ConstrainedBox(
+                            constraints: BoxConstraints(
+                                maxHeight: context.height,
+                                minHeight: context.height * 0.5),
+                            child: ListView.builder(
+                                physics: NeverScrollableScrollPhysics(),
+                                shrinkWrap: true,
+                                itemCount: 5,
+                                itemBuilder: (ctx, int listViewIndex) {
+                                  List<String> answerOption = [
+                                    "A",
+                                    "B",
+                                    "C",
+                                    "D",
+                                    "E"
+                                  ];
+                                  return Padding(
+                                    padding: EdgeInsets.symmetric(vertical: 5),
+                                    child: answerButtons(
+                                      context,
+                                      data.newTestList[skr.getIndex]
+                                          .answList[listViewIndex],
+                                      answerOption[listViewIndex].toString(),
+                                      skr,
+                                      data,
+                                      listViewIndex,
+                                    ),
+                                  );
+                                }),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 )
-              : Result(
+              : AlternativeResult(
                   trueVal: skr.getTrueVal,
                   falseVal: skr.getFalseVal,
                   // restartRoute: kRouteHomePage,

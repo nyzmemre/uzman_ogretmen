@@ -4,6 +4,7 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import 'package:uzman_ogretmen/view_model/trial_exam_view_model.dart';
 import '../../../view/test_homepage.dart';
 import '../../../view_model/skor_view_model.dart';
 
@@ -16,8 +17,8 @@ Future<bool> exerciseCancel(BuildContext context) {
   showModalBottomSheet(
       context: context,
       builder: (buildContext) {
-        return Consumer2<TestViewModel, SkorViewModel>(
-            builder: (context, data, skor, w) {
+        return Consumer3<TestViewModel, SkorViewModel, TrialExamViewModel>(
+            builder: (context, data, skor, trial, w) {
           return SizedBox(
             height: 200,
             child: Column(
@@ -34,6 +35,8 @@ Future<bool> exerciseCancel(BuildContext context) {
                       completer.complete(true);
                       skor.cancelQuesButonTop();
                       skor.clearTrueFalseValue();
+                      trial.newTrialList.clear();
+                      trial.newAnswlis.clear();
 
                       if (data.newTestList.isNotEmpty) {
                         data.clearValue();

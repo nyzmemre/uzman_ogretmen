@@ -4,8 +4,10 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'model/info_card_model.dart';
+import 'view/alternative_result.dart';
 import 'view/onboard.dart';
 import 'view/splash.dart';
+import 'view/trial_exam_view.dart';
 import 'view_model/test_list_complete_view_model.dart';
 
 import 'model/info_card_item.dart';
@@ -24,6 +26,7 @@ import 'view_model/test_view_model.dart';
 import 'view_model/skor_view_model.dart';
 import 'view_model/questions/turkce_test_view_model.dart';
 import 'view_model/info_card_favorite_view_model.dart';
+import 'view_model/trial_exam_view_model.dart';
 
 int? initScreen;
 void main() async {
@@ -61,6 +64,7 @@ void main() async {
     ChangeNotifierProvider<InfoCardFavoriteViewModel>(create: (_) => InfoCardFavoriteViewModel()),
     ChangeNotifierProvider<InfoCardCompeteViewModel>(create: (_) => InfoCardCompeteViewModel()),
     ChangeNotifierProvider<TestListCompleteViewModel>(create: (_) => TestListCompleteViewModel()),
+    ChangeNotifierProvider<TrialExamViewModel>(create: (_) => TrialExamViewModel()),
   ], child: UzmanOgretmen()));
 }
 
@@ -74,7 +78,7 @@ class UzmanOgretmen extends StatelessWidget {
       theme: _themeLight,
       debugShowCheckedModeBanner: false,
       title: "Uzman Öğretmen",
-      home:  ( initScreen == 0 || initScreen == null ) ? OnBoard() : Splash(),
+      home:( initScreen == 0 || initScreen == null ) ? OnBoard() : Splash(),//TrialExamView(),
       onGenerateRoute: Routes.createRoute,
     );
   }
