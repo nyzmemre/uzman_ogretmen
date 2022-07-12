@@ -36,51 +36,53 @@ class InfoCard extends StatelessWidget {
                     top:5,
                     left: (context.width*0.9)/2,
                     child: AutoSizeText("${index+1} / ${content.length}",),),*/
-                Center(
-                  child: SizedBox(
-                            height: context.height*0.4,
-                            child: Transform.rotate(
-                                angle: 0,
-                                child: Image.asset("assets/logosplash.png", color: Colors.white.withOpacity(0.03),colorBlendMode: BlendMode.modulate,))),
-                ),
+                  Center(
+                    child: SizedBox(
+                        height: context.height*0.4,
+                        child: Transform.rotate(
+                            angle: 0,
+                            child: Image.asset("assets/logosplash.png", color: Colors.white.withOpacity(0.03),colorBlendMode: BlendMode.modulate,))),
+                  ),
                   Positioned(
                     top: 60,
                     left: 10,
                     right: 10,
-                    child: Column(
-                      children: [
+                    child: InteractiveViewer(
+                      child: Column(
+                        children: [
 
-                        AutoSizeText(content[index].subTitle,
-                          style: GoogleFonts.beVietnam(fontWeight: FontWeight.w900,
-                              color: kBlack,
-                              fontSize: 18),
-                          // style: Theme.of(context).textTheme.subtitle2,
-                          //    textAlign: TextAlign.center,
-                        ),
-                        context.tenSizedBox,
-                        AutoSizeText(
-                          content[index].text,
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500,
-                            color: kBlack,
-                            height: 1.4,
+                          AutoSizeText(content[index].subTitle,
+                            style: GoogleFonts.beVietnam(fontWeight: FontWeight.w900,
+                                color: kBlack,
+                                fontSize: 18),
+                            // style: Theme.of(context).textTheme.subtitle2,
+                            //    textAlign: TextAlign.center,
                           ),
-                          //style: GoogleFonts.openSans(),
-                          //style: GoogleFonts.montserrat(),
-                          //style: GoogleFonts.merriweather(),
-                          // style: GoogleFonts.rubik(fontSize: 17, fontWeight: FontWeight.w400),
-                          //style: GoogleFonts.beVietnam(fontSize: 16, fontWeight: FontWeight.w600),
-                          //style: GoogleFonts.beVietnam(),
-                          //style: GoogleFonts.ubuntu(),
-                          // style: GoogleFonts.poppins(),
-                          minFontSize: 10,
-                          maxLines: 16,
-                          //overflow: TextOverflow.visible,
-                          //maxFontSize: double.minPositive,
-                          //style: Theme.of(context).textTheme.bodyText2,
-                          //textAlign: TextAlign.center,
-                        ),
-                      ],),
+                          context.tenSizedBox,
+                          AutoSizeText(
+                            content[index].text,
+                            style: GoogleFonts.quicksand(
+                              fontWeight: FontWeight.w500,
+                              color: kBlack,
+                              height: 1.4,
+                            ),
+                            //style: GoogleFonts.openSans(),
+                            //style: GoogleFonts.montserrat(),
+                            //style: GoogleFonts.merriweather(),
+                            // style: GoogleFonts.rubik(fontSize: 17, fontWeight: FontWeight.w400),
+                            //style: GoogleFonts.beVietnam(fontSize: 16, fontWeight: FontWeight.w600),
+                            //style: GoogleFonts.beVietnam(),
+                            //style: GoogleFonts.ubuntu(),
+                            // style: GoogleFonts.poppins(),
+                            minFontSize: 10,
+                            maxLines: 16,
+                            //overflow: TextOverflow.visible,
+                            //maxFontSize: double.minPositive,
+                            //style: Theme.of(context).textTheme.bodyText2,
+                            //textAlign: TextAlign.center,
+                          ),
+                        ],),
+                    ),
                   ),
                   /*Positioned(
                     top: 60,

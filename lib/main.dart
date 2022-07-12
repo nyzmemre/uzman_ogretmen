@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:uzman_ogretmen/view_model/info_card_view_model.dart';
 
 import 'model/info_card_model.dart';
 import 'view/alternative_result.dart';
@@ -47,6 +48,8 @@ void main() async {
   await Hive.openBox<InfoCardModel>("competeCards");
   await Hive.openBox<bool>("soneklenenler");
   await Hive.openBox<TestListHomepageModel>("testLists");
+  await Hive.openBox<bool>("infoCardDesign");
+  await Hive.openBox<double>("infoCardFontSize");
   //await Hive.openBox<int>("totalTrue");
   //await Hive.openBox<int>("totalFalse");
 
@@ -65,6 +68,8 @@ void main() async {
     ChangeNotifierProvider<InfoCardCompeteViewModel>(create: (_) => InfoCardCompeteViewModel()),
     ChangeNotifierProvider<TestListCompleteViewModel>(create: (_) => TestListCompleteViewModel()),
     ChangeNotifierProvider<TrialExamViewModel>(create: (_) => TrialExamViewModel()),
+    ChangeNotifierProvider<InfoCardViewModel>(create: (_) => InfoCardViewModel()),
+
   ], child: UzmanOgretmen()));
 }
 
