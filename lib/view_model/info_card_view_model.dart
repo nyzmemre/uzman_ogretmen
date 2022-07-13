@@ -4,9 +4,22 @@ import 'package:hive_flutter/hive_flutter.dart';
 class InfoCardViewModel extends ChangeNotifier{
   bool _swiperDesign=false;
   double _fontSize=20;
+  bool _isFirstOpen=true;   ///bu değişken uygulamada swiper design ve fontsize ın hivelerin ilk açılışta patlamaması için var ve 1 kere kullanılacak
 
   bool get swiperDesign => _swiperDesign;
   double get fontSize => _fontSize;
+  bool get isFirstOpen=> _isFirstOpen;
+
+  Future<void> firtsOpenValues () async {
+    var desingVal=Hive.box<bool>("infoCardDesign");
+    var saveFontSize=Hive.box<double>("infoCardFontSize");
+
+    if(desingVal.isEmpty && saveFontSize.isEmpty){
+      await desingVal.add(_swiperDesign);
+      await saveFontSize.add(_fontSize);
+    }
+   print("boştu doldu gada");
+  }
 
   changeDesing()async{
     var desingVal=Hive.box<bool>("infoCardDesign");

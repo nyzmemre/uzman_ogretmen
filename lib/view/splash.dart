@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:uzman_ogretmen/view_model/info_card_view_model.dart';
 
 import '../core/constants/extensions/extensions.dart';
 import '../core/constants/routes/route_text.dart';
@@ -11,6 +12,7 @@ class Splash extends StatefulWidget {
 }
 
 class _SplashState extends State<Splash> {
+  var infoCardInit=InfoCardViewModel();
   startTime(Function() callback) {
     var _duration = new Duration(seconds: 3);
     return new Timer(_duration, callback);
@@ -60,6 +62,7 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     startTime(navInternetErrorPage);
+    infoCardInit.firtsOpenValues();
     super.initState();
   }
 

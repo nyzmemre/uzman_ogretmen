@@ -50,6 +50,7 @@ void main() async {
   await Hive.openBox<TestListHomepageModel>("testLists");
   await Hive.openBox<bool>("infoCardDesign");
   await Hive.openBox<double>("infoCardFontSize");
+
   //await Hive.openBox<int>("totalTrue");
   //await Hive.openBox<int>("totalFalse");
 
