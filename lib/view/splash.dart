@@ -62,7 +62,7 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     startTime(navInternetErrorPage);
-    infoCardInit.firtsOpenValues();
+    //infoCardInit.firtsOpenValues();
     super.initState();
   }
 
