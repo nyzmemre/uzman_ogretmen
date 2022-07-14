@@ -18,9 +18,9 @@ class InfoCard extends StatelessWidget {
 
   const InfoCard(
       {Key? key,
-        required this.appbarTitle,
-        required this.header,
-        required this.content})
+      required this.appbarTitle,
+      required this.header,
+      required this.content})
       : super(key: key);
 
   @override
@@ -38,10 +38,14 @@ class InfoCard extends StatelessWidget {
                     child: AutoSizeText("${index+1} / ${content.length}",),),*/
                   Center(
                     child: SizedBox(
-                        height: context.height*0.4,
+                        height: context.height * 0.4,
                         child: Transform.rotate(
                             angle: 0,
-                            child: Image.asset("assets/logosplash.png", color: Colors.white.withOpacity(0.03),colorBlendMode: BlendMode.modulate,))),
+                            child: Image.asset(
+                              "assets/logosplash.png",
+                              color: Colors.white.withOpacity(0.03),
+                              colorBlendMode: BlendMode.modulate,
+                            ))),
                   ),
                   Positioned(
                     top: 60,
@@ -50,9 +54,10 @@ class InfoCard extends StatelessWidget {
                     child: InteractiveViewer(
                       child: Column(
                         children: [
-
-                          AutoSizeText(content[index].subTitle,
-                            style: GoogleFonts.beVietnam(fontWeight: FontWeight.w900,
+                          AutoSizeText(
+                            content[index].subTitle,
+                            style: GoogleFonts.beVietnam(
+                                fontWeight: FontWeight.w900,
                                 color: kBlack,
                                 fontSize: 18),
                             // style: Theme.of(context).textTheme.subtitle2,
@@ -81,7 +86,8 @@ class InfoCard extends StatelessWidget {
                             //style: Theme.of(context).textTheme.bodyText2,
                             //textAlign: TextAlign.center,
                           ),
-                        ],),
+                        ],
+                      ),
                     ),
                   ),
                   /*Positioned(
@@ -113,38 +119,48 @@ class InfoCard extends StatelessWidget {
                   Positioned(
                       top: 10,
                       right: 20,
-                      left: (context.width*0.4)-10,
+                      left: (context.width * 0.4) - 10,
                       child: Consumer<InfoCardFavoriteViewModel>(
                           builder: (context, favorite, w) {
-                            return ValueListenableBuilder(
-                                valueListenable:
+                        return ValueListenableBuilder(
+                            valueListenable:
                                 Hive.box<InfoCardItem>("favoritesInfoCards")
                                     .listenable(),
-                                builder: (context, Box<InfoCardItem> box, w) {
-                                  return Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      AutoSizeText("${index+1} / ${content.length}",),
-                                      IconButton(
-                                          splashColor: Colors.transparent,
-                                          highlightColor: Colors.transparent,
-                                          onPressed: () async{
-                                            await favorite.changeInfoFavorite(content, index);
-                                          },
-                                          icon: (favorite.favoritesInfo.values.any((element) => element.text==content[index].text))
-                                              ? Icon(Icons.favorite, color: kRed,)
-                                              : Icon(Icons.favorite_border)),
-                                    ],
-                                  );
-                                });
-                          })),
+                            builder: (context, Box<InfoCardItem> box, w) {
+                              return Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  AutoSizeText(
+                                    "${index + 1} / ${content.length}",
+                                  ),
+                                  IconButton(
+                                      splashColor: Colors.transparent,
+                                      highlightColor: Colors.transparent,
+                                      onPressed: () async {
+                                        await favorite.changeInfoFavorite(
+                                            content, index);
+                                      },
+                                      icon: (favorite.favoritesInfo.values.any(
+                                              (element) =>
+                                                  element.text ==
+                                                  content[index].text))
+                                          ? Icon(
+                                              Icons.favorite,
+                                              color: kRed,
+                                            )
+                                          : Icon(Icons.favorite_border)),
+                                ],
+                              );
+                            });
+                      })),
                 ],
               ),
             );
           },
           itemCount: content.length,
-          itemWidth: context.width*0.9,
-          itemHeight: context.height*0.9,
+          itemWidth: context.width * 0.9,
+          itemHeight: context.height * 0.9,
           layout: SwiperLayout.TINDER,
         ));
   }
