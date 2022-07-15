@@ -476,7 +476,7 @@ class InfoCard extends StatelessWidget {
                 ),
                 context.tenSizedBox,
                 AutoSizeText(
-                  content[index].text+"adas",
+                  content[index].text,
                   style: GoogleFonts.quicksand(
                       fontWeight: FontWeight.w500,
                       color: kBlack,
