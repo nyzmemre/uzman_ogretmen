@@ -51,7 +51,7 @@ class ContentListPage extends StatelessWidget {
                             style: GoogleFonts.beVietnam(
                               ///İçerik okunduysa renkler değişecek
                                 color: (hive.values.any((element) =>
-                                element.header == list[index].header)) ? kGreen : kRed,
+                                element.header == list[index].header)) ? kGreen : Theme.of(context).errorColor,
 
                                 fontWeight: FontWeight.w800
                             ),
@@ -72,7 +72,7 @@ class ContentListPage extends StatelessWidget {
                                       )
                                     : Icon(
                                         Icons.thumb_down,
-                                        color: kRed,
+                                        color: Theme.of(context).errorColor,
                                       ));
                           }),
                         );

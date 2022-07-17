@@ -24,7 +24,7 @@ class MyScaffold extends StatelessWidget {
               floatingActionButton: floatingActionButton ,
             floatingActionButtonLocation: floatingActionButtonLocation,
             appBar: appBar ?? MyAppbar(appBarTitle: appBarTitle ?? "AppBar"),
-          backgroundColor: kScaffoldBackground,
+          backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           body: body,
         )));
   }

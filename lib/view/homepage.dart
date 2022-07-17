@@ -1,7 +1,7 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:hawk_fab_menu/hawk_fab_menu.dart';
+import 'package:uzman_ogretmen/core/my_widgets/theme_switch_button.dart';
 
 import '../view/test_homepage.dart';
 import '../core/my_widgets/my_appbar.dart';
@@ -10,8 +10,6 @@ import 'favorite_info_card.dart';
 import '../core/constants/colors/my_colors.dart';
 import '../core/constants/extensions/extensions.dart';
 import '../core/constants/routes/route_text.dart';
-import '../core/my_widgets/my_page_header.dart';
-import '../core/my_widgets/my_scaffold.dart';
 import '../view_model/homepage_view_model.dart';
 import '../core/my_widgets/add_note.dart';
 import 'last_added_page.dart';
@@ -35,8 +33,8 @@ class HomePage extends StatelessWidget {
             shape: CircularNotchedRectangle(),
             child: TabBar(
                 indicatorColor: Colors.transparent,
-                unselectedLabelColor: kRed.withOpacity(0.4),
-                labelColor: kRed,
+                unselectedLabelColor: Theme.of(context).tabBarTheme.unselectedLabelColor,
+                labelColor: Theme.of(context).tabBarTheme.labelColor,
                 tabs: [
                   Tab(
                     text: "Bilgi Kartları",
@@ -44,6 +42,7 @@ class HomePage extends StatelessWidget {
                     icon: Icon(
                       Icons.text_snippet_outlined,
                       size: 25,
+                     // color: Theme.of(context).tabBarTheme.labelColor,
                     ),
                   ),
                   Tab(
@@ -52,12 +51,15 @@ class HomePage extends StatelessWidget {
                     icon: Icon(
                       Icons.quiz_outlined,
                       size: 25,
+                      //color: Theme.of(context).tabBarTheme.labelColor,
+
                     ),
                   )
                 ]),
           ),
         ),
         appBar:  MyAppbar(appBarTitle: "Uzman / Baş Öğretmen", action: [
+          ThemeSwitchButton(),
           IconButton(onPressed: (){
             Navigator.push(context, MaterialPageRoute(builder: (_)=>LastAddedPage()));
           }, icon: Icon(Icons.notifications_active, color:kWhite,))

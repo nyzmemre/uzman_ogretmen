@@ -44,12 +44,12 @@ class AlternativeResult extends StatelessWidget {
         body: Container(
       height: context.height,
       width: context.width,
-      color: kWhite,
+      color: Theme.of(context).scaffoldBackgroundColor,
       child: SingleChildScrollView(
         child: Column(
           children: [
             context.fifteenSizedBox,
-            Background(height: 60, child: Row(
+            Background(context, height: 60, child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               mainAxisSize: MainAxisSize.min,
               children: [
@@ -62,7 +62,7 @@ class AlternativeResult extends StatelessWidget {
               radius: 130,
               animation: true,
               lineWidth: 10,
-              progressColor: (trueVal!>(trueVal!+falseVal!)/2) ? (trueVal!>=(trueVal!+falseVal!)/1.125) ? kGreen : kYellow : kRed,
+              progressColor: (trueVal!>(trueVal!+falseVal!)/2) ? (trueVal!>=(trueVal!+falseVal!)/1.125) ? kGreen : kYellow : Theme.of(context).errorColor,
               percent: ((100*trueVal!)/(trueVal!+falseVal!))/100,
               center: Text("%" + ((100*trueVal!)/(trueVal!+falseVal!)).toStringAsFixed(0)),
             ),
@@ -74,7 +74,7 @@ class AlternativeResult extends StatelessWidget {
               center: Text("% 60"),
             ),*/
             context.fifteenSizedBox,
-            Background(height: 110,
+            Background(context, height: 110,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               mainAxisSize: MainAxisSize.min,
@@ -165,25 +165,25 @@ class AlternativeResult extends StatelessWidget {
             backgroundColor: kIconBackground,
             child: Icon(
               icon,
-              color: kWhite,
+              color: Theme.of(context).scaffoldBackgroundColor,
             )),
         context.tenSizedBox,
         AutoSizeText(
           text,
-          style: GoogleFonts.quicksand(color: kBlack, fontSize: 14),
+          style: Theme.of(context).textTheme.bodyText1,
           textAlign: TextAlign.center,
         )
       ]),
     );
   }
 
-  Widget Background({Widget? child, double? width, double? height}) =>
+  Widget Background(BuildContext context, {Widget? child, double? width, double? height}) =>
       Container(
           width: width,
           height: height,
           padding: EdgeInsets.zero,
           decoration: BoxDecoration(
-            color: kWhite,
+            color: Theme.of(context).scaffoldBackgroundColor,
             boxShadow: [
               BoxShadow(
                 color: Colors.grey.withOpacity(0.5),
@@ -222,7 +222,7 @@ class AlternativeResult extends StatelessWidget {
         AutoSizeText(
           text,
           textAlign: TextAlign.center,
-          style: GoogleFonts.quicksand(color: kBlack),
+          style: Theme.of(context).textTheme.bodyText1//GoogleFonts.quicksand(color: kBlack),
         ),],
       ),
     );

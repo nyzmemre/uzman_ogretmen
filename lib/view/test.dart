@@ -146,9 +146,9 @@ class _TestState extends State<Test> {
                                   ),
                                   AutoSizeText(
                                     data.newTestList[skr.getIndex].quesBottom,
-                                    style: GoogleFonts.beVietnam(
-                                        color: kBlack54,
-                                        fontWeight: FontWeight.w800),
+                                    style: Theme.of(context).textTheme.bodyText2,/* GoogleFonts.beVietnam(
+                                        color: kBlue,
+                                        fontWeight: FontWeight.w800), */
                                     minFontSize: 10,
                                     maxLines: 16,
                                   ),
@@ -241,20 +241,14 @@ class _TestState extends State<Test> {
                           height: 20,
                         ),
                         AutoSizeText(subTitle+"\n",
-                          style: GoogleFonts.beVietnam(fontWeight: FontWeight.w900,
-                              color: kBlack,
-                              fontSize: 18),
+                          style: Theme.of(context).textTheme.headline2
                           // style: Theme.of(context).textTheme.subtitle2,
                           //    textAlign: TextAlign.center,
                         ),
 
                         AutoSizeText(
                           text,
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500,
-                              color: kBlack,
-                              height: 1.4
-                          ),
+                          style: Theme.of(context).textTheme.bodyText1,
                                minFontSize: 10,
                           maxLines: 16,
 
@@ -369,8 +363,8 @@ class _TestState extends State<Test> {
               children: [
                 AutoSizeText(
                   answerOption + " )",
-                  style: GoogleFonts.quicksand(
-                      color: kBlack54, fontWeight: FontWeight.w400),
+                  style: Theme.of(context).textTheme.bodyText1, /* GoogleFonts.quicksand(
+                      color: kBlack54, fontWeight: FontWeight.w400), */
                   minFontSize: 10,
                   maxLines: 1,
                 ),
@@ -380,8 +374,8 @@ class _TestState extends State<Test> {
                   padding: const EdgeInsets.symmetric(vertical: 8.0),
                   child: AutoSizeText(
                     text,
-                    style: GoogleFonts.quicksand(
-                        color: kBlack54, fontWeight: FontWeight.w400),
+                    style: Theme.of(context).textTheme.bodyText1,/* GoogleFonts.quicksand(
+                        color: kRed, fontWeight: FontWeight.w400), */
                     minFontSize: 10,
                     maxLines: 5,
                   ),

@@ -56,99 +56,51 @@ class FavoriteInfoCard extends StatelessWidget {
                       children: [
                         SizedBox(height: 20,),
                         ///öğrenme
-                        (ogrenmeList.length==0) ? SizedBox(): AutoSizeText(
-                      "Öğrenme ve Öğretmen Süreci",
-                      style: GoogleFonts.quicksand(
-                          fontWeight: FontWeight.w500
-                      ),),
+                        (ogrenmeList.length==0) ? SizedBox(): autoTextWidget(context, "Öğrenme ve Öğretmen Süreci"),
                         pageListView(ogrenmeList,keys ,data),
                         (ogrenmeList.length==0) ? SizedBox(): Divider(),
                         ///ölçme
-                        (olcmeList.length==0) ? SizedBox():AutoSizeText(
-                          "Ölçme ve Değerlendirme",
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500
-                          ),),
+                        (olcmeList.length==0) ? SizedBox():autoTextWidget(context,"Ölçme ve Değerlendirme",),
                         pageListView(olcmeList,keys ,data),
                         ///rehberlik
                         (olcmeList.length==0) ? SizedBox(): Divider(),
-                        (rehberlikList.length==0) ? SizedBox(): AutoSizeText(
-                          "Özel Eğitim ve Rehberlik",
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500
-                          ),),
+                        (rehberlikList.length==0) ? SizedBox(): autoTextWidget(context,"Özel Eğitim ve Rehberlik"),
                         pageListView(rehberlikList,keys ,data),
                         ///eğitim araştırma
                         (rehberlikList.length==0) ? SizedBox():  Divider(),
-                        (egitimArastirmaList.length==0) ? SizedBox(): AutoSizeText(
-                          "Eğitim Araştırmaları ve AR-GE",
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500
-                          ),),
+                        (egitimArastirmaList.length==0) ? SizedBox(): autoTextWidget(context,"Eğitim Araştırmaları ve AR-GE",),
                         pageListView(egitimArastirmaList,keys ,data),
                         ///eğitimde kapsayıcılık
                         (egitimArastirmaList.length==0) ? SizedBox(): Divider(),
-                        (egitimdeKapsayicilikList.length==0) ? SizedBox(): AutoSizeText(
-                          "Eğitimde Kapsayıcılık",
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500
-                          ),),
+                        (egitimdeKapsayicilikList.length==0) ? SizedBox(): autoTextWidget(context,"Eğitimde Kapsayıcılık"),
                         pageListView(egitimdeKapsayicilikList,keys ,data),
                         ///çevre ve iklim değişikliği
                         (egitimdeKapsayicilikList.length==0) ? SizedBox():   Divider(),
-                        (cevreEgitimiList.length==0) ? SizedBox(): AutoSizeText(
-                          "Çevre ve İklim Değişikliği",
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500
-                          ),),
+                        (cevreEgitimiList.length==0) ? SizedBox(): autoTextWidget(context,"Çevre ve İklim Değişikliği"),
                         pageListView(cevreEgitimiList,keys ,data),
                         ///sosyal etkileşim ve iletişim
                         (cevreEgitimiList.length==0) ? SizedBox(): Divider(),
-                        (sosyalEtkilesimList.length==0) ? SizedBox(): AutoSizeText(
-                          "Sosyal Etkileşim ve İletişim",
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500
-                          ),),
+                        (sosyalEtkilesimList.length==0) ? SizedBox(): autoTextWidget(context,"Sosyal Etkileşim ve İletişim"),
                         pageListView(sosyalEtkilesimList,keys ,data),
                         ///dijital yetkinlik
                         (sosyalEtkilesimList.length==0) ? SizedBox():  Divider(),
-                        (dijitalYetList.length==0) ? SizedBox(): AutoSizeText(
-                          "Dijital Yetkinlik",
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500
-                          ),),
+                        (dijitalYetList.length==0) ? SizedBox(): autoTextWidget(context,"Dijital Yetkinlik"),
                         pageListView(dijitalYetList,keys ,data),
                         ///güvenli okul
                         (dijitalYetList.length==0) ? SizedBox(): Divider(),
-                        (guvenliOkulList.length==0) ? SizedBox(): AutoSizeText(
-                          "Güvenli Okul ve Okul Güvenliği",
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500
-                          ),),
+                        (guvenliOkulList.length==0) ? SizedBox(): autoTextWidget(context,"Güvenli Okul ve Okul Güvenliği"),
                         pageListView(guvenliOkulList,keys ,data),
                         ///okul geliştirme
                         (guvenliOkulList.length==0) ? SizedBox(): Divider(),
-                        (okulGelistirmeList.length==0) ? SizedBox(): AutoSizeText(
-                          "Okul Geliştirme ve Liderlik",
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500
-                          ),),
+                        (okulGelistirmeList.length==0) ? SizedBox(): autoTextWidget(context,"Okul Geliştirme ve Liderlik"),
                         pageListView(okulGelistirmeList,keys ,data),
                         ///sosyal duygusal öğrenme
                         (okulGelistirmeList.length==0) ? SizedBox(): Divider(),
-                        (sosyalDuygusalOgrList.length==0) ? SizedBox(): AutoSizeText(
-                          "Sosyal Duygusal Öğrenme Becerileri",
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500
-                          ),),
+                        (sosyalDuygusalOgrList.length==0) ? SizedBox(): autoTextWidget(context,"Sosyal Duygusal Öğrenme Becerileri",),
                         pageListView(sosyalDuygusalOgrList,keys ,data),
                         ///Bisişsel düşünme becerleri  düşünme
                         (okulGelistirmeList.length==0) ? SizedBox(): Divider(),
-                        (bilisselDusunme.length==0) ? SizedBox(): AutoSizeText(
-                          "Bilişsel Düşüme Becerileri",
-                          style: GoogleFonts.quicksand(
-                              fontWeight: FontWeight.w500
-                          ),),
+                        (bilisselDusunme.length==0) ? SizedBox(): autoTextWidget(context,"Bilişsel Düşüme Becerileri",),
                         pageListView(bilisselDusunme,keys ,data),
                       ],
                     ),
@@ -168,6 +120,12 @@ class FavoriteInfoCard extends StatelessWidget {
                 ));
               }
             }));
+  }
+
+  AutoSizeText autoTextWidget(BuildContext context, String text) {
+    return AutoSizeText(
+                    text,
+                    style: Theme.of(context).textTheme.bodyText1);
   }
 
   ListView pageListView(List<String> list,List<String> keys ,Box<InfoCardItem> data) {
@@ -205,7 +163,7 @@ class FavoriteInfoCard extends StatelessWidget {
                               },
                               background: SizedBox(),
                               secondaryBackground: Container(
-                                color: Colors.red,
+                                color: Theme.of(context).errorColor,
                                 child: Align(
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.end,
@@ -214,12 +172,9 @@ class FavoriteInfoCard extends StatelessWidget {
                                         Icons.delete,
                                         color: Colors.white,
                                       ),
-                                      Text(
+                                      AutoSizeText(
                                         " SİL",
-                                        style: TextStyle(
-                                          color: Colors.white,
-                                          fontWeight: FontWeight.w700,
-                                        ),
+                                        style: Theme.of(context).textTheme.bodyText2,
                                         textAlign: TextAlign.right,
                                       ),
                                       SizedBox(
@@ -233,9 +188,7 @@ class FavoriteInfoCard extends StatelessWidget {
                               child: ExpansionTile(
                                 title: AutoSizeText(
                                   "${item.subTitle}",
-                                  style: GoogleFonts.beVietnam(
-                                      color: Colors.blueAccent,
-                                      fontWeight: FontWeight.w800),
+                                  style: Theme.of(context).textTheme.headline4,
                                   minFontSize: 10,
                                   maxLines: 16,
                                 ),
@@ -245,10 +198,7 @@ class FavoriteInfoCard extends StatelessWidget {
                                     padding: context.horizontalPadding,
                                     child: AutoSizeText(
                                       item.text,
-                                      style: GoogleFonts.quicksand(
-                                        color: kBlack54,
-                                        // fontWeight: FontWeight.w800
-                                      ),
+                                      style: Theme.of(context).textTheme.bodyText1,
                                       minFontSize: 10,
                                       maxLines: 16,
                                     ),

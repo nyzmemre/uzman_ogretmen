@@ -11,10 +11,11 @@ class SkorViewModel extends ChangeNotifier {
   int _falseVal = 0;
   int _index = 0;
   double _successPercentVal = 0;
+  
   //int _totalTrueVal=0;
   //int _totalFalseVal=0;
 
-  List<Color> btnAnswerColor=[kWhite,kWhite,kWhite,kWhite,kWhite,];
+  List<Color> btnAnswerColor=[kWhite54,kWhite54,kWhite54,kWhite54,kWhite54,];
   bool _nextQuestionButon=false;
 
   int get getTrueVal => _trueVal;
@@ -60,7 +61,7 @@ class SkorViewModel extends ChangeNotifier {
       // print(_totalTrueVal);
        _nextQuestionButon=true;
       /* for(int i=0; i<5;i++){
-         btnAnswerColor[i]=kWhite;
+         btnAnswerColor[i]=kWhite54;
        } */
 
     } else {
@@ -86,7 +87,7 @@ class SkorViewModel extends ChangeNotifier {
          else {
            (curTest.newTestList[_index].answList[i]==curTest.newTestList[_index].correctAns) 
            ? btnAnswerColor[i]=kGreen 
-           : btnAnswerColor[i]=kWhite;
+           : btnAnswerColor[i]=kWhite54;
          
          //btnAnswerColor[listViewIndex]=kYellow;
          }
@@ -100,7 +101,7 @@ class SkorViewModel extends ChangeNotifier {
                 _nextQuestionButon=true;
 
 /* for(int i=0; i<5;i++){
-         btnAnswerColor[i]=kWhite;
+         btnAnswerColor[i]=kWhite54;
        } */
       //_falseTestsViewModel.clearFalseList();
     }
@@ -116,14 +117,14 @@ class SkorViewModel extends ChangeNotifier {
   cancelQuesButonTop(){
     _nextQuestionButon=false;
     for(int i=0; i<5;i++){
-      btnAnswerColor[i]=kWhite;
+      btnAnswerColor[i]=kWhite54;
     }
     _index=0;
   }
 nextQuesButonTop(){
   _nextQuestionButon=false;
   for(int i=0; i<5;i++){
-         btnAnswerColor[i]=kWhite;
+         btnAnswerColor[i]=kWhite54;
        }
        indexCounter();
 }

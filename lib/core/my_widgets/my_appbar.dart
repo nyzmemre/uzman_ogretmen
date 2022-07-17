@@ -1,5 +1,6 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../constants/colors/my_colors.dart';
 
@@ -19,10 +20,11 @@ class MyAppbar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      systemOverlayStyle: SystemUiOverlayStyle.light,
       actions: action,
       backgroundColor: kAppbarColor,
       iconTheme: IconThemeData(
-          color: color ?? kWhite
+          color: color ?? Theme.of(context).appBarTheme.foregroundColor
       ),
       elevation: 5,
       title: AutoSizeText(

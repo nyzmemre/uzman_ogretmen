@@ -17,7 +17,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 #version: 1.0.0+24
-version: 1.0.16
+version: 1.0.17
 
 
 environment:
@@ -46,8 +46,7 @@ dependencies:
   feedback: ^2.5.0
   flutter_painter: ^1.0.1
   url_launcher: ^6.1.4
-  expandable_page_view: ^1.0.13
-
+  day_night_switcher: ^0.2.0+1
 
 
 flutter_icons:

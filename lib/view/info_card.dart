@@ -339,10 +339,10 @@ class InfoCard extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               AutoSizeText(text,
-                  style: GoogleFonts.beVietnam(
-                    fontWeight: FontWeight.w900,
-                    color: kBlack,
-                  )),
+                  style: Theme.of(context).textTheme.bodyText1!.copyWith(
+                   // fontSize: fontSize,
+                    fontWeight: FontWeight.w900
+                  ),),
               Switch(
                   value: switchData,
                   onChanged: (value) async {
@@ -386,27 +386,27 @@ class InfoCard extends StatelessWidget {
                 },
                 child: AutoSizeText(
                   "-",
-                  style: GoogleFonts.beVietnam(
-                      fontWeight: FontWeight.w900,
-                      color: kBlack,
-                      fontSize: fontSize),
+                  style:Theme.of(context).textTheme.bodyText1!.copyWith(
+                    fontSize: fontSize,
+                    fontWeight: FontWeight.w900
+                  ),
                 ),
               ),
               AutoSizeText("${fontSize.toInt().toString()}",
-                  style: GoogleFonts.beVietnam(
-                      fontWeight: FontWeight.w900,
-                      color: kBlack,
-                      fontSize: fontSize)),
+                  style: Theme.of(context).textTheme.bodyText1!.copyWith(
+                    fontSize: fontSize,
+                    fontWeight: FontWeight.w900
+                  ),),
               TextButton(
                   onPressed: () async {
                     await info.increaseFontSize();
                   },
                   child: AutoSizeText(
                     "+",
-                    style: GoogleFonts.beVietnam(
-                        fontWeight: FontWeight.w900,
-                        color: kBlack,
-                        fontSize: fontSize),
+                    style: Theme.of(context).textTheme.bodyText1!.copyWith(
+                    fontSize: fontSize,
+                    fontWeight: FontWeight.w900
+                  ),
                   ))
             ],
           ),
@@ -452,14 +452,15 @@ class InfoCard extends StatelessWidget {
               "${index + 1} / ${content.length} aaaa",
             ),
           ),*/
-          Center(
+          Align(
+            alignment: Alignment.topCenter,
             child: SizedBox(
                 height: context.height * 0.4,
                 child: Transform.rotate(
                     angle: 0,
                     child: Image.asset(
                       "assets/logosplash.png",
-                      color: Colors.white.withOpacity(0.03),
+                      color: Colors.white.withOpacity(0.06),
                       colorBlendMode: BlendMode.modulate,
                     ))),
           ),
@@ -471,17 +472,17 @@ class InfoCard extends StatelessWidget {
               children: [
                 AutoSizeText(
                   content[index].subTitle,
-                  style: GoogleFonts.beVietnam(
-                      fontWeight: FontWeight.w900, color: kBlack, fontSize: 18),
+                  style: Theme.of(context).textTheme.bodyText1!.copyWith(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w900
+                  ),
                 ),
                 context.tenSizedBox,
                 AutoSizeText(
                   content[index].text,
-                  style: GoogleFonts.quicksand(
-                      fontWeight: FontWeight.w500,
-                      color: kBlack,
-                      height: 1.4,
-                      fontSize: contentFont),
+                  style: Theme.of(context).textTheme.bodyText1!.copyWith(
+                    fontSize: contentFont
+                  ),
                   minFontSize: 10,
                   maxLines: (contentFont == null) ? 16 : 3000,
                 ),
@@ -522,7 +523,7 @@ class InfoCard extends StatelessWidget {
                             (element) => element.text == content[index].text))
                         ? Icon(
                             Icons.favorite,
-                            color: kRed,
+                            color: Theme.of(context).errorColor,
                           )
                         : Icon(Icons.favorite_border)),
               ],
