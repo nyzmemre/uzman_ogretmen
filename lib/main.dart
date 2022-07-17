@@ -2,13 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:uzman_ogretmen/view_model/info_card_view_model.dart';
 
+import 'view_model/info_card_view_model.dart';
+import 'view_model/my_theme_view_model.dart';
 import 'model/info_card_model.dart';
-import 'view/alternative_result.dart';
 import 'view/onboard.dart';
 import 'view/splash.dart';
-import 'view/trial_exam_view.dart';
 import 'view_model/test_list_complete_view_model.dart';
 
 import 'model/info_card_item.dart';
@@ -50,6 +49,7 @@ void main() async {
   await Hive.openBox<TestListHomepageModel>("testLists");
   await Hive.openBox<bool>("infoCardDesign");
   await Hive.openBox<double>("infoCardFontSize");
+  await Hive.openBox<bool>("themeStatus");
 
   //await Hive.openBox<int>("totalTrue");
   //await Hive.openBox<int>("totalFalse");
@@ -70,6 +70,7 @@ void main() async {
     ChangeNotifierProvider<TestListCompleteViewModel>(create: (_) => TestListCompleteViewModel()),
     ChangeNotifierProvider<TrialExamViewModel>(create: (_) => TrialExamViewModel()),
     ChangeNotifierProvider<InfoCardViewModel>(create: (_) => InfoCardViewModel()),
+    ChangeNotifierProvider<MyThemeViewModel>(create: (_) => MyThemeViewModel()),
 
   ], child: UzmanOgretmen()));
 }
@@ -80,12 +81,24 @@ class UzmanOgretmen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ThemeData _themeLight = MyTheme.light();
-    return MaterialApp(
-      theme: _themeLight,
-      debugShowCheckedModeBanner: false,
-      title: "Uzman Öğretmen",
-      home:( initScreen == 0 || initScreen == null ) ? OnBoard() : Splash(),//TrialExamView(),
-      onGenerateRoute: Routes.createRoute,
+    final ThemeData _themeDark = MyTheme.dark();
+    var _hiveTheme=Hive.box<bool>("themeStatus");
+
+    return Consumer<MyThemeViewModel>(
+      builder: (context, provider, w) {
+       /*  if(_hiveTheme.values.isNotEmpty){
+          provider.isThemeDark=_hiveTheme.values.first;
+        } */
+        return MaterialApp(
+         // theme: (provider.isThemeDark) ? _themeDark : _themeLight,
+          theme: (_hiveTheme.values.isNotEmpty) ? (_hiveTheme.values.first) ? _themeDark : _themeLight : _themeLight,
+          //theme: _themeLight,
+          debugShowCheckedModeBanner: false,
+          title: "Uzman Öğretmen",
+          home:( initScreen == 0 || initScreen == null ) ? OnBoard() : Splash(),//TrialExamView(),
+          onGenerateRoute: Routes.createRoute,
+        );
+      }
     );
   }
 }
