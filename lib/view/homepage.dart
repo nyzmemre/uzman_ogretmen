@@ -96,6 +96,11 @@ class HomePage extends StatelessWidget {
                   // /height: context.height*0.2,
                   child: Column(
                     children: [
+                      ExpansionTile(title: AutoSizeText("DUYURU", textAlign: TextAlign.center,),
+                        children: [
+                          context.fiveSizedBox,
+                          Background(context, width: context.width*0.8,child: Padding(padding: context.lowPadding,child: AutoSizeText("Merhaba :)\n Yeni yayınlanan pdfler ile içeriğimiz arasında Öğrenme ve Öğretme Süreci konularında ciddi farklılık bulunmaktadır. Diğer konularda yüksek uyum göze çarpmaktadır. Eksik veya fazla konuların tamamı için çalışmamız pdf ler yayınlandığı andan itibaren başladı. Öğrenme ve Öğretme Süreci konusunda birkaç gün içinde güncellememiz hazır olacak. Lütfen şimdilik videoları yeşil tik yapmak için çaba sarfedelim. Anlaşılır ve kısa özetlerimiz çok yakında ÜCRETSİZ güncellemelerle sizlerle olacak. BİRLİKTE BAŞARACAĞIZ İNŞALLAH :]",textAlign: TextAlign.center, style: Theme.of(context).textTheme.bodyText1,))),
+                        ],),
                       InkWell(
                         onTap: () {
                           Navigator.push(
@@ -112,6 +117,7 @@ class HomePage extends StatelessWidget {
                           ),
                         ),
                       ),
+
                       Expanded(
                         child: ListView.builder(
                             shrinkWrap: true,
@@ -167,4 +173,23 @@ class HomePage extends StatelessWidget {
       ),)
     );
   }
+  Widget Background(BuildContext context, {Widget? child, double? width, double? height}) =>
+      Container(
+          width: width,
+          height: height,
+          padding: EdgeInsets.zero,
+          decoration: BoxDecoration(
+            color: Theme.of(context).scaffoldBackgroundColor,
+          /*  boxShadow: [
+              BoxShadow(
+                color: Colors.grey.withOpacity(0.5),
+                spreadRadius: 5,
+                blurRadius: 7,
+                offset: Offset(0, 3), // changes position of shadow
+              ),
+            ],*/
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: child);
+
 }
