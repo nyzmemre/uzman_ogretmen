@@ -26,18 +26,18 @@ class TrialExamView extends StatelessWidget {
           child: Column(
             children: [
               context.fifteenSizedBox,
-              AutoSizeText("Bu sayfa deneme aşamasındadır.\nLütfen eksiklikleri instagramdaki\n @uzmanogretmn sayfası üzerinden\nbize bildirin." ,style: GoogleFonts.quicksand(color: kBlack, fontSize: 14),
+              AutoSizeText("Bu sayfa deneme aşamasındadır.\nLütfen eksiklikleri instagramdaki\n @uzmanogretmn sayfası üzerinden\nbize bildirin." ,style: Theme.of(context).textTheme.bodyText1,
                 textAlign: TextAlign.center,),
               context.fifteenSizedBox,
               InkWell(
                 onTap: _launchUrl,
-                child: AutoSizeText("Sayfaya Ulaşmak İçin Tıklayın." ,style: GoogleFonts.quicksand(color: kRed, fontSize: 14),
+                child: AutoSizeText("Sayfaya Ulaşmak İçin Tıklayın." ,style: Theme.of(context).textTheme.bodyText2,
                   textAlign: TextAlign.center,),
               ),
 
 
           context.fifteenSizedBox,
-              Background(
+              Background(context,
                 child: InkWell(onTap: (){
                   print("list.newAnswlis.length");
                   print(list.newAnswlis.length);
@@ -46,7 +46,7 @@ class TrialExamView extends StatelessWidget {
 
                 }, child: Padding(
                   padding: context.normalPadding,
-                  child: AutoSizeText(" 25 Soruluk Deneme Sınavı Oluştur",style: GoogleFonts.quicksand(color: kBlack,),),
+                  child: AutoSizeText(" 25 Soruluk Deneme Sınavı Oluştur",style: Theme.of(context).textTheme.bodyText2,),
                 )),
               ),
             ],
@@ -56,13 +56,13 @@ class TrialExamView extends StatelessWidget {
   void _launchUrl() async {
     if (!await launchUrl(_url)) throw 'Could not launch $_url';
   }
-  Widget Background({Widget? child, double? width, double? height}) =>
+  Widget Background(BuildContext context, {Widget? child, double? width, double? height}) =>
       Container(
           width: width,
           height: height,
           padding: EdgeInsets.zero,
           decoration: BoxDecoration(
-            color: kWhite,
+            color: Theme.of(context).scaffoldBackgroundColor,
             boxShadow: [
               BoxShadow(
                 color: Colors.grey.withOpacity(0.5),

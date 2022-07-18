@@ -460,7 +460,7 @@ class InfoCard extends StatelessWidget {
                     angle: 0,
                     child: Image.asset(
                       "assets/logosplash.png",
-                      color: Colors.white.withOpacity(0.06),
+                      color: Colors.white.withOpacity(0.05),
                       colorBlendMode: BlendMode.modulate,
                     ))),
           ),
