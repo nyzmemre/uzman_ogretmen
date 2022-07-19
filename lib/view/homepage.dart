@@ -96,10 +96,10 @@ class HomePage extends StatelessWidget {
                   // /height: context.height*0.2,
                   child: Column(
                     children: [
-                      ExpansionTile(title: AutoSizeText("DUYURU", textAlign: TextAlign.center,),
+                      ExpansionTile(title: AutoSizeText("DUYURU-2 (ÖNEMLİ)", textAlign: TextAlign.center,),
                         children: [
                           context.fiveSizedBox,
-                          Background(context, width: context.width*0.8,child: Padding(padding: context.lowPadding,child: AutoSizeText("Merhaba :)\n Yeni yayınlanan pdfler ile içeriğimiz arasında Öğrenme ve Öğretme Süreci konularında ciddi farklılık bulunmaktadır. Diğer konularda yüksek uyum göze çarpmaktadır. Eksik veya fazla konuların tamamı için çalışmamız pdf ler yayınlandığı andan itibaren başladı. Öğrenme ve Öğretme Süreci konusunda birkaç gün içinde güncellememiz hazır olacak. Lütfen şimdilik videoları yeşil tik yapmak için çaba sarfedelim. Anlaşılır ve kısa özetlerimiz çok yakında ÜCRETSİZ güncellemelerle sizlerle olacak. BİRLİKTE BAŞARACAĞIZ İNŞALLAH :]",textAlign: TextAlign.center, style: Theme.of(context).textTheme.bodyText1,))),
+                          Background(context, width: context.width*0.8,child: Padding(padding: context.lowPadding,child: AutoSizeText("Herkese Merhaba :)\nYeni video içerikleri ile ilgili ilk düzenlememiz Öğrenme ve Öğretme Süreçlerindeki 7 videoda yapıldı. Video ve PDF içeriklerinde yer alan bazı uyumsuzluklar sebebiyle önemli bir bilgi kaçırmamak adına titiz çalıştığımız için özetimiz gecikti. Uygulama mantığını her videonun ayrı özeti ve ayrı soru çözümü olarak geliştirdik. Farklı önerilere açığız. İçerik için çok hassas çalışıyoruz. İçeriğimiz %90 uyumlu ancak başlıklar farklı. Bunu da ayrıntılı kontrol ederek güncelleyeceğiz. Bizi sabırla beklediğiniz için teşekkürler. Görüş ve önerilerinize her zaman açığız. Ayrıca her aksaklık için yazabilirsiniz. Instagramdan direkt ulaşabilirsiniz. \nTeşekkürler :]",textAlign: TextAlign.center, style: Theme.of(context).textTheme.bodyText1,))),
                         ],),
                       InkWell(
                         onTap: () {

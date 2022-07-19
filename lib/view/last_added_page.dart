@@ -16,6 +16,8 @@ class LastAddedPage extends StatelessWidget {
       appBar: MyAppbar(appBarTitle: "Son Eklenenler"),
       body: ListView(
         children: [
+          content(context, "19.07.2022","-Öğrenme ve Öğretme Süreci ilk 7 videonun özeti eklendi.\n-Öğrenme ve Öğretme Süreci ilk videonun soruları eklendi."),
+          content(context, "17.07.2022","-GECE GÜNDÜZ MODU ile tasarım değişikliği yapıldı."),
           content(context, "13.07.2022","-KARTLARA FONT BÜYÜTME KÜÇÜLTME EKLENDİ.\n\n-Çevre ve İklim Değişikliği özet eklendi.\n-Eğitim Araştırmaları ve Arge soru eklendi.\n-Ölçme ve Değerlendirme soru eklendi.\n-Öğrenme ve Öğretme süreci soru eklendi."),
           content(context, "06.07.2022","-DENEME SINAVI OLUŞTURMA EKLENDİ.\n\n-Ölçme ve Değerlendirme özet eklendi.\n-Çevre ve İklim Değişikliği özet eklendi.\n-Çevre ve İklim Değişikliği soru eklendi.\n-Güvenli Okul ve Okul Güvenliği özet eklendi."),
           content(context, "30.06.2022","-1000 SORU HEDEFİNE ULAŞILDI.\n\n-Öğrenme Öğretme Süreçleri soru eklendi.\n-Eğitim Araştırmaları ve AR-GE Çalışmaları soru eklendi.\n-Özel Eğitim ve Rehberlik soru eklendi."),
